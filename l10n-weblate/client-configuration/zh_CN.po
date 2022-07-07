@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-06-20 18:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-07-07 10:13+0000\n"
+"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-41/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -74,12 +74,12 @@ msgstr "xref:supported-features-debian.adoc[Debian 支持的功能]"
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:11
 msgid "xref:channels.adoc[Channels]"
-msgstr "xref:channels.adoc[频道]"
+msgstr "xref:channels.adoc[通道]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:12
 msgid "xref:repositories.adoc[Repositories]"
-msgstr "xref:repositories.adoc[储存库]"
+msgstr "xref:repositories.adoc[软件源]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:13
@@ -496,7 +496,7 @@ msgid ""
 "create the key."
 msgstr ""
 "将激活密钥与传统客户端和 Salt "
-"客户端搭配使用可确保您的客户端拥有正确的软件权利、可连接到适当的频道以及订阅相关的组。每个激活密钥都绑定到一个组织，您可以在创建密钥时设置此项。"
+"客户端搭配使用可确保您的客户端拥有正确的软件权利、可连接到适当的通道以及订阅相关的组。每个激活密钥都绑定到一个组织，您可以在创建密钥时设置此项。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:3
@@ -519,7 +519,7 @@ msgstr "激活密钥可以指定以下各项："
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:5
 msgid "Channel assignment"
-msgstr "频道指派"
+msgstr "通道指派"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:6
@@ -610,9 +610,7 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Base Channels`` drop-down box, select the appropriate base "
 "software channel, and allow the relevant child channels to populate."
-msgstr ""
-"在[guimenu]``基础频道``下拉框中，选择适当的基础软件频道，并允许填充相关子频"
-"道。"
+msgstr "在[guimenu]``基础通道``下拉框中，选择适当的基础软件通道，并允许填充相关子通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:20
@@ -628,7 +626,7 @@ msgstr ""
 msgid ""
 "Select the child channels you need (for example, the mandatory {susemgr} "
 "tools and updates channels)."
-msgstr "选择所需的子频道（例如，必需的 {susemgr} 工具和更新频道）。"
+msgstr "选择所需的子通道（例如，必需的 {susemgr} 工具和更新通道）。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:22
@@ -733,12 +731,12 @@ msgstr "软件包"
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:36
 msgid "Software child channels"
-msgstr "软件子频道"
+msgstr "软件子通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:37
 msgid "Configuration channels."
-msgstr "配置频道。"
+msgstr "配置通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:38
@@ -748,7 +746,7 @@ msgstr "如果检测到冲突，系统的处理方式如下："
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:39
 msgid "Conflicts in base software channels: registration fails."
-msgstr "基础软件频道中的冲突：注册失败。"
+msgstr "基础软件通道中的冲突：注册失败。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:40
@@ -781,7 +779,7 @@ msgid ""
 "include the system ID, history, groups, and channels."
 msgstr ""
 "重新激活密钥可用来重新注册客户端并重新获得所有 {productname} 设置，但只能使用一次。重新激活密钥为客户端特定密钥，包含系统 "
-"ID、历史记录、组和频道。"
+"ID、历史记录、组和通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:45
@@ -879,7 +877,7 @@ msgstr "激活密钥最佳实践"
 #: modules/client-configuration/pages/activation-keys.adoc:54
 #, no-wrap
 msgid "Default Parent Channel"
-msgstr "默认父频道"
+msgstr "默认父通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:55
@@ -890,8 +888,8 @@ msgid ""
 "unexpected behavior.  Instead, we recommend you create activation keys "
 "specific to each distribution and architecture."
 msgstr ""
-"避免使用 [systemitem]``SUSE Manager Default`` 父频道。此设置会强制 {productname} "
-"选择与所安装操作系统最匹配的父频道，而这有时可能会导致非预期的行为。请改为创建特定于每个发行套件和体系结构的激活密钥。"
+"避免使用 [systemitem]``SUSE Manager Default`` 父通道。此设置会强制 {productname} "
+"选择与所安装操作系统最匹配的父通道，而这有时可能会导致非预期的行为。请改为创建特定于每个发行套件和体系结构的激活密钥。"
 
 #. type: Block title
 #: modules/client-configuration/pages/activation-keys.adoc:56
@@ -908,7 +906,7 @@ msgid ""
 "assignments.  You also need less manual interaction with your system after "
 "registration."
 msgstr ""
-"如果您要使用引导脚本，请考虑为每个脚本创建一个激活密钥。这有助于您调整频道指派、软件包安装、系统组成员资格和配置频道指派。注册后，您需要与系统手动交互的情"
+"如果您要使用引导脚本，请考虑为每个脚本创建一个激活密钥。这有助于您调整通道指派、软件包安装、系统组成员资格和配置通道指派。注册后，您需要与系统手动交互的情"
 "形也会减少。"
 
 #. type: Block title
@@ -937,7 +935,7 @@ msgstr "下列选择会产生带宽用量："
 msgid ""
 "Assigning a SUSE Product Pool channel results in the automatic installation "
 "of the corresponding product descriptor package."
-msgstr "指派 SUSE Product Pool 频道会导致自动安装相应的产品描述符软件包。"
+msgstr "指派 SUSE Product Pool 通道会导致自动安装相应的产品描述符软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:62
@@ -1041,7 +1039,7 @@ msgstr "sles12-sp2-test_packages-blg_502-room_21-ppc64le\n"
 #: modules/client-configuration/pages/activation-keys.adoc:78
 #, no-wrap
 msgid "Included Channels"
-msgstr "包含的频道"
+msgstr "包含的通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:79
@@ -1052,7 +1050,7 @@ msgid ""
 "more information, see the client operating system you are installing at xref:"
 "client-configuration:registration-overview.adoc[]."
 msgstr ""
-"在创建激活密钥时，您还需要注意哪些软件频道与其关联。应为密钥指派特定的基础频道，  不建议使用默认基础频道。有关详细信息，请在 xref:client-"
+"在创建激活密钥时，您还需要注意哪些软件通道与其关联。应为密钥指派特定的基础通道，  不建议使用默认基础通道。有关详细信息，请在 xref:client-"
 "configuration:registration-overview.adoc[] 中查看您要安装的客户端操作系统。"
 
 #. type: Title ==
@@ -1310,8 +1308,8 @@ msgid ""
 "associated with the specified base channel.  If you add new distributions "
 "later, {productname} uses the most recently created or modified."
 msgstr ""
-"创建自动安装配置文件时，您可以选中[guimenu]``始终为此基础频道使用最新的树``。此设置可让 {productname} "
-"自动提取与指定基础频道关联的最新发行套件。如果您以后添加新发行套件，{productname} 会使用最近创建或修改的发行套件。"
+"创建自动安装配置文件时，您可以选中[guimenu]``始终为此基础通道使用最新的树``。此设置可让 {productname} "
+"自动提取与指定基础通道关联的最新发行套件。如果您以后添加新发行套件，{productname} 会使用最近创建或修改的发行套件。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-profiles.adoc:31
@@ -2499,7 +2497,7 @@ msgstr "准备创建引导软件源"
 msgid ""
 "When you select a product for synchronization, the bootstrap repository is "
 "automatically created as soon as all mandatory channels are fully mirrored."
-msgstr "如果您选择某个产品以进行同步，当所有必需的频道都完全镜像后，会立即自动创建引导软件源。"
+msgstr "如果您选择某个产品以进行同步，当所有必需的通道都完全镜像后，会立即自动创建引导软件源。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/bootstrap-repository.adoc:5
@@ -2673,19 +2671,19 @@ msgid ""
 "procedure only if your environment requires it."
 msgstr ""
 "如果您镜像了多个产品（例如 SLES 和 SLES for "
-"SAP），或者您使用的是自定义频道，在创建引导软件源时将需要指定要使用的父频道。并不是在所有情况下都需要如此。例如，部分 SLES{nbsp}15 "
-"版本使用共同的代码库，因此无需指定父频道。只有您的环境需要时，才需使用此过程。"
+"SAP），或者您使用的是自定义通道，在创建引导软件源时将需要指定要使用的父通道。并不是在所有情况下都需要如此。例如，部分 SLES{nbsp}15 "
+"版本使用共同的代码库，因此无需指定父通道。只有您的环境需要时，才需使用此过程。"
 
 #. type: Block title
 #: modules/client-configuration/pages/bootstrap-repository.adoc:28
 #, no-wrap
 msgid "OPTIONAL Procedure: Specifying a Parent Channel for a Bootstrap Repository"
-msgstr "可选过程：指定引导软件源的父频道"
+msgstr "可选过程：指定引导软件源的父通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:29
 msgid "Check which parent channels you have available:"
-msgstr "检查您有哪些父频道可用："
+msgstr "检查您有哪些父通道可用："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:30
@@ -2699,8 +2697,8 @@ msgid ""
 "- sle-product-sled15-pool-x86_64\n"
 msgstr ""
 "mgr-create-bootstrap-repo -c SLE-15-x86_64\n"
-"找到多个父频道选项。请使用 \n"
-"--with-parent-channel <label> 选项并选择以下其中一个父频道：\n"
+"找到多个父通道选项。请使用 \n"
+"--with-parent-channel <label> 选项并选择以下其中一个父通道：\n"
 "- sle-product-sles15-pool-x86_64\n"
 "- sle-product-sles_sap15-pool-x86_64\n"
 "- sle-product-sled15-pool-x86_64\n"
@@ -2708,7 +2706,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:31
 msgid "Specify the appropriate parent channel:"
-msgstr "指定适当的父频道："
+msgstr "指定适当的父通道："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:32
@@ -2759,7 +2757,7 @@ msgstr ""
 #: modules/client-configuration/pages/bootstrap-repository.adoc:37
 #, no-wrap
 msgid "Bootstrap and Custom Channels"
-msgstr "引导和自定义频道"
+msgstr "引导和自定义通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:38
@@ -2768,28 +2766,28 @@ msgid ""
 "channels`` option with the [command]``mgr-create-bootstrap-repo`` command.  "
 "In this case, you also need to specify the parent channel to use."
 msgstr ""
-"如果您要使用自定义频道，则可以在 [command]``mgr-create-bootstrap-repo`` 命令中使用 [option"
-"]``--with-custom- channels`` 选项。在此情况下，您还需要指定要使用的父频道。"
+"如果您要使用自定义通道，则可以在 [command]``mgr-create-bootstrap-repo`` 命令中使用 [option"
+"]``--with-custom- channels`` 选项。在此情况下，您还需要指定要使用的父通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:39
 msgid ""
 "Automatic creation of a bootstrap repository might fail if you are using "
 "custom channels.  In this case, you need to create the repository manually."
-msgstr "如果您使用自定义频道，则自动创建引导软件源可能会失败。在这种情况下，您需要手动创建软件源。"
+msgstr "如果您使用自定义通道，则自动创建引导软件源可能会失败。在这种情况下，您需要手动创建软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:40
 msgid ""
 "For more information about custom channels, see xref:administration:custom-"
 "channels.adoc[]."
-msgstr "有关自定义频道的详细信息，请参见 xref:administration:custom-channels.adoc[]。"
+msgstr "有关自定义通道的详细信息，请参见 xref:administration:custom-channels.adoc[]。"
 
 #. type: Title =
 #: modules/client-configuration/pages/channels.adoc:1
 #, no-wrap
 msgid "Software Channels"
-msgstr "软件频道"
+msgstr "软件通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:2
@@ -2798,7 +2796,7 @@ msgid ""
 "provided by repositories, and repositories are associated with channels.  "
 "Subscribing a client to a software channel allows the client to install and "
 "update any of the software associated with it."
-msgstr "频道是一种用于对软件包分组的方法。软件包由软件源提供，而软件源与频道关联。客户端订阅软件频道后，便可安装并更新与其关联的任何软件。"
+msgstr "通道是一种用于对软件包分组的方法。软件包由软件源提供，而软件源与通道关联。客户端订阅软件通道后，便可安装并更新与其关联的任何软件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:3
@@ -2810,8 +2808,8 @@ msgid ""
 "system and architecture.  For paid channels provided by a vendor, you must "
 "have an associated subscription."
 msgstr ""
-"在 {productname} 中，频道分为基础频道和子频道。以此方式组织频道可确保每个系统上只安装兼容的软件包。客户端只能订阅一个基础频道，该频道是在注"
-"册期间根据客户端操作系统和体系结构指派的。对于供应商提供的付费频道，您必须具有关联的订阅。"
+"在 {productname} 中，通道分为基础通道和子通道。以此方式组织通道可确保每个系统上只安装兼容的软件包。客户端只能订阅一个基础通道，该通道是在注"
+"册期间根据客户端操作系统和体系结构指派的。对于供应商提供的付费通道，您必须具有关联的订阅。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:4
@@ -2821,8 +2819,8 @@ msgid ""
 "base channel contains only software compatible with that operating system "
 "and architecture."
 msgstr ""
-"基础频道中包含为特定操作系统类型、版本和体系结构构建的软件包。例如，{sles}{nbsp}15 {x86_64} "
-"基础频道中仅包含与该操作系统和体系结构兼容的软件。"
+"基础通道中包含为特定操作系统类型、版本和体系结构构建的软件包。例如，{sles}{nbsp}15 {x86_64} "
+"基础通道中仅包含与该操作系统和体系结构兼容的软件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:5
@@ -2836,8 +2834,8 @@ msgid ""
 "packages made available through the compatible base channel, or any of its "
 "associated child channels."
 msgstr ""
-"子频道与基础频道关联，仅提供与基础频道兼容的软件包。一个系统可订阅其基础频道的多个子频道。将系统指派到基础频道后，该系统便只能安装相关的子频道。例如，"
-"如果将系统指派到 {sles}{nbsp}15 `x86_64` 基础频道，那么便只能安装或更新通过兼容基础频道或它的任何关联子频道提供的软件包。"
+"子通道与基础通道关联，仅提供与基础通道兼容的软件包。一个系统可订阅其基础通道的多个子通道。将系统指派到基础通道后，该系统便只能安装相关的子通道。例如，"
+"如果将系统指派到 {sles}{nbsp}15 `x86_64` 基础通道，那么便只能安装或更新通过兼容基础通道或它的任何关联子通道提供的软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:6
@@ -2846,8 +2844,8 @@ msgid ""
 "navigating to menu:Software[Channel List > All].  You can modify or create "
 "new channels by navigating to menu:Software[Manage > Channels]."
 msgstr ""
-"在 {productname} {webui} 中，您可以导航到menu:软件[频道列表 > 所有]来浏览可用频道。您可以通过导航到menu:软件[管理 "
-"> 频道]修改或创建新频道。"
+"在 {productname} {webui} 中，您可以导航到menu:软件[通道列表 > 所有]来浏览可用通道。您可以通过导航到menu:软件[管理 "
+"> 通道]修改或创建新通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:7
@@ -2861,9 +2859,7 @@ msgstr "在 Salt 客户端上，您在订阅频道后必须应用 highstate 才�
 msgid ""
 "For more on using channels, including custom channels, see xref:"
 "administration:channel-management.adoc[]."
-msgstr ""
-"有关使用频道（包括自定义频道）的详细信息，请参见 xref:administration:channel-"
-"management.adoc[]。"
+msgstr "有关使用通道（包括自定义通道）的详细信息，请参见 xref:administration:channel-management.adoc[]。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:9
@@ -2895,7 +2891,7 @@ msgid ""
 "{phub} channels, which you can subscribe your clients to."
 msgstr ""
 "如果您在客户端上使用的是 {sle} 操作系统，则可启用 {phub} 扩展来访问这些额外的软件包。这样会提供 {phub} "
-"频道，您可以为客户端订阅这些频道。"
+"通道，您可以为客户端订阅这些通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:13
@@ -2983,7 +2979,7 @@ msgid ""
 "EPEL channels, which you can subscribe your clients to."
 msgstr ""
 "如果您在客户端上使用的是 {redhat} 操作系统，则可启用 EPEL 扩展来访问这些额外的软件包。这样会提供 EPEL "
-"频道，您可以为客户端订阅这些频道。"
+"通道，您可以为客户端订阅这些通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:22
@@ -3011,7 +3007,7 @@ msgstr ""
 #: modules/client-configuration/pages/channels.adoc:24
 #, no-wrap
 msgid "Unified Installer Updates Channels on {sle} Clients"
-msgstr "{sle} 客户端上的统一安装程序更新频道"
+msgstr "{sle} 客户端上的统一安装程序更新通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:25
@@ -3019,7 +3015,7 @@ msgid ""
 "This channel is used by the unified installer to ensure it is up to date "
 "before it installs the operating system.  All {sle} products should have "
 "access to the installer updates channel during installation."
-msgstr "此频道由统一安装程序使用，以确保其在安装操作系统前是最新的。所有 {sle} 产品在安装期间都应能够访问安装程序更新频道。"
+msgstr "此通道由统一安装程序使用，以确保其在安装操作系统前是最新的。所有 {sle} 产品在安装期间都应能够访问安装程序更新通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:26
@@ -3489,9 +3485,7 @@ msgstr "该密钥的储存期截止到引导过程完成。"
 msgid ""
 "In the [guimenu]``Activation Key`` field, select the activation key that is "
 "associated with the software channel you want to use to bootstrap the client."
-msgstr ""
-"在[guimenu]``激活密钥``字段中，选择与您要用于引导客户端的软件频道关联的激活密"
-"钥。"
+msgstr "在[guimenu]``激活密钥``字段中，选择与您要用于引导客户端的软件通道关联的激活密钥。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy-webui.adoc:16
@@ -3606,7 +3600,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:8
 #, no-wrap
 msgid "Add Software Channels"
-msgstr "添加软件频道"
+msgstr "添加软件通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-centos.adoc:7
@@ -3665,13 +3659,13 @@ msgstr ""
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:13
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:17
 msgid "The channels you need for this procedure are:"
-msgstr "此过程所需的频道包括："
+msgstr "此过程所需的通道包括："
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-centos.adoc:12
 #, no-wrap
 msgid "CentOS Channels - CLI"
-msgstr "CentOS 频道 - CLI"
+msgstr "CentOS 通道 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-centos.adoc:13
@@ -3696,9 +3690,7 @@ msgstr ""
 msgid ""
 "The client tools channel provided by [command]``spacewalk-common-channels`` "
 "is sourced from {uyuni} and not from {suse}."
-msgstr ""
-"[command]``spacewalk-common-channels`` 提供的客户端工具频道来自 {uyuni} 而非 "
-"{suse}。"
+msgstr "[command]``spacewalk-common-channels`` 提供的客户端工具通道来自 {uyuni} 而非 {suse}。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:15
@@ -3707,8 +3699,8 @@ msgid ""
 "require packages from both channels.  If you do not add both channels, you "
 "cannot create the bootstrap repository, due to missing packages."
 msgstr ""
-"对于 {centos} 8 客户端，请添加基础频道和 AppStream "
-"频道。您需要来自这两个频道的软件包。如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
+"对于 {centos} 8 客户端，请添加基础通道和 AppStream "
+"通道。您需要来自这两个通道的软件包。如果未添加这两个通道，将会因缺少软件包而无法创建引导软件源。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:16
@@ -3720,8 +3712,8 @@ msgid ""
 "repositories.  {centos} removes older version of packages when a new version "
 "is released, while {productname} keeps all of them, regardless of age."
 msgstr ""
-"您可能会发现 AppStream 频道中提供的软件包数量在上游频道和 {productname} "
-"频道之间存在一定的差异。如果您对在不同时间添加的同一频道进行比较，会发现其数量也不相同。这是由 {centos} "
+"您可能会发现 AppStream 通道中提供的软件包数量在上游通道和 {productname} "
+"通道之间存在一定的差异。如果您对在不同时间添加的同一通道进行比较，会发现其数量也不相同。这是由 {centos} "
 "管理其软件源的方式所致。当有新版本发布时，{centos} 会去除软件包的较旧版本，而 {productname} 则会保留所有版本，无论新旧与否。"
 
 #. type: Title ==
@@ -3751,7 +3743,7 @@ msgstr "创建激活密钥"
 msgid ""
 "You need to create an activation key that is associated with your {centos} "
 "channels."
-msgstr "您需要创建与您的 {centos} 频道关联的激活密钥。"
+msgstr "您需要创建与您的 {centos} 通道关联的激活密钥。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-centos.adoc:20
@@ -4094,7 +4086,7 @@ msgstr "注册前，客户端的日期和时间必须已与 {productname} 服务
 msgid ""
 "Before you can register {debian} clients to your {productname} Server, you "
 "need to add the required software channels, and synchronize them."
-msgstr "将 {debian} 客户端注册到您的 {productname} 服务器之前，您需要添加所需的软件频道，并同步这些频道。"
+msgstr "将 {debian} 客户端注册到您的 {productname} 服务器之前，您需要添加所需的软件通道，并同步这些通道。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-debian.adoc:16
@@ -4119,14 +4111,14 @@ msgstr ""
 msgid ""
 "Alternatively, you can add channels at the command prompt.  The channels you "
 "need for this procedure are:"
-msgstr "或者，您也可以在命令提示符处添加频道。此过程所需的频道包括："
+msgstr "或者，您也可以在命令提示符处添加通道。此过程所需的通道包括："
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-debian.adoc:19
 #: modules/client-configuration/pages/clients-debian.adoc:22
 #, no-wrap
 msgid "Debian Channels - CLI"
-msgstr "Debian 频道 - CLI"
+msgstr "Debian 通道 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-debian.adoc:20
@@ -4187,7 +4179,7 @@ msgstr ""
 msgid ""
 "{debian} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{debian} 频道可能会非常大。同步所需的时间可能会长达数小时。"
+msgstr "{debian} 通道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-debian.adoc:28
@@ -4296,7 +4288,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-sle.adoc:9
 #, no-wrap
 msgid "OpenSUSE Channels - CLI"
-msgstr "OpenSUSE 频道 - CLI"
+msgstr "OpenSUSE 通道 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-opensuse.adoc:10
@@ -4345,7 +4337,7 @@ msgstr ""
 msgid ""
 "{opensuse} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{opensuse} 频道可能会非常大。同步所需的时间可能会长达数小时。"
+msgstr "{opensuse} 通道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-opensuse.adoc:15
@@ -4422,7 +4414,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-oracle.adoc:11
 #, no-wrap
 msgid "Oracle Channels - CLI"
-msgstr "Oracle 频道 - CLI"
+msgstr "Oracle 通道 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-oracle.adoc:12
@@ -4450,9 +4442,9 @@ msgid ""
 "\n"
 msgstr ""
 "| 操作系统版本\n"
-"|基础频道\n"
-"|客户端频道\n"
-"|更新频道\n"
+"|基础通道\n"
+"|客户端通道\n"
+"|更新通道\n"
 "\n"
 "|{oracle} 6\n"
 "| oraclelinux6\n"
@@ -4477,15 +4469,15 @@ msgid ""
 "require packages from both channels.  If you do not add both channels, you "
 "cannot create the bootstrap repository, due to missing packages."
 msgstr ""
-"对于 {oracle} 8 客户端，请添加基础频道和 AppStream "
-"频道。您需要来自这两个频道的软件包。如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
+"对于 {oracle} 8 客户端，请添加基础通道和 AppStream "
+"通道。您需要来自这两个通道的软件包。如果未添加这两个通道，将会因缺少软件包而无法创建引导软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-oracle.adoc:17
 msgid ""
 "You need to create an activation key that is associated with your {oracle} "
 "channels."
-msgstr "您需要创建与您的 {oracle} 频道关联的激活密钥。"
+msgstr "您需要创建与您的 {oracle} 通道关联的激活密钥。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-oracle.adoc:21
@@ -4840,7 +4832,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:42
 #, no-wrap
 msgid "Prepare Custom Repositories and Channels"
-msgstr "准备自定义软件源和频道"
+msgstr "准备自定义软件源和通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:48
@@ -4851,7 +4843,7 @@ msgid ""
 "for this to work correctly.  You can use the subscription manager tool to "
 "get the URLs of the repositories you want to mirror:"
 msgstr ""
-"要从 Red Hat CDN 镜像软件，您需要在 {productname} 中创建自定义频道和软件源，它们都将通过 URL 链接到 CDN。您必须在 "
+"要从 Red Hat CDN 镜像软件，您需要在 {productname} 中创建自定义通道和软件源，它们都将通过 URL 链接到 CDN。您必须在 "
 "Red Hat 门户中拥有这些产品的权利，此功能才能正常工作。可以使用订阅管理器工具获得要镜像的软件源的 URL："
 
 #. type: delimited block -
@@ -4913,7 +4905,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:51
 #, no-wrap
 msgid "Red Hat Custom Channels"
-msgstr "Red Hat 自定义频道"
+msgstr "Red Hat 自定义通道"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:57
@@ -4939,8 +4931,8 @@ msgid ""
 "require packages from both channels.  If you do not add both channels, you "
 "cannot create the bootstrap repository, due to missing packages."
 msgstr ""
-"对于 {redhat} 8 客户端，请添加基础频道和 AppStream "
-"频道。您需要来自这两个频道的软件包。如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
+"对于 {redhat} 8 客户端，请添加基础通道和 AppStream "
+"通道。您需要来自这两个通道的软件包。如果未添加这两个通道，将会因缺少软件包而无法创建引导软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:60
@@ -4962,7 +4954,7 @@ msgid ""
 "both Salt and traditional clients."
 msgstr ""
 "拥有 {susemgr} 订阅，您便能使用 {sleses}（也称为 {redhat} 扩展支持或 "
-"RES）的工具频道。必须使用客户端工具频道来创建引导软件源。此过程适用于 Salt 客户端和传统客户端。"
+"RES）的工具通道。必须使用客户端工具通道来创建引导软件源。此过程适用于 Salt 客户端和传统客户端。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:63
@@ -4991,7 +4983,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:61
 #, no-wrap
 msgid "Red Hat Channels - CLI"
-msgstr "Red Hat 频道 - CLI"
+msgstr "Red Hat 通道 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:67
@@ -5046,7 +5038,7 @@ msgstr ""
 msgid ""
 "{rhel} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{rhel} 频道可能会非常大。同步所需的时间可能会长达数小时。"
+msgstr "{rhel} 通道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:71
@@ -5059,12 +5051,12 @@ msgstr "过程：可选：创建 Salt 状态以部署配置文件"
 msgid ""
 "On the {productname} Server {webui}, navigate to menu:"
 "Configuration[Channels]."
-msgstr "在 {productname} 服务器 {webui} 上，导航到menu:配置[频道]。"
+msgstr "在 {productname} 服务器 {webui} 上，导航到menu:配置[通道]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:73
 msgid "Click btn:[Create State Channel]."
-msgstr "单击 btn:[创建状态频道]。"
+msgstr "单击 btn:[创建状态通道]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:74
@@ -5101,7 +5093,7 @@ msgstr "将 [guimenu]``SLS 内容``字段留空。"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:78
 msgid "Click btn:[Create Config Channel]"
-msgstr "单击 btn:[创建配置频道]"
+msgstr "单击 btn:[创建配置通道]"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:79
@@ -5141,7 +5133,7 @@ msgstr "记下 [guimenu]``Salt 文件系统路径``字段的值。"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:85
 msgid "Click on the name of the Configuration Channel."
-msgstr "单击配置频道的名称。"
+msgstr "单击配置通道的名称。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:86
@@ -5225,7 +5217,7 @@ msgstr "单击[guimenu]``状态``选项卡。"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:98
 msgid "Click [guimenu]``Configuration Channels`` tab."
-msgstr "单击[guimenu]``配置频道``选项卡。"
+msgstr "单击[guimenu]``配置通道``选项卡。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:99
@@ -5497,7 +5489,7 @@ msgid ""
 "correctly.  You can use the yum utility to get the URLs of the repositories "
 "you want to mirror:"
 msgstr ""
-"要从 RHUI 镜像软件，您需要在 {productname} 中创建自定义频道和软件源，它们都将通过 URL 链接到 RHUI。您必须在 Red "
+"要从 RHUI 镜像软件，您需要在 {productname} 中创建自定义通道和软件源，它们都将通过 URL 链接到 RHUI。您必须在 Red "
 "Hat 门户中拥有这些产品的权利，此功能才能正常工作。可以使用 yum 实用程序获得要镜像的软件源的 URL："
 
 #. type: delimited block -
@@ -5652,7 +5644,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sle.adoc:8
 msgid "To add the client tools, add these channels from the command prompt:"
-msgstr "要添加客户端工具，请在命令提示符处添加以下频道："
+msgstr "要添加客户端工具，请在命令提示符处添加以下通道："
 
 #. type: Table
 #: modules/client-configuration/pages/clients-sle.adoc:10
@@ -5685,7 +5677,7 @@ msgstr ""
 msgid ""
 "{sle} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{sle} 频道可能会非常大。同步所需的时间可能会长达数小时。"
+msgstr "{sle} 通道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sle.adoc:15
@@ -5784,9 +5776,7 @@ msgstr "在将 {es} 客户端注册到 {productname} 服务器之前，请检查
 msgid ""
 "You need to select two different sets of channels, one for {es} and the "
 "other for the Client Tools."
-msgstr ""
-"您需要选择两组不同的频道，一组频道用于提供 {es}，另一组频道用于提供客户端工"
-"具。"
+msgstr "您需要选择两组不同的通道，一组通道用于提供 {es}，另一组通道用于提供客户端工具。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:13
@@ -5837,13 +5827,13 @@ msgstr ""
 msgid ""
 "{productname} requires tools channels that contain additional software.  "
 "This procedure creates these tools channels:"
-msgstr "{productname} 需要包含其他软件的工具频道。此过程将创建以下工具频道："
+msgstr "{productname} 需要包含其他软件的工具通道。此过程将创建以下工具通道："
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-sleses.adoc:18
 #, no-wrap
 msgid "ES Tools Channels"
-msgstr "ES 工具频道"
+msgstr "ES 工具通道"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-sleses.adoc:19
@@ -5865,7 +5855,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-sleses.adoc:21
 #, no-wrap
 msgid "ES Channels - CLI"
-msgstr "ES 频道 - CLI"
+msgstr "ES 通道 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-sleses.adoc:22
@@ -5928,8 +5918,8 @@ msgid ""
 "parent channel.  To ensure you have all the packages you need, use a full "
 "DVD image, not a minimal or {jeos} image."
 msgstr ""
-"基础 {es} 频道不包含任何软件包，因为 {suse} 不提供 {rhel} 或 {centos} 基础媒体。您需要从 {redhat} 或 "
-"{centos} 获取基础媒体，然后可将其作为子频道添加到 {es} 父频道。为确保您拥有所需的全部软件包，请使用完整的 DVD 映像，而不是最小映像或 "
+"基础 {es} 通道不包含任何软件包，因为 {suse} 不提供 {rhel} 或 {centos} 基础媒体。您需要从 {redhat} 或 "
+"{centos} 获取基础媒体，然后可将其作为子通道添加到 {es} 父通道。为确保您拥有所需的全部软件包，请使用完整的 DVD 映像，而不是最小映像或 "
 "{jeos} 映像。"
 
 #. type: Plain text
@@ -5938,18 +5928,18 @@ msgid ""
 "You can use {productname} custom channels to set up the {rhel} or {centos} "
 "media.  All packages on the base media must be mirrored into a child channel."
 msgstr ""
-"您可以使用 {productname} 自定义频道设置 {rhel} 或 {centos} 媒体。基础媒体上的所有软件包都必须镜像到一个子频道。"
+"您可以使用 {productname} 自定义通道设置 {rhel} 或 {centos} 媒体。基础媒体上的所有软件包都必须镜像到一个子通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:26
 msgid "You can freely choose the names for the channels."
-msgstr "您可以自由选择频道名称。"
+msgstr "您可以自由选择通道名称。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-sleses.adoc:28
 #, no-wrap
 msgid "Procedure: Adding Base Media to Custom Channels"
-msgstr "过程：将基础媒体添加到自定义频道"
+msgstr "过程：将基础媒体添加到自定义通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:29
@@ -5993,7 +5983,7 @@ msgstr "mount -o loop /tmp/<iso_filename> /srv/www/htdocs/pub/<os_name>\n"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:35
 msgid "Import the packages into the child channel you created earlier:"
-msgstr "将软件包导入您之前创建的子频道："
+msgstr "将软件包导入您之前创建的子通道："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-sleses.adoc:36
@@ -6033,8 +6023,8 @@ msgid ""
 "| SSL Client Key         | ``Entitlement-Key-date`` ({redhat} only)\n"
 msgstr ""
 "| 选项                 | 参数\n"
-"|储存库 URL         | {redhat} CDN 或 {centos} 提供的内容 URL\n"
-"|包含已签名的元数据？   | 取消选中所有 {redhat} Enterprise 储存库\n"
+"|软件源 URL         | {redhat} CDN 或 {centos} 提供的内容 URL\n"
+"|包含已签名的元数据？   | 取消选中所有 {redhat} Enterprise 软件源\n"
 "|SSL CA 证书     | [systemitem]``redhat-uep``（仅适用于 {redhat}）\n"
 "|SSL 客户端证书 | [systemitem]``Entitlement-Cert-date``（仅适用于 {redhat}）\n"
 "|SSL 客户端密钥         | ``Entitlement-Key-date``（仅适用于 {redhat}）\n"
@@ -6044,7 +6034,7 @@ msgstr ""
 msgid ""
 "The {es} channels can be very large.  The initial channel synchronization "
 "can sometimes take up to several hours."
-msgstr "{es} 频道可能会非常大。有时，初始频道同步所需的时间可能会长达数小时。"
+msgstr "{es} 通道可能会非常大。有时，初始通道同步所需的时间可能会长达数小时。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sleses.adoc:44
@@ -6052,7 +6042,7 @@ msgid ""
 "When the initial synchronization is complete, we recommended you clone the "
 "channel before you work with it.  This gives you a backup of the original "
 "synchronization data."
-msgstr "初始同步完成后，建议您克隆频道后再加以使用。这样您便拥有一份原始同步数据的备份。"
+msgstr "初始同步完成后，建议您克隆通道后再加以使用。这样您便拥有一份原始同步数据的备份。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-sleses.adoc:45
@@ -6171,7 +6161,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:18
 #, no-wrap
 msgid "Ubuntu Channels - CLI"
-msgstr "Ubuntu 频道 - CLI"
+msgstr "Ubuntu 通道 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:14
@@ -6222,9 +6212,7 @@ msgid ""
 "You need all the new channels fully synchronized, including Universe "
 "(Universe contains important dependencies for Salt), before bootstrapping "
 "any Ubuntu client."
-msgstr ""
-"引导任何 Ubuntu 客户端之前，您需要完全同步所有新频道，包括通用频道（通用频道"
-"包含 Salt 的重要依赖项）。"
+msgstr "引导任何 Ubuntu 客户端之前，您需要完全同步所有新通道，包括通用通道（通用通道包含 Salt 的重要依赖项）。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-ubuntu.adoc:17
@@ -6232,7 +6220,7 @@ msgstr ""
 msgid ""
 "{ubuntu} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{ubuntu} 频道可能会非常大。同步所需的时间可能会长达数小时。"
+msgstr "{ubuntu} 通道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-ubuntu.adoc:19
@@ -6700,7 +6688,7 @@ msgstr "务必为您的项目选择简短的非描述性名称。"
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:13
 msgid ""
 "Include all source channel modules that you require for your distribution."
-msgstr "添加您的发行套件所需的所有源频道模块。"
+msgstr "添加您的发行套件所需的所有源通道模块。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:14
@@ -6715,7 +6703,7 @@ msgstr "为您的发行套件创建激活密钥。"
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:18
 msgid "Ensure your activation key includes all filtered project channels."
-msgstr "确保您的激活密钥包含所有过滤出的项目频道。"
+msgstr "确保您的激活密钥包含所有过滤出的项目通道。"
 
 #. type: Block title
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:19
@@ -7086,8 +7074,8 @@ msgid ""
 "In the [guimenu]``Base Channel`` field, select [systemitem]``SLE-Product-"
 "SLES15-SP2-Pool for x86_64``."
 msgstr ""
-"在[guimenu]``基础频道``字段中，选择 [systemitem]``SLE-Product-SLES15-SP2-"
-"Pool for x86_64``。"
+"在[guimenu]``基础通道``字段中，选择 [systemitem]``SLE-Product-SLES15-SP2-Pool for "
+"x86_64``。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:28
@@ -7138,9 +7126,7 @@ msgstr "单击 btn:[创建可自动安装的发行套件] 保存设置。"
 msgid ""
 "To switch from the old SLE{nbsp}12{nbsp} base channel to the new SLE{nbsp}15 "
 "channel, you need an activation key."
-msgstr ""
-"要从旧 SLE{nbsp}12{nbsp} 基础频道切换到新的 SLE{nbsp}15 频道，需要有激活密"
-"钥。"
+msgstr "要从旧 SLE{nbsp}12{nbsp} 基础通道切换到新的 SLE{nbsp}15 通道，需要有激活密钥。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:35
@@ -7173,7 +7159,7 @@ msgstr "可选：如果您要限制使用次数，请在[guimenu]``使用``文�
 msgid ""
 "Select the [systemitem]``SLE-Product-SLES15-SP2-Pool for x86_64`` base "
 "channel."
-msgstr "选择 [systemitem]``SLE-Product-SLES15-SP2-Pool for x86_64`` 基础频道。"
+msgstr "选择 [systemitem]``SLE-Product-SLES15-SP2-Pool for x86_64`` 基础通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:40
@@ -7198,7 +7184,7 @@ msgstr "单击 btn:[创建激活密钥]。"
 #: modules/client-configuration/pages/client-upgrades-major.adoc:43
 msgid ""
 "Click the [guimenu]``Child Channels`` tab and select the required channels."
-msgstr "单击[guimenu]``子频道``选项卡，然后选择所需频道。"
+msgstr "单击[guimenu]``子通道``选项卡，然后选择所需通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:44
@@ -7215,8 +7201,8 @@ msgid ""
 "profiles/tree/master/AutoYaST.  For valid AutoYaST upgrade settings, see "
 "https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade."
 msgstr ""
-"自动安装配置文件包含安装系统所需的所有安装和配置数据， 还包含在完成安装后需要执行的脚本。 例如，可用作着手点的脚本，请参见 https://github"
-".com/SUSE/manager-build-profiles/tree/master/AutoYaST[]。有关有效的 AutoYaST 升级设置，"
+"自动安装配置文件包含安装系统所需的所有安装和配置数据， 还包含在完成安装后需要执行的脚本。例如，可用作着手点的脚本，请参见 https://github."
+"com/SUSE/manager-build-profiles/tree/master/AutoYaST[]。有关有效的 AutoYaST 升级设置，"
 "请参见 https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]。"
 
 #. type: Plain text
@@ -7292,7 +7278,7 @@ msgstr "迁移"
 msgid ""
 "Before you begin, check that all the channels referenced in the "
 "autoinstallation profile are available and fully synchronized."
-msgstr "在开始前，需检查自动安装配置文件中引用的所有频道是否可用并已完全同步。"
+msgstr "在开始前，需检查自动安装配置文件中引用的所有通道是否可用并已完全同步。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:59
@@ -7468,7 +7454,7 @@ msgstr "从客户端的系统细节页面，导航到menu:软件[SP 迁移]选�
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-sp-migration.adoc:14
 msgid "Select the target migration path and click btn:[Select Channels]."
-msgstr "选择目标迁移路径，然后单击 btn:[选择频道]。"
+msgstr "选择目标迁移路径，然后单击 btn:[选择通道]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-sp-migration.adoc:15
@@ -7501,7 +7487,7 @@ msgstr "要将 openSUSE Leap 迁移到 {sle}，必须选中[guimenu]``允许供�
 msgid ""
 "Click btn:[Schedule Migration] when your channels have been configured "
 "properly."
-msgstr "正确配置您的频道后，单击 btn:[安排迁移]。"
+msgstr "正确配置您的通道后，单击 btn:[安排迁移]。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/client-upgrades-sp-migration.adoc:19
@@ -7621,7 +7607,7 @@ msgid ""
 "channels."
 msgstr ""
 "在 {productname} 服务器上的命令提示符处，以 root 身份使用 [command]``spacewalk-common-"
-"channels`` 命令添加相应的频道。"
+"channels`` 命令添加相应的通道。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:3
@@ -7648,7 +7634,7 @@ msgid ""
 "case of already defined repository URLs, continue with xref:upgrade:proxy-"
 "uyuni.adoc#uyuni-202007-channeldupes[]."
 msgstr ""
-"使用 [command]``spacewalk-repo-sync`` 完全同步所有频道。对于已定义的储存库 URL，继续 xref:upgrade"
+"使用 [command]``spacewalk-repo-sync`` 完全同步所有通道。对于已定义的软件源 URL，继续 xref:upgrade"
 ":proxy-uyuni.adoc#uyuni-202007-channeldupes[]。"
 
 #.  These are custom channels.
@@ -7660,13 +7646,13 @@ msgid ""
 "Channels] and click the [systemitem]`` Uyuni Client Tools for openSUSE Leap "
 "15.2 (x86_64)`` channel name."
 msgstr ""
-"在 {productname} 服务器 {webui} 中，导航到menu:软件[管理 > 频道]，然后单击 "
-"[systemitem]``Uyuni Client Tools for openSUSE Leap 15.2 (x86_64)`` 频道名称。"
+"在 {productname} 服务器 {webui} 中，导航到menu:软件[管理 > 通道]，然后单击 [systemitem]``Uyuni "
+"Client Tools for openSUSE Leap 15.2 (x86_64)`` 通道名称。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:6
 msgid "In the upper right corner, click btn:[Manage Channel]."
-msgstr "在右上角单击 btn:[管理频道]。"
+msgstr "在右上角单击 btn:[管理通道]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:7
@@ -7747,22 +7733,22 @@ msgid ""
 "openSUSE Leap {opensuse-version} channel that is listed in the "
 "[systemitem]``Customs Channels`` list."
 msgstr ""
-"单击menu:软件[软件频道]，选择[systemitem]``自定义频道``列表中所列的 openSUSE "
-"Leap {opensuse-version} 频道作为基础频道。"
+"单击menu:软件[软件通道]，选择[systemitem]``自定义通道``列表中所列的 openSUSE Leap {opensuse-"
+"version} 通道作为基础通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:17
 msgid ""
 "In the [guimenu]``Child Channels`` pane, select the {opensuse-version} child "
 "channels."
-msgstr "在[guimenu]``子频道``窗格中，选择 {opensuse-version} 子频道。"
+msgstr "在[guimenu]``子通道``窗格中，选择 {opensuse-version} 子通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:18
 msgid ""
 "Click btn:[Next], and [guimenu]``Confirm Software Channel Change`` with btn:"
 "[Confirm]."
-msgstr "单击 btn:[下一步]，然后单击 btn:[确认] [guimenu]````以确认软件频道更改。"
+msgstr "单击 btn:[下一步]，然后单击 btn:[确认] [guimenu]````以确认软件通道更改。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:19
@@ -8880,7 +8866,7 @@ msgstr "配置管理"
 msgid ""
 "You can use configuration files and channels to manage configuration for "
 "your clients, rather than configuring each client manually."
-msgstr "您可以使用配置文件和频道管理客户端的配置，而无需手动配置每个客户端。"
+msgstr "您可以使用配置文件和通道管理客户端的配置，而无需手动配置每个客户端。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:3
@@ -8902,7 +8888,7 @@ msgid ""
 "who do not have configuration administration privileges, but need to make "
 "changes to the clients that they manage."
 msgstr ""
-"您可以集中管理或在本地管理配置文件。集中管理的配置文件由全局配置频道提供，并且可以应用到订阅了 {productname} "
+"您可以集中管理或在本地管理配置文件。集中管理的配置文件由全局配置通道提供，并且可以应用到订阅了 {productname} "
 "服务器的任何客户端。在本地管理的配置文件用于覆盖集中管理的配置设置。对于没有配置管理特权，但又需要更改所管理的客户端的 {productname} "
 "用户，这些文件特别有用。"
 
@@ -8925,7 +8911,7 @@ msgid ""
 "perform comparisons between various configuration files, and between "
 "revisions of the same configuration file."
 msgstr ""
-"配置文件有版本控制，因此您可以添加配置设置，在您的客户端上对其进行测试，并根据需要将其回滚到之前的修订版。如果您已创建配置频道，还可以在不同的配置文件以及"
+"配置文件有版本控制，因此您可以添加配置设置，在您的客户端上对其进行测试，并根据需要将其回滚到之前的修订版。如果您已创建配置通道，还可以在不同的配置文件以及"
 "同一配置文件的不同修订版之间进行比较。"
 
 #. type: Plain text
@@ -8936,7 +8922,7 @@ msgid ""
 "Locally managed configuration files are created or uploaded to {productname} "
 "directly."
 msgstr ""
-"您可以集中管理或在本地管理配置文件。集中管理的配置文件由全局配置频道提供。在本地管理的配置文件直接创建或上载到 {productname} 中。"
+"您可以集中管理或在本地管理配置文件。集中管理的配置文件由全局配置通道提供。在本地管理的配置文件直接创建或上载到 {productname} 中。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:8
@@ -8997,7 +8983,7 @@ msgstr ""
 "|Salt\n"
 " |传统\n"
 " \n"
-" |全局配置频道\n"
+" |全局配置通道\n"
 " | {check}\n"
 " | {check}\n"
 " \n"
@@ -9028,7 +9014,7 @@ msgstr ""
 " | 配置宏\n"
 " | {cross}\n"
 " | {check}\n"
-" \n"
+"\n"
 
 #.  Edited these for style, not tested. --LKB 2020-07-31
 #. type: Title ==
@@ -9048,7 +9034,7 @@ msgid ""
 "software channels, see xref:client-configuration:channels.adoc[]."
 msgstr ""
 "传统客户端需要进行一些额外的准备工作才能使用配置管理。如果您是使用 {ay} 或 {kickstart} "
-"安装传统客户端的，那么您可能已经拥有相应的软件包。对于其他传统客户端，请确保您已为客户端操作系统安装了相关的工具子频道。有关软件频道的详细信息，请参见 "
+"安装传统客户端的，那么您可能已经拥有相应的软件包。对于其他传统客户端，请确保您已为客户端操作系统安装了相关的工具子通道。有关软件通道的详细信息，请参见 "
 "xref:client-configuration:channels.adoc[]。"
 
 #. type: Plain text
@@ -9101,37 +9087,37 @@ msgstr ""
 #: modules/client-configuration/pages/configuration-management.adoc:19
 #, no-wrap
 msgid "Create Configuration Channels"
-msgstr "创建配置频道"
+msgstr "创建配置通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:20
 msgid "To create a new central configuration channel:"
-msgstr "要创建新的中心配置频道，请执行以下操作："
+msgstr "要创建新的中心配置通道，请执行以下操作："
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:21
 #, no-wrap
 msgid "Procedure: Creating Central Configuration Channel"
-msgstr "过程：创建中心配置频道"
+msgstr "过程：创建中心配置通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:22
 msgid ""
 "In the {productname} {webui}, navigate to menu:Configuration[Channels], and "
 "click btn:[Create Config Channel]."
-msgstr "在 {productname} {webui} 中，导航到menu:配置[频道]，然后单击 btn:[创建配置频道]。"
+msgstr "在 {productname} {webui} 中，导航到menu:配置[通道]，然后单击 btn:[创建配置通道]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:23
 #: modules/client-configuration/pages/configuration-management.adoc:31
 msgid "Type a name for the channel."
-msgstr "键入频道的名称。"
+msgstr "键入通道的名称。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:24
 #: modules/client-configuration/pages/configuration-management.adoc:32
 msgid "Type a label for the channel."
-msgstr "键入频道的标签。"
+msgstr "键入通道的标签。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:25
@@ -9147,33 +9133,33 @@ msgstr "此字段只能包含字母、数字、连字符 (``-``) 和下划线 (`
 msgid ""
 "Type a description for the channel that allows you to distinguish it from "
 "other channels."
-msgstr "键入用于与其他频道进行区分的频道说明。"
+msgstr "键入用于与其他通道进行区分的通道说明。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:27
 #: modules/client-configuration/pages/configuration-management.adoc:36
 msgid "Click btn:[Create Config Channel] to create the new channel."
-msgstr "单击 btn:[创建配置频道] 以创建新频道。"
+msgstr "单击 btn:[创建配置通道] 以创建新通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:28
 msgid ""
 "You can also use a configuration channel to manage Salt states on Salt "
 "clients."
-msgstr "您也可以使用配置频道管理 Salt 客户端上的 Salt 状态。"
+msgstr "您也可以使用配置通道管理 Salt 客户端上的 Salt 状态。"
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:29
 #, no-wrap
 msgid "Procedure: Creating a Salt State Channel"
-msgstr "过程：创建 Salt 状态频道"
+msgstr "过程：创建 Salt 状态通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:30
 msgid ""
 "In the {productname} {webui}, navigate to menu:Configuration[Channels], and "
 "click btn:[Create State Channel]."
-msgstr "在 {productname} {webui} 中，导航到menu:配置[频道]，然后单击 btn:[创建状态频道]。"
+msgstr "在 {productname} {webui} 中，导航到menu:配置[通道]，然后单击 btn:[创建状态通道]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:35
@@ -9191,7 +9177,7 @@ msgstr "添加配置文件、目录或符号链接"
 msgid ""
 "When you have created a configuration channel you can add a configuration "
 "file, directory, or symbolic link:"
-msgstr "如果您已创建配置频道，则可以添加配置文件、目录或符号链接："
+msgstr "如果您已创建配置通道，则可以添加配置文件、目录或符号链接："
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:39
@@ -9207,8 +9193,8 @@ msgid ""
 "configuration file to, and navigate to the menu:Add Files[Create File] "
 "subtab."
 msgstr ""
-"在 {productname} {webui} 中，导航到menu:配置[频道]，单击要向其添加配置文件的"
-"配置频道的名称，然后导航到menu:添加文件[创建文件]子选项卡。"
+"在 {productname} {webui} "
+"中，导航到menu:配置[通道]，单击要向其添加配置文件的配置通道的名称，然后导航到menu:添加文件[创建文件]子选项卡。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:41
@@ -9279,7 +9265,7 @@ msgstr "单击 btn:[创建配置文件]。"
 #: modules/client-configuration/pages/configuration-management.adoc:49
 #, no-wrap
 msgid "Subscribe Clients to Configuration Channels"
-msgstr "为客户端订阅配置频道"
+msgstr "为客户端订阅配置通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:50
@@ -9289,14 +9275,14 @@ msgid ""
 "and navigating to the [guimenu]``Configuration`` tab.  To subscribe multiple "
 "clients to a configuration channel, you can use the system set manager (SSM)."
 msgstr ""
-"您可以为单个客户端订阅配置频道，方法是导航到menu:系统[系统列表]，选择要使用的客户端，然后导航到[guimenu]``配置``选项卡。要为多个客户端"
-"订阅配置频道，可以使用系统集管理器 (SSM)。"
+"您可以为单个客户端订阅配置通道，方法是导航到menu:系统[系统列表]，选择要使用的客户端，然后导航到[guimenu]``配置``选项卡。要为多个客户端"
+"订阅配置通道，可以使用系统集管理器 (SSM)。"
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:51
 #, no-wrap
 msgid "Procedure: Subscribing Multiple Clients to Configuration Channels"
-msgstr "过程：为多个客户端订阅配置频道"
+msgstr "过程：为多个客户端订阅配置通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:52
@@ -9313,9 +9299,7 @@ msgid ""
 "Navigate to menu:Systems[System Set Manager], and go to the menu:"
 "Configuration[Subscribe to Channels] subtab to see the list of available "
 "configuration channels."
-msgstr ""
-"导航到menu:系统[系统集管理器]，然后转到menu:配置[订阅频道]子选项卡，以查看可"
-"用配置频道的列表。"
+msgstr "导航到menu:系统[系统集管理器]，然后转到menu:配置[订阅通道]子选项卡，以查看可用配置通道的列表。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:54
@@ -9323,33 +9307,31 @@ msgid ""
 "OPTIONAL: Click the number in the [guimenu]``Systems currently subscribed`` "
 "column to see which clients are currently subscribed to the configuration "
 "channel."
-msgstr ""
-"可选：单击[guimenu]``目前订阅的系统``列中的数字以查看目前订阅了配置频道的客户"
-"端。"
+msgstr "可选：单击[guimenu]``目前订阅的系统``列中的数字以查看目前订阅了配置通道的客户端。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:55
 msgid ""
 "Check the configuration channels you want to subscribe to, and click btn:"
 "[Continue]."
-msgstr "选中要订阅的配置频道，然后单击 btn:[继续]。"
+msgstr "选中要订阅的配置通道，然后单击 btn:[继续]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:56
 msgid "Rank the configuration channels using the up and down arrows."
-msgstr "使用向上和向下箭头对配置频道排名。"
+msgstr "使用向上和向下箭头对配置通道排名。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:57
 msgid ""
 "Where settings conflicts occur between configuration channels, channels "
 "closer to the top of the list take precedence."
-msgstr "两个配置频道之间的设置发生冲突时，系统会优先使用更靠近列表顶部的频道。"
+msgstr "两个配置通道之间的设置发生冲突时，系统会优先使用更靠近列表顶部的通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:58
 msgid "Determine how the channels are applied to the selected clients."
-msgstr "确定频道应用到所选客户端的方式。"
+msgstr "确定通道应用到所选客户端的方式。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:59
@@ -9360,8 +9342,8 @@ msgid ""
 "currently subscribed channels.  Click btn:[Replace Existing Subscriptions] "
 "to remove existing channels and replace them with the new channels."
 msgstr ""
-"单击  btn:[订阅为最低优先级] 可将新频道添加为比目前订阅的频道都低的优先级。单击  btn:[订阅为最高优先级] "
-"可将新频道添加为比目前订阅的频道都高的优先级。单击  btn:[替换现有订阅] 可去除现有频道并将其替换为新频道。"
+"单击  btn:[订阅为最低优先级] 可将新通道添加为比目前订阅的通道都低的优先级。单击  btn:[订阅为最高优先级] "
+"可将新通道添加为比目前订阅的通道都高的优先级。单击  btn:[替换现有订阅] 可去除现有通道并将其替换为新通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:60
@@ -9376,7 +9358,7 @@ msgid ""
 "the client's configuration priorities are going to be reordered by an "
 "action, the {webui} requires you to confirm the change before proceeding."
 msgstr ""
-"如果新配置频道优先级与现有频道冲突，系统会去除重复的频道并根据新优先级进行替换。如果某个操作要对客户端的配置优先级重新排序，{webui} "
+"如果新配置通道优先级与现有通道冲突，系统会去除重复的通道并根据新优先级进行替换。如果某个操作要对客户端的配置优先级重新排序，{webui} "
 "会要求您在继续之前先确认更改。"
 
 #. type: Title ==
@@ -9641,9 +9623,7 @@ msgstr "systemctl start osa-dispatcher\n"
 msgid ""
 "On each client, install the [systemitem]``mgr-osad`` package from the "
 "[systemitem]``Tools`` child channel."
-msgstr ""
-"在每个客户端上，安装[systemitem]``工具``子频道中的 [systemitem]``mgr-osad`` "
-"软件包。"
+msgstr "在每个客户端上，安装[systemitem]``工具``子通道中的 [systemitem]``mgr-osad`` 软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-osad.adoc:19
@@ -11320,7 +11300,7 @@ msgid ""
 "client you have selected, and its current channel subscriptions."
 msgstr ""
 "要管理客户端上的软件包，请导航到[guimenu]``系统``，单击要管理的客户端，然后导航到menu:系统[软件 > "
-"软件包]子选项卡。此部分提供的选项取决于您选择的客户端类型及其当前的频道订阅。"
+"软件包]子选项卡。此部分提供的选项取决于您选择的客户端类型及其当前的通道订阅。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/package-management.adoc:4
@@ -11487,7 +11467,7 @@ msgid ""
 "You can use custom patches within your organization to manage clients.  This "
 "allows you to issue patch alerts for packages in custom channels, schedule "
 "patch installation, and manage patches across organizations."
-msgstr "您可以在组织中使用自定义补丁来管理客户端。通过这种方式，您可以在自定义频道中发布软件包的补丁警报、安排补丁安装，并在组织中管理补丁。"
+msgstr "您可以在组织中使用自定义补丁来管理客户端。通过这种方式，您可以在自定义通道中发布软件包的补丁警报、安排补丁安装，并在组织中管理补丁。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/patch-management.adoc:3
@@ -11500,9 +11480,7 @@ msgstr "创建补丁"
 msgid ""
 "To use a custom patch, you need to create the patch, add packages to it and "
 "add it to one or more channels."
-msgstr ""
-"要使用自定义补丁，您需要创建一个补丁，向其添加软件包，并将其添加到一个或多个"
-"频道。"
+msgstr "要使用自定义补丁，您需要创建一个补丁，向其添加软件包，并将其添加到一个或多个通道。"
 
 #. type: Block title
 #: modules/client-configuration/pages/patch-management.adoc:5
@@ -11630,7 +11608,7 @@ msgstr "在``参考``和``备注``字段中填写 Bug 的其他相关信息。"
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:26
 msgid "Select one or more channels to add the new patch to."
-msgstr "选择要向其添加新补丁的一个或多个频道。"
+msgstr "选择要向其添加新补丁的一个或多个通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:27
@@ -11660,7 +11638,7 @@ msgstr "在 {productname} {webui} 中，导航到menu:补丁[克隆补丁]。"
 msgid ""
 "In the ``View patches potentially applicable to:`` field, select the "
 "software channel for the patch you want to clone."
-msgstr "在``查看可能适用的补丁``字段中，选择要克隆的补丁对应的软件频道。"
+msgstr "在``查看可能适用的补丁``字段中，选择要克隆的补丁对应的软件通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:32
@@ -11671,7 +11649,7 @@ msgstr "选择要克隆的一个或多个补丁，然后单击 btn:[克隆补丁
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:33
 msgid "Select one or more channels to add the cloned patch to."
-msgstr "选择要向其添加克隆的补丁的一个或多个频道。"
+msgstr "选择要向其添加克隆的补丁的一个或多个通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:34
@@ -11708,14 +11686,14 @@ msgstr "导航到menu:软件包[添加]选项卡。"
 msgid ""
 "In the ``Channel`` field, select the software channel that contains the "
 "packages you want to assign to the patch, and click btn:[View Packages]."
-msgstr "在``频道``字段中，选择包含要指派给补丁的软件包的软件频道，然后单击 btn:[查看软件包]。"
+msgstr "在``通道``字段中，选择包含要指派给补丁的软件包的软件通道，然后单击 btn:[查看软件包]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:40
 msgid ""
 "You can select ``All managed packages`` to see the available packages in all "
 "channels."
-msgstr "您可以选择``所有管理的软件包``以查看所有频道中的可用软件包。"
+msgstr "您可以选择``所有管理的软件包``以查看所有通道中的可用软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:41
@@ -11804,7 +11782,7 @@ msgstr ""
 msgid ""
 "Each package within a patch is part of one or more channels.  If the client "
 "is not subscribed to the channel, the update is not installed."
-msgstr "补丁内的每个软件包都来自一个或多个频道。如果客户端未订阅相应频道，将不会安装更新。"
+msgstr "补丁内的每个软件包都来自一个或多个通道。如果客户端未订阅相应通道，将不会安装更新。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:55
@@ -12069,7 +12047,7 @@ msgid ""
 "channels provided by the product, and can use the packages in the product on "
 "your {productname} Server and clients."
 msgstr ""
-"产品包含任意数量的软件频道。单击 `显示产品的频道` 图标可查看产品中包含的频道。成功添加并同步产品后，您便可以访问产品提供的频道，并可以在 "
+"产品包含任意数量的软件通道。单击 `显示产品的通道` 图标可查看产品中包含的通道。成功添加并同步产品后，您便可以访问产品提供的通道，并可以在 "
 "{productname} 服务器和客户端上使用产品中的软件包。"
 
 #. type: Title =
@@ -12098,7 +12076,7 @@ msgid ""
 "activation keys and GPG keys."
 msgstr ""
 "要使用引导脚本注册客户端，建议您先创建一个模板引导脚本，之后可以复制和修改该脚本。注册客户端时，您创建的引导脚本会在客户端上执行，并会确保所有必要的软件包"
-"都部署到该客户端。引导脚本中包含一些参数，用于确保能够将客户端系统指派给它的基础频道，包括激活密钥和 GPG 密钥。"
+"都部署到该客户端。引导脚本中包含一些参数，用于确保能够将客户端系统指派给它的基础通道，包括激活密钥和 GPG 密钥。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:4
@@ -12107,7 +12085,7 @@ msgid ""
 "ensure it matches the base channel repository.  If the repository "
 "information does not match exactly, the bootstrap script cannot download the "
 "correct packages."
-msgstr "请务必仔细检查软件源信息，以确保其与基础频道软件源匹配。如果软件源信息未完全匹配，引导脚本将无法下载正确的软件包。"
+msgstr "请务必仔细检查软件源信息，以确保其与基础通道软件源匹配。如果软件源信息未完全匹配，引导脚本将无法下载正确的软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:6
@@ -12292,7 +12270,7 @@ msgid ""
 "keys.adoc[]."
 msgstr ""
 "在执行此过程时，您需要知道激活密钥的确切名称。导航到menu:首页[概览]，然后在[guimenu]``任务``框中，单击[guimenu]``管理激活密"
-"钥``。此页面上会列出为频道创建的所有密钥。您在引导脚本中输入的要使用的密钥完整名称必须与密钥字段中显示的名称完全相同。有关激活密钥的详细信息，请参见 "
+"钥``。此页面上会列出为通道创建的所有密钥。您在引导脚本中输入的要使用的密钥完整名称必须与密钥字段中显示的名称完全相同。有关激活密钥的详细信息，请参见 "
 "xref:client-configuration:activation-keys.adoc[]。"
 
 #. type: Block title
@@ -12927,7 +12905,7 @@ msgid ""
 "install and update packages on the client."
 msgstr ""
 "软件源用于收集软件包。如果您有权访问软件软件源，便可以安装软件源提供的任何软件。在 {productname} "
-"中，必须至少有一个软件源与您的软件频道相关联，才能向该频道指派客户端并在客户端上安装和更新软件包。"
+"中，必须至少有一个软件源与您的软件通道相关联，才能向该通道指派客户端并在客户端上安装和更新软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/repositories.adoc:3
@@ -12936,14 +12914,14 @@ msgid ""
 "correct repositories.  If you are creating custom channels, you need to "
 "associate a repository that you have access to, or that you have created "
 "yourself."
-msgstr "{productname} 中的大多数默认频道都已与正确的软件源关联。如果您要创建自定义频道，则需要关联您有权访问的或您自己创建的软件源。"
+msgstr "{productname} 中的大多数默认通道都已与正确的软件源关联。如果您要创建自定义通道，则需要关联您有权访问的或您自己创建的软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/repositories.adoc:4
 msgid ""
 "For more information about custom repositories and channels, see xref:"
 "administration:custom-channels.adoc[]."
-msgstr "有关自定义软件源和频道的详细信息，请参见 xref:administration:custom-channels.adoc[]。"
+msgstr "有关自定义软件源和通道的详细信息，请参见 xref:administration:custom-channels.adoc[]。"
 
 #. type: Block title
 #: modules/client-configuration/pages/repositories.adoc:5
@@ -12957,7 +12935,7 @@ msgstr "本地软件源位置"
 msgid ""
 "You can configure local repositories on Salt clients, to provide packages "
 "that are not supplied by {productname} channels."
-msgstr "您可以在 Salt 客户端上配置本地软件源，以提供 {productname} 频道所不提供的软件包。"
+msgstr "您可以在 Salt 客户端上配置本地软件源，以提供 {productname} 通道所不提供的软件包。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/repositories.adoc:7
@@ -12987,7 +12965,7 @@ msgid ""
 "| {ubuntu} | [path]``/etc/apt/sources.list.d/``\n"
 "| {debian} | [path]``/etc/apt/sources.list.d/``\n"
 msgstr ""
-"| 客户端操作系统 | 本地储存库目录\n"
+"| 客户端操作系统 | 本地软件源目录\n"
 "| {sles} | [path]``/etc/zypp/repos.d``\n"
 " | {opensuse} | [path]``/etc/zypp/repos.d``\n"
 " | {sles} {es} | [path]``/etc/yum.repos.d/``\n"
@@ -13065,7 +13043,7 @@ msgstr "组成员资格"
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:8
 msgid "Channel subscriptions"
-msgstr "频道订阅"
+msgstr "通道订阅"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:9
@@ -13075,7 +13053,7 @@ msgstr "安装的软件包"
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:10
 msgid "Configuration channel subscriptions"
-msgstr "配置频道订阅"
+msgstr "配置通道订阅"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:12
@@ -13132,7 +13110,7 @@ msgid ""
 "There is no maximum number of snapshots that {productname} keeps.  This "
 "means that the database that stores the snapshots grows as you add more "
 "clients, packages, channels, and configuration changes."
-msgstr "{productname} 可保留的快照没有数量上限。这意味着随着您不断添加更多的客户端、软件包、频道和配置更改，储存快照的数据库会逐渐增大。"
+msgstr "{productname} 可保留的快照没有数量上限。这意味着随着您不断添加更多的客户端、软件包、通道和配置更改，储存快照的数据库会逐渐增大。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:19
@@ -13151,7 +13129,7 @@ msgstr ""
 #: modules/client-configuration/pages/snippets/add_channels_cli_multiarch.adoc:1
 #, no-wrap
 msgid "Procedure: Adding Software Channels at the Command Prompt"
-msgstr "过程：在命令提示符下添加软件频道"
+msgstr "过程：在命令提示符下添加软件通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/add_channels_cli.adoc:2
@@ -13162,7 +13140,7 @@ msgid ""
 "channels:"
 msgstr ""
 "在 {productname} 服务器上的命令提示符下，以 root 身份使用 [command]``spacewalk-common-"
-"channels`` 命令添加相应的频道："
+"channels`` 命令添加相应的通道："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/add_channels_cli.adoc:3
@@ -13175,16 +13153,16 @@ msgid ""
 "... <child_channel_name_n>\n"
 msgstr ""
 "spacewalk-common-channels \\\n"
-"<基础频道名称> \\\n"
-"<子频道名称 1> \\\n"
-"<子频道名称 2> \\\n"
-"... <子频道名称 n>\n"
+"<基础通道名称> \\\n"
+"<子通道名称 1> \\\n"
+"<子通道名称 2> \\\n"
+"... <子通道名称 n>\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/add_channels_cli.adoc:4
 #: modules/client-configuration/pages/snippets/add_channels_cli_multiarch.adoc:4
 msgid "Synchronize the channels:"
-msgstr "同步频道："
+msgstr "同步通道："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/add_channels_cli.adoc:5
@@ -13215,7 +13193,7 @@ msgstr ""
 #: modules/client-configuration/pages/snippets/add_channels_wizard.adoc:1
 #, no-wrap
 msgid "Procedure: Adding Software Channels"
-msgstr "过程：添加软件频道"
+msgstr "过程：添加软件通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/add_channels_wizard.adoc:2
@@ -13296,14 +13274,14 @@ msgstr "tail -f /var/log/rhn/reposync/<channel-label>.log\n"
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:4
 msgid ""
 "Each child channel generates its own log during the synchronization progress."
-msgstr "每个子频道在同步过程中都会生成自己的日志。"
+msgstr "每个子通道在同步过程中都会生成自己的日志。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:5
 msgid ""
 "You need to check all the base and child channel log files to be sure that "
 "the synchronization is complete."
-msgstr "您需要检查所有基础频道和子频道日志文件，以确保同步已完成。"
+msgstr "您需要检查所有基础通道和子通道日志文件，以确保同步已完成。"
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_webui_suma.adoc:1
@@ -13349,47 +13327,45 @@ msgstr "导航到[guimenu]``软件源``选项卡，然后单击[guimenu]``同步
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "then click the channel associated to the repository."
-msgstr "在 {productname} {webui} 中，导航到menu:软件[管理 > 频道]，然后单击与软件源关联的频道。"
+msgstr "在 {productname} {webui} 中，导航到menu:软件[管理 > 通道]，然后单击与软件源关联的通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:1
 msgid ""
 "When you have created all the channels, you can associate them with the "
 "repositories you created:"
-msgstr "创建所有频道之后，可以将其与您创建的软件源关联："
+msgstr "创建所有通道之后，可以将其与您创建的软件源关联："
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:2
 #, no-wrap
 msgid "Procedure: Associating Channels with Repositories"
-msgstr "过程：将频道与软件源关联"
+msgstr "过程：将通道与软件源关联"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:3
 msgid ""
 "On the {productname} Server {webui}, navigate to menu:Software[Manage > "
 "Channels], and click the channel to associate."
-msgstr ""
-"在 {productname} 服务器 {webui} 上，导航到menu:软件[管理 > 频道]，然后单击要"
-"关联的频道。"
+msgstr "在 {productname} 服务器 {webui} 上，导航到menu:软件[管理 > 通道]，然后单击要关联的通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:4
 msgid ""
 "Navigate to the [guimenu]``Repositories`` tab, and check the repository to "
 "associate with this channel."
-msgstr "导航到[guimenu]``软件源``选项卡，然后选中要与此频道关联的软件源。"
+msgstr "导航到[guimenu]``软件源``选项卡，然后选中要与此通道关联的软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:5
 msgid ""
 "Click btn:[Update Repositories] to associate the channel and the repository."
-msgstr "单击 btn:[更新软件源] 以将频道与软件源相关联。"
+msgstr "单击 btn:[更新软件源] 以将通道与软件源相关联。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:6
 msgid "Repeat for all channels and repositories you need to associate."
-msgstr "对需要关联的所有频道和软件源重复以上步骤。"
+msgstr "对需要关联的所有通道和软件源重复以上步骤。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:7
@@ -13407,33 +13383,33 @@ msgstr "单击 btn:[立即同步] 以立即开始同步。"
 #: modules/client-configuration/pages/snippets/manual_channels.adoc:1
 #, no-wrap
 msgid "Procedure: Creating Custom Channels"
-msgstr "过程：创建自定义频道"
+msgstr "过程：创建自定义通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_channels.adoc:2
 msgid ""
 "On the {productname} Server {webui}, navigate to menu:Software[Manage > "
 "Channels]."
-msgstr "在 {productname} 服务器 {webui} 上，导航到menu:软件[管理 > 频道]。"
+msgstr "在 {productname} 服务器 {webui} 上，导航到menu:软件[管理 > 通道]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_channels.adoc:3
 msgid ""
 "Click btn:[Create Channel] and set the appropriate parameters for the "
 "channels."
-msgstr "单击 btn:[创建频道]，然后为频道设置相应的参数。"
+msgstr "单击 btn:[创建通道]，然后为通道设置相应的参数。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_channels.adoc:4
 msgid ""
 "In the [guimenu]``Parent Channel`` field, select the appropriate base "
 "channel."
-msgstr "在[guimenu]``父频道``字段中，选择相应的基础频道。"
+msgstr "在[guimenu]``父通道``字段中，选择相应的基础通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_channels.adoc:5
 msgid "Click btn:[Create Channel]."
-msgstr "单击 btn:[创建频道]。"
+msgstr "单击 btn:[创建通道]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_channels.adoc:6
@@ -13450,7 +13426,7 @@ msgstr "每个自定义储存库都应该有一个自定义频道。"
 msgid ""
 "You can check that you have created all the appropriate channels and "
 "repositories, by navigating to menu:Software[Channel List > All]."
-msgstr "您可以导航到menu:软件[频道列表 > 所有]，以检查是否已创建所有相应的频道和软件源。"
+msgstr "您可以导航到menu:软件[通道列表 > 所有]，以检查是否已创建所有相应的通道和软件源。"
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/manual_repos.adoc:1
@@ -13901,7 +13877,7 @@ msgstr ""
 " |受支持？\n"
 " \n"
 " | ``spacewalk-common-channels``\n"
-" | 添加 {scc} 不提供的频道\n"
+" | 添加 {scc} 不提供的通道\n"
 " | {check}\n"
 " \n"
 " | ``spacewalk-hostname-rename``\n"
@@ -13909,7 +13885,7 @@ msgstr ""
 " | {check}\n"
 " \n"
 " | ``spacewalk-clone-by-date``\n"
-" | 按特定日期克隆频道\n"
+" | 按特定日期克隆通道\n"
 " | {check}\n"
 " \n"
 " | ``spacewalk-sync-setup``\n"
@@ -13917,9 +13893,9 @@ msgstr ""
 " | {check}\n"
 " \n"
 " | ``spacewalk-manage-channel-lifecycle``\n"
-" | 管理频道生命周期\n"
+" | 管理通道生命周期\n"
 " | {check}\n"
-" \n"
+"\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:26
@@ -17709,7 +17685,7 @@ msgid ""
 "You can use system groups to make it easier to manage a large number of "
 "clients.  Groups can be used to perform bulk actions on clients such as "
 "applying updates, configuration channels, salt states, or formulas."
-msgstr "通过系统组，您可以更轻松地管理大量客户端。组可用于对客户端执行批量操作，例如应用更新、配置频道、Salt 状态或公式。"
+msgstr "通过系统组，您可以更轻松地管理大量客户端。组可用于对客户端执行批量操作，例如应用更新、配置通道、Salt 状态或公式。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:3
@@ -18285,9 +18261,9 @@ msgstr ""
 " | 校验软件包           | {check}       | {cross}\n"
 " | 创建组             | {check}       | {check}\n"
 " | 管理组             | {check}       | {check}\n"
-" | 频道成员资格       | {check}       | {check}\n"
-" | 频道订阅     | {check}       | {cross}\n"
-" | 部署/比较频道      | {check}       | {cross}\n"
+" | 通道成员资格       | {check}       | {check}\n"
+" | 通道订阅     | {check}       | {cross}\n"
+" | 部署/比较通道      | {check}       | {cross}\n"
 " | 自动安装客户端       | {check}       | {cross}\n"
 " | 快照标记          | {check}       | {cross}\n"
 " | 远程命令           | {check}       | {cross}\n"
@@ -18350,27 +18326,27 @@ msgstr ""
 #: modules/client-configuration/pages/system-set-manager.adoc:15
 #, no-wrap
 msgid "Change Base Channels in SSM"
-msgstr "在 SSM 中更改基础频道"
+msgstr "在 SSM 中更改基础通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:16
 msgid ""
 "You can use SSM to change the base channel of more than one client at the "
 "same time."
-msgstr "您可以使用 SSM 同时更改多个客户端的基础频道。"
+msgstr "您可以使用 SSM 同时更改多个客户端的基础通道。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-set-manager.adoc:17
 msgid ""
 "Changing the base channel significantly changes the packages and patches "
 "available to the affected clients.  Use with caution."
-msgstr "更改基础频道会大量更改可用于受影响客户端的软件包和补丁。须谨慎使用该功能。"
+msgstr "更改基础通道会大量更改可用于受影响客户端的软件包和补丁。须谨慎使用该功能。"
 
 #. type: Block title
 #: modules/client-configuration/pages/system-set-manager.adoc:18
 #, no-wrap
 msgid "Procedure: Using SSM to Change Base Channels for Multiple Clients"
-msgstr "过程：使用 SSM 更改多个客户端的基础频道"
+msgstr "过程：使用 SSM 更改多个客户端的基础通道"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:19
@@ -18385,15 +18361,14 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:20
 msgid "Navigate to the [guimenu]``Channels`` subtab."
-msgstr "导航到[guimenu]``频道``子选项卡。"
+msgstr "导航到[guimenu]``通道``子选项卡。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:21
 msgid ""
 "Locate the current base channel in the list, and verify that the number "
 "shown in the [guimenu]``Systems`` column is correct."
-msgstr ""
-"在列表中找到当前的基础频道，并校验[guimenu]``系统``列中显示的数字是否正确。"
+msgstr "在列表中找到当前的基础通道，并校验[guimenu]``系统``列中显示的数字是否正确。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:22
@@ -18407,7 +18382,7 @@ msgstr "您可以单击此列中的数字查看要更改的客户端的更多细
 msgid ""
 "Select the new base channel in the [guimenu]``Desired base Channel`` field, "
 "and click btn:[Next]."
-msgstr "在[guimenu]``所需基础频道``字段中选择新基础频道，然后单击 btn:[下一步]。"
+msgstr "在[guimenu]``所需基础通道``字段中选择新基础通道，然后单击 btn:[下一步]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:24
@@ -18415,7 +18390,7 @@ msgid ""
 "For each child channel, select [guimenu]``No change``, "
 "[guimenu]``Subscribe``, or [guimenu]``Unsubscribe``, and click btn:[Next]."
 msgstr ""
-"对于每个子频道，选择[guimenu]``无更改``、[guimenu]``订阅``或[guimenu]``取消订阅``，然后单击 btn:[下一步]。"
+"对于每个子通道，选择[guimenu]``无更改``、[guimenu]``订阅``或[guimenu]``取消订阅``，然后单击 btn:[下一步]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:25
@@ -18627,7 +18602,7 @@ msgstr "对客户端查错"
 msgid ""
 "Depending on your base channel, new autoinstallation profiles might be "
 "subscribed to a channel that is missing required packages."
-msgstr "根据您的基础频道，新的自动安装配置文件可能会订阅缺少必需软件包的频道。"
+msgstr "根据您的基础通道，新的自动安装配置文件可能会订阅缺少必需软件包的通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:4
@@ -18664,23 +18639,21 @@ msgstr "为了解决此问题，请先进行以下检查："
 msgid ""
 "Check that the tools software channel related to the base channel in your "
 "autoinstallation profile is available to your organization and your user."
-msgstr ""
-"检查是否为您的组织和用户提供了与自动安装配置文件中的基础频道相关的工具软件频"
-"道。"
+msgstr "检查是否为您的组织和用户提供了与自动安装配置文件中的基础通道相关的工具软件通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:11
 msgid ""
 "Check that the tools channel is available to your {productname} as a child "
 "channel."
-msgstr "检查是否为您的 {productname} 提供了工具频道作为子频道。"
+msgstr "检查是否为您的 {productname} 提供了工具通道作为子通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:12
 msgid ""
 "Check that the required packages and any dependencies are available in the "
 "associated channels."
-msgstr "检查关联的频道中是否提供了必需的软件包和任何依赖项。"
+msgstr "检查关联的通道中是否提供了必需的软件包和任何依赖项。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/tshoot-clients.adoc:13
@@ -19782,7 +19755,7 @@ msgid ""
 "channels, and to onboard the associated nodes.  For more on activation keys, "
 "see xref:client-configuration:activation-keys.adoc[]."
 msgstr ""
-"我们建议您创建一个激活密钥来关联 {caasp} 频道并初始配置关联的节点。有关激活密钥的详细信息，请参见 xref:client-"
+"我们建议您创建一个激活密钥来关联 {caasp} 通道并初始配置关联的节点。有关激活密钥的详细信息，请参见 xref:client-"
 "configuration:activation-keys.adoc[]。"
 
 #. type: Plain text
@@ -19982,7 +19955,7 @@ msgid ""
 "clusters are all of the same kind."
 msgstr ""
 "要管理 {caasp} 群集，您需要选择一个客户端作为群集的管理节点。管理节点不能是群集的一部分，并且在您开始使用前必须已与 {caasp} "
-"频道关联。您可以使用单个管理节点来管理多个群集，前提是这些群集均为同一类型。"
+"通道关联。您可以使用单个管理节点来管理多个群集，前提是这些群集均为同一类型。"
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-caasp.adoc:34
@@ -20271,8 +20244,7 @@ msgstr ""
 msgid ""
 "You also need to ensure that the node you want to add is registered to "
 "{productname}, and has a {caasp} channel assigned."
-msgstr ""
-"您需要确保要添加的节点已注册到 {productname} 中且已为其指派 {caasp} 频道。"
+msgstr "您需要确保要添加的节点已注册到 {productname} 中且已为其指派 {caasp} 通道。"
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-caasp.adoc:70
@@ -22458,7 +22430,7 @@ msgid ""
 "autoinstallable distribution must be a complete installation source."
 msgstr ""
 "根据您在 Guest 上使用的是 SLES 还是 {rhel} 操作系统，可自动安装发行套件的配置有所不同。{rhel} "
-"安装的软件包从关联的基础频道提取。用于安装 {suse} 系统的软件包从可自动安装的发行套件中提取。因此，对于 SLES "
+"安装的软件包从关联的基础通道提取。用于安装 {suse} 系统的软件包从可自动安装的发行套件中提取。因此，对于 SLES "
 "系统，可自动安装的发行套件必须是完整的安装源。"
 
 #. type: Block title
@@ -22484,7 +22456,7 @@ msgstr ""
 msgid ""
 "In all cases, ensure that the base channel matches the autoinstallable "
 "distribution."
-msgstr "在所有情况下，均需确保基础频道与可自动安装的发行套件匹配。"
+msgstr "在所有情况下，均需确保基础通道与可自动安装的发行套件匹配。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:29
@@ -22511,13 +22483,13 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Base Channel`` field, select the channel that matches the "
 "installation source."
-msgstr "在[guimenu]``基础频道``字段中，选择与安装源匹配的频道。"
+msgstr "在[guimenu]``基础通道``字段中，选择与安装源匹配的通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:37
 msgid ""
 "This channel is used as the package source for non-{suse} installations."
-msgstr "此频道用作非 {suse} 安装的软件包源。"
+msgstr "此通道用作非 {suse} 安装的软件包源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:38
