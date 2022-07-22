@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-07-07 10:13+0000\n"
+"PO-Revision-Date: 2022-07-22 06:12+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-41/zh_CN/>\n"
@@ -2642,7 +2642,7 @@ msgstr ""
 #: modules/installation/pages/install-server-unified.adoc:33
 #: modules/installation/pages/pubcloud-setup.adoc:30
 msgid "Python 2 Module"
-msgstr "Python 2 Module"
+msgstr "Python 2 模块"
 
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:35
@@ -2654,7 +2654,7 @@ msgstr "Web and Scripting 模块"
 #: modules/installation/pages/install-server-unified.adoc:36
 #: modules/installation/pages/pubcloud-setup.adoc:33
 msgid "SUSE Manager Server Module"
-msgstr "SUSE Manager Server Module"
+msgstr "SUSE Manager Server 模块"
 
 #. type: Title =
 #: modules/installation/pages/install-uyuni.adoc:1
@@ -4949,7 +4949,7 @@ msgstr "单击 btn:[添加] 并选择[guimenu]``注册服务器上的扩展和�
 msgid ""
 "In the [guimenu]``Available extensions`` field, select [guimenu]``Public "
 "Cloud Module``."
-msgstr "在[guimenu]``可用的扩展``字段中选择[guimenu]``Public Cloud Module``。"
+msgstr "在[guimenu]``可用的扩展``字段中选择[guimenu]``Public Cloud 模块``。"
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:24
@@ -4972,7 +4972,7 @@ msgstr "对于公有云上的 {productname} 服务器，预期安装的模块包
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:34
 msgid "Public Cloud Module"
-msgstr "Public Cloud Module"
+msgstr "Public Cloud 模块"
 
 #. type: Title ==
 #: modules/installation/pages/pubcloud-setup.adoc:35
