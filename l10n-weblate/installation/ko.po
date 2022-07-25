@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-06-22 08:52+0000\n"
-"PO-Revision-Date: 2022-07-25 12:13+0000\n"
+"PO-Revision-Date: 2022-07-25 20:11+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-428/ko/>\n"
@@ -6034,7 +6034,8 @@ msgstr "HTTP를 통해 [path]``pub`` 디렉토리에서 CA 인증서를 설치�
 msgid ""
 "On the server, go to http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-"
 "CERT."
-msgstr "서버에서 http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-CERT로 이동하십시오."
+msgstr ""
+"서버에서 link:http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-CERT[]로 이동하십시오."
 
 #. type: delimited block =
 #: modules/installation/pages/server-setup.adoc:36
