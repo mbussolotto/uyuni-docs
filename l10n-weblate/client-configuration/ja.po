@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-09 11:33+0000\n"
-"PO-Revision-Date: 2022-07-27 11:31+0000\n"
-"Last-Translator: Julia Faltenbacher <julia.faltenbacher@suse.com>\n"
-"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
-"client-configuration-manager-43-mu-431/ja/>\n"
+"PO-Revision-Date: 2022-08-18 04:53+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
+"docs-client-configuration-manager-43-mu-431/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -334,8 +334,6 @@ msgstr "xref:registration-overview-ubuntu.adoc[Ubuntuクライアントの登録
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:61
-#, fuzzy
-#| msgid "xref:clients-ubuntu.adoc[Ubuntu 20.04 Clients]"
 msgid "xref:clients-ubuntu.adoc[Ubuntu 20.04 Clients]"
 msgstr "xref:clients-ubuntu.adoc[Ubuntu 20.04クライアント]"
 
@@ -2252,17 +2250,12 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-intro.adoc:20
-#, fuzzy
-#| msgid ""
-#| "The autoinstallation features of SUSE Manager are based on a software "
-#| "named Cobbler.  For more information, see https://cobbler.readthedocs.io."
 msgid ""
 "The autoinstallation features of {productname} are based on a software named "
 "Cobbler.  For more information, see https://cobbler.readthedocs.io."
 msgstr ""
-"SUSE Managerの自動インストール機能は、Cobblerという名前のソフトウェアによって"
-"実行されます。  詳細については、link:https://cobbler.github.io/quickstart/"
-"readthedocs.io[]を参照してください。"
+"{productname}の自動インストール機能は、Cobblerという名前のソフトウェアによって実行されます。  "
+"詳細については、link:https://cobbler.readthedocs.io[]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:1
@@ -4967,27 +4960,19 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:23
-#, fuzzy, no-wrap
-#| msgid "Unified Installer Updates Channels on {sle} Clients"
+#, no-wrap
 msgid "{unifiedinstaller} Updates Channels on {sle} Clients"
-msgstr "{sle}クライアントのUnified Installer更新チャンネル"
+msgstr "{sle}クライアントの{unifiedinstaller}更新チャンネル"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:24
-#, fuzzy
-#| msgid ""
-#| "This channel is used by the unified installer to ensure it is up to date "
-#| "before it installs the operating system.  All {sle} products should have "
-#| "access to the installer updates channel during installation."
 msgid ""
 "This channel is used by the {unifiedinstaller} to ensure it is up to date "
 "before it installs the operating system.  All {sle} products should have "
 "access to the installer updates channel during installation."
 msgstr ""
-"このチャンネルは、オペレーティングシステムをインストールする前に、Unified "
-"Installerが最新であることを確認するためにUnified Installerで使用されます。  "
-"すべての{sle}製品は、インストール中にインストーラ更新チャンネルにアクセスでき"
-"る必要があります。"
+"このチャンネルは、オペレーティングシステムをインストールする前に、{unifiedinstaller}が最新であることを確認するために{unifiedin"
+"staller}で使用されます。  すべての{sle}製品は、インストール中にインストーラ更新チャンネルにアクセスできる必要があります。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:25
@@ -6343,16 +6328,10 @@ msgstr "umount /mnt\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-major.adoc:19
-#, fuzzy
-#| msgid ""
-#| "This image is the unified installer and can be used for multiple "
-#| "autoinstallable distributions."
 msgid ""
 "This image is the {unifiedinstaller} and can be used for multiple "
 "autoinstallable distributions."
-msgstr ""
-"このイメージはUnified Installerであり、複数の自動インストールのディストリ"
-"ビューション用に使用できます。"
+msgstr "このイメージは{unifiedinstaller}であり、複数の自動インストールのディストリビューション用に使用できます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:21
@@ -6792,10 +6771,8 @@ msgstr "openSUSE Leap 15.1から{sle} 15 SP1、または"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:6
-#, fuzzy
-#| msgid "openSUSE Leap 15.2 to {sle} 15 SP2"
 msgid "openSUSE Leap 15.4 to {sle} 15 SP4"
-msgstr "openSUSE Leap 15.2から{sle} 15 SP2"
+msgstr "openSUSE Leap 15.4から{sle} 15 SP4"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:7
@@ -7162,6 +7139,10 @@ msgid ""
 "100 actions scheduled.  It is important that all systems in the group "
 "support the same \"migration target.\""
 msgstr ""
+"[command]``spacecmd``サブコマンド[literal]``system_scheduleproductmigration`` abd "
+"[command]``system_listmigrationtargets``は、グループの一部であるすべてのシステムをループしています。  "
+"グループに100のシステムがある場合、100のアクションがスケジュールされていることがわかります。  "
+"グループ内のすべてのシステムが同じ「移行ターゲット」をサポートすることが重要です。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:48
@@ -7185,6 +7166,8 @@ msgid ""
 "output a string of \"IDs.\" The string is the identifier for the "
 "[literal]``MIGRATIONTARGET`` of the other command."
 msgstr ""
+"*すべての* システムについて報告されるターゲットのみを選択します。  このコマンドは、「ID」の文字列を出力します。文字列は、他のコマンドの "
+"[literal]``MIGRATIONTARGET`` の識別子です。"
 
 #. type: Block title
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:51
@@ -9744,16 +9727,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:5
-#, fuzzy
-#| msgid ""
-#| "For more information, see xref:installation-and-upgrade:setup-wizard."
-#| "adoc[]."
 msgid ""
 "For more information, see xref:installation-and-upgrade:pubcloud-setup."
 "adoc#add-product-sync-repo[]."
 msgstr ""
-"詳細については、xref:installation-and-upgrade:setup-wizard.adoc[]を参照してく"
-"ださい。"
+"詳細については、xref:installation-and-upgrade:pubcloud-setup.adoc#add-product-sync-"
+"repo[]を参照してください。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-pubcloud.adoc:6
@@ -12411,21 +12390,14 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS "
-#| "clients using Salt.  For information about registering Salt clients "
-#| "running {ubuntu} 20.04, see xref:client-configuration:clients-ubuntu."
-#| "adoc[]."
 msgid ""
 "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS clients "
 "using Salt.  For information about registering Salt clients running {ubuntu} "
 "20.04, see xref:client-configuration:clients-ubuntu.adoc[]."
 msgstr ""
-"{productname}は、Saltを使用する{ubuntu} 16.04 LTS、18.04 LTS、および20.04 LTS"
-"クライアントをサポートしています。  {ubuntu} 20.04を実行しているSaltクライア"
-"ントを登録する方法の詳細については、xref:client-configuration:clients-ubuntu."
-"adoc[]を参照してください。"
+"{productname}は、Saltを使用する{ubuntu} 16.04 LTS、18.04 LTS、および20.04 "
+"LTSクライアントをサポートしています。  {ubuntu} 20.04を実行しているSaltクライアントを登録する方法の詳細については、xref"
+":client-configuration:clients-ubuntu.adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:4
@@ -12746,22 +12718,16 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS "
-#| "clients using Salt.  For information about registering Salt clients "
-#| "running {ubuntu} 16.04 LTS and 18.04 LTS, see xref:client-configuration:"
-#| "clients-ubuntu-old.adoc[]."
 msgid ""
 "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS clients "
 "using Salt.  For information about registering Salt clients running {ubuntu} "
 "16.04 LTS and 18.04 LTS, see xref:client-configuration:clients-ubuntu-old."
 "adoc[]."
 msgstr ""
-"{productname}は、Saltを使用する{ubuntu} 16.04 LTS、18.04 LTS、および20.04 LTS"
-"クライアントをサポートしています。  {ubuntu} 16.04 LTSおよび18.04 LTSを実行し"
-"ているSaltクライアントを登録する方法の詳細については、xref:client-"
-"configuration:clients-ubuntu-old.adoc[]を参照してください。"
+"{productname}は、Saltを使用する{ubuntu} 16.04 LTS、18.04 LTS、および20.04 "
+"LTSクライアントをサポートしています。  {ubuntu} 16.04 LTSおよび18.04 "
+"LTSを実行しているSaltクライアントを登録する方法の詳細については、xref:client-configuration:clients-ubuntu-"
+"old.adoc[]を参照してください。"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:11
@@ -12785,11 +12751,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:17
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
-#| "\n"
-#| "| {ubuntu} 20.04 | ubuntu-2004-amd64-main for amd64 | ubuntu-2004-amd64-main-uyuni | ubuntu-2004-amd64-main-updates-uyuni | ubuntu-2004-amd64-main-security-uyuni | ubuntu-2004-amd64-uyuni-client\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
 "\n"
@@ -12797,7 +12759,9 @@ msgid ""
 msgstr ""
 "| OSバージョン | ベースチャンネル | メインチャンネル | 更新チャンネル | セキュリティチャンネル | クライアントチャンネル\n"
 "\n"
-"| {ubuntu} 20.04 | ubuntu-2004-amd64-main for amd64 | ubuntu-2004-amd64-main-uyuni | ubuntu-2004-amd64-main-updates-uyuni | ubuntu-2004-amd64-main-security-uyuni | ubuntu-2004-amd64-uyuni-client\n"
+"| {ubuntu} 20.04 | ubuntu-2004-amd64-main for amd64 | ubuntu-2004-amd64-main-"
+"uyuni | ubuntu-2004-amd64-main-updates-uyuni | ubuntu-2004-amd64-main-"
+"security-uyuni | ubuntu-2004-amd64-uyuni-client\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-ubuntu.adoc:18
@@ -15517,19 +15481,12 @@ msgid ""
 "all new deployments to use Salt clients and Salt proxies exclusively, and to "
 "migrate existing traditional clients and proxies to Salt."
 msgstr ""
+"SUSE Manager 4.3リリースでは、従来のクライアントは廃止されました。  SUSE Manager 4."
+"3以降のリリースでは、従来のクライアントおよび従来のプロキシはサポートされず、2023年に予定されています。  当社では、すべての新規導入でSaltクライ"
+"アントとSaltプロキシのみを使用し、既存の従来のクライアントとプロキシをSaltに移行することを推奨しています。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:7
-#, fuzzy
-#| msgid ""
-#| "Traditional clients will be deprecated with the next {productname} "
-#| "version and will not be supported with future releases.  Be aware that "
-#| "when migrating from traditional clients to Salt minions you do not have "
-#| "to delete the registered clients before. You can just register them as "
-#| "Salt minions and Salt will do the necessary steps with the traditional "
-#| "client. If you already deleted the traditional client and the "
-#| "registration as Salt minion is not possible anymore, see xref:"
-#| "installation-and-upgrade:troubleshooting.adoc[Troubleshooting]."
 msgid ""
 "Be aware that when migrating from traditional clients to Salt minions you do "
 "not have to delete the registered clients before.  You can just register "
@@ -15538,13 +15495,10 @@ msgid ""
 "registration as Salt minion is not possible anymore, see xref:installation-"
 "and-upgrade:troubleshooting.adoc[Troubleshooting]."
 msgstr ""
-"従来のクライアントは、次の{productname}バージョンでは廃止され、今後のリリース"
-"ではサポートされなくなります。  従来のクライアントからSalt minionに移行すると"
-"き、その前に登録したクライアントを削除する必要はありません。Salt minionとして"
-"それらを登録するだけでSaltは従来のクライアントで必要な手順を実行します。従来"
-"のクライアントを削除済みの場合、Salt minionとしての登録はできなくなります。"
-"xref:installation-and-upgrade:troubleshooting.adoc[トラブルシューティング]を"
-"参照してください。"
+"従来のクライアントからSalt minionに移行するとき、その前に登録したクライアントを削除する必要はありません。  Salt "
+"minionとしてそれらを登録するだけでSaltは従来のクライアントで必要な手順を実行します。  従来のクライアントを削除済みの場合、Salt "
+"minionとしての登録はできなくなります。xref:installation-and-upgrade:troubleshooting."
+"adoc[トラブルシューティング]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/custom-info.adoc:1
@@ -15820,6 +15774,8 @@ msgid ""
 "the metadata and use a chain of checksums to secure the packages.  Most RPM "
 "based systems use signed metadata in addition to signed packages."
 msgstr ""
+"RPMパッケージは直接署名できますが、Debianベースのシステムはメタデータのみに署名し、一連のチェックサムを使用してパッケージを保護します。  "
+"ほとんどのRPMベースのシステムでは、署名済みパッケージに加えて、署名済みメタデータを使用します。"
 
 #. From Ref Guide, needs editing. --LKB 2020-09-08
 #. Lists keys and certificates available for inclusion in {kickstart} profiles and provides a means to create new ones.
@@ -16479,10 +16435,8 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:66
-#, fuzzy
-#| msgid " Confirm the list of clients to perform the update."
 msgid "Confirm the list of clients to perform the update."
-msgstr " クライアントの一覧を確認し、更新を実行します。"
+msgstr "クライアントの一覧を確認し、更新を実行します。"
 
 #. type: Block title
 #: modules/client-configuration/pages/patch-management.adoc:67
@@ -18027,7 +17981,7 @@ msgstr ""
 #: modules/client-configuration/pages/registration-webui.adoc:28
 #, no-wrap
 msgid "Handling of Locally assigned Repositories"
-msgstr ""
+msgstr "ローカルに割り当てられたリポジトリの処理"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:29
@@ -18037,6 +17991,9 @@ msgid ""
 "Salt disables all local repositories at the beginning of the bootstrap "
 "process."
 msgstr ""
+"{ProductName}がサービスを提供しないクライアントにリポジトリを直接割り当てることは、一般的なユースケースではありません。  "
+"問題の原因になる可能性があります。   したがって、Saltを介したブートストラップにより、ブートストラップ プロセスの開始時にすべてのローカル "
+"リポジトリを無効にします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:30
@@ -18045,6 +18002,8 @@ msgid ""
 "Highstate or a package installation, all locally assigned repositories are "
 "disabled again."
 msgstr ""
+"あとで、チャンネルの状態を使用するたびに、たとえばHighstateまたはパッケージインストールを実行すると、ローカルに割り当てられたすべてのリポジトリが"
+"再び無効になります。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:31
@@ -18054,6 +18013,9 @@ msgid ""
 "custom channel, see ``Custom Channels`` at xref:administration:custom-"
 "channels.adoc[]."
 msgstr ""
+"クライアントで使用されるすべてのソフトウェアパッケージは、{productname}が提供するチャンネルから取得される必要があります。  "
+"カスタムチャンネルの作成の詳細については、xref:administration:custom-channels."
+"adoc[]の``カスタムチャンネル``を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/repositories.adoc:1
@@ -18561,18 +18523,12 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/arch-other-note.adoc:1
-#, fuzzy
-#| msgid ""
-#| "In the following section, descriptions often defaults to the "
-#| "[literal]``x86_64`` architecture.  Replace it with other architectures if "
-#| "appropriate."
 msgid ""
 "In the following section, descriptions often default to the "
 "[literal]``x86_64`` architecture.  Replace it with other architectures if "
 "appropriate."
 msgstr ""
-"次のセクションでは、[literal]``x86_64``アーキテクチャに基づく説明が多いで"
-"す。  必要に応じて他のアーキテクチャに置き換えてください。"
+"次のセクションでは、[literal]``x86_64``アーキテクチャに基づく説明が多いです。  必要に応じて他のアーキテクチャに置き換えてください。"
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:1
@@ -18845,13 +18801,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:1
-#, fuzzy
-#| msgid ""
-#| "By default, operating systems trust only their own GPG keys when they are "
-#| "installed, and do not trust keys provided by third party packages.  The "
-#| "clients can be successfully bootstrapped without the GPG key being "
-#| "trusted.  However, you cannot install new client tool packages or update "
-#| "them until the keys are trusted."
 msgid ""
 "Operating systems either trust their own GPG keys directly or at least ship "
 "them installed with the minimal system.  But third party packages signed by "
@@ -18859,11 +18808,10 @@ msgid ""
 "bootstrapped without the GPG key being trusted.  However, you cannot install "
 "new client tool packages or update them until the keys are trusted."
 msgstr ""
-"デフォルトでは、オペレーティングシステムはインストール時に独自のGPGキーのみを"
-"信頼し、サードパーティパッケージが提供するキーを信頼しません。クライアント"
-"は、GPGキーを信頼していなくても正常にブートストラップできます。ただし、キーが"
-"信頼されるまで、新しいクライアントツールパッケージをインストールできず、パッ"
-"ケージを更新できません。"
+"オペレーティングシステムは、独自のキーを直接信頼するか、少なくとも最小限のシステムでインストールされて出荷されます。  "
+"ただし、別のGPGキーで署名されたサードパーティのパッケージは、手動で処理する必要があります。  "
+"クライアントは、GPGキーを信頼していなくても正常にブートストラップできます。  "
+"ただし、キーが信頼されるまで、新しいクライアントツールパッケージをインストールできず、パッケージを更新できません。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:2
@@ -18873,6 +18821,9 @@ msgid ""
 "assigned to a client, the key is trusted once the channel is refreshed or "
 "the first package is installed from the channel."
 msgstr ""
+"Saltクライアントは、ソフトウェア チャンネル用に入力されたGPGキー情報を使用して、信頼できるキーを管理するようになりました。  GPGキー情報を持つ"
+"ソフトウェアチャンネルがクライアントに割り当てられると、チャンネルが更新されるか、チャンネルから最初のパッケージがインストールされると、キーが信頼されます"
+"。"
 
 #.  The meaning of the following sentence is not clear
 #. type: Plain text
@@ -18882,6 +18833,8 @@ msgid ""
 "is a file URL, the GPG key file must be deployed on the client before the "
 "software channel is used."
 msgstr ""
+"ソフトウェアチャンネルのセットであるGPGキーURLが存在している必要があります。  "
+"ファイルURLの場合は、ソフトウェアチャンネルを使用する前に、GPGキーファイルをクライアントに展開する必要があります。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:4
@@ -18892,6 +18845,9 @@ msgid ""
 "Support clients.  Only in case a software channel is assigned to the client "
 "they will be imported and trusted by the system."
 msgstr ""
+"{redhat}ベースのクライアントのクライアント ツール チャンネル用GPG キーは、クライアントの  [path]``/etc/pki/"
+"rpm-gpg/``に展開され、ファイルURLで参照できます。  拡張サポート クライアントのGPGキーの場合も同様です。  ソフトウェア "
+"チャンネルがクライアントに割り当てられている場合にのみ、インポートされ、システムによって信頼されます。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:5
@@ -18902,25 +18858,27 @@ msgid ""
 "administration:repo-metadata.adoc[] the deployment and trust of that key is "
 "executed automatically."
 msgstr ""
+"Debianベースのシステムはメタデータのみに署名するため、通常は単一チャンネルに追加のキーを指定する必要はありません。  "
+"xref:administration:repo-metadata.adoc[]の「独自のGPGキーを使用する」で説明されているように、ユーザーが独自のG"
+"PGキーを設定してメタデータに署名すると、そのキーの展開と信頼が自動的に実行されます。"
 
 #. type: Title ===
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:6
-#, fuzzy, no-wrap
-#| msgid "Use Your Own GPG Key"
+#, no-wrap
 msgid "User defined GPG keys"
-msgstr "独自のGPGキーを使用する"
+msgstr "ユーザー定義のGPGキー"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:7
 msgid "Users can define custom GPG keys to be deployed to a client."
-msgstr ""
+msgstr "ユーザーは、クライアントに展開するカスタムGPGキーを定義できます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:8
 msgid ""
 "By providing some pillar data and providing the GPG key files in the {salt} "
 "filesystem, they are automatically deployed to the client."
-msgstr ""
+msgstr "いくつかのpillarデータを提供し、{salt}ファイルシステムにGPGキーファイルを提供することで、自動的にクライアントに展開されます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:9
@@ -18928,6 +18886,8 @@ msgid ""
 "These keys are deployed into [path]``/etc/pki/rpm-gpg/`` on RPM based "
 "operating systems and to [path]``/usr/share/keyrings/`` on Debian systems:"
 msgstr ""
+"これらのキーは、RPMベースのオペレーティングシステムでは[path]``/etc/pki/rpm-gpg/``に、Debianシステムでは "
+"[path]``/usr/share/keyrings/``に展開されます。"
 
 #.  I think the cat command is here to show the contents of the file.
 #. type: Plain text
