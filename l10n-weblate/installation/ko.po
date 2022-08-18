@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-06-22 08:52+0000\n"
-"PO-Revision-Date: 2022-07-25 20:11+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-08-18 07:00+0000\n"
+"Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-428/ko/>\n"
 "Language: ko\n"
@@ -1250,7 +1250,7 @@ msgstr "프록시 하드웨어 요구사항"
 
 #. type: Table
 #: modules/installation/pages/hardware-requirements.adoc:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "| Hardware\n"
 "| Details\n"
@@ -1685,8 +1685,9 @@ msgstr "IBM zEnterprise BC12"
 
 #. type: Plain text
 #: modules/installation/pages/install-ibmz.adoc:13
+#, fuzzy
 msgid "IBM z13"
-msgstr "IBㅊ"
+msgstr "IBM z13"
 
 #. type: Plain text
 #: modules/installation/pages/install-ibmz.adoc:14
