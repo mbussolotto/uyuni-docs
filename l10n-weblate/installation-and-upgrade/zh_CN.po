@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-10 14:17+0000\n"
-"PO-Revision-Date: 2022-07-22 06:12+0000\n"
+"PO-Revision-Date: 2022-08-18 10:13+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-and-upgrade-manager-43-beta3/zh_CN/>\n"
@@ -5714,7 +5714,7 @@ msgstr "过程：注册代理"
 msgid ""
 "Create an activation key based on the [systemitem]``SLE-Product-SUSE-Manager-"
 "Proxy-4.3-Pool`` base channel."
-msgstr "基于 [systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Pool`` 基础频道创建激活密钥。"
+msgstr "基于 [systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Pool`` 基础通道创建激活密钥。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:10
@@ -5780,7 +5780,7 @@ msgstr "SLE-Module-SUSE-Manager-Proxy-4.3-Updates"
 msgid ""
 "The [systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Updates`` channel is "
 "mandatory."
-msgstr "[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Updates`` 频道是必需的。"
+msgstr "[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Updates`` 通道是必需的。"
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:21
@@ -6745,7 +6745,7 @@ msgstr "在所有 {productname} 代理上更新 `openSUSE-build-key` 软件包�
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:9
 #, no-wrap
 msgid "Procedure: Adding openSUSE Leap {opensuse-version} Software Channels at the Command Prompt"
-msgstr "过程：在命令提示符处添加 openSUSE Leap {opensuse-version} 软件频道"
+msgstr "过程：在命令提示符处添加 openSUSE Leap {opensuse-version} 软件通道"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:14
@@ -8235,10 +8235,9 @@ msgid ""
 "architecture, channels, and status information.  For more information, see "
 "xref:reference:admin/setup-wizard.adoc[Wizard]."
 msgstr ""
-"如果您以前在 {scc} 中注册过产品，则表格中会填充产品列表。此操作可能需要几分钟"
-"时间。您可在右侧的``从 SUSE Customer Center 刷新产品目录``部分监视该操作的进"
-"度。该产品表格会列出体系结构、频道和状态信息。有关详细信息，请参见 xref:"
-"reference:admin/setup-wizard.adoc[向导]。"
+"如果您以前在 {scc} 中注册过产品，则表格中会填充产品列表。此操作可能需要几分钟时间。您可在右侧的``从 SUSE Customer Center "
+"刷新产品目录``部分监视该操作的进度。该产品表格会列出体系结构、通道和状态信息。有关详细信息，请参见 xref:reference:admin/"
+"setup-wizard.adoc[向导]。"
 
 #. type: Target for macro image
 #: modules/installation-and-upgrade/pages/server-setup.adoc:57
