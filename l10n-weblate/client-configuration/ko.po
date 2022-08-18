@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-05 14:02+0000\n"
-"PO-Revision-Date: 2022-08-18 03:13+0000\n"
+"PO-Revision-Date: 2022-08-18 07:00+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-427/ko/>\n"
@@ -6300,8 +6300,9 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:56
+#, fuzzy
 msgid "Paste the autoinstallation profile or use the file upload field."
-msgstr "자동 설치 프로파일을 붙여넣거나 파일 업로드 필드를 사용합니다."
+msgstr "자동 설치 프로파일을 붙여 넣거나 파일 업로드 필드를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:57
@@ -21983,7 +21984,7 @@ msgstr "{ubuntu} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -26972,12 +26973,11 @@ msgstr "man virtual-host-gatherer\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-file.adoc:20
+#, fuzzy
 msgid ""
 "The `README` file of that package provides background information about the "
 "`type` of a hypervisor, etc.:"
-msgstr ""
-"이 패키지의 `README` 파일은 하이퍼바이버의 ‘유형’ 등에 대한 배경 정보를 제공"
-"합니다."
+msgstr "이 패키지의 `README` 파일은 하이퍼바이저의 ‘유형’ 등에 대한 배경 정보를 제공합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-file.adoc:21
