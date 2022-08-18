@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: conflicts 3\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-07-25 12:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-08-18 07:00+0000\n"
+"Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-41/ko/>\n"
 "Language: ko\n"
@@ -1366,8 +1366,9 @@ msgstr "IBM zEnterprise BC12"
 
 #. type: Plain text
 #: modules/installation/pages/install-ibmz.adoc:13
+#, fuzzy
 msgid "IBM z13"
-msgstr "IBㅊ"
+msgstr "IBM z13"
 
 #. type: Plain text
 #: modules/installation/pages/install-ibmz.adoc:14
