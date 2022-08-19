@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: conflicts 3\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-08-18 07:00+0000\n"
+"PO-Revision-Date: 2022-08-19 09:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-41/ko/>\n"
@@ -1366,7 +1366,6 @@ msgstr "IBM zEnterprise BC12"
 
 #. type: Plain text
 #: modules/installation/pages/install-ibmz.adoc:13
-#, fuzzy
 msgid "IBM z13"
 msgstr "IBM z13"
 
@@ -4097,9 +4096,8 @@ msgid ""
 "The country code must be two upper case letters.  For a complete list of "
 "country codes, see https://www.iso.org/obp/ui/#search."
 msgstr ""
-"https://www.iso.org/obp/ui/#search.\n"
-"국가 코드는 대문자 2자여야 합니다.  전체 국가 코드 목록은 link:https://www.iso.org/obp/ui/#search[]"
-"를 참조하십시오."
+"국가 코드는 대문자 2자여야 합니다.  전체 국가 코드 목록은 https://www.iso.org/obp/ui/#search를 "
+"참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/proxy-setup.adoc:34
