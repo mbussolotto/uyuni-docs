@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-06-22 16:11+0000\n"
-"PO-Revision-Date: 2022-08-18 07:00+0000\n"
+"PO-Revision-Date: 2022-08-19 09:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-428/ko/>\n"
@@ -2748,10 +2748,9 @@ msgid ""
 "Systems[System List], select the client you want to provision, and navigate "
 "to the menu:Provisioning[Autoinstallation] subtab."
 msgstr ""
-"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭"
-"하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 수 있습니다.  또는 menu:"
-"시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프"
-"로비저닝[자동 설치] 하위 탭으로 이동합니다."
+"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 "
+"수 있습니다.  또는 menu:시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프로비저닝[자동 설치] 하위 "
+"탭으로 이동합니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-profiles.adoc:40
@@ -3561,8 +3560,8 @@ msgid ""
 "Navigate to menu:Systems[System List], select the client you want to change, "
 "and go to the [guimenu]``Formulas`` tab to enable the DHCPd formula."
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 "
-"[guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 활성화합니다."
+"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 [guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 "
+"활성화합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:35
@@ -5358,9 +5357,7 @@ msgstr "btn:[부트스트랩]을 클릭하여 등록을 시작합니다."
 msgid ""
 "When the bootstrap process has completed, your client is listed at menu:"
 "Systems[System List]."
-msgstr ""
-"부트스트랩 프로세스가 완료되면 클라이언트가 menu:시스템[시스템 목록]에 나열됩"
-"니다."
+msgstr "부트스트랩 프로세스가 완료되면 클라이언트가 menu:시스템[시스템 목록]에 나열됩니다."
 
 #
 #. 2020-11-26, ke: we now have this info in client-proxy-script.adoc.
@@ -5414,9 +5411,8 @@ msgid ""
 "Proxy], then select the [guimenu]``Proxy`` subtab of the "
 "[guimenu]``Details`` tab."
 msgstr ""
-"{webui} 내에서 프록시 페이지에는 Salt 클라이언트와 기존 클라이언트에 관한 정"
-"보가 표시됩니다.  프록시에 연결된 클라이언트 목록은 menu:시스템[시스템 목록 "
-"> 프록시]에서 프록시 이름을 클릭한 다음, [guimenu]``상세 정보`` 탭의 "
+"{webui} 내에서 프록시 페이지에는 Salt 클라이언트와 기존 클라이언트에 관한 정보가 표시됩니다.  프록시에 연결된 클라이언트 "
+"목록은 menu:시스템[시스템 목록 > 프록시]에서 프록시 이름을 클릭한 다음, [guimenu]``상세 정보`` 탭의 "
 "[guimenu]``프록시`` 하위 탭을 선택하면 볼 수 있습니다."
 
 #. type: Plain text
@@ -5500,17 +5496,15 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "check each client to move, this adds the clients to the system set manager."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 이동할 각 클"
-"라이언트의 확인란을 선택하면 클라이언트가 시스템 세트 관리자에 추가됩니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 이동할 각 클라이언트의 확인란을 선택하면 "
+"클라이언트가 시스템 세트 관리자에 추가됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:15
 msgid ""
 "Navigate to menu:Systems[System Set Manager], and go to the menu:"
 "Misc[Proxy]`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동한 후 menu:기타[프록시] 탭으로 이동합니"
-"다."
+msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 menu:기타[프록시] 탭으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:16
@@ -5881,17 +5875,15 @@ msgid ""
 "select the clients you want to provision to add them to the system set "
 "manager."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 조달할 클라이"
-"언트를 선택하고 선택한 클라이언트에 시스템 세트 관리자를 추가합니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 조달할 클라이언트를 선택하고 선택한 클라이언트에 "
+"시스템 세트 관리자를 추가합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:39
 msgid ""
 "Navigate to menu:Systems[System Set Manager > Overview] and click the "
 "[guimenu]``Provisioning`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자 > 개요]로 이동하여 [guimenu]``조달`` 탭을 클릭"
-"합니다."
+msgstr "menu:시스템[시스템 세트 관리자 > 개요]로 이동하여 [guimenu]``조달`` 탭을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:40
@@ -6323,7 +6315,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:56
-#, fuzzy
 msgid "Paste the autoinstallation profile or use the file upload field."
 msgstr "자동 설치 프로파일을 붙여 넣거나 파일 업로드 필드를 사용합니다."
 
@@ -7175,7 +7166,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:13
-#, fuzzy
 msgid ""
 "Do the same with [systemitem]``openSUSE Leap 15.4 (x86_64)`` and "
 "[systemitem]``External - openSUSE Leap 15.3 (x86_64)``."
@@ -9546,9 +9536,7 @@ msgstr ""
 msgid ""
 "When the bootstrap process has completed successfully, your client is listed "
 "at menu:Systems[System List]."
-msgstr ""
-"부트스트랩 프로세스가 완료된 후에는 클라이언트가 menu:시스템[시스템 목록]에 "
-"나열됩니다."
+msgstr "부트스트랩 프로세스가 완료된 후에는 클라이언트가 menu:시스템[시스템 목록]에 나열됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:30
@@ -10369,8 +10357,7 @@ msgstr "프로시저: {rhel} 클라이언트에 대해 시스템 그룹 생성"
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:98
 msgid ""
 "On the {productname} Server {webui}, navigate to menu:Systems[System Groups]."
-msgstr ""
-"{productname} 서버 {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다."
+msgstr "{productname} 서버 {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:99
@@ -11950,10 +11937,9 @@ msgid ""
 "using Salt.  For information about registering Salt clients running {ubuntu} "
 "20.04, see xref:client-configuration:clients-ubuntu.adoc[]."
 msgstr ""
-"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라"
-"이언트를 지원합니다.  {ubuntu} 20.04를 실행하는 Salt 클라이언트를 등록하는 방"
-"법에 대한 정보는 xref:client-configuration:clients-ubuntu.adoc[]를 참조하십시"
-"오."
+"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라이언트를 "
+"지원합니다.  {ubuntu} 20.04를 실행하는 Salt 클라이언트를 등록하는 방법에 대한 정보는 xref:client-"
+"configuration:clients-ubuntu.adoc[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:4
@@ -12387,10 +12373,9 @@ msgid ""
 "16.04 LTS and 18.04 LTS, see xref:client-configuration:clients-ubuntu-old."
 "adoc[]."
 msgstr ""
-"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라"
-"이언트를 지원합니다.  {ubuntu} 16.04 LTS 및 18.04 LTS를 실행하는 Salt 클라이"
-"언트를 등록하는 방법에 대한 정보는 xref:client-configuration:clients-ubuntu-"
-"old.adoc[]를 참조하십시오."
+"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라이언트를 "
+"지원합니다.  {ubuntu} 16.04 LTS 및 18.04 LTS를 실행하는 Salt 클라이언트를 등록하는 방법에 대한 정보는 xref"
+":client-configuration:clients-ubuntu-old.adoc[]를 참조하십시오."
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:11
@@ -12924,10 +12909,8 @@ msgid ""
 "and navigating to the [guimenu]``Configuration`` tab.  To subscribe multiple "
 "clients to a configuration channel, you can use the system set manager (SSM)."
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 가입하려는 클라이언트를 선택하고 "
-"[guimenu]``구성`` 탭으로 이동하여 개별 클라이언트를 구성 채널에 가입할 수 있"
-"습니다.  여러 클라이언트를 구성 채널에 가입하려면 시스템 세트 관리자(SSM)를 "
-"사용하면 됩니다."
+"menu:시스템[시스템 목록]으로 이동하여 가입하려는 클라이언트를 선택하고 [guimenu]``구성`` 탭으로 이동하여 개별 클라이언트를 "
+"구성 채널에 가입할 수 있습니다.  여러 클라이언트를 구성 채널에 가입하려면 시스템 세트 관리자(SSM)를 사용하면 됩니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:51
@@ -12951,8 +12934,7 @@ msgid ""
 "Configuration[Subscribe to Channels] subtab to see the list of available "
 "configuration channels."
 msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[채널에 가입] 하위 탭에"
-"서 사용 가능한 구성 채널의 목록을 확인합니다."
+"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[채널에 가입] 하위 탭에서 사용 가능한 구성 채널의 목록을 확인합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:54
@@ -13060,8 +13042,7 @@ msgid ""
 "Configuration[Compare Files] subtab to the list of available configuration "
 "files."
 msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[파일 비교] 하위 탭에서 "
-"사용 가능한 구성 채널의 목록으로 이동합니다."
+"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[파일 비교] 하위 탭에서 사용 가능한 구성 채널의 목록으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:67
@@ -15289,9 +15270,7 @@ msgstr "프로시저: 클라이언트 삭제"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "select the client to delete."
-msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 삭제하려는 클"
-"라이언트를 선택합니다."
+msgstr "{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 삭제하려는 클라이언트를 선택합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/delete-clients.adoc:5
@@ -15597,9 +15576,7 @@ msgstr "프로시저: 사용자 정의 패치 생성"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Patches[Manage Patches], "
 "click btn:[Create Patch]."
-msgstr ""
-"{productname} {webui}에서 menu:패치[패치 관리]로 이동하여 btn:[패치 생성]을 "
-"클릭합니다."
+msgstr "{productname} {webui}에서 menu:패치[패치 관리]로 이동하여 btn:[패치 생성]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:7
@@ -16017,9 +15994,7 @@ msgstr ""
 msgid ""
 "Navigate to menu:Systems[System Set Manager] and naviagte to the "
 "[guimenu]``Patches`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``패치`` 탭으로 이동합니"
-"다."
+msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``패치`` 탭으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:70
@@ -22513,7 +22488,7 @@ msgstr "{ubuntu} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -22939,7 +22914,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -23143,9 +23118,9 @@ msgstr ""
 "| {check}\n"
 "\n"
 "| 시스템 패키지\n"
-"| {debian} 커뮤니티\n"
-"| {debian} 커뮤니티\n"
-"| {debian} 커뮤니티\n"
+"| Canonical\n"
+"| Canonical\n"
+"| Canonical\n"
 "\n"
 "| 등록\n"
 "| {salt}\n"
@@ -23158,9 +23133,9 @@ msgstr ""
 "| {salt}\n"
 "\n"
 "| 패치 적용\n"
-"| {question}\n"
-"| {question}\n"
-"| {question}\n"
+"| {check}\n"
+"| {check}\n"
+"| {check}\n"
 "\n"
 "| 원격 명령\n"
 "| {salt}\n"
@@ -23277,11 +23252,6 @@ msgstr ""
 "| {cross}\n"
 "| {cross}\n"
 "\n"
-"| 유지보수 기간\n"
-"| {check}\n"
-"| {check}\n"
-"| {check}\n"
-"\n"
 "| 시스템 스냅샷\n"
 "| {cross}\n"
 "| {cross}\n"
@@ -23303,7 +23273,7 @@ msgstr ""
 "| {check}\n"
 "\n"
 "| 모니터링\n"
-"| {salt}\n"
+"| {cross}\n"
 "| {salt}\n"
 "| {salt}\n"
 "\n"
@@ -23326,21 +23296,6 @@ msgstr ""
 "| {cross}\n"
 "| {cross}\n"
 "| {cross}\n"
-"\n"
-"| 반복 작업\n"
-"| {salt}\n"
-"| {salt}\n"
-"| {salt}\n"
-"\n"
-"| AppStreams\n"
-"| N/A\n"
-"| N/A\n"
-"| N/A\n"
-"\n"
-"| Yomi\n"
-"| N/A\n"
-"| N/A\n"
-"| N/A\n"
 "\n"
 
 #. type: Title =
@@ -23640,9 +23595,7 @@ msgstr "프로시저: 단일 클라이언트를 그룹에 추가"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "click the name of the client to add."
-msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 클라이"
-"언트의 이름을 클릭합니다."
+msgstr "{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 클라이언트의 이름을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:17
@@ -23666,8 +23619,7 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System Groups] and "
 "click the name of the group to add clients to."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동하여 클라이언트를 "
-"추가할 그룹의 이름을 클릭합니다."
+"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동하여 클라이언트를 추가할 그룹의 이름을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:21
@@ -23691,17 +23643,15 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "check each client to add, this adds the clients to the system set manager."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 각 클"
-"라이언트의 확인란을 선택하면 클라이언트가 시스템 세트 관리자에 추가됩니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 각 클라이언트의 확인란을 선택하면 "
+"클라이언트가 시스템 세트 관리자에 추가됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:25
 msgid ""
 "Navigate to menu:Systems[System Set Manager], and go to the "
 "[guimenu]``Groups`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``그룹`` 탭으로 이동합니"
-"다."
+msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``그룹`` 탭으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:26
@@ -23736,10 +23686,9 @@ msgid ""
 "representation of your system groups by navigating to menu:"
 "Systems[Visualization > Systems Grouping]."
 msgstr ""
-"menu:시스템[시스템 그룹]으로 이동하여 그룹의 이름을 클릭한 후 [guimenu]``시스"
-"템`` 탭으로 이동하여 어떤 클라이언트가 그룹에 있는지 확인할 수 있습니다.  또"
-"는 menu:시스템[시각화 > 시스템 그룹화]로 이동하여 시스템 그룹을 시각적으로 표"
-"현한 것을 볼 수 있습니다."
+"menu:시스템[시스템 그룹]으로 이동하여 그룹의 이름을 클릭한 후 [guimenu]``시스템`` 탭으로 이동하여 어떤 클라이언트가 "
+"그룹에 있는지 확인할 수 있습니다.  또는 menu:시스템[시각화 > 시스템 그룹화]로 이동하여 시스템 그룹을 시각적으로 표현한 것을 볼 "
+"수 있습니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/system-groups.adoc:31
@@ -23766,10 +23715,9 @@ msgid ""
 "the group.  Click the icon to see more information about the updates "
 "available and to apply them to the clients."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다.  그룹 내 "
-"클라이언트 중 어느 하나에 대해서라도 사용할 수 있는 업데이트가 있는 경우 목록"
-"에 아이콘이 표시됩니다.  사용 가능한 업데이트에 대한 자세한 정보를 확인하고 "
-"업데이트를 클라이언트에 적용하려면 아이콘을 클릭합니다."
+"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다.  그룹 내 클라이언트 중 어느 하나에 대해서라도 "
+"사용할 수 있는 업데이트가 있는 경우 목록에 아이콘이 표시됩니다.  사용 가능한 업데이트에 대한 자세한 정보를 확인하고 업데이트를 "
+"클라이언트에 적용하려면 아이콘을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:34
@@ -25464,7 +25412,8 @@ msgstr ""
 "위 오류로 인해 ‘<Repository_Name>’ 리포지토리를 건너뛰는 중입니다.\n"
 "‘www.example.com’에 대한 다운로드 (curl) 오류:\n"
 "오류 코드: 알 수 없는 오류\n"
-"오류 메시지: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert protocol version\n"
+"오류 메시지: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert protocol "
+"version\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:99
@@ -27121,7 +27070,6 @@ msgstr "man virtual-host-gatherer\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-file.adoc:20
-#, fuzzy
 msgid ""
 "The `README` file of that package provides background information about the "
 "`type` of a hypervisor, etc.:"
