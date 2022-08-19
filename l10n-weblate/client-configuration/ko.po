@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-04 09:04+0000\n"
-"PO-Revision-Date: 2022-08-18 07:00+0000\n"
+"PO-Revision-Date: 2022-08-19 09:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-rc1/ko/>\n"
@@ -6292,7 +6292,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:56
-#, fuzzy
 msgid "Paste the autoinstallation profile or use the file upload field."
 msgstr "자동 설치 프로파일을 붙여 넣거나 파일 업로드 필드를 사용합니다."
 
@@ -11502,10 +11501,9 @@ msgid ""
 "using Salt.  For information about registering Salt clients running {ubuntu} "
 "20.04, see xref:client-configuration:clients-ubuntu.adoc[]."
 msgstr ""
-"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라"
-"이언트를 지원합니다.  {ubuntu} 20.04를 실행하는 Salt 클라이언트를 등록하는 방"
-"법에 대한 정보는 xref:client-configuration:clients-ubuntu.adoc[]를 참조하십시"
-"오."
+"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라이언트를 "
+"지원합니다.  {ubuntu} 20.04를 실행하는 Salt 클라이언트를 등록하는 방법에 대한 정보는 xref:client-"
+"configuration:clients-ubuntu.adoc[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:4
@@ -11838,10 +11836,9 @@ msgid ""
 "16.04 LTS and 18.04 LTS, see xref:client-configuration:clients-ubuntu-old."
 "adoc[]."
 msgstr ""
-"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라"
-"이언트를 지원합니다.  {ubuntu} 16.04 LTS 및 18.04 LTS를 실행하는 Salt 클라이"
-"언트를 등록하는 방법에 대한 정보는 xref:client-configuration:clients-ubuntu-"
-"old.adoc[]를 참조하십시오."
+"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라이언트를 "
+"지원합니다.  {ubuntu} 16.04 LTS 및 18.04 LTS를 실행하는 Salt 클라이언트를 등록하는 방법에 대한 정보는 xref"
+":client-configuration:clients-ubuntu-old.adoc[]를 참조하십시오."
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:11
@@ -11865,7 +11862,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:17
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
 "\n"
@@ -17503,7 +17500,7 @@ msgstr ""
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_webui_uyuni.adoc:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Procedure: Checking Synchronization Progress from the {webui} "
 msgstr "프로시저: {webui}에서 동기화 진행 상태 확인 "
 
@@ -22127,7 +22124,7 @@ msgstr "{ubuntu} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -26327,7 +26324,6 @@ msgstr "man virtual-host-gatherer\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-file.adoc:20
-#, fuzzy
 msgid ""
 "The `README` file of that package provides background information about the "
 "`type` of a hypervisor, etc.:"
