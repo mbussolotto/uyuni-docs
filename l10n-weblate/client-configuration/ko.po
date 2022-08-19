@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: conflicts 3\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-08-18 07:00+0000\n"
+"PO-Revision-Date: 2022-08-19 09:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-41/ko/>\n"
@@ -7081,7 +7081,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:52
-#, fuzzy
 msgid "Paste the autoinstallation profile or use the file upload field."
 msgstr "자동 설치 프로파일을 붙여 넣거나 파일 업로드 필드를 사용합니다."
 
@@ -13687,7 +13686,6 @@ msgstr "지원되는 도구 패키지"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:22
-#, fuzzy
 msgid ""
 "The ``spacewalk-utils`` and ``spacewalk-utils-extras`` packages can provide "
 "additional services and features."
@@ -20323,7 +20321,6 @@ msgstr "man virtual-host-gatherer\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-file.adoc:20
-#, fuzzy
 msgid ""
 "The `README` file of that package provides background information about the "
 "`type` of a hypervisor, etc.:"
