@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-09 11:33+0000\n"
-"PO-Revision-Date: 2022-08-18 05:08+0000\n"
+"PO-Revision-Date: 2022-08-19 09:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-mu-431/ko/>\n"
@@ -327,8 +327,6 @@ msgstr "xref:registration-overview-ubuntu.adoc[Ubuntu 클라이언트 등록]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:61
-#, fuzzy
-#| msgid "xref:clients-ubuntu.adoc[Ubuntu 20.04 Clients]"
 msgid "xref:clients-ubuntu.adoc[Ubuntu 20.04 Clients]"
 msgstr "xref:clients-ubuntu.adoc[Ubuntu 20.04 클라이언트]"
 
@@ -2176,10 +2174,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-intro.adoc:20
-#, fuzzy
-#| msgid ""
-#| "The autoinstallation features of SUSE Manager are based on a software "
-#| "named Cobbler.  For more information, see https://cobbler.readthedocs.io."
 msgid ""
 "The autoinstallation features of {productname} are based on a software named "
 "Cobbler.  For more information, see https://cobbler.readthedocs.io."
@@ -2697,10 +2691,9 @@ msgid ""
 "Systems[System List], select the client you want to provision, and navigate "
 "to the menu:Provisioning[Autoinstallation] subtab."
 msgstr ""
-"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭"
-"하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 수 있습니다.  또는 menu:"
-"시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프"
-"로비저닝[자동 설치] 하위 탭으로 이동합니다."
+"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 "
+"수 있습니다.  또는 menu:시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프로비저닝[자동 설치] 하위 "
+"탭으로 이동합니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-profiles.adoc:39
@@ -3525,8 +3518,8 @@ msgid ""
 "Navigate to menu:Systems[System List], select the client you want to change, "
 "and go to the [guimenu]``Formulas`` tab to enable the DHCPd formula."
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 "
-"[guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 활성화합니다."
+"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 [guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 "
+"활성화합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:35
@@ -4832,18 +4825,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:23
-#, fuzzy, no-wrap
-#| msgid "Unified Installer Updates Channels on {sle} Clients"
+#, no-wrap
 msgid "{unifiedinstaller} Updates Channels on {sle} Clients"
 msgstr "{sle} 클라이언트의 {unifiedinstaller} 업데이트 채널"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:24
-#, fuzzy
-#| msgid ""
-#| "This channel is used by the unified installer to ensure it is up to date "
-#| "before it installs the operating system.  All {sle} products should have "
-#| "access to the installer updates channel during installation."
 msgid ""
 "This channel is used by the {unifiedinstaller} to ensure it is up to date "
 "before it installs the operating system.  All {sle} products should have "
@@ -5384,9 +5371,7 @@ msgstr "btn:[부트스트랩]을 클릭하여 등록을 시작합니다."
 msgid ""
 "When the bootstrap process has completed, your client is listed at menu:"
 "Systems[System List]."
-msgstr ""
-"부트스트랩 프로세스가 완료되면 클라이언트가 menu:시스템[시스템 목록]에 나열됩"
-"니다."
+msgstr "부트스트랩 프로세스가 완료되면 클라이언트가 menu:시스템[시스템 목록]에 나열됩니다."
 
 #
 #. 2020-11-26, ke: we now have this info in client-proxy-script.adoc.
@@ -5440,9 +5425,8 @@ msgid ""
 "Proxy], then select the [guimenu]``Proxy`` subtab of the "
 "[guimenu]``Details`` tab."
 msgstr ""
-"{webui} 내에서 프록시 페이지에는 Salt 클라이언트와 기존 클라이언트에 관한 정"
-"보가 표시됩니다.  프록시에 연결된 클라이언트 목록은 menu:시스템[시스템 목록 "
-"> 프록시]에서 프록시 이름을 클릭한 다음, [guimenu]``상세 정보`` 탭의 "
+"{webui} 내에서 프록시 페이지에는 Salt 클라이언트와 기존 클라이언트에 관한 정보가 표시됩니다.  프록시에 연결된 클라이언트 "
+"목록은 menu:시스템[시스템 목록 > 프록시]에서 프록시 이름을 클릭한 다음, [guimenu]``상세 정보`` 탭의 "
 "[guimenu]``프록시`` 하위 탭을 선택하면 볼 수 있습니다."
 
 #. type: Plain text
@@ -5526,17 +5510,15 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "check each client to move, this adds the clients to the system set manager."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 이동할 각 클"
-"라이언트의 확인란을 선택하면 클라이언트가 시스템 세트 관리자에 추가됩니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 이동할 각 클라이언트의 확인란을 선택하면 "
+"클라이언트가 시스템 세트 관리자에 추가됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:15
 msgid ""
 "Navigate to menu:Systems[System Set Manager], and go to the menu:"
 "Misc[Proxy]`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동한 후 menu:기타[프록시] 탭으로 이동합니"
-"다."
+msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 menu:기타[프록시] 탭으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:16
@@ -5907,17 +5889,15 @@ msgid ""
 "select the clients you want to provision to add them to the system set "
 "manager."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 조달할 클라이"
-"언트를 선택하고 선택한 클라이언트에 시스템 세트 관리자를 추가합니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 조달할 클라이언트를 선택하고 선택한 클라이언트에 "
+"시스템 세트 관리자를 추가합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:39
 msgid ""
 "Navigate to menu:Systems[System Set Manager > Overview] and click the "
 "[guimenu]``Provisioning`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자 > 개요]로 이동하여 [guimenu]``조달`` 탭을 클릭"
-"합니다."
+msgstr "menu:시스템[시스템 세트 관리자 > 개요]로 이동하여 [guimenu]``조달`` 탭을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:40
@@ -6087,10 +6067,6 @@ msgstr "umount /mnt\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-major.adoc:19
-#, fuzzy
-#| msgid ""
-#| "This image is the unified installer and can be used for multiple "
-#| "autoinstallable distributions."
 msgid ""
 "This image is the {unifiedinstaller} and can be used for multiple "
 "autoinstallable distributions."
@@ -6352,7 +6328,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:56
-#, fuzzy
 msgid "Paste the autoinstallation profile or use the file upload field."
 msgstr "자동 설치 프로파일을 붙여 넣거나 파일 업로드 필드를 사용합니다."
 
@@ -6516,8 +6491,6 @@ msgstr "openSUSE Leap 15.1에서 {sle} 15 SP1으로 또는"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:6
-#, fuzzy
-#| msgid "openSUSE Leap 15.2 to {sle} 15 SP2"
 msgid "openSUSE Leap 15.4 to {sle} 15 SP4"
 msgstr "openSUSE Leap 15.4에서 {sle} 15 SP4로"
 
@@ -6876,7 +6849,6 @@ msgstr ""
 #. Note or warning about taking normal precautions (backups, make sure fully patched, etc)
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:47
-#, fuzzy
 msgid ""
 "The [command]``spacecmd`` sub-commands "
 "[literal]``system_scheduleproductmigration`` abd "
@@ -6886,9 +6858,9 @@ msgid ""
 "support the same \"migration target.\""
 msgstr ""
 "[command]``spacecmd`` 하위 명령 [literal]``system_scheduleproductmigration`` abd "
-"[command]``system_listmigrationtargets``는 그룹의 일부인 모든 시스템에서 반복됩니다. 그룹에 100개의 "
-"시스템이 있는 경우 100개의 작업이 예약된 것을 볼 수 있습니다. 그룹의 모든 시스템이 동일한 \"마이그레이션 대상\"을 지원하는 것이 "
-"중요합니다."
+"[command]``system_listmigrationtargets``는 그룹의 일부인 모든 시스템에서 반복됩니다.  그룹에 100개의 "
+"시스템이 있는 경우 100개의 작업이 예약된 것을 볼 수 있습니다.  그룹의 모든 시스템이 동일한 \"마이그레이션 대상\"을 지원하는 "
+"것이 중요합니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:48
@@ -6905,7 +6877,6 @@ msgstr "spacecmd -- system_listmigrationtargets group:mpm-target-sles15sp3\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:50
-#, fuzzy
 msgid ""
 "Only select a target, which is reported for *all* systems.  This command "
 "output a string of \"IDs.\" The string is the identifier for the "
@@ -7229,7 +7200,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:13
-#, fuzzy
 msgid ""
 "Do the same with [systemitem]``openSUSE Leap 15.4 (x86_64)`` and "
 "[systemitem]``External - openSUSE Leap 15.3 (x86_64)``."
@@ -9055,7 +9025,7 @@ msgstr "OpenSUSE 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel\n"
 "| {opensuse} Leap 15.1 | opensuse-leap-15.1-pool\n"
@@ -9121,7 +9091,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:16
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -9444,15 +9414,11 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:5
-#, fuzzy
-#| msgid ""
-#| "For more information, see xref:installation-and-upgrade:setup-wizard."
-#| "adoc[]."
 msgid ""
 "For more information, see xref:installation-and-upgrade:pubcloud-setup."
 "adoc#add-product-sync-repo[]."
 msgstr ""
-"자세한 설명은 xref:installation-and-upgrade:pubcloud-setup.adoc#add-product-sync-"
+"자세한 설명은 xxref:installation-and-upgrade:pubcloud-setup.adoc#add-product-sync-"
 "repo[]를 참조하십시오."
 
 #. type: Title ==
@@ -9642,9 +9608,7 @@ msgstr ""
 msgid ""
 "When the bootstrap process has completed successfully, your client is listed "
 "at menu:Systems[System List]."
-msgstr ""
-"부트스트랩 프로세스가 완료된 후에는 클라이언트가 menu:시스템[시스템 목록]에 "
-"나열됩니다."
+msgstr "부트스트랩 프로세스가 완료된 후에는 클라이언트가 menu:시스템[시스템 목록]에 나열됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:30
@@ -10467,8 +10431,7 @@ msgstr "프로시저: {rhel} 클라이언트에 대해 시스템 그룹 생성"
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:98
 msgid ""
 "On the {productname} Server {webui}, navigate to menu:Systems[System Groups]."
-msgstr ""
-"{productname} 서버 {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다."
+msgstr "{productname} 서버 {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:99
@@ -12063,21 +12026,14 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS "
-#| "clients using Salt.  For information about registering Salt clients "
-#| "running {ubuntu} 20.04, see xref:client-configuration:clients-ubuntu."
-#| "adoc[]."
 msgid ""
 "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS clients "
 "using Salt.  For information about registering Salt clients running {ubuntu} "
 "20.04, see xref:client-configuration:clients-ubuntu.adoc[]."
 msgstr ""
-"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라"
-"이언트를 지원합니다.  {ubuntu} 20.04를 실행하는 Salt 클라이언트를 등록하는 방"
-"법에 대한 정보는 xref:client-configuration:clients-ubuntu.adoc[]를 참조하십시"
-"오."
+"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라이언트를 "
+"지원합니다.  {ubuntu} 20.04를 실행하는 Salt 클라이언트를 등록하는 방법에 대한 정보는 xref:client-"
+"configuration:clients-ubuntu.adoc[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:4
@@ -12399,22 +12355,15 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS "
-#| "clients using Salt.  For information about registering Salt clients "
-#| "running {ubuntu} 16.04 LTS and 18.04 LTS, see xref:client-configuration:"
-#| "clients-ubuntu-old.adoc[]."
 msgid ""
 "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS clients "
 "using Salt.  For information about registering Salt clients running {ubuntu} "
 "16.04 LTS and 18.04 LTS, see xref:client-configuration:clients-ubuntu-old."
 "adoc[]."
 msgstr ""
-"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라"
-"이언트를 지원합니다.  {ubuntu} 16.04 LTS 및 18.04 LTS를 실행하는 Salt 클라이"
-"언트를 등록하는 방법에 대한 정보는 xref:client-configuration:clients-ubuntu-"
-"old.adoc[]를 참조하십시오."
+"{productname}는 Salt를 사용하는 {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS 클라이언트를 "
+"지원합니다.  {ubuntu} 16.04 LTS 및 18.04 LTS를 실행하는 Salt 클라이언트를 등록하는 방법에 대한 정보는 xref"
+":client-configuration:clients-ubuntu-old.adoc[]를 참조하십시오."
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:11
@@ -12438,11 +12387,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:17
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
-#| "\n"
-#| "| {ubuntu} 20.04 | ubuntu-2004-amd64-main for amd64 | ubuntu-2004-amd64-main-uyuni | ubuntu-2004-amd64-main-updates-uyuni | ubuntu-2004-amd64-main-security-uyuni | ubuntu-2004-amd64-uyuni-client\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
 "\n"
@@ -12980,10 +12925,8 @@ msgid ""
 "and navigating to the [guimenu]``Configuration`` tab.  To subscribe multiple "
 "clients to a configuration channel, you can use the system set manager (SSM)."
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 가입하려는 클라이언트를 선택하고 "
-"[guimenu]``구성`` 탭으로 이동하여 개별 클라이언트를 구성 채널에 가입할 수 있"
-"습니다.  여러 클라이언트를 구성 채널에 가입하려면 시스템 세트 관리자(SSM)를 "
-"사용하면 됩니다."
+"menu:시스템[시스템 목록]으로 이동하여 가입하려는 클라이언트를 선택하고 [guimenu]``구성`` 탭으로 이동하여 개별 클라이언트를 "
+"구성 채널에 가입할 수 있습니다.  여러 클라이언트를 구성 채널에 가입하려면 시스템 세트 관리자(SSM)를 사용하면 됩니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:51
@@ -13007,8 +12950,7 @@ msgid ""
 "Configuration[Subscribe to Channels] subtab to see the list of available "
 "configuration channels."
 msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[채널에 가입] 하위 탭에"
-"서 사용 가능한 구성 채널의 목록을 확인합니다."
+"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[채널에 가입] 하위 탭에서 사용 가능한 구성 채널의 목록을 확인합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:54
@@ -13116,8 +13058,7 @@ msgid ""
 "Configuration[Compare Files] subtab to the list of available configuration "
 "files."
 msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[파일 비교] 하위 탭에서 "
-"사용 가능한 구성 채널의 목록으로 이동합니다."
+"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[파일 비교] 하위 탭에서 사용 가능한 구성 채널의 목록으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:67
@@ -15119,7 +15060,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:6
-#, fuzzy
 msgid ""
 "With SUSE Manager 4.3 release, traditional clients have been deprecated.  "
 "The release following SUSE Manager 4.3 will not support traditional clients "
@@ -15133,16 +15073,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:7
-#, fuzzy
-#| msgid ""
-#| "Traditional clients will be deprecated with the next {productname} "
-#| "version and will not be supported with future releases.  Be aware that "
-#| "when migrating from traditional clients to Salt minions you do not have "
-#| "to delete the registered clients before. You can just register them as "
-#| "Salt minions and Salt will do the necessary steps with the traditional "
-#| "client. If you already deleted the traditional client and the "
-#| "registration as Salt minion is not possible anymore, see xref:"
-#| "installation-and-upgrade:troubleshooting.adoc[Troubleshooting]."
 msgid ""
 "Be aware that when migrating from traditional clients to Salt minions you do "
 "not have to delete the registered clients before.  You can just register "
@@ -15340,9 +15270,7 @@ msgstr "프로시저: 클라이언트 삭제"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "select the client to delete."
-msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 삭제하려는 클"
-"라이언트를 선택합니다."
+msgstr "{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 삭제하려는 클라이언트를 선택합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/delete-clients.adoc:5
@@ -15429,7 +15357,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/gpg-keys.adoc:4
-#, fuzzy
 msgid ""
 "RPM packages can be signed directly, while Debian based systems sign only "
 "the metadata and use a chain of checksums to secure the packages.  Most RPM "
@@ -15685,9 +15612,7 @@ msgstr "프로시저: 사용자 정의 패치 생성"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Patches[Manage Patches], "
 "click btn:[Create Patch]."
-msgstr ""
-"{productname} {webui}에서 menu:패치[패치 관리]로 이동하여 btn:[패치 생성]을 "
-"클릭합니다."
+msgstr "{productname} {webui}에서 menu:패치[패치 관리]로 이동하여 btn:[패치 생성]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:7
@@ -16081,8 +16006,6 @@ msgstr "패치를 적용하려는 클라이언트를 선택하고 btn:[패치 �
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:66
-#, fuzzy
-#| msgid " Confirm the list of clients to perform the update."
 msgid "Confirm the list of clients to perform the update."
 msgstr "업데이트를 수행할 클라이언트의 목록을 확인합니다."
 
@@ -16106,9 +16029,7 @@ msgstr ""
 msgid ""
 "Navigate to menu:Systems[System Set Manager] and naviagte to the "
 "[guimenu]``Patches`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``패치`` 탭으로 이동합니"
-"다."
+msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``패치`` 탭으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:70
@@ -17586,13 +17507,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/registration-webui.adoc:28
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Handling of Locally assigned Repositories"
 msgstr "로컬로 할당된 리포지토리 처리"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:29
-#, fuzzy
 msgid ""
 "Having repositories assigned directly to clients not served by {productname} "
 "is not a common use case.  It can cause trouble.  Therfore bootstrapping via "
@@ -17604,7 +17524,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:30
-#, fuzzy
 msgid ""
 "Later, during every use of the channel state, for example when executing a "
 "Highstate or a package installation, all locally assigned repositories are "
@@ -17615,15 +17534,14 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:31
-#, fuzzy
 msgid ""
 "All software packages which are used on the clients should come from "
 "channels served by {productname}.  For more information about creating a "
 "custom channel, see ``Custom Channels`` at xref:administration:custom-"
 "channels.adoc[]."
 msgstr ""
-"클라이언트에서 사용되는 모든 소프트웨어 패키지의 출처는 {productname}에서 제공하는 채널이어야 합니다. 사용자 지정 채널 생성에 "
-"대한 자세한 내용은 xref:administration:custom-channels.adoc[]에서 ``사용자 지정 채널``을 "
+"클라이언트에서 사용되는 모든 소프트웨어 패키지의 출처는 {productname}에서 제공하는 채널이어야 합니다.  사용자 지정 채널 "
+"생성에 대한 자세한 내용은 xref:administration:custom-channels.adoc[]에서 ``사용자 지정 채널``을 "
 "참조하십시오."
 
 #. type: Title =
@@ -18201,7 +18119,7 @@ msgstr ""
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_webui_uyuni.adoc:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Procedure: Checking Synchronization Progress from the {webui} "
 msgstr "프로시저: {webui}에서 동기화 진행 상태 확인 "
 
@@ -18396,13 +18314,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:1
-#, fuzzy
-#| msgid ""
-#| "By default, operating systems trust only their own GPG keys when they are "
-#| "installed, and do not trust keys provided by third party packages.  The "
-#| "clients can be successfully bootstrapped without the GPG key being "
-#| "trusted.  However, you cannot install new client tool packages or update "
-#| "them until the keys are trusted."
 msgid ""
 "Operating systems either trust their own GPG keys directly or at least ship "
 "them installed with the minimal system.  But third party packages signed by "
@@ -18416,7 +18327,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:2
-#, fuzzy
 msgid ""
 "Salt clients now use GPG key information entered for a software channel to "
 "manage trusted keys.  When a software channel with GPG key information is "
@@ -18429,7 +18339,6 @@ msgstr ""
 #.  The meaning of the following sentence is not clear
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:3
-#, fuzzy
 msgid ""
 "The GPG key URL which is set of a software channel must exist.  In case it "
 "is a file URL, the GPG key file must be deployed on the client before the "
@@ -18440,7 +18349,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:4
-#, fuzzy
 msgid ""
 "The GPG keys for the Client Tools Channels of {redhat} based clients are "
 "deployed on the client into [path]``/etc/pki/rpm-gpg/`` and can be "
@@ -18454,7 +18362,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:5
-#, fuzzy
 msgid ""
 "Because Debian based systems sign only metadata, there is typically no need "
 "to specify extra keys for single channels.  If a user configures an own GPG "
@@ -18468,20 +18375,17 @@ msgstr ""
 
 #. type: Title ===
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:6
-#, fuzzy, no-wrap
-#| msgid "Use Your Own GPG Key"
+#, no-wrap
 msgid "User defined GPG keys"
 msgstr "사용자 정의 GPG 키"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:7
-#, fuzzy
 msgid "Users can define custom GPG keys to be deployed to a client."
 msgstr "사용자는 클라이언트에 배포할 사용자 지정 GPG 키를 정의할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:8
-#, fuzzy
 msgid ""
 "By providing some pillar data and providing the GPG key files in the {salt} "
 "filesystem, they are automatically deployed to the client."
@@ -18489,7 +18393,6 @@ msgstr "일부 Pillar 데이터를 제공하고 {salt} 파일 시스템에 GPG �
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:9
-#, fuzzy
 msgid ""
 "These keys are deployed into [path]``/etc/pki/rpm-gpg/`` on RPM based "
 "operating systems and to [path]``/usr/share/keyrings/`` on Debian systems:"
@@ -18500,7 +18403,6 @@ msgstr ""
 #.  I think the cat command is here to show the contents of the file.
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:10
-#, fuzzy
 msgid ""
 "Define the pillar key [literal``custom_gpgkeys`` for the client you want to "
 "deploy the key to and list the names of the key file."
@@ -18510,7 +18412,7 @@ msgstr ""
 #.  In this case, the cat is superfluous.
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:11
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "cat /etc/pillar/mypillar.sls\n"
 "custom_gpgkeys:\n"
@@ -18525,7 +18427,6 @@ msgstr ""
 #.  I think the ls command is here to show the contents of the directory.
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:12
-#, fuzzy
 msgid ""
 "Additionally in the {salt} filesystem create a directory named [path]``gpg`` "
 "and store there the GPG key files with the name specified in the "
@@ -18537,7 +18438,7 @@ msgstr ""
 #.  In this case, the ls is superfluous.
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:13
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "ls -la /etc/salt/gpg/\n"
 "/etc/salt/gpg/my_first_gpg.key\n"
@@ -18549,7 +18450,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:14
-#, fuzzy
 msgid ""
 "The keys are deployed to the client at [path]``/etc/pki/rpm-gpg/my_first_gpg."
 "key`` and [path]``/etc/pki/rpm-gpg/my_second_gpgkey.gpg``."
@@ -18559,7 +18459,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:15
-#, fuzzy
 msgid ""
 "The last step is to add the URL to the GPG key URL field of the software "
 "channel.  Navigate to menu:Software[Manage > Channels] and select the "
@@ -18572,8 +18471,7 @@ msgstr ""
 
 #. type: Title ===
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:16
-#, fuzzy, no-wrap
-#| msgid "Editing a Bootstrap Script"
+#, no-wrap
 msgid "GPG Keys in Bootstrap Scripts"
 msgstr "부트스트랩 스크립트의 GPG 키"
 
@@ -18617,12 +18515,6 @@ msgstr "이전에 저장한 키는 삭제하지 않아도 됩니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:22
-#, fuzzy
-#| msgid ""
-#| "Trusting a GPG key is important for security on clients.  It is the task "
-#| "of the admin to decide which keys are needed and can be trusted.  "
-#| "Trusting the key is done manually, either by writing a Salt state or "
-#| "adding the keys to the bootstrap script."
 msgid ""
 "Trusting a GPG key is important for security on clients.  It is the task of "
 "the admin to decide which keys are needed and can be trusted.  A software "
@@ -22419,7 +22311,7 @@ msgstr "{suse} 및 {opensuse} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-sles.adoc:11
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {sle}{nbsp}12\n"
@@ -22843,9 +22735,9 @@ msgstr ""
 "| {check}\n"
 "\n"
 "| Yomi\n"
-"| N/A\n"
-"| N/A\n"
-"| N/A\n"
+"| {cross}\n"
+"| {check}\n"
+"| {check}\n"
 "\n"
 
 #. type: Title =
@@ -22888,7 +22780,7 @@ msgstr "{ubuntu} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -23314,7 +23206,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -23518,9 +23410,9 @@ msgstr ""
 "| {check}\n"
 "\n"
 "| 시스템 패키지\n"
-"| {debian} 커뮤니티\n"
-"| {debian} 커뮤니티\n"
-"| {debian} 커뮤니티\n"
+"| Canonical\n"
+"| Canonical\n"
+"| Canonical\n"
 "\n"
 "| 등록\n"
 "| {salt}\n"
@@ -23533,9 +23425,9 @@ msgstr ""
 "| {salt}\n"
 "\n"
 "| 패치 적용\n"
-"| {question}\n"
-"| {question}\n"
-"| {question}\n"
+"| {check}\n"
+"| {check}\n"
+"| {check}\n"
 "\n"
 "| 원격 명령\n"
 "| {salt}\n"
@@ -23652,11 +23544,6 @@ msgstr ""
 "| {cross}\n"
 "| {cross}\n"
 "\n"
-"| 유지보수 기간\n"
-"| {check}\n"
-"| {check}\n"
-"| {check}\n"
-"\n"
 "| 시스템 스냅샷\n"
 "| {cross}\n"
 "| {cross}\n"
@@ -23678,7 +23565,7 @@ msgstr ""
 "| {check}\n"
 "\n"
 "| 모니터링\n"
-"| {salt}\n"
+"| {cross}\n"
 "| {salt}\n"
 "| {salt}\n"
 "\n"
@@ -23701,21 +23588,6 @@ msgstr ""
 "| {cross}\n"
 "| {cross}\n"
 "| {cross}\n"
-"\n"
-"| 반복 작업\n"
-"| {salt}\n"
-"| {salt}\n"
-"| {salt}\n"
-"\n"
-"| AppStreams\n"
-"| N/A\n"
-"| N/A\n"
-"| N/A\n"
-"\n"
-"| Yomi\n"
-"| N/A\n"
-"| N/A\n"
-"| N/A\n"
 "\n"
 
 #. type: Title =
@@ -23812,12 +23684,6 @@ msgstr "지원되는 도구 패키지"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:14
-#, fuzzy
-#| msgid ""
-#| "The ``spacewalk-utils`` and ``spacewalk-utils-extras`` packages can "
-#| "provide additional services and features.  The ``spacewalk-utils`` "
-#| "package in {productname} is fully supported by {suse}, and contains these "
-#| "tools:"
 msgid ""
 "The ``spacewalk-utils`` and ``spacewalk-utils-extras`` packages can provide "
 "additional services and features."
@@ -24016,9 +23882,7 @@ msgstr "프로시저: 단일 클라이언트를 그룹에 추가"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "click the name of the client to add."
-msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 클라이"
-"언트의 이름을 클릭합니다."
+msgstr "{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 클라이언트의 이름을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:17
@@ -24042,8 +23906,7 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System Groups] and "
 "click the name of the group to add clients to."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동하여 클라이언트를 "
-"추가할 그룹의 이름을 클릭합니다."
+"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동하여 클라이언트를 추가할 그룹의 이름을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:21
@@ -24067,17 +23930,15 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "check each client to add, this adds the clients to the system set manager."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 각 클"
-"라이언트의 확인란을 선택하면 클라이언트가 시스템 세트 관리자에 추가됩니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 각 클라이언트의 확인란을 선택하면 "
+"클라이언트가 시스템 세트 관리자에 추가됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:25
 msgid ""
 "Navigate to menu:Systems[System Set Manager], and go to the "
 "[guimenu]``Groups`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``그룹`` 탭으로 이동합니"
-"다."
+msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``그룹`` 탭으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:26
@@ -24112,10 +23973,9 @@ msgid ""
 "representation of your system groups by navigating to menu:"
 "Systems[Visualization > Systems Grouping]."
 msgstr ""
-"menu:시스템[시스템 그룹]으로 이동하여 그룹의 이름을 클릭한 후 [guimenu]``시스"
-"템`` 탭으로 이동하여 어떤 클라이언트가 그룹에 있는지 확인할 수 있습니다.  또"
-"는 menu:시스템[시각화 > 시스템 그룹화]로 이동하여 시스템 그룹을 시각적으로 표"
-"현한 것을 볼 수 있습니다."
+"menu:시스템[시스템 그룹]으로 이동하여 그룹의 이름을 클릭한 후 [guimenu]``시스템`` 탭으로 이동하여 어떤 클라이언트가 "
+"그룹에 있는지 확인할 수 있습니다.  또는 menu:시스템[시각화 > 시스템 그룹화]로 이동하여 시스템 그룹을 시각적으로 표현한 것을 볼 "
+"수 있습니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/system-groups.adoc:31
@@ -24142,10 +24002,9 @@ msgid ""
 "the group.  Click the icon to see more information about the updates "
 "available and to apply them to the clients."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다.  그룹 내 "
-"클라이언트 중 어느 하나에 대해서라도 사용할 수 있는 업데이트가 있는 경우 목록"
-"에 아이콘이 표시됩니다.  사용 가능한 업데이트에 대한 자세한 정보를 확인하고 "
-"업데이트를 클라이언트에 적용하려면 아이콘을 클릭합니다."
+"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다.  그룹 내 클라이언트 중 어느 하나에 대해서라도 "
+"사용할 수 있는 업데이트가 있는 경우 목록에 아이콘이 표시됩니다.  사용 가능한 업데이트에 대한 자세한 정보를 확인하고 업데이트를 "
+"클라이언트에 적용하려면 아이콘을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:34
@@ -25832,7 +25691,8 @@ msgstr ""
 "위 오류로 인해 ‘<Repository_Name>’ 리포지토리를 건너뛰는 중입니다.\n"
 "‘www.example.com’에 대한 다운로드 (curl) 오류:\n"
 "오류 코드: 알 수 없는 오류\n"
-"오류 메시지: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert protocol version\n"
+"오류 메시지: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert protocol "
+"version\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:99
@@ -26686,7 +26546,6 @@ msgstr "man virtual-host-gatherer\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-file.adoc:20
-#, fuzzy
 msgid ""
 "The `README` file of that package provides background information about the "
 "`type` of a hypervisor, etc.:"
