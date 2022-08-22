@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-09 11:33+0000\n"
-"PO-Revision-Date: 2022-08-19 14:35+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-08-22 10:13+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-mu-431/ja/>\n"
 "Language: ja\n"
@@ -7095,10 +7095,8 @@ msgid ""
 "created group.  In the example, only systems subscribed to [literal]``SLE-"
 "Product-SLES15-SP2-Pool for x86_64`` were added to the group."
 msgstr ""
-"同じベースチャンネルにサブスクライブしているシステムのみを、作成したグループ"
-"に追加する必要があります。  この例では、[literal] `` SLE-Product-SLES15-SP2-"
-"Poolforx86_64``にサブスクライブされているシステムのみがグループに追加されまし"
-"た。"
+"同じベースチャンネルにサブスクライブしているシステムのみを、作成したグループに追加する必要があります。  この例では、[literal]``SLE-"
+"Product-SLES15-SP2-Poolforx86_64``にサブスクライブされているシステムのみがグループに追加されました。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:44
@@ -11082,7 +11080,7 @@ msgid ""
 "certificate.  The certificate will be downloaded with the [literal]``.cer`` "
 "suffix.  Convert it to [literal]``.crt`` with the command:"
 msgstr ""
-"2番目の証明書(literal] `` CN = Microsoft Azure``)を確認します。  VMで同じである場合は、証明書名をメモします。  "
+"2番目の証明書(literal]``CN = Microsoft Azure``)を確認します。  VMで同じである場合は、証明書名をメモします。  "
 "証明書をダウンロードするには、link:https://docs.microsoft.com/en-us/azure/active-directory/"
 "fundamentals/certificate-authorities[]を参照してください。  "
 "AIAリンクをクリックして、証明書をダウンロードします。  証明書は、[literal]``.cer``サフィックスが付いてダウンロードされます。  "
@@ -17994,8 +17992,8 @@ msgid ""
 "process."
 msgstr ""
 "{productname}がサービスを提供しないクライアントにリポジトリを直接割り当てることは、一般的なユースケースではありません。  "
-"問題の原因になる可能性があります。  したがって、Saltを介したブートストラップにより、ブートストラップ プロセスの開始時にすべてのローカル "
-"リポジトリを無効にします。"
+"問題の原因になる可能性があります。  "
+"したがって、Saltを介したブートストラップにより、ブートストラッププロセスの開始時にすべてのローカルリポジトリを無効にします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:30
@@ -18537,7 +18535,7 @@ msgstr ""
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:1
 #, no-wrap
 msgid "Procedure: Checking Synchronization Progress from the Command Prompt"
-msgstr "プロシージャ: コマンドプロンプトから同期の進捗状況を確認する"
+msgstr "手順: コマンドプロンプトから同期の進捗状況を確認する"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:2
@@ -18824,9 +18822,8 @@ msgid ""
 "assigned to a client, the key is trusted once the channel is refreshed or "
 "the first package is installed from the channel."
 msgstr ""
-"Saltクライアントは、ソフトウェア チャンネル用に入力されたGPGキー情報を使用して、信頼できるキーを管理するようになりました。  GPGキー情報を持つ"
-"ソフトウェアチャンネルがクライアントに割り当てられると、チャンネルが更新されるか、チャンネルから最初のパッケージがインストールされると、キーが信頼されます"
-"。"
+"Saltクライアントは、ソフトウェアチャンネル用に入力されたGPGキー情報を使用して、信頼できるキーを管理するようになりました。  GPGキー情報を持つソ"
+"フトウェアチャンネルがクライアントに割り当てられると、チャンネルが更新されるか、チャンネルから最初のパッケージがインストールされると、キーが信頼されます。"
 
 #.  The meaning of the following sentence is not clear
 #. type: Plain text
@@ -18848,9 +18845,9 @@ msgid ""
 "Support clients.  Only in case a software channel is assigned to the client "
 "they will be imported and trusted by the system."
 msgstr ""
-"{redhat}ベースのクライアントのクライアント ツール チャンネル用GPG キーは、クライアントの[path]``/etc/pki/rpm-gpg/"
-"``に展開され、ファイルURLで参照できます。  拡張サポート クライアントのGPGキーの場合も同様です。  ソフトウェア "
-"チャンネルがクライアントに割り当てられている場合にのみ、インポートされ、システムによって信頼されます。"
+"{redhat}ベースのクライアントのクライアントツールチャンネル用GPG キーは、クライアントの[path]``/etc/pki/rpm-gpg/"
+"``に展開され、ファイルURLで参照できます。  拡張サポートクライアントのGPGキーの場合も同様です。  "
+"ソフトウェアチャンネルがクライアントに割り当てられている場合にのみ、インポートされ、システムによって信頼されます。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:5
@@ -18923,8 +18920,8 @@ msgid ""
 "and store there the GPG key files with the name specified in the "
 "[iteral]``custom_gpgkeys`` pillar data."
 msgstr ""
-"さらに、{salit}ファイルシステムでは、[path]``gpg``という名前のディレクトリを作成し、[iteral]``custom_gpgkeys`"
-"` pillarデータで指定された名前のGPGキーファイルを保存します。"
+"さらに、{salt}ファイルシステムでは、[path]``gpg``という名前のディレクトリを作成し、[iteral]``custom_gpgkeys``"
+" pillarデータで指定された名前のGPGキーファイルを保存します。"
 
 #.  In this case, the ls is superfluous.
 #. type: delimited block -
