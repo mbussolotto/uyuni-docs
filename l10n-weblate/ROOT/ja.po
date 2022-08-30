@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-20 15:45+0100\n"
-"PO-Revision-Date: 2021-09-19 05:11+0000\n"
+"PO-Revision-Date: 2022-08-30 09:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-root-41/ja/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. * xref:index-webui-branding-2019.adoc[What is SUSE Manager?]
 #. * xref:release-notes-version-4.0.adoc[Doc Release Notes]
@@ -303,10 +303,10 @@ msgid ""
 "... <child_channel_name_n>\n"
 msgstr ""
 "spacewalk-common-channels \\\n"
-"<ベースチャンネル名> \\\n"
-"<子チャンネル_1> \\\n"
-"<子チャンネル_2> \\\n"
-"... <子チャンネル_n>\n"
+"<base_channel_name> \\\n"
+"<child_channel_name_1> \\\n"
+"<child_channel_name_2> \\\n"
+"... <child_channel_name_n>\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/snippets/add_channels_cli.adoc:4
