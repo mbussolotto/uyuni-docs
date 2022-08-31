@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: conflicts 3\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-08-19 09:13+0000\n"
-"Last-Translator: Seeun Lee <selee@e4net.net>\n"
+"PO-Revision-Date: 2022-08-31 13:13+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-41/ko/>\n"
 "Language: ko\n"
@@ -601,7 +601,8 @@ msgid ""
 "see xref:reference:systems/activation-keys.adoc[]."
 msgstr ""
 "{suse} 제품인 경우 [guimenu]``키`` 필드에 쉼표를 사용하지 마십시오.   하지만 Red Hat 제품인 경우 *반드시* "
-"쉼표를 사용해야 합니다.  자세한 내용은 xref:reference:systems/activation-keys.adoc[]를 참조하십시오."
+"쉼표를 사용해야 합니다.  자세한 내용은 xref:reference:systems/activation-keys.adoc[]  를 "
+"참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:19
@@ -22082,7 +22083,7 @@ msgstr ""
 "게스트를 등록하려는 VM 호스트와 각 게스트에 활성화 키가 필요합니다.  활성화 키에는 [systemitem]``조달`` 및 "
 "[systemitem]``가상화 플랫폼`` 자격이 있어야 합니다.  활성화 키에는 [package]``mgr-virtualization-"
 "host`` 및 [package]``mgr-osad`` 패키지에 대한 액세스 권한도 있어야 합니다.   활성화 키 생성에 대한 자세한 "
-"내용은 xref:client-configuration:activation-keys.adoc[]를 참조하십시오."
+"내용은 xref:client-configuration:activation-keys.adoc[]   를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:21
