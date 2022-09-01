@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: conflicts 3\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-08-19 09:13+0000\n"
-"Last-Translator: Seeun Lee <selee@e4net.net>\n"
+"PO-Revision-Date: 2022-09-01 13:34+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-41/ko/>\n"
 "Language: ko\n"
@@ -416,8 +416,8 @@ msgid ""
 "enough for the operating system and for the workload you want to perform on "
 "the client, with these additions for {productname}:"
 msgstr ""
-"클라이언트 하드웨어를 설정할 때, {productname}을(를) 추가하여 클라이언트에서 수행할 워크로드 및 운영 체제를 위한 충분한 "
-"공간이 있는지 확인해야 합니다."
+"클라이언트 하드웨어를 설정할 때, {productname}를 추가하여 클라이언트에서 수행할 워크로드 및 운영 체제를 위한 충분한 공간이 "
+"있는지 확인해야 합니다."
 
 #. type: Block title
 #: modules/installation/pages/client-requirements.adoc:8
@@ -515,7 +515,7 @@ msgstr "SUSE Customer Center 인증서 가져오기"
 #: modules/installation/pages/general-requirements.adoc:12
 msgid ""
 "Create an account with {scc} before installation of {sles} and {productname}."
-msgstr "{scc}를 통해 계정을 생성한 후 {sles} 및 {productname}을(를) 설치합니다."
+msgstr "{scc}를 통해 계정을 생성한 후 {sles} 및 {productname}를 설치합니다."
 
 #. type: Block title
 #: modules/installation/pages/general-requirements.adoc:13
@@ -526,7 +526,7 @@ msgstr "프로시저: SCC 조직 인증서 가져오기"
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:14
 msgid "Navigate to https://scc.suse.com/login in your Web browser."
-msgstr "웹 브라우저에서 link:https://scc.suse.com/login[]으로 이동합니다."
+msgstr "웹 브라우저에서 https://scc.suse.com/login 으로 이동합니다."
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:15
@@ -1119,7 +1119,7 @@ msgstr "{productname} 서버에서 이 명령을 사용하여 사용할 수 있�
 #: modules/installation/pages/hardware-requirements.adoc:31
 #, no-wrap
 msgid "hwinfo --disk | grep -E \"Device File:\"\n"
-msgstr "hwinfo --disk | grep -E \\장치 파일:\n"
+msgstr "hwinfo --disk | grep -E \"Device File:\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/hardware-requirements.adoc:32
@@ -1854,7 +1854,7 @@ msgid ""
 "`<productversion>` with `{productnumber}` and `<architecture>` with "
 "`x86_64`):"
 msgstr ""
-"SCC를 사용하여 {productname} 프록시를 등록합니다(예: ``<productversion>``을 "
+"SCC를 사용하여 {productname} 프록시를 등록합니다(예: ``<productversion>``를 "
 "``{productnumber}``(으)로 바꾸고 ``<architecture>``를 ``x86_64``로 바꿈)."
 
 #. type: delimited block -
@@ -4096,7 +4096,7 @@ msgid ""
 "The country code must be two upper case letters.  For a complete list of "
 "country codes, see https://www.iso.org/obp/ui/#search."
 msgstr ""
-"국가 코드는 대문자 2자여야 합니다.  전체 국가 코드 목록은 https://www.iso.org/obp/ui/#search를 "
+"국가 코드는 대문자 2자여야 합니다.  전체 국가 코드 목록은 https://www.iso.org/obp/ui/#search 를 "
 "참조하십시오."
 
 #. type: Labeled list
