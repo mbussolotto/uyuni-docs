@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-24 13:37+0000\n"
-"PO-Revision-Date: 2022-09-13 20:13+0000\n"
+"PO-Revision-Date: 2022-09-14 05:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-429/ja/>\n"
@@ -15095,7 +15095,7 @@ msgid ""
 msgstr ""
 "{productname} 4.2はSalt SSH ({webui}でのブートストラップを含む)にSalt Bundleをデフォルトで使用していません。"
 "  Salt SSHをサポートするSalt Bundleを有効にし、いわゆるSalt thinを無効にするには、[path]``/etc/rhn/rhn."
-"conf``で次のパラメータを指定する必要があります。"
+"conf``で次のように指定します。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:31
@@ -24104,6 +24104,7 @@ msgstr ""
 "| {ubuntu} 18.04\n"
 "| {x86_64}\n"
 "| {cross}\n"
+"| {check}\n"
 "\n"
 
 #. type: Table
