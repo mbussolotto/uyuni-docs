@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
 "POT-Creation-Date: 2021-03-20 15:45+0100\n"
-"PO-Revision-Date: 2021-07-08 21:11+0000\n"
+"PO-Revision-Date: 2022-09-15 22:13+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/uyuni/"
 "docs-upgrade-41/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Title =
 #: modules/upgrade/nav-upgrade-guide.adoc:1
@@ -3386,7 +3386,8 @@ msgid ""
 "Upgrading to the next major version.  For example, upgrading from 3.2 to 4.0 "
 "or to 4.1."
 msgstr ""
-"Upgrade na další hlavní verzi. Například upgrade z 3.2 na 4.0 nebo 4.1."
+"Upgrade na další hlavní verzi.  Například upgrade z verze 3.2 na 4.0 nebo na "
+"4.1."
 
 #. type: Plain text
 #: modules/upgrade/pages/upgrade-overview.adoc:10
