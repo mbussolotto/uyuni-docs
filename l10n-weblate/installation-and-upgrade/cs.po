@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-09 11:33+0000\n"
-"PO-Revision-Date: 2022-07-27 12:08+0000\n"
-"Last-Translator: Padraig Dillon <padraig.dillon@suse.com>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/uyuni/docs-"
-"installation-and-upgrade-manager-43-mu-431/cs/>\n"
+"PO-Revision-Date: 2022-09-15 22:13+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/uyuni/"
+"docs-installation-and-upgrade-manager-43-mu-431/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1024,24 +1024,16 @@ msgid ""
 msgstr ""
 "Používáte-li starší verzi databáze, například verzi 9.4 nebo 9.6, musíte "
 "před zahájením migrace {productname} provést migraci PostgreSQL na verzi 10. "
-"Postup upgradu z PostgreSQL 9 na verzi 10 najdete na https://documentation."
-"suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-migration-10."
-"html"
+"Postup upgradu z PostgreSQL 9 na verzi 10 viz:"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/db-intro.adoc:11
-#, fuzzy
-#| msgid ""
-#| "For older documentation and instructions on major version upgrade, see "
-#| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
-#| "upgrade/server-x.html"
 msgid ""
 "link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
 "manager/upgrade/db-migration-10.html[]"
 msgstr ""
-"Starší dokumentace a pokyny k aktualizaci hlavních verzí viz https://"
-"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/"
-"server-x.html"
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/db-migration-10.html[]"
 
 #
 #
@@ -1326,10 +1318,9 @@ msgstr "Zahajte upgrade - spusťte skript."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:39
-#, fuzzy, no-wrap
-#| msgid "/usr/lib/susemanager/bin/pg-migrate-x-to-y.sh\n"
+#, no-wrap
 msgid "/usr/lib/susemanager/bin/pg-migrate-x-to-y.sh -f\n"
-msgstr "/usr/lib/susemanager/bin/pg-migrate-x-to-y.sh\n"
+msgstr "/usr/lib/susemanager/bin/pg-migrate-x-to-y.sh -f\n"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/general-requirements.adoc:1
@@ -7730,18 +7721,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:4
-#, fuzzy
-#| msgid ""
-#| "For older documentation and instructions on major version upgrade, see "
-#| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
-#| "upgrade/server-x.html"
 msgid ""
 "link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
 "manager/upgrade/proxy-intro.html[]"
 msgstr ""
-"Starší dokumentace a pokyny k aktualizaci hlavních verzí viz https://"
-"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/"
-"server-x.html"
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/proxy-intro.html[]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:5
@@ -8502,16 +8487,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next major version.  For example, upgrading from 3.2 to "
-#| "4.0 or to 4.1.  See xref:upgrade:server-x.adoc[]."
 msgid ""
 "Upgrading to the next major version.  For example, upgrading from 3.2 to 4.0 "
 "or to 4.1."
 msgstr ""
 "Upgrade na další hlavní verzi.  Například upgrade z verze 3.2 na 4.0 nebo na "
-"4.1.  Viz xref:upgrade:server-x.adoc[]."
+"4.1."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:5
@@ -8592,18 +8573,12 @@ msgid ""
 msgstr ""
 "Mohou být potřebné další manuální kroky, k nimž najdete informace pouze v "
 "poznámkách k verzi.  Další důležité informace o upgradu najdete v poznámkách "
-"k verzi na https://www.uyuni-project.org/pages/stable-version.html."
+"k verzi na:"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:4
-#, fuzzy
-#| msgid ""
-#| "For more information about the stable version of {productname}, see "
-#| "https://www.uyuni-project.org/pages/stable-version.html."
 msgid "https://www.uyuni-project.org/pages/stable-version.html."
-msgstr ""
-"Další informace o stabilní verzi produktu {productname} najdete na adrese "
-"https://www.uyuni-project.org/pages/stable-version.html."
+msgstr "https://www.uyuni-project.org/pages/stable-version.html."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:5
@@ -8809,10 +8784,8 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:16
 #: modules/installation-and-upgrade/pages/server-z.adoc:17
-#, fuzzy
-#| msgid "Restart the spacewalk services:\n"
 msgid "Restart the spacewalk services:"
-msgstr "Restartujte služby spacewalk:\n"
+msgstr "Restartujte služby spacewalk:"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:17
@@ -9544,18 +9517,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-x.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For older documentation and instructions on major version upgrade, see "
-#| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
-#| "upgrade/server-x.html"
 msgid ""
 "link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
 "manager/upgrade/server-x.html[]"
 msgstr ""
-"Starší dokumentace a pokyny k aktualizaci hlavních verzí viz https://"
-"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/"
-"server-x.html"
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/server-x.html[]"
 
 #
 #
@@ -9971,17 +9938,12 @@ msgstr "zypper patch\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-z.adoc:16
-#, fuzzy
-#| msgid ""
-#| "This command only applies patches.\n"
-#| "To apply all outstanding updates, use [command]``zypper up`` instead.\n"
 msgid ""
 "This command only applies patches.  To apply all outstanding updates, use "
 "[command]``zypper up`` instead."
 msgstr ""
-"  Tento příkaz provede pouze opravy.\n"
-"   Chcete-li použít všechny nevyřízené aktualizace, použijte místo toho "
-"příkaz [command]``zypper up``.\n"
+"Tento příkaz provede pouze opravy. Chcete-li použít všechny nevyřízené "
+"aktualizace, použijte [command]``zypper up``."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/server-z.adoc:20
