@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-24 13:37+0000\n"
-"PO-Revision-Date: 2022-09-15 11:13+0000\n"
-"Last-Translator: Seeun Lee <selee@e4net.net>\n"
+"PO-Revision-Date: 2022-09-19 16:09+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-429/ko/>\n"
 "Language: ko\n"
@@ -14801,7 +14801,7 @@ msgid ""
 "to [literal]``true``:"
 msgstr ""
 "Salt Master [path]``/etc/salt/master.d/ssh-preflight.conf``에 대한 추가 드롭인 구성 "
-"파일을 생성하고 [literal]``ssh_run_pre_flight``를 [literal]``true`로 설정합니다."
+"파일을 생성하고 [literal]``ssh_run_pre_flight``를 [literal]``true``로 설정합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:34
@@ -14855,9 +14855,9 @@ msgid ""
 "ssh_use_salt_thin`` to `true` in the [path]``/etc/rhn/rhn.conf`` "
 "configuration file."
 msgstr ""
-"`salt-thin`을 사용하는 것은 대체 방법으로 활성화할 수 있지만, 클라이언트에 Python 3을 설치해야 합니다. 이 방법은 "
+"``salt-thin``을 사용하는 것은 대체 방법으로 활성화할 수 있지만, 클라이언트에 Python 3을 설치해야 합니다. 이 방법은 "
 "권장되거나 지원되지 않으며 개발 목적으로만 제공됩니다. [path]``/etc/rhn/rhn.conf`` 설정 파일에서 "
-"[option]``web.ssh_use_salt_thin``을 `true`로 설정하십시오."
+"[option]``web.ssh_use_salt_thin``을 ``true``로 설정하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:39
