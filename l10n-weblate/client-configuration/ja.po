@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-22 13:42+0000\n"
-"PO-Revision-Date: 2022-07-08 03:12+0000\n"
+"PO-Revision-Date: 2022-09-27 15:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
-"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
-"client-configuration-master/ja/>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
+"docs-client-configuration-manager-43-mu-432/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -334,10 +334,8 @@ msgstr "xref:registration-overview-ubuntu.adoc[Ubuntuクライアントの登録
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:61
-#, fuzzy
-#| msgid "xref:clients-ubuntu.adoc[Ubuntu 20.04 Clients]"
 msgid "xref:clients-ubuntu.adoc[Ubuntu 20.04 and 22.04 Clients]"
-msgstr "xref:clients-ubuntu.adoc[Ubuntu 20.04クライアント]"
+msgstr "xref:clients-ubuntu.adoc[Ubuntu 20.04クライアントと22.04クライアント]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:62
@@ -2252,17 +2250,12 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-intro.adoc:20
-#, fuzzy
-#| msgid ""
-#| "The autoinstallation features of SUSE Manager are based on a software "
-#| "named Cobbler.  For more information, see https://cobbler.readthedocs.io."
 msgid ""
 "The autoinstallation features of {productname} are based on a software named "
 "Cobbler.  For more information, see https://cobbler.readthedocs.io."
 msgstr ""
-"SUSE Managerの自動インストール機能は、Cobblerという名前のソフトウェアによって"
-"実行されます。  詳細については、link:https://cobbler.github.io/quickstart/"
-"readthedocs.io[]を参照してください。"
+"{productname}の自動インストール機能は、Cobblerという名前のソフトウェアによって実行されます。  "
+"詳細については、link:https://cobbler.readthedocs.io[]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:1
@@ -2877,10 +2870,8 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:47
-#, fuzzy
-#| msgid "``<software>`` allows to specify product for the Unified Installer"
 msgid "``<software>`` allows to specify product for the {unifiedinstaller}"
-msgstr "``<software>``によって、統合インストーラに製品を指定できます。"
+msgstr "``<software>``によって、{unifiedinstaller}に製品を指定できます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:48
@@ -3679,6 +3670,8 @@ msgid ""
 "If you use Secure Boot, type [path]``grub/shim.efi instead of [path]``grub/"
 "grub.efi`` in the [guimenu]``Filename EFI`` field."
 msgstr ""
+"Secure Bootを使用する場合は、［[guimenu]``Filename EFI``］（ファイル名EFI）フィールドで、[path]``grub/"
+"grub.efi``の代わりに[path]``grub/shim.efi``と入力します。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:41
@@ -4976,27 +4969,19 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:23
-#, fuzzy, no-wrap
-#| msgid "Unified Installer Updates Channels on {sle} Clients"
+#, no-wrap
 msgid "{unifiedinstaller} Updates Channels on {sle} Clients"
-msgstr "{sle}クライアントのUnified Installer更新チャンネル"
+msgstr "{sle}クライアントの{unifiedinstaller}更新チャンネル"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:24
-#, fuzzy
-#| msgid ""
-#| "This channel is used by the unified installer to ensure it is up to date "
-#| "before it installs the operating system.  All {sle} products should have "
-#| "access to the installer updates channel during installation."
 msgid ""
 "This channel is used by the {unifiedinstaller} to ensure it is up to date "
 "before it installs the operating system.  All {sle} products should have "
 "access to the installer updates channel during installation."
 msgstr ""
-"このチャンネルは、オペレーティングシステムをインストールする前に、Unified "
-"Installerが最新であることを確認するためにUnified Installerで使用されます。  "
-"すべての{sle}製品は、インストール中にインストーラ更新チャンネルにアクセスでき"
-"る必要があります。"
+"このチャンネルは、オペレーティングシステムをインストールする前に、{unifiedinstaller}が最新であることを確認するために{unifiedin"
+"staller}で使用されます。  すべての{sle}製品は、インストール中にインストーラ更新チャンネルにアクセスできる必要があります。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:25
@@ -6352,16 +6337,10 @@ msgstr "umount /mnt\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-major.adoc:19
-#, fuzzy
-#| msgid ""
-#| "This image is the unified installer and can be used for multiple "
-#| "autoinstallable distributions."
 msgid ""
 "This image is the {unifiedinstaller} and can be used for multiple "
 "autoinstallable distributions."
-msgstr ""
-"このイメージはUnified Installerであり、複数の自動インストールのディストリ"
-"ビューション用に使用できます。"
+msgstr "このイメージは{unifiedinstaller}であり、複数の自動インストールのディストリビューション用に使用できます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:21
@@ -6801,10 +6780,8 @@ msgstr "openSUSE Leap 15.1から{sle} 15 SP1、または"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:6
-#, fuzzy
-#| msgid "openSUSE Leap 15.2 to {sle} 15 SP2"
 msgid "openSUSE Leap 15.4 to {sle} 15 SP4"
-msgstr "openSUSE Leap 15.2から{sle} 15 SP2"
+msgstr "openSUSE Leap 15.4から{sle} 15 SP4"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:7
@@ -7171,6 +7148,11 @@ msgid ""
 "100 actions scheduled.  It is important that all systems in the group "
 "support the same \"migration target.\""
 msgstr ""
+"[command]``spacecmd`` sub-commands "
+"[literal]``system_scheduleproductmigration`` abd "
+"[command]``system_listmigrationtargets``は、グループの一部であるすべてのシステムをループしています。  "
+"グループに100のシステムがある場合、100のアクションがスケジュールされていることがわかります。  "
+"グループ内のすべてのシステムが同じ「移行ターゲット」をサポートすることが重要です。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:48
@@ -7194,6 +7176,8 @@ msgid ""
 "output a string of \"IDs.\" The string is the identifier for the "
 "[literal]``MIGRATIONTARGET`` of the other command."
 msgstr ""
+"*すべての*システムについて報告されるターゲットのみを選択します。  このコマンドは、「ID」の文字列を出力します。文字列は、他のコマンドの "
+"[literal]``MIGRATIONTARGET``の識別子です。"
 
 #. type: Block title
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:51
