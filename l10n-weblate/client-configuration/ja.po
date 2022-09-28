@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-24 13:37+0000\n"
-"PO-Revision-Date: 2022-09-19 16:07+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-09-28 04:13+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-429/ja/>\n"
 "Language: ja\n"
@@ -8870,7 +8870,7 @@ msgstr "rootアクセス"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-debian.adoc:28
 msgid "The root user on {debian} is disabled by default for SSH access."
-msgstr "{debian}のrootユーザは、SSHアクセスに対してデフォルトで無効になっています。"
+msgstr "{debian}のrootユーザはデフォルトでSSHアクセスが無効になっています。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-debian.adoc:29
@@ -9375,7 +9375,7 @@ msgstr ""
 "| クライアントチャンネル\n"
 "| 更新チャンネル\n"
 "| 非オープンソースチャンネル\n"
-"| 非オープンソース更新チャンネルl\n"
+"| 非オープンソース更新チャンネル\n"
 "| バックポート更新チャンネル\n"
 "| SLE更新チャンネル\n"
 "\n"
