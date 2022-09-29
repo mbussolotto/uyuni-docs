@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-22 13:42+0000\n"
-"PO-Revision-Date: 2022-09-28 04:13+0000\n"
+"PO-Revision-Date: 2022-09-29 09:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-mu-432/ja/>\n"
@@ -9834,16 +9834,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:5
-#, fuzzy
-#| msgid ""
-#| "For more information, see xref:installation-and-upgrade:setup-wizard."
-#| "adoc[]."
 msgid ""
 "For more information, see xref:installation-and-upgrade:pubcloud-setup."
 "adoc#add-product-sync-repo[]."
 msgstr ""
-"詳細については、xref:installation-and-upgrade:setup-wizard.adoc[]を参照してく"
-"ださい。"
+"詳細については、xref:installation-and-upgrade:pubcloud-setup.adoc#add-product-sync-"
+"repo[]を参照してください。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-pubcloud.adoc:6
@@ -11886,22 +11882,18 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:3
-#, fuzzy
-#| msgid "{micro}{nbsp}5.1 {x86_64}"
 msgid "{micro}{nbsp}5.1, 5.2, and 5.3 {x86_64}"
-msgstr "{micro}{nbsp}5.1 {x86_64}"
+msgstr "{micro}{nbsp}5.1、5.2、および5.3 {x86_64}"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:4
-#, fuzzy
-#| msgid "{micro}{nbsp}5.1 {arm64}"
 msgid "{micro}{nbsp}5.1, 5.2, and 5.3 {arm64}"
-msgstr "{micro}{nbsp}5.1 {arm64}"
+msgstr "{micro}{nbsp}5.1、5.2、および5.3 {arm64}"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:5
 msgid "{micro}{nbsp}5.1, 5.2, and 5.3 {zsystems} (s390x)"
-msgstr ""
+msgstr "{micro}{nbsp}5.1、5.2、および5.3 {zsystems} (s390x)"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-slemicro.adoc:6
@@ -12025,6 +12017,36 @@ msgid ""
 "| SUSE Linux Enterprise Micro 5.3 s390x\n"
 "\n"
 msgstr ""
+"| OSバージョン\n"
+"| 製品名\n"
+"\n"
+"| {micro} 5.1 {x86_64}\n"
+"| SUSE Linux Enterprise Micro 5.1 x86_64\n"
+"\n"
+"| {micro} 5.1 {arm64}\n"
+"| SUSE Linux Enterprise Micro 5.1 aarch64\n"
+"\n"
+"| {micro} 5.1 {s390x}\n"
+"| SUSE Linux Enterprise Micro 5.1 s390x\n"
+"\n"
+"| {micro} 5.2 {x86_64}\n"
+"| SUSE Linux Enterprise Micro 5.2 x86_64\n"
+"\n"
+"| {micro} 5.2 {arm64}\n"
+"| SUSE Linux Enterprise Micro 5.2 aarch64\n"
+"\n"
+"| {micro} 5.2 {s390x}\n"
+"| SUSE Linux Enterprise Micro 5.2 s390x\n"
+"\n"
+"| {micro} 5.3 {x86_64}\n"
+"| SUSE Linux Enterprise Micro 5.3 x86_64\n"
+"\n"
+"| {micro} 5.3 {arm64}\n"
+"| SUSE Linux Enterprise Micro 5.3 aarch64\n"
+"\n"
+"| {micro} 5.3 {s390x}\n"
+"| SUSE Linux Enterprise Micro 5.3 s390x\n"
+"\n"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-slemicro.adoc:18
@@ -12077,6 +12099,46 @@ msgid ""
 "| sle-micro-5.3-updates-s390x\n"
 "\n"
 msgstr ""
+"| OSバージョン\n"
+"| ベースチャンネル\n"
+"| 更新チャンネル\n"
+"\n"
+"| {micro} 5.1 {x86_64}\n"
+"| suse-microos-5.1-pool-x86_64\n"
+"| suse-microos-5.1-updates-x86_64\n"
+"\n"
+"| {micro} 5.1 {arm64}\n"
+"| suse-microos-5.1-pool-arm64\n"
+"| suse-microos-5.1-updates-arm64\n"
+"\n"
+"| {micro} 5.1 {zsystems} ({s390x})\n"
+"| suse-microos-5.1-pool-s390x\n"
+"| suse-microos-5.1-updates-s390x\n"
+"\n"
+"| {micro} 5.2 {x86_64}\n"
+"| suse-microos-5.2-pool-x86_64\n"
+"| suse-microos-5.2-updates-x86_64\n"
+"\n"
+"| {micro} 5.2 {arm64}\n"
+"| suse-microos-5.2-pool-aarch64\n"
+"| suse-microos-5.2-updates-aarch64\n"
+"\n"
+"| {micro} 5.2 {zsystems} ({s390x})\n"
+"| suse-microos-5.2-pool-s390x\n"
+"| suse-microos-5.2-updates-s390x\n"
+"\n"
+"| {micro} 5.3 {x86_64}\n"
+"| sle-micro-5.3-pool-x86_64\n"
+"| sle-micro-5.3-updates-x86_64\n"
+"\n"
+"| {micro} 5.3 {arm64}\n"
+"| sle-micro-5.3-pool-arm64\n"
+"| sle-micro-5.3-updates-arm64\n"
+"\n"
+"| {micro} 5.3 {zsystems} ({s390x})\n"
+"| sle-micro-5.3-pool-s390x\n"
+"| sle-micro-5.3-updates-s390x\n"
+"\n"
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-sleses.adoc:1
@@ -12538,21 +12600,15 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS "
-#| "clients using Salt.  For information about registering Salt clients "
-#| "running {ubuntu} 20.04, see xref:client-configuration:clients-ubuntu."
-#| "adoc[]."
 msgid ""
 "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS and 22.04 "
 "LTS clients using Salt.  For information about registering Salt clients "
 "running {ubuntu} 20.04 and 22.04, see xref:client-configuration:clients-"
 "ubuntu.adoc[]."
 msgstr ""
-"{productname}は、Saltを使用する{ubuntu} 16.04 LTS、18.04 LTS、および20.04 LTS"
-"クライアントをサポートしています。  {ubuntu} 20.04を実行しているSaltクライア"
-"ントを登録する方法の詳細については、xref:client-configuration:clients-ubuntu."
+"{productname}は、Saltを使用する{ubuntu} 16.04 LTS、18.04 LTS、20.04 LTS、および22.04 "
+"LTSクライアントをサポートしています。  {ubuntu} 20.04および22."
+"04を実行しているSaltクライアントを登録する方法の詳細については、xref:client-configuration:clients-ubuntu."
 "adoc[]を参照してください。"
 
 #. type: Plain text
@@ -12775,14 +12831,8 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:36
 #: modules/client-configuration/pages/clients-ubuntu.adoc:26
-#, fuzzy
-#| msgid ""
-#| "The root user on {ubuntu} is disabled by default.  You can enable it by "
-#| "editing the [filename]``sudoers`` file."
 msgid "The root user on {ubuntu} is disabled by default for SSH access."
-msgstr ""
-"{ubuntu}のrootユーザはデフォルトでは無効になっています。  "
-"[filename]``sudoers``ファイルを編集して有効にできます。"
+msgstr "{ubuntu}のrootユーザは、SSHアクセスに対してデフォルトでは無効になっています。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:45
@@ -12800,82 +12850,59 @@ msgstr ""
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-ubuntu.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Registering {ubuntu} 16.04 and 18.04 Clients"
+#, no-wrap
 msgid "Registering {ubuntu} 20.04 and 22.04 Clients"
-msgstr "{ubuntu} 16.04および18.04クライアントの登録"
+msgstr "{ubuntu} 20.04および22.04クライアントの登録"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu.adoc:2
-#, fuzzy
-#| msgid ""
-#| "This section contains information about registering Salt clients running "
-#| "{ubuntu} 16.04 LTS, 18.04 LTS operating systems."
 msgid ""
 "This section contains information about registering Salt clients running "
 "{ubuntu} 20.04 LTS and 22.04 LTS operating systems."
 msgstr ""
-"このセクションでは、{ubuntu} 16.04 LTS、18.04 LTSオペレーティングシステムを実"
-"行しているSaltクライアントの登録について説明します。"
+"このセクションでは、{ubuntu} 20.04 LTSおよび22.04 "
+"LTSオペレーティングシステムを実行しているSaltクライアントの登録について説明します。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS "
-#| "clients using Salt.  For information about registering Salt clients "
-#| "running {ubuntu} 16.04 LTS and 18.04 LTS, see xref:client-configuration:"
-#| "clients-ubuntu-old.adoc[]."
 msgid ""
 "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS and 22.04 "
 "LTS clients using Salt.  For information about registering Salt clients "
 "running {ubuntu} 16.04 LTS and 18.04 LTS, see xref:client-configuration:"
 "clients-ubuntu-old.adoc[]."
 msgstr ""
-"{productname}は、Saltを使用する{ubuntu} 16.04 LTS、18.04 LTS、および20.04 LTS"
-"クライアントをサポートしています。  {ubuntu} 16.04 LTSおよび18.04 LTSを実行し"
-"ているSaltクライアントを登録する方法の詳細については、xref:client-"
-"configuration:clients-ubuntu-old.adoc[]を参照してください。"
+"{productname}は、Saltを使用する{ubuntu} 16.04 LTS、18.04 LTS、20.04 LTS、および22.04 "
+"LTSクライアントをサポートしています。  {ubuntu} 16.04 LTSおよび18.04 "
+"LTSを実行しているSaltクライアントを登録する方法の詳細については、xref:client-configuration:clients-ubuntu-"
+"old.adoc[]を参照してください。"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:11
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version     | Product Name\n"
-#| "| {ubuntu} 16.04 | Ubuntu 16.04\n"
-#| "| {ubuntu} 18.04 | Ubuntu 18.04\n"
+#, no-wrap
 msgid ""
 "| OS Version | Product Name\n"
 "| {ubuntu} 20.04 | Ubuntu 20.04\n"
 "| {ubuntu} 22.04 | Ubuntu 22.04\n"
 msgstr ""
 "| OSバージョン     | 製品名\n"
-"|{ubuntu} 16.04 | Ubuntu 16.04\n"
-" | {ubuntu} 18.04 | Ubuntu 18.04\n"
+"| {ubuntu} 20.04 | Ubuntu 20.04\n"
+"| {ubuntu} 22.04 | Ubuntu 22.04\n"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:14
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel\n"
-#| "| {ubuntu} 16.04 | ubuntu-16.04-pool-amd64\n"
-#| "| {ubuntu} 18.04 | ubuntu-18.04-pool-amd64\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel\n"
 "| {ubuntu} 20.04 | ubuntu-2004-amd64-main-amd64\n"
 "| {ubuntu} 22.04 | ubuntu-2204-amd64-main-amd64\n"
 msgstr ""
 "| OSバージョン | ベースチャンネル\n"
-"| {ubuntu} 16.04 | ubuntu-16.04-pool-amd64\n"
-" | {ubuntu} 18.04 | ubuntu-18.04-pool-amd64\n"
+"| {ubuntu} 20.04 | ubuntu-2004-amd64-main-amd64\n"
+"| {ubuntu} 22.04 | ubuntu-2204-amd64-main-amd64\n"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:17
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
-#| "\n"
-#| "| {ubuntu} 20.04 | ubuntu-2004-amd64-main for amd64 | ubuntu-2004-amd64-main-uyuni | ubuntu-2004-amd64-main-updates-uyuni | ubuntu-2004-amd64-main-security-uyuni | ubuntu-2004-amd64-uyuni-client\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
 "\n"
@@ -12884,7 +12911,12 @@ msgid ""
 msgstr ""
 "| OSバージョン | ベースチャンネル | メインチャンネル | 更新チャンネル | セキュリティチャンネル | クライアントチャンネル\n"
 "\n"
-"| {ubuntu} 20.04 | ubuntu-2004-amd64-main for amd64 | ubuntu-2004-amd64-main-uyuni | ubuntu-2004-amd64-main-updates-uyuni | ubuntu-2004-amd64-main-security-uyuni | ubuntu-2004-amd64-uyuni-client\n"
+"| {ubuntu} 20.04 | ubuntu-2004-amd64-main for amd64 | ubuntu-2004-amd64-main-"
+"uyuni | ubuntu-2004-amd64-main-updates-uyuni | ubuntu-2004-amd64-main-"
+"security-uyuni | ubuntu-2004-amd64-uyuni-client\n"
+"| {ubuntu} 22.04 | ubuntu-2204-amd64-main for amd64 | ubuntu-2204-amd64-main-"
+"uyuni | ubuntu-2204-amd64-main-updates-uyuni | ubuntu-2204-amd64-main-"
+"security-uyuni | ubuntu-2204-amd64-uyuni-client\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-ubuntu.adoc:18
@@ -15253,6 +15285,10 @@ msgid ""
 "with [option]``noexec`` option, with the {webui} because the bootstrap "
 "process is using Salt SSH to reach a client."
 msgstr ""
+"Salt SSHは[path]``/var/tmp``を使用してSalt Bundleを配備し、バンドルされたPythonを使用してクライアント上でSal"
+"tコマンドを実行します。したがって、[option]``noexec``オプションを指定して[path]``/var/tmp``をマウントできません。 "
+"ブートストラッププロセスがSalt SSHを使用してクライアントに到達しているため、{webui}では、[path]``/var/"
+"tmp``が[option]``noexec``オプションでマウントされているクライアントをブートストラップできません。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:30
@@ -15270,10 +15306,9 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:31
-#, fuzzy, no-wrap
-#| msgid "Using the Salt Bundle with the Salt Minion"
+#, no-wrap
 msgid "Extend Salt Bundle with Python packages using pip"
-msgstr "Salt Minionを使用したSalt Bundleの使用"
+msgstr "pipを使用してPythonパッケージでSalt Bundleを拡張する"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:32
@@ -15281,6 +15316,8 @@ msgid ""
 "The Salt Bundle includes [literal]``pip`` to make it possible to extend the "
 "functionality of the bundled Salt Minion with extra Python packages."
 msgstr ""
+"Salt Bundleには、バンドルされているSalt "
+"Minionの機能を追加のPythonパッケージで拡張できるように、[literal]``pip``が含まれています。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:33
@@ -15289,6 +15326,9 @@ msgid ""
 "installs the Python package specified by [literal]``<package_name>`` into "
 "[path]``/var/lib/venv-salt-minion/local``."
 msgstr ""
+"デフォルトでは、[command]``salt <minion_id> pip.install <package-"
+"name>``は、[literal]``<package_name>``で指定されたPythonパッケージを[path]``/var/lib/"
+"venv-salt-minion/local``にインストールします。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:34
@@ -15300,6 +15340,10 @@ msgid ""
 "the configuration file [path]``/etc/systemd/system/venv-salt-minion.service."
 "d/10-pip-destination.conf``:"
 msgstr ""
+"必要に応じて、パス[path]``/var/lib/venv-salt-minion/local``は[literal]``venv-salt-"
+"minion.service``の[literal]``VENV_PIP_TARGET``環境変数を設定することで上書きできます。  "
+"サービスには、systemdドロップイン設定ファイルを使用することをお勧めします。  これは設定ファイル[path]``/etc/systemd/"
+"system/venv-salt-minion.service.d/10-pip-destination.conf``で実行できます。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:35
@@ -15308,6 +15352,8 @@ msgid ""
 "[Service]\n"
 "Environment=VENV_PIP_TARGET=/new/path/local/venv-salt-minion/pip\n"
 msgstr ""
+"[Service]\n"
+"Environment=VENV_PIP_TARGET=/new/path/local/venv-salt-minion/pip\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:36
@@ -15317,6 +15363,9 @@ msgid ""
 "functional after an update, it is recommended to install them with a Salt "
 "state that is applied after Salt Bundle updates."
 msgstr ""
+"[literal]``pip``を介してインストールされたPythonパッケージは、Salt "
+"Bundleの更新時に変更されません。更新後にこのようなパッケージが利用可能で機能するようにするには、Salt "
+"Bundleの更新後に適用されるSalt状態でパッケージをインストールすることをお勧めします。"
 
 #. type: Title =
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:1
@@ -15666,19 +15715,12 @@ msgid ""
 "all new deployments to use Salt clients and Salt proxies exclusively, and to "
 "migrate existing traditional clients and proxies to Salt."
 msgstr ""
+"SUSE Manager 4.3リリースでは、従来のクライアントは廃止されました。 SUSE Manager 4."
+"3以降のリリースでは、従来のクライアントと従来のプロキシはサポートされません(2023年に予定されています)。  "
+"すべての新しい展開でSaltクライアントとSaltプロキシを排他的に使用し、既存の従来のクライアントとプロキシをSaltに移行することをお勧めします。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:7
-#, fuzzy
-#| msgid ""
-#| "Traditional clients will be deprecated with the next {productname} "
-#| "version and will not be supported with future releases.  Be aware that "
-#| "when migrating from traditional clients to Salt minions you do not have "
-#| "to delete the registered clients before. You can just register them as "
-#| "Salt minions and Salt will do the necessary steps with the traditional "
-#| "client. If you already deleted the traditional client and the "
-#| "registration as Salt minion is not possible anymore, see xref:"
-#| "installation-and-upgrade:troubleshooting.adoc[Troubleshooting]."
 msgid ""
 "Be aware that when migrating from traditional clients to Salt minions you do "
 "not have to delete the registered clients before.  You can just register "
@@ -15687,13 +15729,10 @@ msgid ""
 "registration as Salt minion is not possible anymore, see xref:installation-"
 "and-upgrade:troubleshooting.adoc[Troubleshooting]."
 msgstr ""
-"従来のクライアントは、次の{productname}バージョンでは廃止され、今後のリリース"
-"ではサポートされなくなります。  従来のクライアントからSalt minionに移行すると"
-"き、その前に登録したクライアントを削除する必要はありません。Salt minionとして"
-"それらを登録するだけでSaltは従来のクライアントで必要な手順を実行します。従来"
-"のクライアントを削除済みの場合、Salt minionとしての登録はできなくなります。"
-"xref:installation-and-upgrade:troubleshooting.adoc[トラブルシューティング]を"
-"参照してください。"
+"従来のクライアントからSalt minionに移行するとき、その前に登録したクライアントを削除する必要はありません。Salt "
+"minionとしてそれらを登録するだけでSaltは従来のクライアントで必要な手順を実行します。従来のクライアントを削除済みの場合、Salt "
+"minionとしての登録はできなくなります。xref:installation-and-upgrade:troubleshooting."
+"adoc[トラブルシューティング]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/custom-info.adoc:1
@@ -15959,6 +15998,8 @@ msgid ""
 "the metadata and use a chain of checksums to secure the packages.  Most RPM "
 "based systems use signed metadata in addition to signed packages."
 msgstr ""
+"RPMパッケージは直接署名できますが、Debianベースのシステムはメタデータのみに署名し、一連のチェックサムを使用してパッケージを保護します。  "
+"ほとんどのRPMベースのシステムでは、署名済みのパッケージに加えて、署名済みメタデータを使用します。"
 
 #. From Ref Guide, needs editing. --LKB 2020-09-08
 #. Lists keys and certificates available for inclusion in {kickstart} profiles and provides a means to create new ones.
@@ -16618,10 +16659,8 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:66
-#, fuzzy
-#| msgid " Confirm the list of clients to perform the update."
 msgid "Confirm the list of clients to perform the update."
-msgstr " クライアントの一覧を確認し、更新を実行します。"
+msgstr "クライアントの一覧を確認し、更新を実行します。"
 
 #. type: Block title
 #: modules/client-configuration/pages/patch-management.adoc:67
@@ -18166,7 +18205,7 @@ msgstr ""
 #: modules/client-configuration/pages/registration-webui.adoc:28
 #, no-wrap
 msgid "Handling of Locally assigned Repositories"
-msgstr ""
+msgstr "ローカルに割り当てられたリポジトリの処理"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:29
