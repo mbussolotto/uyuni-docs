@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-26 06:39+0000\n"
-"PO-Revision-Date: 2022-09-29 12:01+0000\n"
+"PO-Revision-Date: 2022-09-29 13:04+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-and-upgrade-manager-43-mu-432/ja/>\n"
@@ -1137,15 +1137,10 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/client-requirements.adoc:14
-#, fuzzy
-#| msgid ""
-#| "For more information about using SCC, see https://scc.suse.com/docs/help."
 msgid ""
 "For more information about end-of-life dates, see https://endoflife.software/"
 "operating-systems."
-msgstr ""
-"SCCの使用の詳細については、link:https://scc.suse.com/docs/help[]を参照してく"
-"ださい。"
+msgstr "サポート終了日の詳細については、https://endoflife.software/operating-systemsを参照してください。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/client-requirements.adoc:15
