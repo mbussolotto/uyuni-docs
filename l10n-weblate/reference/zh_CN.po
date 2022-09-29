@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-08-18 16:34+0000\n"
+"POT-Creation-Date: 2022-09-29 17:14+0000\n"
 "PO-Revision-Date: 2021-03-10 14:40+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -1011,6 +1011,7 @@ msgid "xref:cli-bootstrap.adoc[Bootstrapping CLI Tools]"
 msgstr ""
 
 #.  Configuration Files. Disabling for now. --LKB 2020-10-09
+#. ** xref:configuration-files.adoc[Configuration Files]
 #. type: Plain text
 #: modules/reference/nav-reference-guide.adoc:192
 msgid "xref:cli-smdba.adoc[Database CLI Tools]"
@@ -2006,6 +2007,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:17
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2276,6 +2278,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:47
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2420,6 +2423,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:68
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2604,6 +2608,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:100
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2716,6 +2721,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:113
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2803,6 +2809,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:122
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2863,6 +2870,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:130
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2939,6 +2947,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:141
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -3030,6 +3039,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:153
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -3148,6 +3158,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:171
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -3222,6 +3233,7 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:179
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -3279,6 +3291,7 @@ msgstr ""
 #: modules/reference/pages/cli-smdba.adoc:6
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Description\n"
 "\n"
@@ -3472,6 +3485,7 @@ msgstr ""
 #: modules/reference/pages/cli-sync.adoc:21
 #, no-wrap
 msgid ""
+"\n"
 "| Option\n"
 "| Description\n"
 "| Example Use\n"
@@ -5621,7 +5635,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:9
 #, no-wrap
-msgid "Channel Properties [Management]"
+msgid "Channel Properties [Management]:"
 msgstr ""
 
 #. type: Plain text
@@ -5634,7 +5648,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:11
 #, no-wrap
-msgid "Channel Information"
+msgid "Channel Information:"
 msgstr ""
 
 #. type: Plain text
@@ -5644,11 +5658,10 @@ msgstr ""
 
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:13
-#: modules/reference/pages/configuration/config-overview.adoc:10
-#: modules/reference/pages/systems/system-details/sd-configuration.adoc:11
-#, no-wrap
-msgid "Configuration Actions"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "Configuration"
+msgid "Configuration Actions:"
+msgstr "配置"
 
 #. type: Plain text
 #: modules/reference/pages/configuration/config-channels.adoc:14
@@ -5711,7 +5724,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:20
 #, no-wrap
-msgid "Upload File"
+msgid "Upload File:"
 msgstr ""
 
 #. type: Plain text
@@ -5751,7 +5764,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:25
 #, no-wrap
-msgid "Import Files"
+msgid "Import Files:"
 msgstr ""
 
 #. type: Plain text
@@ -5774,7 +5787,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:28
 #, no-wrap
-msgid "Create File"
+msgid "Create File:"
 msgstr ""
 
 #. type: Plain text
@@ -5817,12 +5830,12 @@ msgid ""
 "Manage systems subscribed to the configuration channel with two subtabs:"
 msgstr ""
 
-#. type: Title ==
+#. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:34
-#: modules/reference/pages/software/channel-details.adoc:16
-#, no-wrap
-msgid "Subscribed Systems"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "Affected Systems"
+msgid "Subscribed Systems:"
+msgstr "受影响的系统"
 
 #. type: Plain text
 #: modules/reference/pages/configuration/config-channels.adoc:35
@@ -5833,13 +5846,12 @@ msgid ""
 "system name and click btn:[Unsubscribe systems]."
 msgstr ""
 
-#. type: Title ==
+#. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:36
-#: modules/reference/pages/configuration/config-systems-target.adoc:1
-#: modules/reference/pages/software/channel-details.adoc:19
-#, no-wrap
-msgid "Target Systems"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "Affected Systems"
+msgid "Target Systems:"
+msgstr "受影响的系统"
 
 #. type: Plain text
 #: modules/reference/pages/configuration/config-channels.adoc:37
@@ -6023,6 +6035,13 @@ msgstr ""
 msgid "Locally managed configuration files"
 msgstr ""
 
+#. type: Labeled list
+#: modules/reference/pages/configuration/config-overview.adoc:10
+#: modules/reference/pages/systems/system-details/sd-configuration.adoc:11
+#, no-wrap
+msgid "Configuration Actions"
+msgstr ""
+
 #. type: Plain text
 #: modules/reference/pages/configuration/config-overview.adoc:11
 msgid ""
@@ -6186,6 +6205,13 @@ msgid ""
 "Displays status information about your system in relation to configuration.  "
 "There are two sub-pages: [guimenu]``Managed Systems`` and [guimenu]``Target "
 "Systems``."
+msgstr ""
+
+#. type: Title ==
+#: modules/reference/pages/configuration/config-systems-target.adoc:1
+#: modules/reference/pages/software/channel-details.adoc:19
+#, no-wrap
+msgid "Target Systems"
 msgstr ""
 
 #. type: Plain text
@@ -7840,6 +7866,12 @@ msgid ""
 "The [guimenu]``Packages`` tab shows all packages in the selected channel.  "
 "The list shows the package name, summary, and the provider of the package.  "
 "Click the package name to go to the [guimenu]``Package Details`` page."
+msgstr ""
+
+#. type: Title ==
+#: modules/reference/pages/software/channel-details.adoc:16
+#, no-wrap
+msgid "Subscribed Systems"
 msgstr ""
 
 #. type: Plain text
@@ -17041,6 +17073,7 @@ msgstr ""
 #: modules/reference/pages/systems/system-details/sd-overview.adoc:11
 #, no-wrap
 msgid ""
+"\n"
 "| Column Name\n"
 "| Description\n"
 "| Conditions\n"
@@ -17052,47 +17085,72 @@ msgid ""
 "| FQDN\n"
 "| The fully qualified domain name of the client.\n"
 "| Shown only if it differs from the host name.\n"
-msgstr ""
-
-#. type: Table
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:12
-msgid ""
-"| IP address | The IPv4 IP address of the client.  | - | IPv6 address | The "
-"IPv6 IP address of the client.  | - | Minion ID | The minion ID of the "
-"client.  | Salt clients only.  | Virtualization | The type of virtualization "
-"used by the client.  | Virtualized clients only.  | UUID | The universally "
-"unique identifier.  | - | Kernel | The kernel currently in use on the "
-"client.  | - | {productname} System ID | A unique identifier generated by "
-"{productname} when the client is registered.  | - | Activation key | The "
-"activation key used to register the client.  | Remains blank if the client "
-"has not been activated.  | Installed products | Software products currently "
-"installed on the client.  | - | Lock status | Indicates whether the client "
-"is locked.  | Traditional clients only.  Locked Salt clients instead show a "
-"yellow banner on this page."
+"\n"
+"| IP address\n"
+"| The IPv4 IP address of the client.\n"
+"| -\n"
+"\n"
+"| IPv6 address\n"
+"| The IPv6 IP address of the client.\n"
+"| -\n"
+"\n"
+"| Minion ID\n"
+"| The minion ID of the client.\n"
+"| Salt clients only.\n"
+"\n"
+"| Virtualization\n"
+"| The type of virtualization used by the client.\n"
+"| Virtualized clients only.\n"
+"\n"
+"| UUID\n"
+"| The universally unique identifier.\n"
+"| -\n"
+"\n"
+"| Kernel\n"
+"| The kernel currently in use on the client.\n"
+"| -\n"
+"\n"
+"| {productname} System ID\n"
+"| A unique identifier generated by {productname} when the client is registered.\n"
+"| -\n"
+"\n"
+"| Activation key\n"
+"| The activation key used to register the client.\n"
+"| Remains blank if the client has not been activated.\n"
+"\n"
+"| Installed products\n"
+"| Software products currently installed on the client.\n"
+"| -\n"
+"\n"
+"| Lock status\n"
+"| Indicates whether the client is locked.\n"
+"| Traditional clients only.\n"
+"Locked Salt clients instead show a yellow banner on this page.\n"
+"\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:13
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:12
 msgid ""
 "For more information about system locks, see xref:client-configuration:"
 "system-locking.adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:14
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:13
 #, no-wrap
 msgid "Subscribed Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:15
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:14
 msgid ""
 "This section shows the base and child software channels this client is "
 "subscribed to."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:16
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:15
 msgid ""
 "Click btn:[Alter Channel Subscriptions] to change the channel subscriptions "
 "for this client.  Click a channel name to go to the [guimenu]``Channel "
@@ -17100,33 +17158,34 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:17
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:16
 msgid ""
 "For more information about channels, see xref:client-configuration:channels."
 "adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:18
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:17
 #, no-wrap
 msgid "System Events"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:19
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:18
 msgid "This section shows the most recent system events for this client."
 msgstr ""
 
 #. type: Block title
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:20
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:19
 #, no-wrap
 msgid "System Events Columns"
 msgstr ""
 
 #. type: Table
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:21
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:20
 #, no-wrap
 msgid ""
+"\n"
 "| Column Name\n"
 "| Description\n"
 "\n"
@@ -17142,7 +17201,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:22
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:21
 msgid ""
 "Click btn:[Schedule system reboot] to set a time for the client to reboot.  "
 "The reboot will occur when the client next checks in with the {productname} "
@@ -17151,26 +17210,27 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:23
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:22
 #, no-wrap
 msgid "System Properties"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:24
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:23
 msgid "This section shows further information about the client."
 msgstr ""
 
 #. type: Block title
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:25
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:24
 #, no-wrap
 msgid "System Properties Columns"
 msgstr ""
 
 #. type: Table
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:26
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:25
 #, no-wrap
 msgid ""
+"\n"
 "| Column Name\n"
 "| Description\n"
 "\n"
@@ -17205,14 +17265,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:27
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:26
 msgid ""
 "For more information about contact methods, see xref:client-configuration:"
 "contact-methods-intro.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:28
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:27
 msgid ""
 "Click btn:[Edit These Properties] to go to menu:System Details[Details > "
 "Properties] subtab."
@@ -17418,6 +17478,7 @@ msgstr ""
 #: modules/reference/pages/systems/system-details/sd-properties.adoc:4
 #, no-wrap
 msgid ""
+"\n"
 "| Setting Name\n"
 "| Description\n"
 "| Default Setting\n"
@@ -18123,6 +18184,7 @@ msgstr ""
 #: modules/reference/pages/systems/system-groups.adoc:6
 #, no-wrap
 msgid ""
+"\n"
 "| Icon\n"
 "| Description\n"
 "| Action Required\n"
