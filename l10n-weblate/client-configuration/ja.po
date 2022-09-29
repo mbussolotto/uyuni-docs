@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-09 11:33+0000\n"
-"PO-Revision-Date: 2022-09-29 10:13+0000\n"
+"PO-Revision-Date: 2022-09-29 12:01+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-mu-431/ja/>\n"
@@ -18528,8 +18528,7 @@ msgid ""
 "[literal]``x86_64`` architecture.  Replace it with other architectures if "
 "appropriate."
 msgstr ""
-"次のセクションでは、説明はデフォルトで[literal]``x86_64``アーキテクチャの場合が多いです。  "
-"必要に応じて他のアーキテクチャに置き換えてください。"
+"次のセクションでは、[literal]``x86_64``アーキテクチャに基づく説明が多いです。  必要に応じて他のアーキテクチャに置き換えてください。"
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:1
