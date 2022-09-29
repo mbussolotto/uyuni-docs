@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-26 06:39+0000\n"
-"PO-Revision-Date: 2022-09-29 09:13+0000\n"
+"PO-Revision-Date: 2022-09-29 12:01+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-and-upgrade-manager-43-mu-432/ja/>\n"
@@ -1100,12 +1100,14 @@ msgid ""
 "is considered unsupported.  Any support may only be available on the best-"
 "effort basis."
 msgstr ""
+"配布が終了すると、サポートが廃止されたと見なされる3か月の猶予期間が開始されます。  この期間が経過すると、製品はサポート対象外と見なされます。  "
+"どのようなサポートでも、ベストエフォートベースでのみ利用できます。"
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/client-requirements.adoc:12
 #, no-wrap
 msgid "Clients approaching end-of-life and end of support"
-msgstr ""
+msgstr "サポート終了とサポート終了が近づいているお客様"
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/client-requirements.adoc:13
@@ -1122,6 +1124,16 @@ msgid ""
 "| 2022-09-30\n"
 "\n"
 msgstr ""
+"| オペレーティングシステム\n"
+"| アーキテクチャ\n"
+"| サポート終了日\n"
+"| サポート終了\n"
+"\n"
+"| {debian} 9\n"
+"| {x86_64}, {aarch64}, armv7l, i586\n"
+"| 2022-06-30\n"
+"| 2022-09-30\n"
+"\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/client-requirements.adoc:14
