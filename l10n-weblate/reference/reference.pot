@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-09-29 17:14+0000\n"
+"POT-Creation-Date: 2022-09-30 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
@@ -1005,7 +1005,6 @@ msgid "xref:cli-bootstrap.adoc[Bootstrapping CLI Tools]"
 msgstr ""
 
 #.  Configuration Files. Disabling for now. --LKB 2020-10-09
-#. ** xref:configuration-files.adoc[Configuration Files]
 #. type: Plain text
 #: modules/reference/nav-reference-guide.adoc:192
 msgid "xref:cli-smdba.adoc[Database CLI Tools]"
@@ -1070,7 +1069,8 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/reference/pages/admin/bootstrap-script.adoc:3 modules/reference/pages/admin/general.adoc:3
+#: modules/reference/pages/admin/bootstrap-script.adoc:3
+#: modules/reference/pages/admin/general.adoc:3
 #, no-wrap
 msgid "Bootstrap Script Options"
 msgstr ""
@@ -1195,7 +1195,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/admin/iss-configuration.adoc:4 modules/reference/pages/admin/iss-master-setup.adoc:7 modules/reference/pages/admin/iss-slave-setup.adoc:6
+#: modules/reference/pages/admin/iss-configuration.adoc:4
+#: modules/reference/pages/admin/iss-master-setup.adoc:7
+#: modules/reference/pages/admin/iss-slave-setup.adoc:6
 msgid "For more information about ISS, see xref:administration:iss.adoc[]."
 msgstr ""
 
@@ -1365,7 +1367,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/admin/organizations.adoc:3 modules/reference/pages/home/my-organization-configuration-channels.adoc:3 modules/reference/pages/home/my-organization-configuration.adoc:7 modules/reference/pages/home/my-organization-menu.adoc:3
+#: modules/reference/pages/admin/organizations.adoc:3
+#: modules/reference/pages/home/my-organization-configuration-channels.adoc:3
+#: modules/reference/pages/home/my-organization-configuration.adoc:7
+#: modules/reference/pages/home/my-organization-menu.adoc:3
 msgid ""
 "For more information about organizations, see "
 "xref:administration:organizations.adoc[]."
@@ -1579,7 +1584,9 @@ msgid "Clients are listed with a patch status icon."
 msgstr ""
 
 #. type: Block title
-#: modules/reference/pages/audit/audit-cve-audit.adoc:5 modules/reference/pages/patches/patch-list-all.adoc:4 modules/reference/pages/patches/patch-list-relevant.adoc:4
+#: modules/reference/pages/audit/audit-cve-audit.adoc:5
+#: modules/reference/pages/patches/patch-list-all.adoc:4
+#: modules/reference/pages/patches/patch-list-relevant.adoc:4
 #, no-wrap
 msgid "Patch Status Icons"
 msgstr ""
@@ -1632,14 +1639,17 @@ msgid "OpenSCAP"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/audit/audit-openscap-overview.adoc:2 modules/reference/pages/audit/openscap-all-scans.adoc:2 modules/reference/pages/audit/openscap-menu.adoc:2
+#: modules/reference/pages/audit/audit-openscap-overview.adoc:2
+#: modules/reference/pages/audit/openscap-all-scans.adoc:2
+#: modules/reference/pages/audit/openscap-menu.adoc:2
 msgid ""
 "The menu:Audit[OpenSCAP] section displays the results of OpenSCAP scans that "
 "you have performed on your clients."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/audit/audit-openscap-overview.adoc:3 modules/reference/pages/systems/system-details/sd-audit.adoc:3
+#: modules/reference/pages/audit/audit-openscap-overview.adoc:3
+#: modules/reference/pages/systems/system-details/sd-audit.adoc:3
 msgid ""
 "The Security Certification and Authorization Package (SCAP) is a "
 "standardized compliance checking solution for enterprise-level Linux "
@@ -1648,7 +1658,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/audit/audit-openscap-overview.adoc:4 modules/reference/pages/audit/openscap-advanced-search.adoc:3 modules/reference/pages/audit/openscap-all-scans.adoc:7 modules/reference/pages/audit/openscap-menu.adoc:4 modules/reference/pages/audit/openscap-xccdf-diff.adoc:3 modules/reference/pages/home/my-organization-configuration.adoc:6 modules/reference/pages/systems/system-details/sd-audit.adoc:4
+#: modules/reference/pages/audit/audit-openscap-overview.adoc:4
+#: modules/reference/pages/audit/openscap-advanced-search.adoc:3
+#: modules/reference/pages/audit/openscap-all-scans.adoc:7
+#: modules/reference/pages/audit/openscap-menu.adoc:4
+#: modules/reference/pages/audit/openscap-xccdf-diff.adoc:3
+#: modules/reference/pages/home/my-organization-configuration.adoc:6
+#: modules/reference/pages/systems/system-details/sd-audit.adoc:4
 msgid ""
 "For more information about OpenSCAP, see "
 "xref:administration:openscap.adoc[]."
@@ -1764,7 +1780,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/audit/openscap-advanced-search.adoc:1 modules/reference/pages/spacecmd/package.adoc:28 modules/reference/pages/systems/advanced-search.adoc:1
+#: modules/reference/pages/audit/openscap-advanced-search.adoc:1
+#: modules/reference/pages/spacecmd/package.adoc:28
+#: modules/reference/pages/systems/advanced-search.adoc:1
 #, no-wrap
 msgid "Advanced Search"
 msgstr ""
@@ -2030,7 +2048,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:17
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2124,12 +2141,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/cli-mgrcfg.adoc:22 modules/reference/pages/cli-mgrcfg.adoc:78
+#: modules/reference/pages/cli-mgrcfg.adoc:22
+#: modules/reference/pages/cli-mgrcfg.adoc:78
 msgid "list"
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/cli-mgrcfg.adoc:23 modules/reference/pages/cli-mgrcfg.adoc:77 modules/reference/pages/spacecmd/get.adoc:1
+#: modules/reference/pages/cli-mgrcfg.adoc:23
+#: modules/reference/pages/cli-mgrcfg.adoc:77
+#: modules/reference/pages/spacecmd/get.adoc:1
 #, no-wrap
 msgid "get"
 msgstr ""
@@ -2140,7 +2160,8 @@ msgid "channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/cli-mgrcfg.adoc:25 modules/reference/pages/cli-mgrcfg.adoc:74
+#: modules/reference/pages/cli-mgrcfg.adoc:25
+#: modules/reference/pages/cli-mgrcfg.adoc:74
 msgid "diff"
 msgstr ""
 
@@ -2184,7 +2205,21 @@ msgid "mgrcfg-client list\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/cli-mgrcfg.adoc:32 modules/reference/pages/cli-mgrcfg.adoc:37 modules/reference/pages/cli-mgrcfg.adoc:51 modules/reference/pages/cli-mgrcfg.adoc:56 modules/reference/pages/cli-mgrcfg.adoc:63 modules/reference/pages/cli-mgrcfg.adoc:96 modules/reference/pages/cli-mgrcfg.adoc:109 modules/reference/pages/cli-mgrcfg.adoc:118 modules/reference/pages/cli-mgrcfg.adoc:126 modules/reference/pages/cli-mgrcfg.adoc:137 modules/reference/pages/cli-mgrcfg.adoc:145 modules/reference/pages/cli-mgrcfg.adoc:157 modules/reference/pages/cli-mgrcfg.adoc:162 modules/reference/pages/cli-mgrcfg.adoc:167 modules/reference/pages/cli-mgrcfg.adoc:175
+#: modules/reference/pages/cli-mgrcfg.adoc:32
+#: modules/reference/pages/cli-mgrcfg.adoc:37
+#: modules/reference/pages/cli-mgrcfg.adoc:51
+#: modules/reference/pages/cli-mgrcfg.adoc:56
+#: modules/reference/pages/cli-mgrcfg.adoc:63
+#: modules/reference/pages/cli-mgrcfg.adoc:96
+#: modules/reference/pages/cli-mgrcfg.adoc:109
+#: modules/reference/pages/cli-mgrcfg.adoc:118
+#: modules/reference/pages/cli-mgrcfg.adoc:126
+#: modules/reference/pages/cli-mgrcfg.adoc:137
+#: modules/reference/pages/cli-mgrcfg.adoc:145
+#: modules/reference/pages/cli-mgrcfg.adoc:157
+#: modules/reference/pages/cli-mgrcfg.adoc:162
+#: modules/reference/pages/cli-mgrcfg.adoc:167
+#: modules/reference/pages/cli-mgrcfg.adoc:175
 msgid "The output looks like this:"
 msgstr ""
 
@@ -2282,7 +2317,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:47
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2303,7 +2337,9 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/cli-mgrcfg.adoc:48 modules/reference/pages/configuration/config-channels.adoc:1 modules/reference/pages/systems/ssm-overview.adoc:22
+#: modules/reference/pages/cli-mgrcfg.adoc:48
+#: modules/reference/pages/configuration/config-channels.adoc:1
+#: modules/reference/pages/systems/ssm-overview.adoc:22
 #, no-wrap
 msgid "Channels"
 msgstr ""
@@ -2424,7 +2460,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:68
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2607,7 +2642,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:100
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2719,7 +2753,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:113
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2807,7 +2840,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:122
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2870,7 +2902,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:130
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -2946,7 +2977,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:141
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -3040,7 +3070,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:153
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -3160,7 +3189,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:171
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -3235,7 +3263,6 @@ msgstr ""
 #: modules/reference/pages/cli-mgrcfg.adoc:179
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Abbreviated Option\n"
 "| Description\n"
@@ -3293,7 +3320,6 @@ msgstr ""
 #: modules/reference/pages/cli-smdba.adoc:6
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Description\n"
 "\n"
@@ -3498,7 +3524,6 @@ msgstr ""
 #: modules/reference/pages/cli-sync.adoc:21
 #, no-wrap
 msgid ""
-"\n"
 "| Option\n"
 "| Description\n"
 "| Example Use\n"
@@ -3674,7 +3699,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/clm/clm-filters.adoc:3 modules/reference/pages/clm/clm-menu.adoc:4 modules/reference/pages/clm/clm-projects.adoc:3
+#: modules/reference/pages/clm/clm-filters.adoc:3
+#: modules/reference/pages/clm/clm-menu.adoc:4
+#: modules/reference/pages/clm/clm-projects.adoc:3
 msgid ""
 "For more information about content lifecycle management, see "
 "xref:administration:content-lifecycle.adoc[]."
@@ -3729,7 +3756,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/clusters/clusters-add.adoc:3 modules/reference/pages/clusters/clusters-details.adoc:6 modules/reference/pages/clusters/clusters-overview.adoc:3
+#: modules/reference/pages/clusters/clusters-add.adoc:3
+#: modules/reference/pages/clusters/clusters-details.adoc:6
+#: modules/reference/pages/clusters/clusters-overview.adoc:3
 msgid ""
 "For more information about clusters, see "
 "xref:client-configuration:virt-clusters.adoc[]."
@@ -5852,7 +5881,10 @@ msgid "Configuration Channel Details"
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/configuration/config-channels.adoc:7 modules/reference/pages/systems/ssm-overview.adoc:5 modules/reference/pages/systems/system-details/sd-configuration.adoc:5 modules/reference/pages/systems/system-details/sd-overview.adoc:1
+#: modules/reference/pages/configuration/config-channels.adoc:7
+#: modules/reference/pages/systems/ssm-overview.adoc:5
+#: modules/reference/pages/systems/system-details/sd-configuration.adoc:5
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:1
 #, no-wrap
 msgid "Overview"
 msgstr ""
@@ -5867,7 +5899,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:9
 #, no-wrap
-msgid "Channel Properties [Management]:"
+msgid "Channel Properties [Management]"
 msgstr ""
 
 #. type: Plain text
@@ -5880,7 +5912,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:11
 #, no-wrap
-msgid "Channel Information:"
+msgid "Channel Information"
 msgstr ""
 
 #. type: Plain text
@@ -5890,8 +5922,10 @@ msgstr ""
 
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:13
+#: modules/reference/pages/configuration/config-overview.adoc:10
+#: modules/reference/pages/systems/system-details/sd-configuration.adoc:11
 #, no-wrap
-msgid "Configuration Actions:"
+msgid "Configuration Actions"
 msgstr ""
 
 #. type: Plain text
@@ -5955,7 +5989,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:20
 #, no-wrap
-msgid "Upload File:"
+msgid "Upload File"
 msgstr ""
 
 #. type: Plain text
@@ -5995,7 +6029,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:25
 #, no-wrap
-msgid "Import Files:"
+msgid "Import Files"
 msgstr ""
 
 #. type: Plain text
@@ -6018,7 +6052,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/reference/pages/configuration/config-channels.adoc:28
 #, no-wrap
-msgid "Create File:"
+msgid "Create File"
 msgstr ""
 
 #. type: Plain text
@@ -6029,7 +6063,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/configuration/config-channels.adoc:30 modules/reference/pages/systems/system-details/sd-configuration.adoc:16
+#: modules/reference/pages/configuration/config-channels.adoc:30
+#: modules/reference/pages/systems/system-details/sd-configuration.adoc:16
 #, no-wrap
 msgid "Deploy Files"
 msgstr ""
@@ -6047,7 +6082,9 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/configuration/config-channels.adoc:32 modules/reference/pages/systems/ssm-overview.adoc:7 modules/reference/pages/users/user-details.adoc:10
+#: modules/reference/pages/configuration/config-channels.adoc:32
+#: modules/reference/pages/systems/ssm-overview.adoc:7
+#: modules/reference/pages/users/user-details.adoc:10
 #, no-wrap
 msgid "Systems"
 msgstr ""
@@ -6057,10 +6094,11 @@ msgstr ""
 msgid "Manage systems subscribed to the configuration channel with two subtabs:"
 msgstr ""
 
-#. type: Labeled list
+#. type: Title ==
 #: modules/reference/pages/configuration/config-channels.adoc:34
+#: modules/reference/pages/software/channel-details.adoc:16
 #, no-wrap
-msgid "Subscribed Systems:"
+msgid "Subscribed Systems"
 msgstr ""
 
 #. type: Plain text
@@ -6072,10 +6110,12 @@ msgid ""
 "system name and click btn:[Unsubscribe systems]."
 msgstr ""
 
-#. type: Labeled list
+#. type: Title ==
 #: modules/reference/pages/configuration/config-channels.adoc:36
+#: modules/reference/pages/configuration/config-systems-target.adoc:1
+#: modules/reference/pages/software/channel-details.adoc:19
 #, no-wrap
-msgid "Target Systems:"
+msgid "Target Systems"
 msgstr ""
 
 #. type: Plain text
@@ -6261,12 +6301,6 @@ msgstr ""
 msgid "Locally managed configuration files"
 msgstr ""
 
-#. type: Labeled list
-#: modules/reference/pages/configuration/config-overview.adoc:10 modules/reference/pages/systems/system-details/sd-configuration.adoc:11
-#, no-wrap
-msgid "Configuration Actions"
-msgstr ""
-
 #. type: Plain text
 #: modules/reference/pages/configuration/config-overview.adoc:11
 msgid ""
@@ -6420,7 +6454,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/configuration/config-systems-menu.adoc:1 modules/reference/pages/systems/systems-menu.adoc:1
+#: modules/reference/pages/configuration/config-systems-menu.adoc:1
+#: modules/reference/pages/systems/systems-menu.adoc:1
 #, no-wrap
 msgid "Systems Menu"
 msgstr ""
@@ -6431,12 +6466,6 @@ msgid ""
 "Displays status information about your system in relation to configuration.  "
 "There are two sub-pages: [guimenu]``Managed Systems`` and [guimenu]``Target "
 "Systems``."
-msgstr ""
-
-#. type: Title ==
-#: modules/reference/pages/configuration/config-systems-target.adoc:1 modules/reference/pages/software/channel-details.adoc:19
-#, no-wrap
-msgid "Target Systems"
 msgstr ""
 
 #. type: Plain text
@@ -6573,7 +6602,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/configuration/files-locally-managed.adoc:5 modules/reference/pages/systems/ssm-overview.adoc:33
+#: modules/reference/pages/configuration/files-locally-managed.adoc:5
+#: modules/reference/pages/systems/ssm-overview.adoc:33
 msgid ""
 "For more information about configuration management, see "
 "xref:client-configuration:configuration-management.adoc[]."
@@ -6713,7 +6743,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/home/home-menu.adoc:3 modules/reference/pages/home/home-overview.adoc:3
+#: modules/reference/pages/home/home-menu.adoc:3
+#: modules/reference/pages/home/home-overview.adoc:3
 msgid ""
 "For more information about setting up and using the {productname} {webui}, "
 "see xref:installation:webui-setup.adoc[]."
@@ -6789,7 +6820,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/home/home-notification-messages.adoc:4 modules/reference/pages/images/images-image-list.adoc:4
+#: modules/reference/pages/home/home-notification-messages.adoc:4
+#: modules/reference/pages/images/images-image-list.adoc:4
 msgid "Click btn:[Refresh] to update the list."
 msgstr ""
 
@@ -6974,7 +7006,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/home/user-account-addresses.adoc:1 modules/reference/pages/users/user-details.adoc:21
+#: modules/reference/pages/home/user-account-addresses.adoc:1
+#: modules/reference/pages/users/user-details.adoc:21
 #, no-wrap
 msgid "Addresses"
 msgstr ""
@@ -7105,7 +7138,11 @@ msgid "Built images are listed in menu:Images[Image List]."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/images/images-build.adoc:6 modules/reference/pages/images/images-image-list.adoc:8 modules/reference/pages/images/images-menu.adoc:3 modules/reference/pages/images/images-profiles.adoc:5 modules/reference/pages/images/images-stores.adoc:5
+#: modules/reference/pages/images/images-build.adoc:6
+#: modules/reference/pages/images/images-image-list.adoc:8
+#: modules/reference/pages/images/images-menu.adoc:3
+#: modules/reference/pages/images/images-profiles.adoc:5
+#: modules/reference/pages/images/images-stores.adoc:5
 msgid ""
 "For more information about images, see "
 "xref:administration:image-management.adoc[]."
@@ -7118,7 +7155,8 @@ msgid "Image List"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/images/images-image-list.adoc:2 modules/reference/pages/images/images-menu.adoc:2
+#: modules/reference/pages/images/images-image-list.adoc:2
+#: modules/reference/pages/images/images-menu.adoc:2
 msgid ""
 "The menu:Images[Image List] section displays your current operating system "
 "images."
@@ -7283,7 +7321,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/patches/manage-patches.adoc:6 modules/reference/pages/patches/patch-list-all.adoc:6 modules/reference/pages/patches/patches-advanced-search.adoc:7 modules/reference/pages/patches/patches-menu.adoc:3 modules/reference/pages/systems/system-details/sd-patches.adoc:4
+#: modules/reference/pages/patches/manage-patches.adoc:6
+#: modules/reference/pages/patches/patch-list-all.adoc:6
+#: modules/reference/pages/patches/patches-advanced-search.adoc:7
+#: modules/reference/pages/patches/patches-menu.adoc:3
+#: modules/reference/pages/systems/system-details/sd-patches.adoc:4
 msgid ""
 "For more information about patching, see "
 "xref:client-configuration:patch-management.adoc[]."
@@ -7304,12 +7346,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/patches/patch-details.adoc:3 modules/reference/pages/software/channel-details.adoc:3
+#: modules/reference/pages/patches/patch-details.adoc:3
+#: modules/reference/pages/software/channel-details.adoc:3
 msgid "This section is divided into tabs."
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/patches/patch-details.adoc:4 modules/reference/pages/software/channel-details.adoc:4 modules/reference/pages/users/user-details.adoc:5
+#: modules/reference/pages/patches/patch-details.adoc:4
+#: modules/reference/pages/software/channel-details.adoc:4
+#: modules/reference/pages/users/user-details.adoc:5
 #, no-wrap
 msgid "Details"
 msgstr ""
@@ -7342,7 +7387,11 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/patches/patch-details.adoc:9 modules/reference/pages/software/channel-details.adoc:13 modules/reference/pages/systems/ssm-overview.adoc:12 modules/reference/pages/systems/system-details/sd-packages.adoc:1 modules/reference/pages/systems/system-details/sd-states.adoc:9
+#: modules/reference/pages/patches/patch-details.adoc:9
+#: modules/reference/pages/software/channel-details.adoc:13
+#: modules/reference/pages/systems/ssm-overview.adoc:12
+#: modules/reference/pages/systems/system-details/sd-packages.adoc:1
+#: modules/reference/pages/systems/system-details/sd-states.adoc:9
 #, no-wrap
 msgid "Packages"
 msgstr ""
@@ -7738,7 +7787,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/schedule/archived-actions.adoc:3 modules/reference/pages/schedule/completed-actions.adoc:5 modules/reference/pages/schedule/failed-actions.adoc:5 modules/reference/pages/schedule/pending-actions.adoc:6 modules/reference/pages/schedule/schedule-menu.adoc:13 modules/reference/pages/systems/system-details/sd-events.adoc:3
+#: modules/reference/pages/schedule/archived-actions.adoc:3
+#: modules/reference/pages/schedule/completed-actions.adoc:5
+#: modules/reference/pages/schedule/failed-actions.adoc:5
+#: modules/reference/pages/schedule/pending-actions.adoc:6
+#: modules/reference/pages/schedule/schedule-menu.adoc:13
+#: modules/reference/pages/systems/system-details/sd-events.adoc:3
 msgid "For more information about actions, see xref:administration:actions.adoc[]."
 msgstr ""
 
@@ -7764,7 +7818,9 @@ msgid "Completed Actions List Columns"
 msgstr ""
 
 #. type: Table
-#: modules/reference/pages/schedule/completed-actions.adoc:4 modules/reference/pages/schedule/failed-actions.adoc:4 modules/reference/pages/schedule/pending-actions.adoc:5
+#: modules/reference/pages/schedule/completed-actions.adoc:4
+#: modules/reference/pages/schedule/failed-actions.adoc:4
+#: modules/reference/pages/schedule/pending-actions.adoc:5
 #, no-wrap
 msgid ""
 "| Column         | Description\n"
@@ -7795,7 +7851,8 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/reference/pages/schedule/failed-actions.adoc:3 modules/reference/pages/schedule/pending-actions.adoc:4
+#: modules/reference/pages/schedule/failed-actions.adoc:3
+#: modules/reference/pages/schedule/pending-actions.adoc:4
 #, no-wrap
 msgid "Actions List Columns"
 msgstr ""
@@ -8060,7 +8117,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/software/channel-details.adoc:10 modules/reference/pages/systems/ssm-overview.adoc:9 modules/reference/pages/systems/system-details/sd-patches.adoc:1
+#: modules/reference/pages/software/channel-details.adoc:10
+#: modules/reference/pages/systems/ssm-overview.adoc:9
+#: modules/reference/pages/systems/system-details/sd-patches.adoc:1
 #, no-wrap
 msgid "Patches"
 msgstr ""
@@ -8075,7 +8134,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/software/channel-details.adoc:12 modules/reference/pages/software/channel-details.adoc:15
+#: modules/reference/pages/software/channel-details.adoc:12
+#: modules/reference/pages/software/channel-details.adoc:15
 msgid ""
 "For more information about managing patches and packages, see "
 "xref:client-configuration:patch-management.adoc[]."
@@ -8089,12 +8149,6 @@ msgid ""
 "Click the package name to go to the [guimenu]``Package Details`` page."
 msgstr ""
 
-#. type: Title ==
-#: modules/reference/pages/software/channel-details.adoc:16
-#, no-wrap
-msgid "Subscribed Systems"
-msgstr ""
-
 #. type: Plain text
 #: modules/reference/pages/software/channel-details.adoc:17
 msgid ""
@@ -8105,7 +8159,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/software/channel-details.adoc:18 modules/reference/pages/systems/ssm-menu.adoc:3
+#: modules/reference/pages/software/channel-details.adoc:18
+#: modules/reference/pages/systems/ssm-menu.adoc:3
 msgid ""
 "For more information about the system set manager, see "
 "xref:client-configuration:system-set-manager.adoc[]."
@@ -8128,7 +8183,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/software/channel-details.adoc:22 modules/reference/pages/software/software-channel-list-menu.adoc:3 modules/reference/pages/software/software-channel-list-menu.adoc:9 modules/reference/pages/software/software-distribution-channel-mapping.adoc:6 modules/reference/pages/software/software-menu.adoc:3 modules/reference/pages/software/software-package-search.adoc:12 modules/reference/pages/systems/ssm-overview.adoc:24 modules/reference/pages/systems/system-details/sd-software-channels.adoc:3
+#: modules/reference/pages/software/channel-details.adoc:22
+#: modules/reference/pages/software/software-channel-list-menu.adoc:3
+#: modules/reference/pages/software/software-channel-list-menu.adoc:9
+#: modules/reference/pages/software/software-distribution-channel-mapping.adoc:6
+#: modules/reference/pages/software/software-menu.adoc:3
+#: modules/reference/pages/software/software-package-search.adoc:12
+#: modules/reference/pages/systems/ssm-overview.adoc:24
+#: modules/reference/pages/systems/system-details/sd-software-channels.adoc:3
 msgid ""
 "For more information about software channels, see "
 "xref:client-configuration:channels.adoc[]."
@@ -8183,7 +8245,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/software/manage-channels.adoc:5 modules/reference/pages/software/manage-packages.adoc:4 modules/reference/pages/software/software-manage-menu.adoc:3
+#: modules/reference/pages/software/manage-channels.adoc:5
+#: modules/reference/pages/software/manage-packages.adoc:4
+#: modules/reference/pages/software/software-manage-menu.adoc:3
 msgid ""
 "For more information about custom channels, see "
 "xref:administration:custom-channels.adoc[]."
@@ -8556,7 +8620,8 @@ msgid "usage: activationkey_addconfigchannels KEY <CHANNEL ...> [options]"
 msgstr ""
 
 #. type: delimited block -
-#: modules/reference/pages/spacecmd/activationkey.adoc:9 modules/reference/pages/spacecmd/system.adoc:10
+#: modules/reference/pages/spacecmd/activationkey.adoc:9
+#: modules/reference/pages/spacecmd/system.adoc:10
 #, no-wrap
 msgid ""
 "options:\n"
@@ -9081,7 +9146,8 @@ msgid "activationkey_setconfigchannelorder"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/spacecmd/activationkey.adoc:101 modules/reference/pages/spacecmd/system.adoc:195
+#: modules/reference/pages/spacecmd/activationkey.adoc:101
+#: modules/reference/pages/spacecmd/system.adoc:195
 msgid "Set the ranked order of configuration channels."
 msgstr ""
 
@@ -10525,7 +10591,8 @@ msgid "usage: group_addsystems GROUP <SYSTEMS>"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/spacecmd/group.adoc:5 modules/reference/pages/spacecmd/group.adoc:28
+#: modules/reference/pages/spacecmd/group.adoc:5
+#: modules/reference/pages/spacecmd/group.adoc:28
 msgid ""
 "<SYSTEMS> can be any of the following: name ssm (see 'help ssm')  "
 "search:QUERY (see 'help system_search')  group:GROUP channel:CHANNEL"
@@ -10778,7 +10845,8 @@ msgid "kickstart_addscript"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/spacecmd/kickstart.adoc:22 modules/reference/pages/spacecmd/kickstart.adoc:130
+#: modules/reference/pages/spacecmd/kickstart.adoc:22
+#: modules/reference/pages/spacecmd/kickstart.adoc:130
 msgid "Add a script to a Kickstart profile."
 msgstr ""
 
@@ -11099,7 +11167,8 @@ msgid "usage: kickstart_import [options]"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/spacecmd/kickstart.adoc:76 modules/reference/pages/spacecmd/kickstart.adoc:80
+#: modules/reference/pages/spacecmd/kickstart.adoc:76
+#: modules/reference/pages/spacecmd/kickstart.adoc:80
 #, no-wrap
 msgid ""
 "options:\n"
@@ -11545,7 +11614,8 @@ msgid "usage: kickstart_updatevariable PROFILE KEY VALUE"
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/spacecmd/list_proxies.adoc:1 modules/reference/pages/spacecmd/list_proxies.adoc:3
+#: modules/reference/pages/spacecmd/list_proxies.adoc:1
+#: modules/reference/pages/spacecmd/list_proxies.adoc:3
 #, no-wrap
 msgid "list_proxies"
 msgstr ""
@@ -11644,7 +11714,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/reference/pages/spacecmd/misc-help-topics.adoc:7 modules/reference/pages/spacecmd/schedule.adoc:17 modules/reference/pages/spacecmd/schedule.adoc:23 modules/reference/pages/spacecmd/schedule.adoc:28 modules/reference/pages/spacecmd/schedule.adoc:34 modules/reference/pages/spacecmd/schedule.adoc:40 modules/reference/pages/spacecmd/system.adoc:176
+#: modules/reference/pages/spacecmd/misc-help-topics.adoc:7
+#: modules/reference/pages/spacecmd/schedule.adoc:17
+#: modules/reference/pages/spacecmd/schedule.adoc:23
+#: modules/reference/pages/spacecmd/schedule.adoc:28
+#: modules/reference/pages/spacecmd/schedule.adoc:34
+#: modules/reference/pages/spacecmd/schedule.adoc:40
+#: modules/reference/pages/spacecmd/system.adoc:176
 #, no-wrap
 msgid ""
 "Units:\n"
@@ -11677,7 +11753,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/spacecmd/misc-help-topics.adoc:11 modules/reference/pages/spacecmd/ssm.adoc:1
+#: modules/reference/pages/spacecmd/misc-help-topics.adoc:11
+#: modules/reference/pages/spacecmd/ssm.adoc:1
 #, no-wrap
 msgid "ssm"
 msgstr ""
@@ -12378,7 +12455,52 @@ msgid "usage: report_network [<SYSTEMS>]\n"
 msgstr ""
 
 #. type: delimited block -
-#: modules/reference/pages/spacecmd/report.adoc:15 modules/reference/pages/spacecmd/report.adoc:19 modules/reference/pages/spacecmd/ssm.adoc:7 modules/reference/pages/spacecmd/ssm.adoc:24 modules/reference/pages/spacecmd/system.adoc:6 modules/reference/pages/spacecmd/system.adoc:11 modules/reference/pages/spacecmd/system.adoc:20 modules/reference/pages/spacecmd/system.adoc:24 modules/reference/pages/spacecmd/system.adoc:29 modules/reference/pages/spacecmd/system.adoc:33 modules/reference/pages/spacecmd/system.adoc:37 modules/reference/pages/spacecmd/system.adoc:44 modules/reference/pages/spacecmd/system.adoc:52 modules/reference/pages/spacecmd/system.adoc:59 modules/reference/pages/spacecmd/system.adoc:66 modules/reference/pages/spacecmd/system.adoc:70 modules/reference/pages/spacecmd/system.adoc:77 modules/reference/pages/spacecmd/system.adoc:84 modules/reference/pages/spacecmd/system.adoc:88 modules/reference/pages/spacecmd/system.adoc:92 modules/reference/pages/spacecmd/system.adoc:96 modules/reference/pages/spacecmd/system.adoc:106 modules/reference/pages/spacecmd/system.adoc:110 modules/reference/pages/spacecmd/system.adoc:114 modules/reference/pages/spacecmd/system.adoc:118 modules/reference/pages/spacecmd/system.adoc:122 modules/reference/pages/spacecmd/system.adoc:126 modules/reference/pages/spacecmd/system.adoc:130 modules/reference/pages/spacecmd/system.adoc:137 modules/reference/pages/spacecmd/system.adoc:141 modules/reference/pages/spacecmd/system.adoc:145 modules/reference/pages/spacecmd/system.adoc:149 modules/reference/pages/spacecmd/system.adoc:153 modules/reference/pages/spacecmd/system.adoc:157 modules/reference/pages/spacecmd/system.adoc:161 modules/reference/pages/spacecmd/system.adoc:165 modules/reference/pages/spacecmd/system.adoc:173 modules/reference/pages/spacecmd/system.adoc:180 modules/reference/pages/spacecmd/system.adoc:184 modules/reference/pages/spacecmd/system.adoc:193 modules/reference/pages/spacecmd/system.adoc:197 modules/reference/pages/spacecmd/system.adoc:201 modules/reference/pages/spacecmd/system.adoc:205 modules/reference/pages/spacecmd/system.adoc:212 modules/reference/pages/spacecmd/system.adoc:216 modules/reference/pages/spacecmd/system.adoc:220
+#: modules/reference/pages/spacecmd/report.adoc:15
+#: modules/reference/pages/spacecmd/report.adoc:19
+#: modules/reference/pages/spacecmd/ssm.adoc:7
+#: modules/reference/pages/spacecmd/ssm.adoc:24
+#: modules/reference/pages/spacecmd/system.adoc:6
+#: modules/reference/pages/spacecmd/system.adoc:11
+#: modules/reference/pages/spacecmd/system.adoc:20
+#: modules/reference/pages/spacecmd/system.adoc:24
+#: modules/reference/pages/spacecmd/system.adoc:29
+#: modules/reference/pages/spacecmd/system.adoc:33
+#: modules/reference/pages/spacecmd/system.adoc:37
+#: modules/reference/pages/spacecmd/system.adoc:44
+#: modules/reference/pages/spacecmd/system.adoc:52
+#: modules/reference/pages/spacecmd/system.adoc:59
+#: modules/reference/pages/spacecmd/system.adoc:66
+#: modules/reference/pages/spacecmd/system.adoc:70
+#: modules/reference/pages/spacecmd/system.adoc:77
+#: modules/reference/pages/spacecmd/system.adoc:84
+#: modules/reference/pages/spacecmd/system.adoc:88
+#: modules/reference/pages/spacecmd/system.adoc:92
+#: modules/reference/pages/spacecmd/system.adoc:96
+#: modules/reference/pages/spacecmd/system.adoc:106
+#: modules/reference/pages/spacecmd/system.adoc:110
+#: modules/reference/pages/spacecmd/system.adoc:114
+#: modules/reference/pages/spacecmd/system.adoc:118
+#: modules/reference/pages/spacecmd/system.adoc:122
+#: modules/reference/pages/spacecmd/system.adoc:126
+#: modules/reference/pages/spacecmd/system.adoc:130
+#: modules/reference/pages/spacecmd/system.adoc:137
+#: modules/reference/pages/spacecmd/system.adoc:141
+#: modules/reference/pages/spacecmd/system.adoc:145
+#: modules/reference/pages/spacecmd/system.adoc:149
+#: modules/reference/pages/spacecmd/system.adoc:153
+#: modules/reference/pages/spacecmd/system.adoc:157
+#: modules/reference/pages/spacecmd/system.adoc:161
+#: modules/reference/pages/spacecmd/system.adoc:165
+#: modules/reference/pages/spacecmd/system.adoc:173
+#: modules/reference/pages/spacecmd/system.adoc:180
+#: modules/reference/pages/spacecmd/system.adoc:184
+#: modules/reference/pages/spacecmd/system.adoc:193
+#: modules/reference/pages/spacecmd/system.adoc:197
+#: modules/reference/pages/spacecmd/system.adoc:201
+#: modules/reference/pages/spacecmd/system.adoc:205
+#: modules/reference/pages/spacecmd/system.adoc:212
+#: modules/reference/pages/spacecmd/system.adoc:216
+#: modules/reference/pages/spacecmd/system.adoc:220
 #, no-wrap
 msgid ""
 "<SYSTEMS> can be any of the following:\n"
@@ -12609,7 +12731,11 @@ msgid "usage: schedule_list [BEGINDATE] [ENDDATE]\n"
 msgstr ""
 
 #. type: delimited block -
-#: modules/reference/pages/spacecmd/schedule.adoc:15 modules/reference/pages/spacecmd/schedule.adoc:21 modules/reference/pages/spacecmd/schedule.adoc:26 modules/reference/pages/spacecmd/schedule.adoc:32 modules/reference/pages/spacecmd/schedule.adoc:38
+#: modules/reference/pages/spacecmd/schedule.adoc:15
+#: modules/reference/pages/spacecmd/schedule.adoc:21
+#: modules/reference/pages/spacecmd/schedule.adoc:26
+#: modules/reference/pages/spacecmd/schedule.adoc:32
+#: modules/reference/pages/spacecmd/schedule.adoc:38
 #, no-wrap
 msgid ""
 "Dates can be any of the following:\n"
@@ -12621,7 +12747,11 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/reference/pages/spacecmd/schedule.adoc:16 modules/reference/pages/spacecmd/schedule.adoc:22 modules/reference/pages/spacecmd/schedule.adoc:27 modules/reference/pages/spacecmd/schedule.adoc:33 modules/reference/pages/spacecmd/schedule.adoc:39
+#: modules/reference/pages/spacecmd/schedule.adoc:16
+#: modules/reference/pages/spacecmd/schedule.adoc:22
+#: modules/reference/pages/spacecmd/schedule.adoc:27
+#: modules/reference/pages/spacecmd/schedule.adoc:33
+#: modules/reference/pages/spacecmd/schedule.adoc:39
 #, no-wrap
 msgid ""
 "Deltas:\n"
@@ -13803,7 +13933,10 @@ msgid "usage: ssm_add <SYSTEMS>\n"
 msgstr ""
 
 #. type: delimited block -
-#: modules/reference/pages/spacecmd/ssm.adoc:6 modules/reference/pages/spacecmd/ssm.adoc:14 modules/reference/pages/spacecmd/ssm.adoc:19 modules/reference/pages/spacecmd/ssm.adoc:23
+#: modules/reference/pages/spacecmd/ssm.adoc:6
+#: modules/reference/pages/spacecmd/ssm.adoc:14
+#: modules/reference/pages/spacecmd/ssm.adoc:19
+#: modules/reference/pages/spacecmd/ssm.adoc:23
 #, no-wrap
 msgid "see 'help ssm' for more details\n"
 msgstr ""
@@ -15423,7 +15556,8 @@ msgid "user_setpassword"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/spacecmd/user.adoc:53 modules/reference/pages/spacecmd/user.adoc:56
+#: modules/reference/pages/spacecmd/user.adoc:53
+#: modules/reference/pages/spacecmd/user.adoc:56
 msgid "Set an user accounts name prefix field."
 msgstr ""
 
@@ -15446,7 +15580,8 @@ msgid "usage: user_setprefix USER PREFIX\n"
 msgstr ""
 
 #. type: Labeled list
-#: modules/reference/pages/spacecmd/whoami.adoc:1 modules/reference/pages/spacecmd/whoami.adoc:3
+#: modules/reference/pages/spacecmd/whoami.adoc:1
+#: modules/reference/pages/spacecmd/whoami.adoc:3
 #, no-wrap
 msgid "whoami"
 msgstr ""
@@ -15472,7 +15607,8 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: modules/reference/pages/spacecmd/whoamitalkingto.adoc:1 modules/reference/pages/spacecmd/whoamitalkingto.adoc:3
+#: modules/reference/pages/spacecmd/whoamitalkingto.adoc:1
+#: modules/reference/pages/spacecmd/whoamitalkingto.adoc:3
 #, no-wrap
 msgid "whoamitalkingto"
 msgstr ""
@@ -15672,7 +15808,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/autoinst-menu.adoc:3 modules/reference/pages/systems/autoinst-overview.adoc:13 modules/reference/pages/systems/ssm-overview.adoc:41 modules/reference/pages/systems/system-details/sd-provisioning.adoc:6
+#: modules/reference/pages/systems/autoinst-menu.adoc:3
+#: modules/reference/pages/systems/autoinst-overview.adoc:13
+#: modules/reference/pages/systems/ssm-overview.adoc:41
+#: modules/reference/pages/systems/system-details/sd-provisioning.adoc:6
 msgid ""
 "For more information about autoinstallation, see "
 "xref:client-configuration:autoinst-intro.adoc[]."
@@ -15693,7 +15832,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/autoinst-overview.adoc:3 modules/reference/pages/systems/system-details/sd-overview.adoc:4
+#: modules/reference/pages/systems/autoinst-overview.adoc:3
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:4
 msgid "The menu:Systems[Details > Overview] subtab is split into sections:"
 msgstr ""
 
@@ -15750,7 +15890,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/autoinst-overview.adoc:12 modules/reference/pages/systems/autoinst-profiles.adoc:4
+#: modules/reference/pages/systems/autoinst-overview.adoc:12
+#: modules/reference/pages/systems/autoinst-profiles.adoc:4
 msgid ""
 "Click btn:[Create Kickstart Profile] to create a new {kickstart} profile.  "
 "Click btn:[Upload Kickstart/Autoyast File] to upload a new autoinstallation "
@@ -15957,7 +16098,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/custom-system-info.adoc:4 modules/reference/pages/systems/system-details/sd-custom-info.adoc:4
+#: modules/reference/pages/systems/custom-system-info.adoc:4
+#: modules/reference/pages/systems/system-details/sd-custom-info.adoc:4
 msgid ""
 "For more information about custom system information, see "
 "xref:client-configuration:custom-info.adoc[]."
@@ -15992,7 +16134,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/ssm-overview.adoc:3 modules/reference/pages/systems/ssm-task-log.adoc:5
+#: modules/reference/pages/systems/ssm-overview.adoc:3
+#: modules/reference/pages/systems/ssm-task-log.adoc:5
 msgid ""
 "For more information about SSM, see "
 "xref:client-configuration:system-set-manager.adoc[]."
@@ -16034,7 +16177,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/ssm-overview.adoc:13 modules/reference/pages/systems/ssm-overview.adoc:27 modules/reference/pages/systems/ssm-overview.adoc:35 modules/reference/pages/systems/ssm-overview.adoc:47
+#: modules/reference/pages/systems/ssm-overview.adoc:13
+#: modules/reference/pages/systems/ssm-overview.adoc:27
+#: modules/reference/pages/systems/ssm-overview.adoc:35
+#: modules/reference/pages/systems/ssm-overview.adoc:47
 msgid "This section is split into subtabs."
 msgstr ""
 
@@ -16083,7 +16229,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/systems/ssm-overview.adoc:19 modules/reference/pages/systems/system-details/sd-groups.adoc:1
+#: modules/reference/pages/systems/ssm-overview.adoc:19
+#: modules/reference/pages/systems/system-details/sd-groups.adoc:1
 #, no-wrap
 msgid "Groups"
 msgstr ""
@@ -16100,7 +16247,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/ssm-overview.adoc:21 modules/reference/pages/systems/system-details/sd-groups.adoc:4 modules/reference/pages/systems/system-groups.adoc:7 modules/reference/pages/systems/systems-list.adoc:28
+#: modules/reference/pages/systems/ssm-overview.adoc:21
+#: modules/reference/pages/systems/system-details/sd-groups.adoc:4
+#: modules/reference/pages/systems/system-groups.adoc:7
+#: modules/reference/pages/systems/systems-list.adoc:28
 msgid ""
 "For more information about system groups, see "
 "xref:client-configuration:system-groups.adoc[]."
@@ -16123,7 +16273,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/systems/ssm-overview.adoc:26 modules/reference/pages/systems/system-details/sd-configuration.adoc:1
+#: modules/reference/pages/systems/ssm-overview.adoc:26
+#: modules/reference/pages/systems/system-details/sd-configuration.adoc:1
 #, no-wrap
 msgid "Configuration"
 msgstr ""
@@ -16178,7 +16329,9 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/ssm-overview.adoc:34 modules/reference/pages/systems/system-details/sd-provisioning.adoc:1 modules/reference/pages/systems/system-details/sd-virtualization.adoc:24
+#: modules/reference/pages/systems/ssm-overview.adoc:34
+#: modules/reference/pages/systems/system-details/sd-provisioning.adoc:1
+#: modules/reference/pages/systems/system-details/sd-virtualization.adoc:24
 #, no-wrap
 msgid "Provisioning"
 msgstr ""
@@ -16230,7 +16383,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/systems/ssm-overview.adoc:42 modules/reference/pages/systems/system-details/sd-states.adoc:1
+#: modules/reference/pages/systems/ssm-overview.adoc:42
+#: modules/reference/pages/systems/system-details/sd-states.adoc:1
 #, no-wrap
 msgid "States"
 msgstr ""
@@ -16243,7 +16397,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/reference/pages/systems/ssm-overview.adoc:44 modules/reference/pages/systems/system-details/sd-audit.adoc:1
+#: modules/reference/pages/systems/ssm-overview.adoc:44
+#: modules/reference/pages/systems/system-details/sd-audit.adoc:1
 #, no-wrap
 msgid "Audit"
 msgstr ""
@@ -16530,7 +16685,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-configuration.adoc:3 modules/reference/pages/systems/system-details/sd-states.adoc:17
+#: modules/reference/pages/systems/system-details/sd-configuration.adoc:3
+#: modules/reference/pages/systems/system-details/sd-states.adoc:17
 msgid ""
 "For more information about configuration channels, see "
 "xref:client-configuration:configuration-management.adoc[]."
@@ -16746,7 +16902,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-details.adoc:5 modules/reference/pages/systems/systems-list.adoc:3 modules/reference/pages/systems/systems-menu.adoc:3 modules/reference/pages/systems/systems-overview.adoc:6
+#: modules/reference/pages/systems/system-details/sd-details.adoc:5
+#: modules/reference/pages/systems/systems-list.adoc:3
+#: modules/reference/pages/systems/systems-menu.adoc:3
+#: modules/reference/pages/systems/systems-overview.adoc:6
 msgid ""
 "For more information about managing clients, see "
 "xref:client-configuration:client-config-overview.adoc[]."
@@ -17037,7 +17196,6 @@ msgstr ""
 #: modules/reference/pages/systems/system-details/sd-overview.adoc:11
 #, no-wrap
 msgid ""
-"\n"
 "| Column Name\n"
 "| Description\n"
 "| Conditions\n"
@@ -17049,73 +17207,47 @@ msgid ""
 "| FQDN\n"
 "| The fully qualified domain name of the client.\n"
 "| Shown only if it differs from the host name.\n"
-"\n"
-"| IP address\n"
-"| The IPv4 IP address of the client.\n"
-"| -\n"
-"\n"
-"| IPv6 address\n"
-"| The IPv6 IP address of the client.\n"
-"| -\n"
-"\n"
-"| Minion ID\n"
-"| The minion ID of the client.\n"
-"| Salt clients only.\n"
-"\n"
-"| Virtualization\n"
-"| The type of virtualization used by the client.\n"
-"| Virtualized clients only.\n"
-"\n"
-"| UUID\n"
-"| The universally unique identifier.\n"
-"| -\n"
-"\n"
-"| Kernel\n"
-"| The kernel currently in use on the client.\n"
-"| -\n"
-"\n"
-"| {productname} System ID\n"
-"| A unique identifier generated by {productname} when the client is "
-"registered.\n"
-"| -\n"
-"\n"
-"| Activation key\n"
-"| The activation key used to register the client.\n"
-"| Remains blank if the client has not been activated.\n"
-"\n"
-"| Installed products\n"
-"| Software products currently installed on the client.\n"
-"| -\n"
-"\n"
-"| Lock status\n"
-"| Indicates whether the client is locked.\n"
-"| Traditional clients only.\n"
-"Locked Salt clients instead show a yellow banner on this page.\n"
-"\n"
+msgstr ""
+
+#. type: Table
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:12
+msgid ""
+"| IP address | The IPv4 IP address of the client.  | - | IPv6 address | The "
+"IPv6 IP address of the client.  | - | Minion ID | The minion ID of the "
+"client.  | Salt clients only.  | Virtualization | The type of virtualization "
+"used by the client.  | Virtualized clients only.  | UUID | The universally "
+"unique identifier.  | - | Kernel | The kernel currently in use on the "
+"client.  | - | {productname} System ID | A unique identifier generated by "
+"{productname} when the client is registered.  | - | Activation key | The "
+"activation key used to register the client.  | Remains blank if the client "
+"has not been activated.  | Installed products | Software products currently "
+"installed on the client.  | - | Lock status | Indicates whether the client "
+"is locked.  | Traditional clients only.  Locked Salt clients instead show a "
+"yellow banner on this page."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:12
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:13
 msgid ""
 "For more information about system locks, see "
 "xref:client-configuration:system-locking.adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:13
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:14
 #, no-wrap
 msgid "Subscribed Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:14
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:15
 msgid ""
 "This section shows the base and child software channels this client is "
 "subscribed to."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:15
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:16
 msgid ""
 "Click btn:[Alter Channel Subscriptions] to change the channel subscriptions "
 "for this client.  Click a channel name to go to the [guimenu]``Channel "
@@ -17123,34 +17255,33 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:16
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:17
 msgid ""
 "For more information about channels, see "
 "xref:client-configuration:channels.adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:17
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:18
 #, no-wrap
 msgid "System Events"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:18
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:19
 msgid "This section shows the most recent system events for this client."
 msgstr ""
 
 #. type: Block title
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:19
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:20
 #, no-wrap
 msgid "System Events Columns"
 msgstr ""
 
 #. type: Table
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:20
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:21
 #, no-wrap
 msgid ""
-"\n"
 "| Column Name\n"
 "| Description\n"
 "\n"
@@ -17167,7 +17298,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:21
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:22
 msgid ""
 "Click btn:[Schedule system reboot] to set a time for the client to reboot.  "
 "The reboot will occur when the client next checks in with the {productname} "
@@ -17176,27 +17307,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:22
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:23
 #, no-wrap
 msgid "System Properties"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:23
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:24
 msgid "This section shows further information about the client."
 msgstr ""
 
 #. type: Block title
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:24
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:25
 #, no-wrap
 msgid "System Properties Columns"
 msgstr ""
 
 #. type: Table
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:25
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:26
 #, no-wrap
 msgid ""
-"\n"
 "| Column Name\n"
 "| Description\n"
 "\n"
@@ -17234,14 +17364,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:26
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:27
 msgid ""
 "For more information about contact methods, see "
 "xref:client-configuration:contact-methods-intro.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-overview.adoc:27
+#: modules/reference/pages/systems/system-details/sd-overview.adoc:28
 msgid ""
 "Click btn:[Edit These Properties] to go to menu:System Details[Details > "
 "Properties] subtab."
@@ -17357,7 +17487,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/system-details/sd-packages.adoc:17 modules/reference/pages/systems/systems-list.adoc:21
+#: modules/reference/pages/systems/system-details/sd-packages.adoc:17
+#: modules/reference/pages/systems/systems-list.adoc:21
 #, no-wrap
 msgid "Non Compliant"
 msgstr ""
@@ -17438,7 +17569,6 @@ msgstr ""
 #: modules/reference/pages/systems/system-details/sd-properties.adoc:4
 #, no-wrap
 msgid ""
-"\n"
 "| Setting Name\n"
 "| Description\n"
 "| Default Setting\n"
@@ -17603,7 +17733,8 @@ msgid "Click btn:[Rollback to Snapshot] to roll back to the selected snapshot."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-provisioning.adoc:22 modules/reference/pages/systems/system-details/sd-provisioning.adoc:25
+#: modules/reference/pages/systems/system-details/sd-provisioning.adoc:22
+#: modules/reference/pages/systems/system-details/sd-provisioning.adoc:25
 msgid ""
 "For more information about snapshots, see "
 "xref:client-configuration:snapshots.adoc[]."
@@ -17624,7 +17755,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/reference/pages/systems/system-details/sd-proxy.adoc:1 modules/reference/pages/systems/systems-list.adoc:35
+#: modules/reference/pages/systems/system-details/sd-proxy.adoc:1
+#: modules/reference/pages/systems/systems-list.adoc:35
 #, no-wrap
 msgid "Proxy"
 msgstr ""
@@ -17861,7 +17993,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-states.adoc:12 modules/reference/pages/systems/system-details/sd-states.adoc:16
+#: modules/reference/pages/systems/system-details/sd-states.adoc:12
+#: modules/reference/pages/systems/system-details/sd-states.adoc:16
 msgid ""
 "Use the [guimenu]``Changes`` subtab to see what changes will occur on the "
 "selected client when this state is applied."
@@ -17931,7 +18064,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/system-details/sd-virtualization.adoc:7 modules/reference/pages/systems/system-details/sd-virtualization.adoc:14 modules/reference/pages/systems/system-details/sd-virtualization.adoc:20
+#: modules/reference/pages/systems/system-details/sd-virtualization.adoc:7
+#: modules/reference/pages/systems/system-details/sd-virtualization.adoc:14
+#: modules/reference/pages/systems/system-details/sd-virtualization.adoc:20
 msgid "The list shows these columns:"
 msgstr ""
 
@@ -18145,7 +18280,6 @@ msgstr ""
 #: modules/reference/pages/systems/system-groups.adoc:6
 #, no-wrap
 msgid ""
-"\n"
 "| Icon\n"
 "| Description\n"
 "| Action Required\n"
@@ -18315,7 +18449,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/systems/systems-list.adoc:25 modules/reference/pages/systems/systems-list.adoc:43
+#: modules/reference/pages/systems/systems-list.adoc:25
+#: modules/reference/pages/systems/systems-list.adoc:43
 msgid ""
 "For more information about system types, see "
 "xref:client-configuration:system-types.adoc[]."
@@ -18688,7 +18823,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/users/active-users.adoc:4 modules/reference/pages/users/all-users.adoc:4 modules/reference/pages/users/deactivated-users.adoc:5 modules/reference/pages/users/user-details.adoc:3 modules/reference/pages/users/users-menu.adoc:4
+#: modules/reference/pages/users/active-users.adoc:4
+#: modules/reference/pages/users/all-users.adoc:4
+#: modules/reference/pages/users/deactivated-users.adoc:5
+#: modules/reference/pages/users/user-details.adoc:3
+#: modules/reference/pages/users/users-menu.adoc:4
 msgid ""
 "For more information about managing users, see "
 "xref:administration:users.adoc[]."
@@ -18870,7 +19009,8 @@ msgid "Check channels in the list to grant permissions."
 msgstr ""
 
 #. type: Block title
-#: modules/reference/pages/users/user-details.adoc:17 modules/reference/pages/users/user-details.adoc:19
+#: modules/reference/pages/users/user-details.adoc:17
+#: modules/reference/pages/users/user-details.adoc:19
 #, no-wrap
 msgid "User Preferences"
 msgstr ""

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-09-29 17:14+0000\n"
+"POT-Creation-Date: 2022-09-30 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
@@ -104,12 +104,12 @@ msgstr ""
 msgid "xref:content-lifecycle.adoc[Content Lifecycle Management]"
 msgstr ""
 
+#.  Ansible integration
 #. type: Plain text
 #: modules/administration/nav-administration-guide.adoc:17
 msgid "xref:content-lifecycle-examples.adoc[Content Lifecycle Management Examples]"
 msgstr ""
 
-#.  Ansible integration
 #. type: Plain text
 #: modules/administration/nav-administration-guide.adoc:18
 msgid "xref:ansible-integration.adoc[Ansible Integration]"
@@ -213,7 +213,8 @@ msgid "xref:mgr-sync.adoc[Using mgr-sync]"
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/nav-administration-guide.adoc:37 modules/administration/pages/monitoring.adoc:153
+#: modules/administration/nav-administration-guide.adoc:37
+#: modules/administration/pages/monitoring.adoc:153
 #, no-wrap
 msgid "Security"
 msgstr ""
@@ -771,7 +772,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/actions.adoc:64 modules/administration/pages/backup-restore.adoc:130 modules/administration/pages/space-management.adoc:12 modules/administration/pages/space-management.adoc:17 modules/administration/pages/space-management.adoc:22
+#: modules/administration/pages/actions.adoc:64
+#: modules/administration/pages/backup-restore.adoc:130
+#: modules/administration/pages/space-management.adoc:12
+#: modules/administration/pages/space-management.adoc:17
+#: modules/administration/pages/space-management.adoc:22
 msgid "For example:"
 msgstr ""
 
@@ -1036,7 +1041,9 @@ msgid "/etc/ansible/sles15\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ansible-compliance-as-code.adoc:13 modules/administration/pages/ansible-compliance-as-code.adoc:22 modules/administration/pages/ansible-compliance-as-code.adoc:29
+#: modules/administration/pages/ansible-compliance-as-code.adoc:13
+#: modules/administration/pages/ansible-compliance-as-code.adoc:22
+#: modules/administration/pages/ansible-compliance-as-code.adoc:29
 msgid "Click btn:[Schedule]."
 msgstr ""
 
@@ -1084,7 +1091,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/ansible-compliance-as-code.adoc:21 modules/administration/pages/ansible-compliance-as-code.adoc:28
+#: modules/administration/pages/ansible-compliance-as-code.adoc:21
+#: modules/administration/pages/ansible-compliance-as-code.adoc:28
 #, no-wrap
 msgid ""
 "#!/bin/bash\n"
@@ -1151,7 +1159,6 @@ msgstr ""
 #: modules/administration/pages/ansible-compliance-as-code.adoc:34
 #, no-wrap
 msgid ""
-"\n"
 "| Package | scap-security-guide\n"
 "| Channels | SLE12: SLES12 Updates +\n"
 "             SLE15: SLES15 Module Basesystem Updates\n"
@@ -1193,7 +1200,6 @@ msgstr ""
 #: modules/administration/pages/ansible-compliance-as-code.adoc:39
 #, no-wrap
 msgid ""
-"\n"
 "| Package |\n"
 "scap-security-guide-redhat\n"
 "\n"
@@ -1304,7 +1310,6 @@ msgstr ""
 #: modules/administration/pages/ansible-compliance-as-code.adoc:43
 #, no-wrap
 msgid ""
-"\n"
 "|Package |\n"
 "scap-security-guide-ubuntu\n"
 "\n"
@@ -1423,7 +1428,9 @@ msgid "execution of playbooks"
 msgstr ""
 
 #. type: Title ===
-#: modules/administration/pages/ansible-integration.adoc:9 modules/administration/pages/image-management.adoc:13 modules/administration/pages/image-management.adoc:134
+#: modules/administration/pages/ansible-integration.adoc:9
+#: modules/administration/pages/image-management.adoc:13
+#: modules/administration/pages/image-management.adoc:134
 #, no-wrap
 msgid "Requirements"
 msgstr ""
@@ -1635,7 +1642,6 @@ msgstr ""
 #: modules/administration/pages/ansible-setup-control-node.adoc:18
 #, no-wrap
 msgid ""
-"\n"
 "| Package name\n"
 "| Supported Systems\n"
 "\n"
@@ -2798,7 +2804,11 @@ msgid "Restart the spacewalk service to pick up the changes:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/auth-methods-sso.adoc:42 modules/administration/pages/mirror-sources.adoc:8 modules/administration/pages/ssl-certs-selfsigned.adoc:15 modules/administration/pages/ssl-certs-selfsigned.adoc:57 modules/administration/pages/ssl-certs-selfsigned.adoc:74
+#: modules/administration/pages/auth-methods-sso.adoc:42
+#: modules/administration/pages/mirror-sources.adoc:8
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:15
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:57
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:74
 #, no-wrap
 msgid "spacewalk-service restart\n"
 msgstr ""
@@ -3180,7 +3190,8 @@ msgid "Starting and stopping the database can be performed with:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/backup-restore.adoc:58 modules/administration/pages/backup-restore.adoc:97
+#: modules/administration/pages/backup-restore.adoc:58
+#: modules/administration/pages/backup-restore.adoc:97
 #, no-wrap
 msgid "smdba db-start\n"
 msgstr ""
@@ -3191,7 +3202,8 @@ msgid "And:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/backup-restore.adoc:60 modules/administration/pages/backup-restore.adoc:93
+#: modules/administration/pages/backup-restore.adoc:60
+#: modules/administration/pages/backup-restore.adoc:93
 #, no-wrap
 msgid "smdba db-stop\n"
 msgstr ""
@@ -3421,7 +3433,8 @@ msgid "Procedure: Restoring from Backup"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/backup-restore.adoc:92 modules/administration/pages/backup-restore.adoc:149
+#: modules/administration/pages/backup-restore.adoc:92
+#: modules/administration/pages/backup-restore.adoc:149
 msgid "Shut down the database:"
 msgstr ""
 
@@ -3533,12 +3546,14 @@ msgid "smdba space-overview\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/backup-restore.adoc:113 modules/administration/pages/backup-restore.adoc:118
+#: modules/administration/pages/backup-restore.adoc:113
+#: modules/administration/pages/backup-restore.adoc:118
 msgid "outputs:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/backup-restore.adoc:114 modules/administration/pages/backup-restore.adoc:119
+#: modules/administration/pages/backup-restore.adoc:114
+#: modules/administration/pages/backup-restore.adoc:119
 #, no-wrap
 msgid ""
 "SUSE Manager Database Control. Version 1.5.2\n"
@@ -3618,7 +3633,8 @@ msgid "At the command prompt, as root, stop the running database:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/backup-restore.adoc:126 modules/administration/pages/backup-restore.adoc:150
+#: modules/administration/pages/backup-restore.adoc:126
+#: modules/administration/pages/backup-restore.adoc:150
 #, no-wrap
 msgid "rcpostgresql stop\n"
 msgstr ""
@@ -3629,7 +3645,9 @@ msgid "Shut down the running spacewalk services:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/backup-restore.adoc:128 modules/administration/pages/backup-restore.adoc:152 modules/administration/pages/tshoot-logintimeout.adoc:7
+#: modules/administration/pages/backup-restore.adoc:128
+#: modules/administration/pages/backup-restore.adoc:152
+#: modules/administration/pages/tshoot-logintimeout.adoc:7
 #, no-wrap
 msgid "spacewalk-service stop\n"
 msgstr ""
@@ -3714,18 +3732,22 @@ msgid "Start the database with:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/backup-restore.adoc:142 modules/administration/pages/backup-restore.adoc:156
+#: modules/administration/pages/backup-restore.adoc:142
+#: modules/administration/pages/backup-restore.adoc:156
 #, no-wrap
 msgid "rcpostgresql start\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/backup-restore.adoc:143 modules/administration/pages/backup-restore.adoc:157
+#: modules/administration/pages/backup-restore.adoc:143
+#: modules/administration/pages/backup-restore.adoc:157
 msgid "Start the spacewalk services:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/backup-restore.adoc:144 modules/administration/pages/backup-restore.adoc:158 modules/administration/pages/tshoot-logintimeout.adoc:15
+#: modules/administration/pages/backup-restore.adoc:144
+#: modules/administration/pages/backup-restore.adoc:158
+#: modules/administration/pages/tshoot-logintimeout.adoc:15
 #, no-wrap
 msgid "spacewalk-service start\n"
 msgstr ""
@@ -3999,7 +4021,8 @@ msgid "An example project for a monthly patch cycle consists of:"
 msgstr ""
 
 #. type: Title ===
-#: modules/administration/pages/content-lifecycle-examples.adoc:5 modules/administration/pages/content-lifecycle-examples.adoc:10
+#: modules/administration/pages/content-lifecycle-examples.adoc:5
+#: modules/administration/pages/content-lifecycle-examples.adoc:10
 #, no-wrap
 msgid "Creating a `By Date` filter"
 msgstr ""
@@ -4039,14 +4062,17 @@ msgid "Procedure: Creating the ``By Date`` Filter"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:13 modules/administration/pages/content-lifecycle-examples.adoc:38 modules/administration/pages/content-lifecycle-examples.adoc:53
+#: modules/administration/pages/content-lifecycle-examples.adoc:13
+#: modules/administration/pages/content-lifecycle-examples.adoc:38
+#: modules/administration/pages/content-lifecycle-examples.adoc:53
 msgid ""
 "In the {productname} {webui}, navigate to menu:Content Lifecycle[Filters] "
 "and click btn:[Create Filter]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:14 modules/administration/pages/content-lifecycle-examples.adoc:90
+#: modules/administration/pages/content-lifecycle-examples.adoc:14
+#: modules/administration/pages/content-lifecycle-examples.adoc:90
 msgid "In the [guimenu]``Filter Name`` field, type a name for your filter."
 msgstr ""
 
@@ -4075,7 +4101,11 @@ msgid "Select the date and time."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:19 modules/administration/pages/content-lifecycle-examples.adoc:25 modules/administration/pages/content-lifecycle-examples.adoc:45 modules/administration/pages/content-lifecycle-examples.adoc:62 modules/administration/pages/monitoring.adoc:121
+#: modules/administration/pages/content-lifecycle-examples.adoc:19
+#: modules/administration/pages/content-lifecycle-examples.adoc:25
+#: modules/administration/pages/content-lifecycle-examples.adoc:45
+#: modules/administration/pages/content-lifecycle-examples.adoc:62
+#: modules/administration/pages/monitoring.adoc:121
 msgid "Click btn:[Save]."
 msgstr ""
 
@@ -4192,14 +4222,16 @@ msgid "For example, [systemitem]``Exclude openjdk patch``."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:41 modules/administration/pages/content-lifecycle-examples.adoc:56
+#: modules/administration/pages/content-lifecycle-examples.adoc:41
+#: modules/administration/pages/content-lifecycle-examples.adoc:56
 msgid ""
 "In the [guimenu]``Filter Type`` field, select [guimenu]``Patch (Advisory "
 "Name)``."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:42 modules/administration/pages/content-lifecycle-examples.adoc:57
+#: modules/administration/pages/content-lifecycle-examples.adoc:42
+#: modules/administration/pages/content-lifecycle-examples.adoc:57
 msgid "In the [guimenu]``Matcher`` field, select [guimenu]``equals``."
 msgstr ""
 
@@ -4214,7 +4246,11 @@ msgid "For example, [systemitem]``SUSE-15-2019-1807``."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:46 modules/administration/pages/content-lifecycle-examples.adoc:99 modules/administration/pages/content-lifecycle-examples.adoc:129 modules/administration/pages/content-lifecycle.adoc:80 modules/administration/pages/content-lifecycle.adoc:98
+#: modules/administration/pages/content-lifecycle-examples.adoc:46
+#: modules/administration/pages/content-lifecycle-examples.adoc:99
+#: modules/administration/pages/content-lifecycle-examples.adoc:129
+#: modules/administration/pages/content-lifecycle.adoc:80
+#: modules/administration/pages/content-lifecycle.adoc:98
 msgid "Navigate to menu:Content Lifecycle[Projects] and select your project."
 msgstr ""
 
@@ -4279,7 +4315,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:59 modules/administration/pages/content-lifecycle-examples.adoc:98
+#: modules/administration/pages/content-lifecycle-examples.adoc:59
+#: modules/administration/pages/content-lifecycle-examples.adoc:98
 msgid "Click btn:[Save] to store the filter."
 msgstr ""
 
@@ -4455,7 +4492,9 @@ msgid "Procedure: Excluding Packages with a Higher Kernel Version"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:89 modules/administration/pages/content-lifecycle.adoc:73 modules/administration/pages/content-lifecycle.adoc:91
+#: modules/administration/pages/content-lifecycle-examples.adoc:89
+#: modules/administration/pages/content-lifecycle.adoc:73
+#: modules/administration/pages/content-lifecycle.adoc:91
 msgid ""
 "In the {productname} {webui}, navigate to menu:Content Lifecycle[Filters], "
 "and click btn:[Create Filter]."
@@ -4499,7 +4538,10 @@ msgid "In the [guimenu]``Release`` field, type [systemitem]``150.17.1``."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:100 modules/administration/pages/content-lifecycle.adoc:20 modules/administration/pages/content-lifecycle.adoc:81 modules/administration/pages/content-lifecycle.adoc:99
+#: modules/administration/pages/content-lifecycle-examples.adoc:100
+#: modules/administration/pages/content-lifecycle.adoc:20
+#: modules/administration/pages/content-lifecycle.adoc:81
+#: modules/administration/pages/content-lifecycle.adoc:99
 msgid "Click btn:[Attach/Detach Filters]."
 msgstr ""
 
@@ -4636,27 +4678,32 @@ msgid "Procedure: Using AppStream Filters"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:119 modules/administration/pages/content-lifecycle-examples.adoc:133
+#: modules/administration/pages/content-lifecycle-examples.adoc:119
+#: modules/administration/pages/content-lifecycle-examples.adoc:133
 msgid "In the {productname} {webui}, navigate to your {rhel}{nbsp}8 CLM project."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:120 modules/administration/pages/content-lifecycle-examples.adoc:134
+#: modules/administration/pages/content-lifecycle-examples.adoc:120
+#: modules/administration/pages/content-lifecycle-examples.adoc:134
 msgid "Ensure that you have included the AppStream channels for your project."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:121 modules/administration/pages/content-lifecycle-examples.adoc:135
+#: modules/administration/pages/content-lifecycle-examples.adoc:121
+#: modules/administration/pages/content-lifecycle-examples.adoc:135
 msgid "Click btn:``Create Filter`` and use these parameters:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:122 modules/administration/pages/content-lifecycle-examples.adoc:136
+#: modules/administration/pages/content-lifecycle-examples.adoc:122
+#: modules/administration/pages/content-lifecycle-examples.adoc:136
 msgid "In the [guimenu]``Filter Name`` field, type a name for the new filter."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle-examples.adoc:123 modules/administration/pages/content-lifecycle-examples.adoc:137
+#: modules/administration/pages/content-lifecycle-examples.adoc:123
+#: modules/administration/pages/content-lifecycle-examples.adoc:137
 msgid ""
 "In the [guimenu]``Filter Type`` field, select [parameter]``Module "
 "(Stream)``."
@@ -4852,7 +4899,8 @@ msgid "In the [guimenu]``Label`` field, enter a label for your project."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:12 modules/administration/pages/content-lifecycle.adoc:25
+#: modules/administration/pages/content-lifecycle.adoc:12
+#: modules/administration/pages/content-lifecycle.adoc:25
 msgid ""
 "The [guimenu]``Label`` field only accepts lowercase letters, numbers, "
 "periods, hyphens, and underscores."
@@ -5169,40 +5217,47 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:67 modules/administration/pages/content-lifecycle.adoc:85
+#: modules/administration/pages/content-lifecycle.adoc:67
+#: modules/administration/pages/content-lifecycle.adoc:85
 msgid ""
 "When applied, this template creates three filters required to achieve this "
 "behavior:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:68 modules/administration/pages/content-lifecycle.adoc:86
+#: modules/administration/pages/content-lifecycle.adoc:68
+#: modules/administration/pages/content-lifecycle.adoc:86
 msgid ""
 "Allow patches that contain ``kernel-default`` package equal to a base kernel "
 "version"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:69 modules/administration/pages/content-lifecycle.adoc:87
+#: modules/administration/pages/content-lifecycle.adoc:69
+#: modules/administration/pages/content-lifecycle.adoc:87
 msgid "Deny patches that contain ``reboot_suggested`` keyword"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:70 modules/administration/pages/content-lifecycle.adoc:88
+#: modules/administration/pages/content-lifecycle.adoc:70
+#: modules/administration/pages/content-lifecycle.adoc:88
 msgid ""
 "Deny patches that contain a package which provides the name "
 "``installhint(reboot-needed)``"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:71 modules/administration/pages/content-lifecycle.adoc:89
+#: modules/administration/pages/content-lifecycle.adoc:71
+#: modules/administration/pages/content-lifecycle.adoc:89
 msgid ""
 "For more information on how to set up a live patching project, see "
 "xref:administration:content-lifecycle-examples.adoc#exclude-higher-kernel-version[]."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/content-lifecycle.adoc:72 modules/administration/pages/content-lifecycle.adoc:90 modules/administration/pages/content-lifecycle.adoc:108
+#: modules/administration/pages/content-lifecycle.adoc:72
+#: modules/administration/pages/content-lifecycle.adoc:90
+#: modules/administration/pages/content-lifecycle.adoc:108
 #, no-wrap
 msgid "Procedure: Applying the template"
 msgstr ""
@@ -5246,12 +5301,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:79 modules/administration/pages/content-lifecycle.adoc:97 modules/administration/pages/content-lifecycle.adoc:115
+#: modules/administration/pages/content-lifecycle.adoc:79
+#: modules/administration/pages/content-lifecycle.adoc:97
+#: modules/administration/pages/content-lifecycle.adoc:115
 msgid "Click btn:[Save] to create the filters."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:82 modules/administration/pages/content-lifecycle.adoc:100
+#: modules/administration/pages/content-lifecycle.adoc:82
+#: modules/administration/pages/content-lifecycle.adoc:100
 msgid ""
 "Select the three filters that have the specified prefix, and click "
 "btn:[Save]."
@@ -5272,14 +5330,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:92 modules/administration/pages/content-lifecycle.adoc:111
+#: modules/administration/pages/content-lifecycle.adoc:92
+#: modules/administration/pages/content-lifecycle.adoc:111
 msgid ""
 "In the dialog, click btn:[Use a template].  The inputs will change "
 "accordingly."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:93 modules/administration/pages/content-lifecycle.adoc:112
+#: modules/administration/pages/content-lifecycle.adoc:93
+#: modules/administration/pages/content-lifecycle.adoc:112
 msgid ""
 "In the [guimenu]``Prefix`` field, type a name prefix.  This value will be "
 "prepended to the name of every filter created by the template.  If the "
@@ -5469,7 +5529,8 @@ msgid "Provide a version message to describe the changes or updates in this buil
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:126 modules/administration/pages/content-lifecycle.adoc:133
+#: modules/administration/pages/content-lifecycle.adoc:126
+#: modules/administration/pages/content-lifecycle.adoc:133
 msgid ""
 "You can monitor build progress in the [guimenu]``Environment Lifecycle`` "
 "section."
@@ -5578,7 +5639,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/content-staging.adoc:5 modules/administration/pages/organizations.adoc:6
+#: modules/administration/pages/content-staging.adoc:5
+#: modules/administration/pages/organizations.adoc:6
 msgid ""
 "You must be logged in as the {productname} administrator to create and "
 "manage organizations."
@@ -5765,32 +5827,38 @@ msgid ""
 "packages in your custom channel, you need to trust the GPG key which has "
 "been used to sign the metadata.  You can then check the [guimenu]``Has "
 "Signed Metadata?`` check box to match the package metadata against the "
-"trusted GPG keys.  For more information on importing GPG keys, see "
+"trusted GPG keys."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:9
+msgid ""
+"For more information on importing GPG keys, see "
 "xref:reference:systems/autoinst-gpg-and-ssl-keys.adoc[]."
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/custom-channels.adoc:9
+#: modules/administration/pages/custom-channels.adoc:10
 msgid ""
 "Do not create child channels containing packages that are not compatible "
 "with the client system."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:10
+#: modules/administration/pages/custom-channels.adoc:11
 #, no-wrap
 msgid "Procedure: Creating a Custom Channel"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:11
+#: modules/administration/pages/custom-channels.adoc:12
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "and click btn:[Create Channel]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:12
+#: modules/administration/pages/custom-channels.adoc:13
 msgid ""
 "On the [guimenu]``Create Software Channel`` page, give your channel a name "
 "(for example, [systemitem]``My Tools SLES 15 SP1 x86_64``) and a label (for "
@@ -5798,12 +5866,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:13
+#: modules/administration/pages/custom-channels.adoc:14
 msgid "Labels must not contain spaces or uppercase letters."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:14
+#: modules/administration/pages/custom-channels.adoc:15
 msgid ""
 "In the [guimenu]``Parent Channel`` drop down, choose the relevant base "
 "channel (for example, [systemitem]``SLE-Product-SLES15-SP1-Pool for "
@@ -5811,31 +5879,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:15
+#: modules/administration/pages/custom-channels.adoc:16
 msgid "Ensure that you choose the compatible parent channel for your packages."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:16
+#: modules/administration/pages/custom-channels.adoc:17
 msgid ""
 "In the [guimenu]``Architecture`` drop down, choose the appropriate hardware "
 "architecture (for example, [systemitem]``x86_64``)."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:17
+#: modules/administration/pages/custom-channels.adoc:18
 msgid ""
 "Provide any additional information in the contact details, channel access "
 "control, and GPG fields, as required for your environment."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:18
+#: modules/administration/pages/custom-channels.adoc:19
 msgid "Click btn:[Create Channel]."
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/custom-channels.adoc:19
+#: modules/administration/pages/custom-channels.adoc:20
 msgid ""
 "By default, the ``Enable GPG Check`` field is checked when you create a new "
 "channel.  If you would like to add custom packages and applications to your "
@@ -5845,7 +5913,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/custom-channels.adoc:20
+#: modules/administration/pages/custom-channels.adoc:21
 msgid ""
 "If you are registering traditional {rhel}{nbsp}7 or SLES {es}{nbsp}7 clients "
 "you might notice errors with unsigned packages.  For more information, see "
@@ -5853,7 +5921,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:21
+#: modules/administration/pages/custom-channels.adoc:22
 msgid ""
 "You can only add a repository to the {productname} with the {webui} if it is "
 "a valid software repository.  Check in advance that needed repository "
@@ -5865,27 +5933,27 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:22
+#: modules/administration/pages/custom-channels.adoc:23
 #, no-wrap
 msgid "Procedure: Adding a Software Repository"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:23
+#: modules/administration/pages/custom-channels.adoc:24
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > "
 "Repositories], and click btn:[Create Repository]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:24
+#: modules/administration/pages/custom-channels.adoc:25
 msgid ""
 "On the [guimenu]``Create Repository`` page, give your repository a label "
 "(for example, [systemitem]``my-tools-sles15sp1-x86_64-repo``)."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:25
+#: modules/administration/pages/custom-channels.adoc:26
 msgid ""
 "In the [guimenu]``Repository URL`` field, provide the path to the directory "
 "that contains the [path]``repodata`` file (for example, "
@@ -5894,30 +5962,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:26
+#: modules/administration/pages/custom-channels.adoc:27
 msgid "Uncheck the [guimenu]``Has Signed Metadata?`` check box."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:27
+#: modules/administration/pages/custom-channels.adoc:28
 msgid ""
 "OPTIONAL: Complete the SSL fields if your repository requires client "
 "certificate authentication."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:28
+#: modules/administration/pages/custom-channels.adoc:29
 msgid "Click btn:[Create Repository]."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:29
+#: modules/administration/pages/custom-channels.adoc:30
 #, no-wrap
 msgid "Procedure: Assigning the Repository to a Channel"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:30
+#: modules/administration/pages/custom-channels.adoc:31
 msgid ""
 "Assign your new repository to your custom channel by navigating to "
 "menu:Software[Manage > Channels], clicking the name of your newly created "
@@ -5925,21 +5993,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:31
+#: modules/administration/pages/custom-channels.adoc:32
 msgid ""
 "Ensure the repository you want to assign to the channel is checked, and "
 "click btn:[Update Repositories]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:32
+#: modules/administration/pages/custom-channels.adoc:33
 msgid ""
 "Navigate to the [guimenu]``Sync`` tab and click btn:[Sync Now] to "
 "synchronize immediately."
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/custom-channels.adoc:33
+#: modules/administration/pages/custom-channels.adoc:34
 msgid ""
 "You can also set an automated synchronization schedule on this "
 "[guimenu]``Repositories`` tab.  To avoid missing important updates {suse} "
@@ -5947,51 +6015,51 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:34
+#: modules/administration/pages/custom-channels.adoc:35
 msgid "There are several ways to check if a channel has finished synchronizing:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:35
+#: modules/administration/pages/custom-channels.adoc:36
 msgid ""
 "In the {productname} {webui}, navigate to menu:Admin[Setup Wizard] and "
 "select the [guimenu]``Products`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:36
+#: modules/administration/pages/custom-channels.adoc:37
 msgid ""
 "This dialog displays a completion bar for each product when they are being "
 "synchronized."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:37
+#: modules/administration/pages/custom-channels.adoc:38
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "then click the channel associated to the repository."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:38
+#: modules/administration/pages/custom-channels.adoc:39
 msgid ""
 "Navigate to the menu:[Repositories > Sync] tab.  The [guimenu]``Sync "
 "Status`` is shown next to the repository name.."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:39
+#: modules/administration/pages/custom-channels.adoc:40
 msgid "Check the synchronization log file at the command prompt:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/custom-channels.adoc:40
+#: modules/administration/pages/custom-channels.adoc:41
 #, no-wrap
 msgid "tail -f /var/log/rhn/reposync/<channel-label>.log\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:41
+#: modules/administration/pages/custom-channels.adoc:42
 msgid ""
 "Each child channel generates its own log during the synchronization "
 "progress.  You need to check all the base and child channel log files to be "
@@ -5999,43 +6067,43 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:42
+#: modules/administration/pages/custom-channels.adoc:43
 #, no-wrap
 msgid "Procedure: Adding Custom Channels to an Activation Key"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:43
+#: modules/administration/pages/custom-channels.adoc:44
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Activation Keys], and "
 "select the key you want to add the custom channel to."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:44
+#: modules/administration/pages/custom-channels.adoc:45
 msgid ""
 "On the [guiemnu]``Details`` tab, in the [guimenu]``Child Channels`` listing, "
 "select the channel to associate."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:45
+#: modules/administration/pages/custom-channels.adoc:46
 msgid "You can select multiple channels, if you need to."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:46
+#: modules/administration/pages/custom-channels.adoc:47
 msgid "Click btn:[Update Activation Key]."
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/custom-channels.adoc:47
+#: modules/administration/pages/custom-channels.adoc:48
 #, no-wrap
 msgid "Add Packages and Patches to Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:48
+#: modules/administration/pages/custom-channels.adoc:49
 msgid ""
 "When you create a new custom channel without cloning it from an existing "
 "channel, it does not contain any packages or patches.  You can add the "
@@ -6043,7 +6111,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:49
+#: modules/administration/pages/custom-channels.adoc:50
 msgid ""
 "Custom channels can only include packages or patches that are cloned or "
 "custom, and they must match the base architecture of the channel.  Patches "
@@ -6051,53 +6119,53 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:50
+#: modules/administration/pages/custom-channels.adoc:51
 #, no-wrap
 msgid "Procedure: Adding Packages to Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:51
+#: modules/administration/pages/custom-channels.adoc:52
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "and go to the [guimenu]``Packages`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:52
+#: modules/administration/pages/custom-channels.adoc:53
 msgid ""
 "OPTIONAL: See all packages currently in the channel by navigating to the "
 "[guimenu]``List/Remove`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:53
+#: modules/administration/pages/custom-channels.adoc:54
 msgid "Add new packages to the channel by navigating to the [guimenu]``Add`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:54
+#: modules/administration/pages/custom-channels.adoc:55
 msgid ""
 "Select the parent channel to provide packages, and click btn:[View Packages] "
 "to populate the list."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:55
+#: modules/administration/pages/custom-channels.adoc:56
 msgid ""
 "Check the packages to add to the custom channel, and click btn:[Add "
 "Packages]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:56
+#: modules/administration/pages/custom-channels.adoc:57
 msgid ""
 "When you are satisfied with the selection, click btn:[Confirm Addition] to "
 "add the packages to the channel."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:57
+#: modules/administration/pages/custom-channels.adoc:58
 msgid ""
 "OPTIONAL: You can compare the packages in the current channel with those in "
 "a different channel by navigating to menu:Software[Manage > Channels], and "
@@ -6105,73 +6173,73 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:58
+#: modules/administration/pages/custom-channels.adoc:59
 msgid ""
 "To make the two channels the same, click the btn:[Merge Differences] button, "
 "and resolve any conflicts."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:59
+#: modules/administration/pages/custom-channels.adoc:60
 #, no-wrap
 msgid "Procedure: Adding Patches to a Custom Channel"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:60
+#: modules/administration/pages/custom-channels.adoc:61
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "and go to the [guimenu]``Patches`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:61
+#: modules/administration/pages/custom-channels.adoc:62
 msgid ""
 "OPTIONAL: See all patches currently in the channel by navigating to the "
 "[guimenu]``List/Remove`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:62
+#: modules/administration/pages/custom-channels.adoc:63
 msgid ""
 "Add new patches to the channel by navigating to the [guimenu]``Add`` tab, "
 "and selecting what kind of patches you want to add."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:63
+#: modules/administration/pages/custom-channels.adoc:64
 msgid ""
 "Select the parent channel to provide patches, and click btn:[View Associated "
 "Patches] to populate the list."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:64
+#: modules/administration/pages/custom-channels.adoc:65
 msgid "Check the patches to add to the custom channel, and click btn:[Confirm]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:65
+#: modules/administration/pages/custom-channels.adoc:66
 msgid ""
 "When you are satisfied with the selection, click btn:[Confirm] to add the "
 "patches to the channel."
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/custom-channels.adoc:66
+#: modules/administration/pages/custom-channels.adoc:67
 #, no-wrap
 msgid "Manage Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:67
+#: modules/administration/pages/custom-channels.adoc:68
 msgid ""
 "{productname} administrators and channel administrators can alter or delete "
 "any channel."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:68
+#: modules/administration/pages/custom-channels.adoc:69
 msgid ""
 "To grant other users rights to alter or delete a channel, navigate to "
 "menu:Software[Manage > Channels] and select the channel you want to edit.  "
@@ -6180,7 +6248,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/custom-channels.adoc:69
+#: modules/administration/pages/custom-channels.adoc:70
 msgid ""
 "If you delete a channel that has been assigned to a set of clients, it "
 "triggers an immediate update of the channel state for any clients associated "
@@ -6189,32 +6257,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:70
+#: modules/administration/pages/custom-channels.adoc:71
 msgid ""
 "You cannot delete {productname} channels with the {webui}.  Only custom "
 "channels can be deleted."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:71
+#: modules/administration/pages/custom-channels.adoc:72
 #, no-wrap
 msgid "Procedure: Deleting Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:72
+#: modules/administration/pages/custom-channels.adoc:73
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "and select the channel you want to delete."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:73
+#: modules/administration/pages/custom-channels.adoc:74
 msgid "Click btn:[Delete software channel]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:74
+#: modules/administration/pages/custom-channels.adoc:75
 msgid ""
 "On the [guimenu]``Delete Channel`` page, check the details of the channel "
 "you are deleting, and check the [guimenu]``Unsubscribe Systems`` checkbox to "
@@ -6222,12 +6290,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:75
+#: modules/administration/pages/custom-channels.adoc:76
 msgid "Click btn:[Delete Channel]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:76
+#: modules/administration/pages/custom-channels.adoc:77
 msgid ""
 "When channels are deleted, the packages that are part of the deleted channel "
 "are not automatically removed.  You are not able to update packages that "
@@ -6235,7 +6303,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:77
+#: modules/administration/pages/custom-channels.adoc:78
 msgid ""
 "You can delete packages that are not associated with a channel in the "
 "{productname} {webui}.  Navigate to menu:Software[Manage > Packages], check "
@@ -6408,12 +6476,14 @@ msgid "rmt-cli product enable sles/15/x86_64\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/disconnected-setup.adoc:27 modules/administration/pages/disconnected-setup.adoc:40
+#: modules/administration/pages/disconnected-setup.adoc:27
+#: modules/administration/pages/disconnected-setup.adoc:40
 msgid "Export the synchronized data to your removable storage."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/disconnected-setup.adoc:28 modules/administration/pages/disconnected-setup.adoc:41
+#: modules/administration/pages/disconnected-setup.adoc:28
+#: modules/administration/pages/disconnected-setup.adoc:41
 msgid "In this example, the storage medium is mounted at [path]``/mnt/usb``:"
 msgstr ""
 
@@ -6783,7 +6853,8 @@ msgid "https://documentation.suse.com/sles/15-SP3/html/SLES-all/book-container.h
 msgstr ""
 
 #. type: Title ===
-#: modules/administration/pages/image-management.adoc:19 modules/administration/pages/image-management.adoc:143
+#: modules/administration/pages/image-management.adoc:19
+#: modules/administration/pages/image-management.adoc:143
 #, no-wrap
 msgid "Create a Build Host"
 msgstr ""
@@ -6797,7 +6868,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/image-management.adoc:21 modules/administration/pages/image-management.adoc:146
+#: modules/administration/pages/image-management.adoc:21
+#: modules/administration/pages/image-management.adoc:146
 msgid ""
 "The operating system on the build host must match the operating system on "
 "the targeted image."
@@ -6860,7 +6932,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/image-management.adoc:29 modules/administration/pages/image-management.adoc:158
+#: modules/administration/pages/image-management.adoc:29
+#: modules/administration/pages/image-management.adoc:158
 #, no-wrap
 msgid "salt '$your_client' state.highstate\n"
 msgstr ""
@@ -6887,7 +6960,8 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: modules/administration/pages/image-management.adoc:33 modules/administration/pages/image-management.adoc:176
+#: modules/administration/pages/image-management.adoc:33
+#: modules/administration/pages/image-management.adoc:176
 #, no-wrap
 msgid "systems_create_activation_key.png"
 msgstr ""
@@ -6911,17 +6985,20 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/image-management.adoc:37 modules/administration/pages/image-management.adoc:180
+#: modules/administration/pages/image-management.adoc:37
+#: modules/administration/pages/image-management.adoc:180
 msgid "Confirm with btn:[Create Activation Key]."
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/image-management.adoc:38 modules/administration/pages/image-management.adoc:181
+#: modules/administration/pages/image-management.adoc:38
+#: modules/administration/pages/image-management.adoc:181
 msgid "For more information, see <<bp.key.managment>>."
 msgstr ""
 
 #. type: Title ===
-#: modules/administration/pages/image-management.adoc:39 modules/administration/pages/image-management.adoc:182
+#: modules/administration/pages/image-management.adoc:39
+#: modules/administration/pages/image-management.adoc:182
 #, no-wrap
 msgid "Create an Image Store"
 msgstr ""
@@ -6993,7 +7070,8 @@ msgid "Click btn:[Create] to add the new image store."
 msgstr ""
 
 #. type: Title ===
-#: modules/administration/pages/image-management.adoc:51 modules/administration/pages/image-management.adoc:186
+#: modules/administration/pages/image-management.adoc:51
+#: modules/administration/pages/image-management.adoc:186
 #, no-wrap
 msgid "Create an Image Profile"
 msgstr ""
@@ -7007,13 +7085,15 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: modules/administration/pages/image-management.adoc:53 modules/administration/pages/image-management.adoc:188
+#: modules/administration/pages/image-management.adoc:53
+#: modules/administration/pages/image-management.adoc:188
 #, no-wrap
 msgid "images_image_profiles.png"
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/image-management.adoc:54 modules/administration/pages/image-management.adoc:189
+#: modules/administration/pages/image-management.adoc:54
+#: modules/administration/pages/image-management.adoc:189
 #, no-wrap
 msgid "Procedure: Create an Image Profile"
 msgstr ""
@@ -7322,7 +7402,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: modules/administration/pages/image-management.adoc:100 modules/administration/pages/image-management.adoc:228
+#: modules/administration/pages/image-management.adoc:100
+#: modules/administration/pages/image-management.adoc:228
 #, no-wrap
 msgid "Build an Image"
 msgstr ""
@@ -7336,19 +7417,22 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: modules/administration/pages/image-management.adoc:102 modules/administration/pages/image-management.adoc:230
+#: modules/administration/pages/image-management.adoc:102
+#: modules/administration/pages/image-management.adoc:230
 #, no-wrap
 msgid "images_image_build.png"
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/image-management.adoc:103 modules/administration/pages/image-management.adoc:231
+#: modules/administration/pages/image-management.adoc:103
+#: modules/administration/pages/image-management.adoc:231
 #, no-wrap
 msgid "Procedure: Building an Image"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/image-management.adoc:104 modules/administration/pages/image-management.adoc:232
+#: modules/administration/pages/image-management.adoc:104
+#: modules/administration/pages/image-management.adoc:232
 msgid "Select menu:Images[Build]."
 msgstr ""
 
@@ -7413,7 +7497,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/administration/pages/image-management.adoc:114
 #, no-wrap
-msgid "Image store:"
+msgid "Image store"
 msgstr ""
 
 #. type: Plain text
@@ -7424,7 +7508,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/administration/pages/image-management.adoc:116
 #, no-wrap
-msgid "Image name:"
+msgid "Image name"
 msgstr ""
 
 #. type: Plain text
@@ -7435,7 +7519,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/administration/pages/image-management.adoc:118
 #, no-wrap
-msgid "Image version:"
+msgid "Image version"
 msgstr ""
 
 #. type: Plain text
@@ -7446,7 +7530,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/administration/pages/image-management.adoc:120
 #, no-wrap
-msgid "Build host:"
+msgid "Build host"
 msgstr ""
 
 #. type: Plain text
@@ -7457,7 +7541,7 @@ msgstr ""
 #. type: Labeled list
 #: modules/administration/pages/image-management.adoc:122
 #, no-wrap
-msgid "Activation key:"
+msgid "Activation key"
 msgstr ""
 
 #. type: Plain text
@@ -7489,7 +7573,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: modules/administration/pages/image-management.adoc:127 modules/administration/pages/image-management.adoc:244 modules/administration/pages/tshoot-intro.adoc:1
+#: modules/administration/pages/image-management.adoc:127
+#: modules/administration/pages/image-management.adoc:244
+#: modules/administration/pages/tshoot-intro.adoc:1
 #, no-wrap
 msgid "Troubleshooting"
 msgstr ""
@@ -7532,7 +7618,6 @@ msgid ""
 msgstr ""
 
 #. SLE15 images support is not yet released for SUMA4, but is part of SUMA4.0.4 as tech preview
-#. From {sles}{nbsp}15, ``kiwi-ng`` is used instead of the legacy Kiwi.
 #. type: Plain text
 #: modules/administration/pages/image-management.adoc:135
 msgid ""
@@ -7540,6 +7625,7 @@ msgid ""
 "{sles}{nbsp}12 and {sles}{nbsp}11."
 msgstr ""
 
+#. From {sles}{nbsp}15, ``kiwi-ng`` is used instead of the legacy Kiwi.
 #. type: Plain text
 #: modules/administration/pages/image-management.adoc:136
 msgid ""
@@ -8343,20 +8429,25 @@ msgstr ""
 #: modules/administration/pages/infra-maintenance.adoc:3
 msgid ""
 "{suse} recommends you always keep your {productname} infrastructure "
-"updated.  That includes servers, proxies, and build hosts.  If you do not "
-"keep the {productname} Server updated, you might not be able to update some "
-"parts of your environment when you need to."
+"updated.  That includes servers, proxies, and build hosts."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/infra-maintenance.adoc:4
+msgid ""
+"If you do not keep the {productname} Server updated, you might not be able "
+"to update some parts of your environment when you need to."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/infra-maintenance.adoc:5
 msgid ""
 "This section contains a checklist for your downtime period, with links to "
 "further information on performing each of the steps."
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/infra-maintenance.adoc:5
+#: modules/administration/pages/infra-maintenance.adoc:6
 #, no-wrap
 msgid "Server"
 msgstr ""
@@ -8366,40 +8457,40 @@ msgstr ""
 #.  You need to stop the spacewalk, SAP, and database services, along with any others you have running.
 #.  . Check if the configuration is still correct.
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:6
+#: modules/administration/pages/infra-maintenance.adoc:7
 msgid "Apply the latest updates."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:7
+#: modules/administration/pages/infra-maintenance.adoc:8
 msgid "See xref:upgrade:server-intro.adoc[]."
 msgstr ""
 
 #.  We reboot during the above listed procedures.
+#. type: Plain text
+#: modules/administration/pages/infra-maintenance.adoc:9
+msgid "Upgrade to the latest service pack, if required."
+msgstr ""
+
 #.  . Reboot the server.
 #.  . Check if the configuration is still correct.
 #.  . Start any stopped services.
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:8
-msgid "Upgrade to the latest service pack, if required."
-msgstr ""
-
-#. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:9
+#: modules/administration/pages/infra-maintenance.adoc:10
 msgid ""
 "Run [command]``spacewalk-service status`` and check whether all required "
 "services are up and running."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:10
+#: modules/administration/pages/infra-maintenance.adoc:11
 msgid ""
 "For information about database schema upgrades and PostgreSQL migrations, "
 "see xref:upgrade:db-intro.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:11
+#: modules/administration/pages/infra-maintenance.adoc:12
 msgid ""
 "You can install updates using your package manager.  For information on "
 "using {yast}, see "
@@ -8421,7 +8512,7 @@ msgstr ""
 #. 5. Start the Spacewalk service:
 #.     spacewalk-service start
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:12
+#: modules/administration/pages/infra-maintenance.adoc:13
 msgid ""
 "By default, several update channels are configured and enabled for the "
 "{productname} Server.  New and updated packages become available "
@@ -8429,7 +8520,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:13
+#: modules/administration/pages/infra-maintenance.adoc:14
 msgid ""
 "To keep {susemgr} up to date, either connect it directly to {scc} or use "
 "{rmtool} (RMT).  You can use RMT as a local installation source for "
@@ -8437,25 +8528,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:14
+#: modules/administration/pages/infra-maintenance.adoc:15
 msgid ""
 "You can check that the update channels are available on your system with "
 "this command:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/infra-maintenance.adoc:15
+#: modules/administration/pages/infra-maintenance.adoc:16
 #, no-wrap
 msgid "zypper lr\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:16
+#: modules/administration/pages/infra-maintenance.adoc:17
 msgid "The output looks similar to this:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/infra-maintenance.adoc:17
+#: modules/administration/pages/infra-maintenance.adoc:18
 #, no-wrap
 msgid ""
 "Name                                                   | Enabled | GPG Check "
@@ -8488,7 +8579,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:18
+#: modules/administration/pages/infra-maintenance.adoc:19
 msgid ""
 "{productname} releases maintenance updates (MUs) to provide newer packages.  "
 "Maintenance updates are indicated with a new version number.  For example, "
@@ -8496,7 +8587,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:19
+#: modules/administration/pages/infra-maintenance.adoc:20
 msgid ""
 "You can verify which version you are running by looking at the bottom of the "
 "navigation bar in the {webui}.  You can also fetch the version number with "
@@ -8504,13 +8595,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: modules/administration/pages/infra-maintenance.adoc:20
+#: modules/administration/pages/infra-maintenance.adoc:21
 #, no-wrap
 msgid "Client Tools"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:21
+#: modules/administration/pages/infra-maintenance.adoc:22
 msgid ""
 "When the server is updated consider updating some tools on the clients, "
 "too.  Updating [package]``salt-minion``, [package]``zypper``, and other "
@@ -8523,60 +8614,60 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/infra-maintenance.adoc:22
+#: modules/administration/pages/infra-maintenance.adoc:23
 #, no-wrap
 msgid "Inter-Server Synchronization Slave Server"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:23
+#: modules/administration/pages/infra-maintenance.adoc:24
 msgid ""
 "If you are using an inter-server synchronization slave server, update it "
 "after the {productname} Server update is complete."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:24
+#: modules/administration/pages/infra-maintenance.adoc:25
 msgid ""
 "For more in inter-server synchronization, see "
 "xref:administration:iss.adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/infra-maintenance.adoc:25
+#: modules/administration/pages/infra-maintenance.adoc:26
 #, no-wrap
 msgid "Monitoring Server"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:26
+#: modules/administration/pages/infra-maintenance.adoc:27
 msgid ""
 "If you are using a monitoring server for Prometheus, update it after the "
 "{productname} Server update is complete."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:27
+#: modules/administration/pages/infra-maintenance.adoc:28
 msgid ""
 "For more information on monitoring, see "
 "xref:administration:monitoring.adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/infra-maintenance.adoc:28
+#: modules/administration/pages/infra-maintenance.adoc:29
 #, no-wrap
 msgid "Proxy"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:29
+#: modules/administration/pages/infra-maintenance.adoc:30
 msgid ""
 "Proxies should be updated as soon as {productname} Server updates are "
 "complete."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:30
+#: modules/administration/pages/infra-maintenance.adoc:31
 msgid ""
 "In general, running a proxy connected to a server on a different version is "
 "not supported.  The only exception is for the duration of updates where it "
@@ -8585,14 +8676,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:31
+#: modules/administration/pages/infra-maintenance.adoc:32
 msgid ""
 "Especially if you are migrating from version 4.0 to 4.1, upgrade the server "
 "first, then any proxy."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/infra-maintenance.adoc:32
+#: modules/administration/pages/infra-maintenance.adoc:33
 msgid "For more information, see xref:upgrade:proxy-intro.adoc[]."
 msgstr ""
 
@@ -9178,12 +9269,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:3 modules/administration/pages/live-patching-sles15.adoc:3
+#: modules/administration/pages/live-patching-sles12.adoc:3
+#: modules/administration/pages/live-patching-sles15.adoc:3
 msgid "Before you begin, ensure:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:4 modules/administration/pages/live-patching-sles15.adoc:4
+#: modules/administration/pages/live-patching-sles12.adoc:4
+#: modules/administration/pages/live-patching-sles15.adoc:4
 msgid "{productname} is fully updated."
 msgstr ""
 
@@ -9205,24 +9298,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:8 modules/administration/pages/live-patching-sles15.adoc:8
+#: modules/administration/pages/live-patching-sles12.adoc:8
+#: modules/administration/pages/live-patching-sles15.adoc:8
 msgid "The clients are fully synchronized."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:9 modules/administration/pages/live-patching-sles15.adoc:9
+#: modules/administration/pages/live-patching-sles12.adoc:9
+#: modules/administration/pages/live-patching-sles15.adoc:9
 msgid "Assign the clients to the cloned channels prepared for live patching."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:10 modules/administration/pages/live-patching-sles15.adoc:10
+#: modules/administration/pages/live-patching-sles12.adoc:10
+#: modules/administration/pages/live-patching-sles15.adoc:10
 msgid ""
 "For more information on preparation, see "
 "xref:administration:live-patching-channel-setup.adoc[]."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/live-patching-sles12.adoc:11 modules/administration/pages/live-patching-sles15.adoc:11
+#: modules/administration/pages/live-patching-sles12.adoc:11
+#: modules/administration/pages/live-patching-sles15.adoc:11
 #, no-wrap
 msgid "Procedure: Setting up for Live Patching"
 msgstr ""
@@ -9247,12 +9344,14 @@ msgid "enable_live_patching_kgraft_install.png"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:15 modules/administration/pages/live-patching-sles15.adoc:15
+#: modules/administration/pages/live-patching-sles12.adoc:15
+#: modules/administration/pages/live-patching-sles15.adoc:15
 msgid "Apply the highstate to enable Live Patching, and reboot the client."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:16 modules/administration/pages/live-patching-sles15.adoc:16
+#: modules/administration/pages/live-patching-sles12.adoc:16
+#: modules/administration/pages/live-patching-sles15.adoc:16
 msgid "Repeat for each client that you want to manage with Live Patching."
 msgstr ""
 
@@ -9265,48 +9364,56 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/live-patching-sles12.adoc:18 modules/administration/pages/live-patching-sles15.adoc:18
+#: modules/administration/pages/live-patching-sles12.adoc:18
+#: modules/administration/pages/live-patching-sles15.adoc:18
 #, no-wrap
 msgid "Procedure: Applying Live Patches to a Kernel"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:19 modules/administration/pages/live-patching-sles15.adoc:19
+#: modules/administration/pages/live-patching-sles12.adoc:19
+#: modules/administration/pages/live-patching-sles15.adoc:19
 msgid "In the {productname} {webui}, select the client from menu:Systems[Overview]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:20 modules/administration/pages/live-patching-sles15.adoc:20
+#: modules/administration/pages/live-patching-sles12.adoc:20
+#: modules/administration/pages/live-patching-sles15.adoc:20
 msgid ""
 "A banner at the top of the screen shows the number of critical and "
 "non-critical packages available for the client:"
 msgstr ""
 
 #. type: Target for macro image
-#: modules/administration/pages/live-patching-sles12.adoc:21 modules/administration/pages/live-patching-sles15.adoc:21
+#: modules/administration/pages/live-patching-sles12.adoc:21
+#: modules/administration/pages/live-patching-sles15.adoc:21
 #, no-wrap
 msgid "live_patching_criticalupdates.png"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:22 modules/administration/pages/live-patching-sles15.adoc:22
+#: modules/administration/pages/live-patching-sles12.adoc:22
+#: modules/administration/pages/live-patching-sles15.adoc:22
 msgid "Click btn:[Critical] to see a list of the available critical patches."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:23 modules/administration/pages/live-patching-sles15.adoc:23
+#: modules/administration/pages/live-patching-sles12.adoc:23
+#: modules/administration/pages/live-patching-sles15.adoc:23
 msgid ""
 "Select any patch with a synopsis reading [guimenu]``Important: Security "
 "update for the Linux kernel``."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:24 modules/administration/pages/live-patching-sles15.adoc:24
+#: modules/administration/pages/live-patching-sles12.adoc:24
+#: modules/administration/pages/live-patching-sles15.adoc:24
 msgid "Security bugs also include their CVE number, where applicable."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/live-patching-sles12.adoc:25 modules/administration/pages/live-patching-sles15.adoc:25
+#: modules/administration/pages/live-patching-sles12.adoc:25
+#: modules/administration/pages/live-patching-sles15.adoc:25
 msgid ""
 "OPTIONAL: If you know the CVE number of a patch you want to apply, you can "
 "search for it in menu:Audit[CVE Audit], and apply the patch to any clients "
@@ -9314,7 +9421,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/live-patching-sles12.adoc:26 modules/administration/pages/live-patching-sles15.adoc:26
+#: modules/administration/pages/live-patching-sles12.adoc:26
+#: modules/administration/pages/live-patching-sles15.adoc:26
 msgid ""
 "Not all kernel patches are Live Patches.  Non-Live kernel patches are "
 "represented by a `Reboot Required` icon located next to the `Security` "
@@ -9561,7 +9669,8 @@ msgid "Procedure: Creating a New Schedule"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/maintenance-windows.adoc:22 modules/administration/pages/maintenance-windows.adoc:45
+#: modules/administration/pages/maintenance-windows.adoc:22
+#: modules/administration/pages/maintenance-windows.adoc:45
 msgid ""
 "In the {productname} {webui}, navigate to menu:Schedule[Maintenance Windows "
 "> Schedules], and click btn:[Create]."
@@ -9580,12 +9689,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/maintenance-windows.adoc:25 modules/administration/pages/maintenance-windows.adoc:49
+#: modules/administration/pages/maintenance-windows.adoc:25
+#: modules/administration/pages/maintenance-windows.adoc:49
 msgid "Select the calendar to assign to this schedule."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/maintenance-windows.adoc:26 modules/administration/pages/maintenance-windows.adoc:50 modules/administration/pages/maintenance-windows.adoc:55
+#: modules/administration/pages/maintenance-windows.adoc:26
+#: modules/administration/pages/maintenance-windows.adoc:50
+#: modules/administration/pages/maintenance-windows.adoc:55
 msgid "Click btn:[Create Schedule] to save your schedule."
 msgstr ""
 
@@ -9733,7 +9845,8 @@ msgid "Ensure it matches the ``summary`` field of the calendar."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/maintenance-windows.adoc:48 modules/administration/pages/maintenance-windows.adoc:54
+#: modules/administration/pages/maintenance-windows.adoc:48
+#: modules/administration/pages/maintenance-windows.adoc:54
 msgid "Check the [guimenu]``Multi`` option."
 msgstr ""
 
@@ -10109,17 +10222,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:4 modules/administration/pages/monitoring.adoc:7
+#: modules/administration/pages/monitoring.adoc:4
+#: modules/administration/pages/monitoring.adoc:7
 msgid "{sle}{nbsp}12"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:5 modules/administration/pages/monitoring.adoc:8
+#: modules/administration/pages/monitoring.adoc:5
+#: modules/administration/pages/monitoring.adoc:8
 msgid "{sle}{nbsp}15"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:6 modules/administration/pages/monitoring.adoc:9
+#: modules/administration/pages/monitoring.adoc:6
+#: modules/administration/pages/monitoring.adoc:9
 msgid "openSUSE Leap 15.x"
 msgstr ""
 
@@ -10312,17 +10428,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:35 modules/administration/pages/monitoring.adoc:64
+#: modules/administration/pages/monitoring.adoc:35
+#: modules/administration/pages/monitoring.adoc:64
 msgid "Customize any other configuration options according to your needs."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:36 modules/administration/pages/monitoring.adoc:65 modules/administration/pages/monitoring.adoc:125 modules/administration/pages/monitoring.adoc:150
+#: modules/administration/pages/monitoring.adoc:36
+#: modules/administration/pages/monitoring.adoc:65
+#: modules/administration/pages/monitoring.adoc:125
+#: modules/administration/pages/monitoring.adoc:150
 msgid "Click btn:[Save Formula]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:37 modules/administration/pages/monitoring.adoc:66 modules/administration/pages/monitoring.adoc:151
+#: modules/administration/pages/monitoring.adoc:37
+#: modules/administration/pages/monitoring.adoc:66
+#: modules/administration/pages/monitoring.adoc:151
 msgid "Apply the highstate and confirm that it completes successfully."
 msgstr ""
 
@@ -10335,7 +10457,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:39 modules/administration/pages/monitoring.adoc:69 modules/administration/pages/monitoring.adoc:129 modules/administration/pages/monitoring.adoc:152
+#: modules/administration/pages/monitoring.adoc:39
+#: modules/administration/pages/monitoring.adoc:69
+#: modules/administration/pages/monitoring.adoc:129
+#: modules/administration/pages/monitoring.adoc:152
 msgid ""
 "For more information about the monitoring formulas, see "
 "xref:salt:formula-monitoring.adoc[]."
@@ -10621,22 +10746,28 @@ msgid "These exporter packages are shipped with {productname} Server:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:85 modules/administration/pages/monitoring.adoc:94 modules/administration/pages/monitoring.adoc:111
+#: modules/administration/pages/monitoring.adoc:85
+#: modules/administration/pages/monitoring.adoc:94
+#: modules/administration/pages/monitoring.adoc:111
 msgid "Node exporter: [systemitem]``golang-github-prometheus-node_exporter``."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:86 modules/administration/pages/monitoring.adoc:95 modules/administration/pages/monitoring.adoc:112
+#: modules/administration/pages/monitoring.adoc:86
+#: modules/administration/pages/monitoring.adoc:95
+#: modules/administration/pages/monitoring.adoc:112
 msgid "See https://github.com/prometheus/node_exporter."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:87 modules/administration/pages/monitoring.adoc:113
+#: modules/administration/pages/monitoring.adoc:87
+#: modules/administration/pages/monitoring.adoc:113
 msgid "PostgreSQL exporter: [systemitem]``prometheus-postgres_exporter``."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:88 modules/administration/pages/monitoring.adoc:114
+#: modules/administration/pages/monitoring.adoc:88
+#: modules/administration/pages/monitoring.adoc:114
 msgid "See https://github.com/wrouesnel/postgres_exporter."
 msgstr ""
 
@@ -10651,12 +10782,14 @@ msgid "See https://github.com/prometheus/jmx_exporter."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:91 modules/administration/pages/monitoring.adoc:115
+#: modules/administration/pages/monitoring.adoc:91
+#: modules/administration/pages/monitoring.adoc:115
 msgid "Apache exporter: [systemitem]``golang-github-lusitaniae-apache_exporter``."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/monitoring.adoc:92 modules/administration/pages/monitoring.adoc:116
+#: modules/administration/pages/monitoring.adoc:92
+#: modules/administration/pages/monitoring.adoc:116
 msgid "See https://github.com/Lusitaniae/apache_exporter."
 msgstr ""
 
@@ -13083,7 +13216,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/ssl-certs-imported.adoc:37 modules/administration/pages/ssl-certs-selfsigned.adoc:21
+#: modules/administration/pages/ssl-certs-imported.adoc:37
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:21
 #, no-wrap
 msgid "mv /root/ssl-build /root/old-ssl-build\n"
 msgstr ""
@@ -13218,7 +13352,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs-selfsigned.adoc:10 modules/administration/pages/ssl-certs-selfsigned.adoc:26
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:10
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:26
 msgid ""
 "Ensure that the [systemitem]``set-cname`` parameter is the fully qualified "
 "domain name of your {productname} Server.  You can use the the "
@@ -13248,7 +13383,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs-selfsigned.adoc:14 modules/administration/pages/ssl-certs-selfsigned.adoc:56 modules/administration/pages/ssl-certs-selfsigned.adoc:61 modules/administration/pages/ssl-certs-selfsigned.adoc:73
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:14
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:56
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:61
+#: modules/administration/pages/ssl-certs-selfsigned.adoc:73
 msgid "Restart services to pick up the changes:"
 msgstr ""
 
@@ -14991,12 +15129,14 @@ msgid "rm -rf /var/cache/rhn/xml-*\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-iss.adoc:9 modules/administration/pages/tshoot-iss.adoc:13
+#: modules/administration/pages/tshoot-iss.adoc:9
+#: modules/administration/pages/tshoot-iss.adoc:13
 msgid "Restart the service:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/tshoot-iss.adoc:10 modules/administration/pages/tshoot-iss.adoc:14
+#: modules/administration/pages/tshoot-iss.adoc:10
+#: modules/administration/pages/tshoot-iss.adoc:14
 #, no-wrap
 msgid "rcapache2 restart\n"
 msgstr ""
@@ -15118,7 +15258,8 @@ msgid "web.session_database_lifetime = <Timeout_Value_in_Seconds>\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-logintimeout.adoc:10 modules/administration/pages/tshoot-logintimeout.adoc:13
+#: modules/administration/pages/tshoot-logintimeout.adoc:10
+#: modules/administration/pages/tshoot-logintimeout.adoc:13
 msgid "Save and close the file."
 msgstr ""
 
@@ -15554,12 +15695,14 @@ msgid "Procedure: Resolving Duplicate Machine IDs in Cloned Salt Clients"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-registerclones.adoc:8 modules/administration/pages/tshoot-registerclones.adoc:21
+#: modules/administration/pages/tshoot-registerclones.adoc:8
+#: modules/administration/pages/tshoot-registerclones.adoc:21
 msgid "On the cloned machine, change the hostname and IP addresses."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-registerclones.adoc:9 modules/administration/pages/tshoot-registerclones.adoc:22
+#: modules/administration/pages/tshoot-registerclones.adoc:9
+#: modules/administration/pages/tshoot-registerclones.adoc:22
 msgid ""
 "Make sure [path]``/etc/hosts`` contains the changes you made and the correct "
 "host entries."
@@ -15573,7 +15716,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/tshoot-registerclones.adoc:11 modules/administration/pages/tshoot-registerclones.adoc:37
+#: modules/administration/pages/tshoot-registerclones.adoc:11
+#: modules/administration/pages/tshoot-registerclones.adoc:37
 #, no-wrap
 msgid ""
 "# rm /etc/machine-id\n"
@@ -15678,7 +15822,8 @@ msgid "# /etc/init.d/osad stop\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-registerclones.adoc:29 modules/administration/pages/tshoot-registerclones.adoc:31
+#: modules/administration/pages/tshoot-registerclones.adoc:29
+#: modules/administration/pages/tshoot-registerclones.adoc:31
 msgid "or:"
 msgstr ""
 
@@ -16666,7 +16811,8 @@ msgid "These languages are available in {productname}:"
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/users.adoc:35 modules/administration/pages/users.adoc:37
+#: modules/administration/pages/users.adoc:35
+#: modules/administration/pages/users.adoc:37
 #, no-wrap
 msgid "Available Language Codes"
 msgstr ""

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-09-29 17:14+0000\n"
+"POT-Creation-Date: 2022-09-30 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
@@ -337,12 +337,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/hub-auth.adoc:15 modules/large-deployments/pages/hub-auth.adoc:41
+#: modules/large-deployments/pages/hub-auth.adoc:15
+#: modules/large-deployments/pages/hub-auth.adoc:41
 msgid "This performs authentication against each server's XMLRPC API endpoint."
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/hub-auth.adoc:16 modules/large-deployments/pages/hub-auth.adoc:42 modules/large-deployments/pages/hub-auth.adoc:62
+#: modules/large-deployments/pages/hub-auth.adoc:16
+#: modules/large-deployments/pages/hub-auth.adoc:42
+#: modules/large-deployments/pages/hub-auth.adoc:62
 msgid "A ``multicast`` call is performed on a set of servers."
 msgstr ""
 
@@ -355,26 +358,33 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/hub-auth.adoc:18 modules/large-deployments/pages/hub-auth.adoc:44 modules/large-deployments/pages/hub-auth.adoc:64
+#: modules/large-deployments/pages/hub-auth.adoc:18
+#: modules/large-deployments/pages/hub-auth.adoc:44
+#: modules/large-deployments/pages/hub-auth.adoc:64
 msgid ""
 "Hub aggregates the results and returns the response in the form of a "
 "``map``."
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/hub-auth.adoc:19 modules/large-deployments/pages/hub-auth.adoc:45 modules/large-deployments/pages/hub-auth.adoc:65
+#: modules/large-deployments/pages/hub-auth.adoc:19
+#: modules/large-deployments/pages/hub-auth.adoc:45
+#: modules/large-deployments/pages/hub-auth.adoc:65
 msgid "The map has two entries:"
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/hub-auth.adoc:20 modules/large-deployments/pages/hub-auth.adoc:46 modules/large-deployments/pages/hub-auth.adoc:66
+#: modules/large-deployments/pages/hub-auth.adoc:20
+#: modules/large-deployments/pages/hub-auth.adoc:46
+#: modules/large-deployments/pages/hub-auth.adoc:66
 msgid ""
 "``Successful``: list of responses for those peripheral servers where the "
 "call succeeded."
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/hub-auth.adoc:21 modules/large-deployments/pages/hub-auth.adoc:67
+#: modules/large-deployments/pages/hub-auth.adoc:21
+#: modules/large-deployments/pages/hub-auth.adoc:67
 msgid ""
 "``Failed``: list of responses for those peripheral servers where the call "
 "failed."
@@ -396,7 +406,9 @@ msgid "Example Python Script for Manual Authentication:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/large-deployments/pages/hub-auth.adoc:24 modules/large-deployments/pages/hub-auth.adoc:49 modules/large-deployments/pages/hub-auth.adoc:69
+#: modules/large-deployments/pages/hub-auth.adoc:24
+#: modules/large-deployments/pages/hub-auth.adoc:49
+#: modules/large-deployments/pages/hub-auth.adoc:69
 #, no-wrap
 msgid ""
 "#!/usr/bin/python\n"
@@ -404,7 +416,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/large-deployments/pages/hub-auth.adoc:25 modules/large-deployments/pages/hub-auth.adoc:50 modules/large-deployments/pages/hub-auth.adoc:70
+#: modules/large-deployments/pages/hub-auth.adoc:25
+#: modules/large-deployments/pages/hub-auth.adoc:50
+#: modules/large-deployments/pages/hub-auth.adoc:70
 #, no-wrap
 msgid ""
 "HUB_XMLRPC_API_URL = \"<HUB_XMLRPC_API_URL>\"\n"
@@ -413,7 +427,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/large-deployments/pages/hub-auth.adoc:26 modules/large-deployments/pages/hub-auth.adoc:51 modules/large-deployments/pages/hub-auth.adoc:71
+#: modules/large-deployments/pages/hub-auth.adoc:26
+#: modules/large-deployments/pages/hub-auth.adoc:51
+#: modules/large-deployments/pages/hub-auth.adoc:71
 #, no-wrap
 msgid "client = xmlrpclib.Server(HUB_XMLRPC_API_URL, verbose=0)\n"
 msgstr ""
@@ -465,7 +481,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/large-deployments/pages/hub-auth.adoc:32 modules/large-deployments/pages/hub-auth.adoc:56 modules/large-deployments/pages/hub-auth.adoc:75
+#: modules/large-deployments/pages/hub-auth.adoc:32
+#: modules/large-deployments/pages/hub-auth.adoc:56
+#: modules/large-deployments/pages/hub-auth.adoc:75
 #, no-wrap
 msgid ""
 "for system in successfulResponses:\n"
@@ -473,7 +491,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/large-deployments/pages/hub-auth.adoc:33 modules/large-deployments/pages/hub-auth.adoc:57 modules/large-deployments/pages/hub-auth.adoc:76
+#: modules/large-deployments/pages/hub-auth.adoc:33
+#: modules/large-deployments/pages/hub-auth.adoc:57
+#: modules/large-deployments/pages/hub-auth.adoc:76
 #, no-wrap
 msgid ""
 "#logout\n"
@@ -531,7 +551,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/hub-auth.adoc:43 modules/large-deployments/pages/hub-auth.adoc:63
+#: modules/large-deployments/pages/hub-auth.adoc:43
+#: modules/large-deployments/pages/hub-auth.adoc:63
 msgid ""
 "This is defined by ``serverIds``, which contains the IDs of the servers to "
 "target.  In the background, ``system.list_system`` is called on each "
@@ -558,7 +579,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/large-deployments/pages/hub-auth.adoc:53 modules/large-deployments/pages/hub-auth.adoc:73
+#: modules/large-deployments/pages/hub-auth.adoc:53
+#: modules/large-deployments/pages/hub-auth.adoc:73
 #, no-wrap
 msgid ""
 "#Get the server IDs\n"
@@ -575,7 +597,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/large-deployments/pages/hub-auth.adoc:55 modules/large-deployments/pages/hub-auth.adoc:74
+#: modules/large-deployments/pages/hub-auth.adoc:55
+#: modules/large-deployments/pages/hub-auth.adoc:74
 #, no-wrap
 msgid ""
 "# perform the needed operation\n"
@@ -703,7 +726,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/hub-install.adoc:12 modules/large-deployments/pages/hub-install.adoc:14
+#: modules/large-deployments/pages/hub-install.adoc:12
+#: modules/large-deployments/pages/hub-install.adoc:14
 msgid "Use the default value in most cases."
 msgstr ""
 
@@ -986,7 +1010,8 @@ msgid "**Updated:** {docdate}\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/large-deployments-overview.adoc:3 modules/large-deployments/pages/tuning.adoc:2
+#: modules/large-deployments/pages/large-deployments-overview.adoc:3
+#: modules/large-deployments/pages/tuning.adoc:2
 msgid ""
 "{productname} is designed by default to work on small and medium scale "
 "installations.  For installations with more than 1000 clients per "
@@ -1061,21 +1086,16 @@ msgstr ""
 
 #. type: Plain text
 #: modules/large-deployments/pages/monitoring.adoc:3
-msgid ""
-"Prometheus and Grafana packages are included in the {productname} Client "
-"Tools for"
-msgstr ""
-
-#. type: Plain text
-#: modules/large-deployments/pages/monitoring.adoc:4
 #, no-wrap
 msgid ""
+"Prometheus and Grafana packages are included in the {productname} Client "
+"Tools for\n"
 " {sle}{nbsp}12, {sle}{nbsp}15, {rhel}{nbsp} 6, {rhel}{nbsp} 7, {rhel}{nbsp} "
 "8 and openSUSE 15.x.\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/monitoring.adoc:5
+#: modules/large-deployments/pages/monitoring.adoc:4
 #, no-wrap
 msgid ""
 " {sle}{nbsp}12, {sle}{nbsp}15, {centos}{nbsp} 6, {centos}{nbsp} 7, "
@@ -1083,7 +1103,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/monitoring.adoc:6
+#: modules/large-deployments/pages/monitoring.adoc:5
 msgid ""
 "You need to install Prometheus and Grafana on a machine separate from the "
 "{productname} Server.  We recommend you use a managed Salt client as your "
@@ -1091,7 +1111,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/large-deployments/pages/monitoring.adoc:7
+#: modules/large-deployments/pages/monitoring.adoc:6
 msgid ""
 "For more information on monitoring, see "
 "xref:administration:monitoring.adoc[]."
