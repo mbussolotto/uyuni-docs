@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-30 08:17+0000\n"
-"PO-Revision-Date: 2022-09-30 08:13+0000\n"
+"PO-Revision-Date: 2022-10-04 05:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
-"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-"
-"installation-manager-42-mu-429/ko/>\n"
+"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
+"docs-installation-manager-42-mu-429/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -838,7 +838,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation/pages/client-requirements.adoc:12
-#, fuzzy
 msgid ""
 "Salt SSH is using [path]``/var/tmp`` to deploy Salt Bundle to and execute "
 "Salt commands on the client with the bundled Python.  Therefore you must not "
@@ -847,12 +846,10 @@ msgid ""
 "with [option]``noexec`` option, with the {webui} because the bootstrap "
 "process is using Salt SSH to reach a client."
 msgstr ""
-"Salt SSH는 [path]``/var/tmp``를 사용하여 번들된 Python을 사용하는 클라이언트"
-"에 Salt Bundle을 배포하고 Salt 명령을 실행합니다. 그러므로 "
-"[option]``noexec`` 옵션으로 [path]``/var/tmp``를 마운트하지 않아야 합니다. 부"
-"트스트랩 프로세스는 클라이언트에 도달하기 위해 Salt SSH를 사용하므로 "
-"[option]``noexec`` 옵션으로 마운트된 [path]``/var/tmp``를 사용하는 클라이언트"
-"는 {webui}를 사용하여 부트스트랩할 수 없습니다."
+"Salt SSH는 [path]``/var/tmp``를 사용하여 번들된 Python을 사용하는 클라이언트에 Salt Bundle을 배포하고 "
+"Salt 명령을 실행합니다. 그러므로 [option]``noexec`` 옵션으로 [path]``/var/tmp``를 마운트하지 않아야 "
+"합니다. 부트스트랩 프로세스는 클라이언트에 도달하기 위해 Salt SSH를 사용하므로 [option]``noexec`` 옵션으로 마운트된 "
+"[path]``/var/tmp``를 사용하는 클라이언트는 {webui}를 사용하여 부트스트랩할 수 없습니다."
 
 #. type: Plain text
 #: modules/installation/pages/client-requirements.adoc:13
@@ -4503,7 +4500,7 @@ msgstr "{productname} 서버의 외부 포트 요구사항"
 
 #. type: Table
 #: modules/installation/pages/ports.adoc:10
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
 "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
@@ -4523,12 +4520,14 @@ msgid ""
 "| 25151       | TCP      | Cobbler |\n"
 msgstr ""
 "| 포트 번호 | 프로토콜 | 사용 대상 | 참고\n"
-"| 22          |          |         | ssh-push 및 ssh-push-tunnel 통신 방법에서 필요합니다.\n"
+"| 22          |          |         | ssh-push 및 ssh-push-tunnel 통신 방법에서 "
+"필요합니다.\n"
 "| 67          | TCP/UDP  | DHCP    | 클라이언트가 서버의 IP 주소를 요청할 때만 필요합니다.\n"
 "| 69          | TCP/UDP  | TFTP    | 자동 클라이언트 설치를 위해 서버가 PXE로 사용될 때 필요합니다.\n"
 "| 80          | TCP      | HTTP    | 일부 부트스트랩 리포지토리 및 자동 설치에서 일시적으로 필요합니다.\n"
 "80 포트는 {webui}를 제공하기 위해 사용되지 않습니다.\n"
-"| 443         | TCP      | HTTPS   | {webui}, 클라이언트, 서버 및 프록시(``tftpsync``) 요청입니다.\n"
+"| 443         | TCP      | HTTPS   | {webui}, 클라이언트, 서버 및 프록시(``tftpsync``) "
+"요청입니다.\n"
 "1232        | TCP      | HTTP    | Salt SSH Push를 통한 기본 HTTP 포트입니다.\n"
 "| 1233        | TCP      | HTTPS   | Salt SSH Push를 통한 기본 HTTPS 포트입니다.\n"
 "| 4505        |  TCP     | salt    | 클라이언트로부터의 통신 요청을 수락하기 위해 필요합니다.\n"
@@ -8086,10 +8085,8 @@ msgid ""
 "menu:Systems[System Details] section for that client.  From this page, you "
 "can apply any required updates."
 msgstr ""
-"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이"
-"언트를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 "
-"menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 "
-"적용할 수 있습니다."
+"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
+"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 적용할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/webui-setup.adoc:9
@@ -8128,9 +8125,8 @@ msgid ""
 "registered in the past thirty days.  Click the name of a client in the list "
 "to be taken to the menu:Systems[System Details] section for that client."
 msgstr ""
-"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트"
-"를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 menu:시"
-"스템[시스템 정보] 섹션으로 이동합니다."
+"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
+"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다."
 
 #. type: Title ==
 #: modules/installation/pages/webui-setup.adoc:13
@@ -8225,11 +8221,9 @@ msgid ""
 "For more information about the system set manager, see xref:client-"
 "configuration:system-set-manager.adoc[]."
 msgstr ""
-"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 "
-"시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 관리자 > 개요]로 이동합니"
-"다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 "
-"관리자에 대한 자세한 내용은 xref:client-configuration:system-set-manager."
-"adoc[]에서 참조하십시오."
+"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 "
+"관리자 > 개요]로 이동합니다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 관리자에 대한 자세한 내용은 "
+"xref:client-configuration:system-set-manager.adoc[]에서 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/webui-setup.adoc:25
