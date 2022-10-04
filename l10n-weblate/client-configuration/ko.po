@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-22 13:42+0000\n"
-"PO-Revision-Date: 2022-09-30 08:13+0000\n"
+"PO-Revision-Date: 2022-10-04 02:47+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-mu-432/ko/>\n"
@@ -327,8 +327,6 @@ msgstr "xref:registration-overview-ubuntu.adoc[Ubuntu 클라이언트 등록]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:61
-#, fuzzy
-#| msgid "xref:clients-ubuntu.adoc[Ubuntu 20.04 Clients]"
 msgid "xref:clients-ubuntu.adoc[Ubuntu 20.04 and 22.04 Clients]"
 msgstr "xref:clients-ubuntu.adoc[Ubuntu 20.04 및 22.04 클라이언트]"
 
@@ -2176,10 +2174,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-intro.adoc:20
-#, fuzzy
-#| msgid ""
-#| "The autoinstallation features of SUSE Manager are based on a software "
-#| "named Cobbler.  For more information, see https://cobbler.readthedocs.io."
 msgid ""
 "The autoinstallation features of {productname} are based on a software named "
 "Cobbler.  For more information, see https://cobbler.readthedocs.io."
@@ -2784,8 +2778,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:47
-#, fuzzy
-#| msgid "``<software>`` allows to specify product for the Unified Installer"
 msgid "``<software>`` allows to specify product for the {unifiedinstaller}"
 msgstr "``<software>``를 사용하면 {unifiedinstaller}에 제품을 지정할 수 있습니다."
 
@@ -3568,7 +3560,6 @@ msgstr "highstate를 적용합니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:40
-#, fuzzy
 msgid ""
 "If you use Secure Boot, type [path]``grub/shim.efi instead of [path]``grub/"
 "grub.efi`` in the [guimenu]``Filename EFI`` field."
@@ -4843,18 +4834,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:23
-#, fuzzy, no-wrap
-#| msgid "Unified Installer Updates Channels on {sle} Clients"
+#, no-wrap
 msgid "{unifiedinstaller} Updates Channels on {sle} Clients"
 msgstr "{sle} 클라이언트의 {unifiedinstaller} 업데이트 채널"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:24
-#, fuzzy
-#| msgid ""
-#| "This channel is used by the unified installer to ensure it is up to date "
-#| "before it installs the operating system.  All {sle} products should have "
-#| "access to the installer updates channel during installation."
 msgid ""
 "This channel is used by the {unifiedinstaller} to ensure it is up to date "
 "before it installs the operating system.  All {sle} products should have "
@@ -6098,10 +6083,6 @@ msgstr "umount /mnt\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-major.adoc:19
-#, fuzzy
-#| msgid ""
-#| "This image is the unified installer and can be used for multiple "
-#| "autoinstallable distributions."
 msgid ""
 "This image is the {unifiedinstaller} and can be used for multiple "
 "autoinstallable distributions."
@@ -6526,8 +6507,6 @@ msgstr "openSUSE Leap 15.1에서 {sle} 15 SP1으로 또는"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:6
-#, fuzzy
-#| msgid "openSUSE Leap 15.2 to {sle} 15 SP2"
 msgid "openSUSE Leap 15.4 to {sle} 15 SP4"
 msgstr "openSUSE Leap 15.4에서 {sle} 15 SP4로"
 
@@ -6886,7 +6865,6 @@ msgstr ""
 #. Note or warning about taking normal precautions (backups, make sure fully patched, etc)
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:47
-#, fuzzy
 msgid ""
 "The [command]``spacecmd`` sub-commands "
 "[literal]``system_scheduleproductmigration`` abd "
@@ -6915,7 +6893,6 @@ msgstr "spacecmd -- system_listmigrationtargets group:mpm-target-sles15sp3\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:50
-#, fuzzy
 msgid ""
 "Only select a target, which is reported for *all* systems.  This command "
 "output a string of \"IDs.\" The string is the identifier for the "
@@ -7991,12 +7968,6 @@ msgstr ""
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:33
 #: modules/client-configuration/pages/clients-ubuntu.adoc:23
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:23
-#, fuzzy
-#| msgid ""
-#| "Trusting a GPG key is important for security on clients.  It is the task "
-#| "of the admin to decide which keys are needed and can be trusted.  "
-#| "Trusting the key is done manually, either by writing a Salt state or "
-#| "adding the keys to the bootstrap script."
 msgid ""
 "Trusting a GPG key is important for security on clients.  It is the task of "
 "the administrator to decide which keys are needed and can be trusted.  A "
@@ -8019,10 +7990,6 @@ msgstr ""
 #: modules/client-configuration/pages/clients-sle.adoc:33
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:34
 #: modules/client-configuration/pages/clients-ubuntu.adoc:24
-#, fuzzy
-#| msgid ""
-#| "For more information about activation keys, see xref:client-configuration:"
-#| "activation-keys.adoc[]."
 msgid ""
 "For more information about GPG keys, see xref:client-configuration:gpg-keys."
 "adoc[]."
@@ -8261,13 +8228,7 @@ msgstr "CentOS 제품 - WebUI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-centos.adoc:10
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Product Name\n"
-#| "| {centos} 6 | CentOS 6 x86_64\n"
-#| "| {centos} 7 | CentOS 7 x86_64\n"
-#| "| {centos} 8 | CentOS 8 x86_64\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version | Product Name\n"
 "| {centos} 6 | CentOS 6 x86_64\n"
@@ -8304,13 +8265,7 @@ msgstr "CentOS 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-centos.adoc:14
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel\n"
-#| "| {centos} 6 | centos6-x86_64\n"
-#| "| {centos} 7 | centos7-x86_64\n"
-#| "| {centos} 8 | centos8-x86_64\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel\n"
 "| {centos} 6 | centos6-x86_64\n"
@@ -8324,12 +8279,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-centos.adoc:18
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel | Client Channel       | Updates/Appstream Channel\n"
-#| "| {centos} 6 | centos6      | centos6-uyuni-client | centos6-updates\n"
-#| "| {centos} 7 | centos7      | centos7-uyuni-client | centos7-updates\n"
-#| "| {centos} 8 | centos8      | centos8-uyuni-client | centos8-appstream\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel | Client Channel       | Updates/Appstream Channel\n"
 "| {centos} 6 | centos6      | centos6-uyuni-client | centos6-updates\n"
@@ -8596,14 +8546,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-debian.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{suse} does not provide support for {debian} operating systems.  "
-#| "{productname} allows you to manage {debian} clients, but support is not "
-#| "provided.  Using {productname} to manage {debian} clients is "
-#| "experimental.  These instructions have been tested on {debian}{nbsp}9 "
-#| "Stretch and {debian}{nbsp}10 Buster.  Do not rely on {debian} clients in "
-#| "a production environment."
 msgid ""
 "{suse} does not provide support for {debian} operating systems.  "
 "{productname} allows you to manage {debian} clients, but support is not "
@@ -8685,12 +8627,7 @@ msgstr "Debian 제품 - WebUI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-debian.adoc:14
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version  | Product Name\n"
-#| "| {debian} 9  | Debian 9\n"
-#| "| {debian} 10 | Debian 10\n"
-#| "| {debian} 11 | Debian 11\n"
+#, no-wrap
 msgid ""
 "| OS Version  | Product Name\n"
 "| {debian} 10 | Debian 10\n"
@@ -8709,12 +8646,7 @@ msgstr "Debian 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-debian.adoc:17
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version  | Product Name\n"
-#| "| {debian} 9  | debian-9-pool-amd64\n"
-#| "| {debian} 10 | debian-10-pool-amd64\n"
-#| "| {debian} 11 | debian-11-pool-amd64\n"
+#, no-wrap
 msgid ""
 "| OS Version  | Product Name\n"
 "| {debian} 10 | debian-10-pool-amd64\n"
@@ -8726,32 +8658,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-debian.adoc:20
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version\n"
-#| "| Base Channel\n"
-#| "| Client Channel\n"
-#| "| Updates Channel\n"
-#| "| Security Channel\n"
-#| "\n"
-#| "| {debian} 9\n"
-#| "| debian-9-pool-amd64-uyuni\n"
-#| "| debian-9-amd64-uyuni-client\n"
-#| "| debian-9-amd64-main-updates-uyuni\n"
-#| "| debian-9-amd64-main-security-uyuni\n"
-#| "\n"
-#| "| {debian} 10\n"
-#| "| debian-10-pool-amd64-uyuni\n"
-#| "| debian-10-amd64-uyuni-client\n"
-#| "| debian-10-amd64-main-updates-uyuni\n"
-#| "| debian-10-amd64-main-security-uyuni\n"
-#| "\n"
-#| "| {debian} 11\n"
-#| "| debian-11-pool-amd64-uyuni\n"
-#| "| debian-11-amd64-uyuni-client\n"
-#| "| debian-11-amd64-main-updates-uyuni\n"
-#| "| debian-11-amd64-main-security-uyuni\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -8816,10 +8723,6 @@ msgstr "루트 액세스"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-debian.adoc:29
-#, fuzzy
-#| msgid ""
-#| "The root user on {ubuntu} is disabled by default.  You can enable it by "
-#| "editing the [filename]``sudoers`` file."
 msgid "The root user on {debian} is disabled by default for SSH access."
 msgstr "{debian}의 루트 사용자는 기본적으로 SSH 액세스가 비활성화되어 있습니다."
 
@@ -8827,10 +8730,6 @@ msgstr "{debian}의 루트 사용자는 기본적으로 SSH 액세스가 비활�
 #: modules/client-configuration/pages/clients-debian.adoc:30
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:37
 #: modules/client-configuration/pages/clients-ubuntu.adoc:27
-#, fuzzy
-#| msgid ""
-#| "The root user on {ubuntu} is disabled by default.  You can enable it by "
-#| "editing the [filename]``sudoers`` file."
 msgid ""
 "To be able to onboard using a regular user, you need to edit the "
 "[filename]``sudoers`` file."
@@ -8877,10 +8776,11 @@ msgstr ""
 #: modules/client-configuration/pages/clients-debian.adoc:35
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:42
 #: modules/client-configuration/pages/clients-ubuntu.adoc:32
-#, fuzzy, no-wrap
-#| msgid "<user>  ALL=NOPASSWD: /usr/bin/python, /usr/bin/python2, /usr/bin/python3\n"
+#, no-wrap
 msgid "<user>  ALL=NOPASSWD: /usr/bin/python, /usr/bin/python2, /usr/bin/python3, /var/tmp/venv-salt-minion/bin/python\n"
-msgstr "<user>  ALL=NOPASSWD: /usr/bin/python, /usr/bin/python2, /usr/bin/python3\n"
+msgstr ""
+"<user>  ALL=NOPASSWD: /usr/bin/python, /usr/bin/python2, /usr/bin/python3, /"
+"var/tmp/venv-salt-minion/bin/python\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-debian.adoc:36
@@ -9230,13 +9130,7 @@ msgstr "OpenSUSE 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:12
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel\n"
-#| "| {opensuse} Leap 15.1 | opensuse-leap-15.1-pool\n"
-#| "| {opensuse} Leap 15.2 | opensuse-leap-15.2-pool\n"
-#| "| {opensuse} Leap 15.3 | opensuse-leap-15.3-pool\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel\n"
 "| {opensuse} Leap 15.1 | opensuse-leap-15.1-pool\n"
@@ -9302,29 +9196,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:16
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version\n"
-#| "| Base Channel\n"
-#| "| Client Channel\n"
-#| "| Updates Channel\n"
-#| "| Non-OSS Channel\n"
-#| "| Non-OSS Updates Channel\n"
-#| "\n"
-#| "| {opensuse} Leap 15.1\n"
-#| "| opensuse_leap15_1\n"
-#| "| opensuse_leap15_1-uyuni-client\n"
-#| "| opensuse_leap15_1-updates\n"
-#| "| opensuse_leap15_1-non-oss\n"
-#| "| opensuse_leap15_1-non-oss-updates\n"
-#| "\n"
-#| "| {opensuse} Leap 15.2\n"
-#| "| opensuse_leap15_2\n"
-#| "| opensuse_leap15_2-uyuni-client\n"
-#| "| opensuse_leap15_2-updates\n"
-#| "| opensuse_leap15_2-non-oss\n"
-#| "| opensuse_leap15_2-non-oss-updates\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -9645,10 +9517,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:5
-#, fuzzy
-#| msgid ""
-#| "For more information, see xref:installation-and-upgrade:setup-wizard."
-#| "adoc[]."
 msgid ""
 "For more information, see xref:installation-and-upgrade:pubcloud-setup."
 "adoc#add-product-sync-repo[]."
@@ -11662,21 +11530,16 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:3
-#, fuzzy
-#| msgid "{micro}{nbsp}5.1 {x86_64}"
 msgid "{micro}{nbsp}5.1, 5.2, and 5.3 {x86_64}"
 msgstr "{micro}{nbsp}5.1, 5.2 및 5.3 {x86_64}"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:4
-#, fuzzy
-#| msgid "{micro}{nbsp}5.1 {arm64}"
 msgid "{micro}{nbsp}5.1, 5.2, and 5.3 {arm64}"
 msgstr "{micro}{nbsp}5.1, 5.2 및 5.3 {arm64}"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:5
-#, fuzzy
 msgid "{micro}{nbsp}5.1, 5.2, and 5.3 {zsystems} (s390x)"
 msgstr "{micro}{nbsp}5.1, 5.2 및 5.3 {zsystems} (s390x)"
 
@@ -11767,7 +11630,7 @@ msgstr "SLE Micro 제품 - WebUI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-slemicro.adoc:16
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Product Name\n"
@@ -11839,7 +11702,7 @@ msgstr "SLE Micro 제품 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-slemicro.adoc:19
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -12372,12 +12235,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS "
-#| "clients using Salt.  For information about registering Salt clients "
-#| "running {ubuntu} 20.04, see xref:client-configuration:clients-ubuntu."
-#| "adoc[]."
 msgid ""
 "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS and 22.04 "
 "LTS clients using Salt.  For information about registering Salt clients "
@@ -12608,10 +12465,6 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:36
 #: modules/client-configuration/pages/clients-ubuntu.adoc:26
-#, fuzzy
-#| msgid ""
-#| "The root user on {ubuntu} is disabled by default.  You can enable it by "
-#| "editing the [filename]``sudoers`` file."
 msgid "The root user on {ubuntu} is disabled by default for SSH access."
 msgstr "{ubuntu}의 루트 사용자는 기본적으로 SSH 액세스가 비활성화되어 있습니다."
 
@@ -12631,17 +12484,12 @@ msgstr ""
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-ubuntu.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Registering {ubuntu} 16.04 and 18.04 Clients"
+#, no-wrap
 msgid "Registering {ubuntu} 20.04 and 22.04 Clients"
 msgstr "{ubuntu} 20.04 및 22.04 클라이언트 등록"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu.adoc:2
-#, fuzzy
-#| msgid ""
-#| "This section contains information about registering Salt clients running "
-#| "{ubuntu} 16.04 LTS, 18.04 LTS operating systems."
 msgid ""
 "This section contains information about registering Salt clients running "
 "{ubuntu} 20.04 LTS and 22.04 LTS operating systems."
@@ -12651,12 +12499,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu.adoc:3
-#, fuzzy
-#| msgid ""
-#| "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS "
-#| "clients using Salt.  For information about registering Salt clients "
-#| "running {ubuntu} 16.04 LTS and 18.04 LTS, see xref:client-configuration:"
-#| "clients-ubuntu-old.adoc[]."
 msgid ""
 "{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, 20.04 LTS and 22.04 "
 "LTS clients using Salt.  For information about registering Salt clients "
@@ -12669,11 +12511,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:11
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version     | Product Name\n"
-#| "| {ubuntu} 16.04 | Ubuntu 16.04\n"
-#| "| {ubuntu} 18.04 | Ubuntu 18.04\n"
+#, no-wrap
 msgid ""
 "| OS Version | Product Name\n"
 "| {ubuntu} 20.04 | Ubuntu 20.04\n"
@@ -12685,11 +12523,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:14
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel\n"
-#| "| {ubuntu} 16.04 | ubuntu-16.04-pool-amd64\n"
-#| "| {ubuntu} 18.04 | ubuntu-18.04-pool-amd64\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel\n"
 "| {ubuntu} 20.04 | ubuntu-2004-amd64-main-amd64\n"
@@ -12701,11 +12535,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/clients-ubuntu.adoc:17
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
-#| "\n"
-#| "| {ubuntu} 20.04 | ubuntu-2004-amd64-main for amd64 | ubuntu-2004-amd64-main-uyuni | ubuntu-2004-amd64-main-updates-uyuni | ubuntu-2004-amd64-main-security-uyuni | ubuntu-2004-amd64-uyuni-client\n"
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel | Main Channel | Updates Channel | Security Channel | Client Channel\n"
 "\n"
@@ -15038,7 +14868,6 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:29
 #: modules/client-configuration/pages/tshoot-clients.adoc:69
-#, fuzzy
 msgid ""
 "Salt SSH is using [path]``/var/tmp`` to deploy Salt Bundle to and execute "
 "Salt commands on the client with the bundled Python.  Therefore you must not "
@@ -15068,14 +14897,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:31
-#, fuzzy, no-wrap
-#| msgid "Using the Salt Bundle with the Salt Minion"
+#, no-wrap
 msgid "Extend Salt Bundle with Python packages using pip"
 msgstr "pip를 사용하여 Python 패키지로 Salt Bundle 확장"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:32
-#, fuzzy
 msgid ""
 "The Salt Bundle includes [literal]``pip`` to make it possible to extend the "
 "functionality of the bundled Salt Minion with extra Python packages."
@@ -15085,7 +14912,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:33
-#, fuzzy
 msgid ""
 "By default, [command]``salt <minion_id> pip.install <package-name>`` "
 "installs the Python package specified by [literal]``<package_name>`` into "
@@ -15097,7 +14923,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:34
-#, fuzzy
 msgid ""
 "If needed, the path [path]``/var/lib/venv-salt-minion/local`` can be "
 "overridden by setting the [literal]``VENV_PIP_TARGET`` environment variable "
@@ -15113,7 +14938,7 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:35
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "[Service]\n"
 "Environment=VENV_PIP_TARGET=/new/path/local/venv-salt-minion/pip\n"
@@ -15123,7 +14948,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:36
-#, fuzzy
 msgid ""
 "The Python packages installed through [literal]``pip`` are not changing on "
 "updating the Salt Bundle.  To ensure that such packages are available and "
@@ -15471,7 +15295,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:6
-#, fuzzy
 msgid ""
 "With SUSE Manager 4.3 release, traditional clients have been deprecated.  "
 "The release following SUSE Manager 4.3 will not support traditional clients "
@@ -15485,16 +15308,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:7
-#, fuzzy
-#| msgid ""
-#| "Traditional clients will be deprecated with the next {productname} "
-#| "version and will not be supported with future releases.  Be aware that "
-#| "when migrating from traditional clients to Salt minions you do not have "
-#| "to delete the registered clients before. You can just register them as "
-#| "Salt minions and Salt will do the necessary steps with the traditional "
-#| "client. If you already deleted the traditional client and the "
-#| "registration as Salt minion is not possible anymore, see xref:"
-#| "installation-and-upgrade:troubleshooting.adoc[Troubleshooting]."
 msgid ""
 "Be aware that when migrating from traditional clients to Salt minions you do "
 "not have to delete the registered clients before.  You can just register "
@@ -15772,7 +15585,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/gpg-keys.adoc:4
-#, fuzzy
 msgid ""
 "RPM packages can be signed directly, while Debian based systems sign only "
 "the metadata and use a chain of checksums to secure the packages.  Most RPM "
@@ -16424,8 +16236,6 @@ msgstr "패치를 적용하려는 클라이언트를 선택하고 btn:[패치 �
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:66
-#, fuzzy
-#| msgid " Confirm the list of clients to perform the update."
 msgid "Confirm the list of clients to perform the update."
 msgstr "업데이트를 수행할 클라이언트의 목록을 확인합니다."
 
@@ -17929,13 +17739,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/registration-webui.adoc:28
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Handling of Locally assigned Repositories"
 msgstr "로컬 할당 리포지토리 처리"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:29
-#, fuzzy
 msgid ""
 "Having repositories assigned directly to clients not served by {productname} "
 "is not a common use case.  It can cause trouble.  Therfore bootstrapping via "
@@ -17947,7 +17756,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:30
-#, fuzzy
 msgid ""
 "Later, during every use of the channel state, for example when executing a "
 "Highstate or a package installation, all locally assigned repositories are "
@@ -17958,7 +17766,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:31
-#, fuzzy
 msgid ""
 "All software packages which are used on the clients should come from "
 "channels served by {productname}.  For more information about creating a "
@@ -17966,8 +17773,7 @@ msgid ""
 "channels.adoc[]."
 msgstr ""
 "클라이언트에서 사용되는 모든 소프트웨어 패키지는 {productname}에서 제공하는 채널에서 가져와야 합니다. 사용자 지정 채널 생성에 "
-"대한 자세한 내용은 xref:administration:custom-channels.adoc[]의 ``Custom Channels``를 "
-"참조하십시오."
+"대한 자세한 내용은 xref:administration:custom-channels.adoc[]의 ``사용자 정의 채널``을 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/repositories.adoc:1
@@ -18469,18 +18275,12 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/arch-other-note.adoc:1
-#, fuzzy
-#| msgid ""
-#| "In the following section, descriptions often defaults to the "
-#| "[literal]``x86_64`` architecture.  Replace it with other architectures if "
-#| "appropriate."
 msgid ""
 "In the following section, descriptions often default to the "
 "[literal]``x86_64`` architecture.  Replace it with other architectures if "
 "appropriate."
 msgstr ""
-"다음 섹션에서 설명은 종종 [literal]``x86_64`` 아키텍처로 기본 설정됩니다. 해"
-"당될 경우 다른 아키텍처로 교체하십시오."
+"다음 섹션에서 설명은 종종 [literal]``x86_64`` 아키텍처로 기본 설정됩니다. 해당될 경우 다른 아키텍처로 교체하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:1
@@ -18577,7 +18377,6 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/eol-clients.adoc:1
 #: modules/client-configuration/pages/supported-features.adoc:17
-#, fuzzy
 msgid ""
 "When the distibution reaches end-of-life, it enters grace period of 3 months "
 "when the support is considered deprecated.  After that period, the product "
@@ -18590,14 +18389,14 @@ msgstr ""
 #. type: Block title
 #: modules/client-configuration/pages/snippets/eol-clients.adoc:2
 #: modules/client-configuration/pages/supported-features.adoc:18
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Clients approaching end-of-life and end of support"
 msgstr "수명 종료 및 지원 종료 예정 클라이언트"
 
 #. type: Table
 #: modules/client-configuration/pages/snippets/eol-clients.adoc:3
 #: modules/client-configuration/pages/supported-features.adoc:19
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Operating System\n"
 "| Architecture\n"
@@ -18624,10 +18423,6 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/eol-clients.adoc:4
 #: modules/client-configuration/pages/supported-features.adoc:20
-#, fuzzy
-#| msgid ""
-#| "For more information about the {centos} 6 end-of-life, see http://mirror."
-#| "centos.org/centos/6/readme."
 msgid ""
 "For more information about end-of-life dates, see https://endoflife.software/"
 "operating-systems."
@@ -18813,13 +18608,6 @@ msgstr "클라이언트의 GPG 키 신뢰"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:2
-#, fuzzy
-#| msgid ""
-#| "By default, operating systems trust only their own GPG keys when they are "
-#| "installed, and do not trust keys provided by third party packages.  The "
-#| "clients can be successfully bootstrapped without the GPG key being "
-#| "trusted.  However, you cannot install new client tool packages or update "
-#| "them until the keys are trusted."
 msgid ""
 "Operating systems either trust their own GPG keys directly or at least ship "
 "them installed with the minimal system.  But third party packages signed by "
@@ -18833,7 +18621,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:3
-#, fuzzy
 msgid ""
 "Salt clients now use GPG key information entered for a software channel to "
 "manage the trusted keys.  When a software channel with GPG key information "
@@ -18846,7 +18633,6 @@ msgstr ""
 #.  The meaning of the following sentence is not clear
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:4
-#, fuzzy
 msgid ""
 "The GPG key URL which is set of a software channel must exist.  In case it "
 "is a file URL, the GPG key file must be deployed on the client before the "
@@ -18857,7 +18643,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:5
-#, fuzzy
 msgid ""
 "The GPG keys for the Client Tools Channels of {redhat} based clients are "
 "deployed on the client into [path]``/etc/pki/rpm-gpg/`` and can be "
@@ -18871,7 +18656,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:6
-#, fuzzy
 msgid ""
 "Because Debian based systems sign only metadata, there is typically no need "
 "to specify extra keys for single channels.  If a user configures an own GPG "
@@ -18885,20 +18669,17 @@ msgstr ""
 
 #. type: Title ===
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:7
-#, fuzzy, no-wrap
-#| msgid "Use Your Own GPG Key"
+#, no-wrap
 msgid "User defined GPG keys"
 msgstr "사용자 정의 GPG 키"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:8
-#, fuzzy
 msgid "Users can define their own GPG keys to be deployed to the client."
 msgstr "사용자는 클라이언트에 배포할 자체 GPG 키를 정의할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:9
-#, fuzzy
 msgid ""
 "By providing some pillar data and providing the GPG key files in the {salt} "
 "filesystem, they are automatically deployed to the client."
@@ -18906,7 +18687,6 @@ msgstr "일부 열 데이터를 입력하고 {salt} 파일 시스템에 GPG 키 
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:10
-#, fuzzy
 msgid ""
 "These keys are deployed into [path]``/etc/pki/rpm-gpg/`` on RPM based "
 "operating systems and to [path]``/usr/share/keyrings/`` on Debian systems:"
@@ -18917,7 +18697,6 @@ msgstr ""
 #.  I think the cat command is here to show the contents of the file.
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:11
-#, fuzzy
 msgid ""
 "Define the pillar key [literal``custom_gpgkeys`` for the client you want to "
 "deploy the key to and list the names of the key file."
@@ -18926,7 +18705,7 @@ msgstr "키를 배포할 클라이언트에 대한 열 키 [literal]``custom_gpg
 #.  In this case, the cat is superfluous.
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "cat /srv/pillar/mypillar.sls\n"
 "custom_gpgkeys:\n"
@@ -18952,7 +18731,7 @@ msgstr ""
 #.  In this case, the ls is superfluous.
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "ls -la /srv/salt/gpg/\n"
 "/srv/salt/gpg/my_first_gpg.key\n"
@@ -18964,7 +18743,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:15
-#, fuzzy
 msgid ""
 "The keys are now deployed to the client at [path]``/etc/pki/rpm-gpg/"
 "my_first_gpg.key`` and [path]``/etc/pki/rpm-gpg/my_second_gpgkey.gpg``."
@@ -18974,7 +18752,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:16
-#, fuzzy
 msgid ""
 "The last step is to add the URL to the GPG key URL field of the software "
 "channel.  Navigate to menu:Software[Manage > Channels] and select the "
@@ -18987,8 +18764,7 @@ msgstr ""
 
 #. type: Title ===
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:17
-#, fuzzy, no-wrap
-#| msgid "Editing a Bootstrap Script"
+#, no-wrap
 msgid "GPG Keys in Bootstrap Scripts"
 msgstr "부트스트랩 스크립트의 GPG 키"
 
@@ -20122,134 +19898,7 @@ msgstr "{centos} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-centos.adoc:11
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Feature\n"
-#| "| {rocky}{nbsp}8\n"
-#| "\n"
-#| "| Client\n"
-#| "| {salt} (plain {rocky})\n"
-#| "\n"
-#| "| System packages\n"
-#| "| {rocky} Community\n"
-#| "\n"
-#| "| Registration\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Install packages\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Apply patches\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Remote commands\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System package states\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System custom states\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Group custom states\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Organization custom states\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System set manager (SSM)\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Product migration\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Basic Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Advanced Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Virtual Guest Installation (Kickstart), as Host OS\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Virtual Guest Installation (image template), as Host OS\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System deployment (PXE/Kickstart)\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System redeployment (Kickstart)\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Contact methods\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "\n"
-#| "| Works with {productname} Proxy\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Action chains\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Staging (pre-download of packages)\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Duplicate package reporting\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| CVE auditing\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| SCAP auditing\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Package verification\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Package locking\n"
-#| "| {question}\n"
-#| "\n"
-#| "| System locking\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Maintenance Windows\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System snapshot\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Configuration file management\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Snapshots and profiles\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "\n"
-#| "| Power management\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Monitoring\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Docker buildhost\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Docker image with OS\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Kiwi buildhost\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Kiwi image with OS\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Recurring Actions\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| AppStreams\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Yomi\n"
-#| "| N/A\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {centos}{nbsp}7\n"
@@ -20537,176 +20186,7 @@ msgstr "{debian} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-debian.adoc:11
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Feature\n"
-#| "| {debian}{nbsp}9\n"
-#| "| {debian}{nbsp}10\n"
-#| "\n"
-#| "| Client\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System packages\n"
-#| "| {debian} Community\n"
-#| "| {debian} Community\n"
-#| "\n"
-#| "| Registration\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Install packages\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Apply patches\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Remote commands\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System package states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Group custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Organization custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System set manager (SSM)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Product migration\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Basic Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Advanced Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Virtual Guest Installation (Kickstart), as Host OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Virtual Guest Installation (image template), as Host OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System deployment (PXE/Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System redeployment (Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Contact methods\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "\n"
-#| "| Works with {productname} Proxy\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Action chains\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Staging (pre-download of packages)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Duplicate package reporting\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| CVE auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| SCAP auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Package verification\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Package locking\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System locking\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Maintenance Windows\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System snapshot\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Configuration file management\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Package profiles\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "\n"
-#| "| Power management\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Monitoring\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Docker buildhost\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Build Docker image with OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Kiwi buildhost\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Kiwi image with OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Recurring Actions\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| AppStreams\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Yomi\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {debian}{nbsp}10\n"
@@ -22944,218 +22424,7 @@ msgstr "{suse} 및 {opensuse} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-sles.adoc:11
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Feature\n"
-#| "| {rhela}{nbsp}6\n"
-#| "| {rhela}{nbsp}7\n"
-#| "| {rhela}{nbsp}8\n"
-#| "\n"
-#| "| Client\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System packages\n"
-#| "| {redhat}\n"
-#| "| {redhat}\n"
-#| "| {redhat}\n"
-#| "\n"
-#| "| Registration\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Install packages\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Apply patches\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Remote commands\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System package states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Group custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Organization custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System set manager (SSM)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Product migration\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Basic Virtual Guest Management {star}\n"
-#| "| {trad}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Advanced Virtual Guest Management {star}\n"
-#| "| {cross}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Virtual Guest Installation (Kickstart), as Host OS\n"
-#| "| {trad}\n"
-#| "| {trad}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Virtual Guest Installation (image template), as Host OS\n"
-#| "| {trad}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System deployment (PXE/Kickstart)\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System redeployment (Kickstart)\n"
-#| "| {trad}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Contact methods\n"
-#| "| {trad}: OSAD, RHNSD, SSH-push. {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {trad}: OSAD, RHNSD, SSH-push. {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "\n"
-#| "| Works with {productname} Proxy\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Action chains\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Staging (pre-download of packages)\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Duplicate package reporting\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| CVE auditing\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| SCAP auditing\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Package verification\n"
-#| "| {trad}\n"
-#| "| {trad}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Package locking\n"
-#| "| {trad}\n"
-#| "| {check}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| System locking\n"
-#| "| {trad}\n"
-#| "| {trad}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Maintenance Windows\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System snapshot\n"
-#| "| {trad}\n"
-#| "| {trad}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Configuration file management\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Snapshots and profiles\n"
-#| "| {trad}. {salt}: Profiles supported, Sync not supported\n"
-#| "| {trad}. {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "\n"
-#| "| Power management\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Monitoring\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Docker buildhost\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Docker image with OS\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Kiwi buildhost\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Kiwi image with OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Recurring Actions\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| AppStreams\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Yomi\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {sle}{nbsp}12\n"
@@ -23628,218 +22897,7 @@ msgstr "{ubuntu} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:12
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Feature\n"
-#| "| {ubuntu}{nbsp}16.04\n"
-#| "| {ubuntu}{nbsp}18.04\n"
-#| "| {ubuntu}{nbsp}20.04\n"
-#| "\n"
-#| "| Client\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System packages\n"
-#| "| {ubuntu} Community\n"
-#| "| {ubuntu} Community\n"
-#| "| {ubuntu} Community\n"
-#| "\n"
-#| "| Registration\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Install packages\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Apply patches\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Remote commands\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System package states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Group custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Organization custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System set manager (SSM)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Product migration\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Basic Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Advanced Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Virtual Guest Installation (Kickstart), as Host OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Virtual Guest Installation (image template), as Host OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System deployment (PXE/Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System redeployment (Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Contact methods\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "\n"
-#| "| Works with {productname} Proxy\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Action chains\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Staging (pre-download of packages)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Duplicate package reporting\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| CVE auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| SCAP auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Package verification\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Package locking\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Maintenance Windows\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System locking\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System snapshot\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Configuration file management\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Package profiles\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "\n"
-#| "| Power management\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Monitoring\n"
-#| "| {cross}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Docker buildhost\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Build Docker image with OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Kiwi buildhost\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Kiwi image with OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Recurring Actions\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| AppStreams\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Yomi\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -24350,198 +23408,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:14
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Feature\n"
-#| "| {ubuntu}{nbsp}16.04\n"
-#| "| {ubuntu}{nbsp}18.04\n"
-#| "| {ubuntu}{nbsp}20.04\n"
-#| "\n"
-#| "| Client\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System packages\n"
-#| "| Canonical\n"
-#| "| Canonical\n"
-#| "| Canonical\n"
-#| "\n"
-#| "| Registration\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Install packages\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Apply patches\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Remote commands\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System package states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Group custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Organization custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System set manager (SSM)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Product migration\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Basic Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Advanced Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Virtual Guest Installation (Kickstart), as Host OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Virtual Guest Installation (image template), as Host OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System deployment (PXE/Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System redeployment (Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Contact methods\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "\n"
-#| "| Works with {productname} Proxy\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Action chains\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Staging (pre-download of packages)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Duplicate package reporting\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| CVE auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| SCAP auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Package verification\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Package locking\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System locking\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System snapshot\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Configuration file management\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Package profiles\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "\n"
-#| "| Power management\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Monitoring\n"
-#| "| {cross}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Docker buildhost\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Build Docker image with OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Kiwi buildhost\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Kiwi image with OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -25085,128 +23952,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:13
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Operating System\n"
-#| "| Architecture\n"
-#| "| Traditional Clients\n"
-#| "| Salt Clients\n"
-#| "\n"
-#| "| {sle} 15\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 12\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 11\n"
-#| "| {x86}, {x86_64}, {ipf}, {ppc64}, {ibmz}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 15\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 12\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {micro}\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {opensuse} Leap 15\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 8\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 7\n"
-#| "| {x86_64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {alibabaclo} 2\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {almalinux} 8\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {amazon} 2\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {centos} 8\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {centos} 7\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {debian} 10\n"
-#| "| {x86_64} (= amd64), {aarch64}, armv7l, i586\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {debian} 9\n"
-#| "| {x86_64} (= amd64), {aarch64}, armv7l, i586\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {oracle} 8\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {oracle} 7\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {rhel} 8\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {rhel} 7\n"
-#| "| {x86_64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {rocky} 8\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {ubuntu} 20.04\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {ubuntu} 18.04\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Operating System\n"
 "| Architecture\n"
@@ -25681,12 +24427,6 @@ msgstr "지원되는 도구 패키지"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:22
-#, fuzzy
-#| msgid ""
-#| "The ``spacewalk-utils`` and ``spacewalk-utils-extras`` packages can "
-#| "provide additional services and features.  The ``spacewalk-utils`` "
-#| "package in {productname} is fully supported by {suse}, and contains these "
-#| "tools:"
 msgid ""
 "The ``spacewalk-utils`` and ``spacewalk-utils-extras`` packages can provide "
 "additional services and features."
@@ -27354,7 +26094,6 @@ msgstr "noexec로 /tmp 마운팅"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:66
-#, fuzzy
 msgid ""
 "Salt runs remote commands from [path]``/tmp`` on the client's file system.  "
 "Therefore you must not mount [path]``/tmp`` with the [option]``noexec`` "
@@ -27377,7 +26116,7 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:67
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "[Service]\n"
 "Environment=TMPDIR=/var/tmp\n"
@@ -27387,10 +26126,9 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/tshoot-clients.adoc:68
-#, fuzzy, no-wrap
-#| msgid "Mounting /tmp with noexec"
+#, no-wrap
 msgid "Mounting /var/tmp with noexec"
-msgstr "noexec로 /tmp 마운팅"
+msgstr "noexec로 /var/tmp 마운팅"
 
 #. type: Title ==
 #: modules/client-configuration/pages/tshoot-clients.adoc:70
