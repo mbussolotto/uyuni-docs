@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-09 11:33+0000\n"
-"PO-Revision-Date: 2022-09-30 08:13+0000\n"
+"PO-Revision-Date: 2022-10-04 07:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-mu-431/ko/>\n"
@@ -2173,7 +2173,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-intro.adoc:20
-#, fuzzy
 msgid ""
 "The autoinstallation features of {productname} are based on a software named "
 "Cobbler.  For more information, see https://cobbler.readthedocs.io."
@@ -2777,7 +2776,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:47
-#, fuzzy
 msgid "``<software>`` allows to specify product for the {unifiedinstaller}"
 msgstr "``<software>``를 사용하면 {unifiedinstaller}에 제품을 지정할 수 있습니다."
 
@@ -4825,13 +4823,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:23
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{unifiedinstaller} Updates Channels on {sle} Clients"
 msgstr "{sle} 클라이언트의 {unifiedinstaller} 업데이트 채널"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:24
-#, fuzzy
 msgid ""
 "This channel is used by the {unifiedinstaller} to ensure it is up to date "
 "before it installs the operating system.  All {sle} products should have "
@@ -6068,7 +6065,6 @@ msgstr "umount /mnt\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-major.adoc:19
-#, fuzzy
 msgid ""
 "This image is the {unifiedinstaller} and can be used for multiple "
 "autoinstallable distributions."
@@ -6493,7 +6489,6 @@ msgstr "openSUSE Leap 15.1에서 {sle} 15 SP1으로 또는"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:6
-#, fuzzy
 msgid "openSUSE Leap 15.4 to {sle} 15 SP4"
 msgstr "openSUSE Leap 15.4에서 {sle} 15 SP4로"
 
@@ -6852,7 +6847,6 @@ msgstr ""
 #. Note or warning about taking normal precautions (backups, make sure fully patched, etc)
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:47
-#, fuzzy
 msgid ""
 "The [command]``spacecmd`` sub-commands "
 "[literal]``system_scheduleproductmigration`` abd "
@@ -6881,7 +6875,6 @@ msgstr "spacecmd -- system_listmigrationtargets group:mpm-target-sles15sp3\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:50
-#, fuzzy
 msgid ""
 "Only select a target, which is reported for *all* systems.  This command "
 "output a string of \"IDs.\" The string is the identifier for the "
@@ -9027,7 +9020,7 @@ msgstr "OpenSUSE 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel\n"
 "| {opensuse} Leap 15.1 | opensuse-leap-15.1-pool\n"
@@ -9415,7 +9408,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:5
-#, fuzzy
 msgid ""
 "For more information, see xref:installation-and-upgrade:pubcloud-setup."
 "adoc#add-product-sync-repo[]."
@@ -14502,12 +14494,11 @@ msgid ""
 "client-configuration:registration-cli.adoc#_salt_bundle_configuration[Salt "
 "Bundle configuration]."
 msgstr ""
-"Salt Bundle은 {productname} Server가 아닌 Salt Master가 관리하는 Salt Minion"
-"과 동시에 사용할 수 있습니다. Salt Bundle이 클라이언트에 설치된 경우 "
-"{productname} Server가 Salt Bundle의 구성 파일을 관리하며, 이 경우 "
-"[literal]``salt-minion``의 구성 파일은 관리되지 않습니다. 자세한 내용은 xref:"
-"client-configuration:registration-cli.adoc#_salt_bundle_configuration[Salt "
-"Bundle 구성]을 참조십시오."
+"Salt Bundle은 {productname} Server가 아닌 Salt Master가 관리하는 Salt Minion과 동시에 사용할 "
+"수 있습니다. Salt Bundle이 클라이언트에 설치된 경우 {productname} Server가 Salt Bundle의 구성 파일을 "
+"관리하며, 이 경우 [literal]``salt-minion``의 구성 파일은 관리되지 않습니다. 자세한 내용은 xref:client-"
+"configuration:registration-cli.adoc#_salt_bundle_configuration[Salt Bundle "
+"구성]을 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:11
@@ -15059,7 +15050,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:6
-#, fuzzy
 msgid ""
 "With SUSE Manager 4.3 release, traditional clients have been deprecated.  "
 "The release following SUSE Manager 4.3 will not support traditional clients "
@@ -15069,11 +15059,10 @@ msgid ""
 msgstr ""
 "SUSE Manager 4.3 릴리스에서는 기존 클라이언트를 더 이상 사용하지 않습니다. SUSE Manager 4.3 이후의 릴리스는 "
 "기존 클라이언트 및 기존 프록시를 지원하지 않으며 이는 2023년으로 예정되어 있습니다. 모든 신규 배포에서는 Salt 클라이언트 및 "
-"Salt 프록시만 사용하고 기존 기존 클라이언트 및 프록시를 Salt로 마이그레이션하는 것이 좋습니다."
+"Salt 프록시만 사용하고 기존 클라이언트 및 프록시를 Salt로 마이그레이션하는 것이 좋습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:7
-#, fuzzy
 msgid ""
 "Be aware that when migrating from traditional clients to Salt minions you do "
 "not have to delete the registered clients before.  You can just register "
@@ -15358,7 +15347,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/gpg-keys.adoc:4
-#, fuzzy
 msgid ""
 "RPM packages can be signed directly, while Debian based systems sign only "
 "the metadata and use a chain of checksums to secure the packages.  Most RPM "
@@ -16008,7 +15996,6 @@ msgstr "패치를 적용하려는 클라이언트를 선택하고 btn:[패치 �
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:66
-#, fuzzy
 msgid "Confirm the list of clients to perform the update."
 msgstr "업데이트를 수행할 클라이언트의 목록을 확인합니다."
 
@@ -17510,13 +17497,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/registration-webui.adoc:28
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Handling of Locally assigned Repositories"
 msgstr "로컬 할당 리포지토리 처리"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:29
-#, fuzzy
 msgid ""
 "Having repositories assigned directly to clients not served by {productname} "
 "is not a common use case.  It can cause trouble.  Therfore bootstrapping via "
@@ -17528,7 +17514,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:30
-#, fuzzy
 msgid ""
 "Later, during every use of the channel state, for example when executing a "
 "Highstate or a package installation, all locally assigned repositories are "
@@ -17539,7 +17524,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-webui.adoc:31
-#, fuzzy
 msgid ""
 "All software packages which are used on the clients should come from "
 "channels served by {productname}.  For more information about creating a "
@@ -17547,8 +17531,7 @@ msgid ""
 "channels.adoc[]."
 msgstr ""
 "클라이언트에서 사용되는 모든 소프트웨어 패키지는 {productname}에서 제공하는 채널에서 가져와야 합니다. 사용자 지정 채널 생성에 "
-"대한 자세한 내용은 xref:administration:custom-channels.adoc[]의 ``Custom Channels``를 "
-"참조하십시오."
+"대한 자세한 내용은 xref:administration:custom-channels.adoc[]의 ``사용자 정의 채널``을 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/repositories.adoc:1
@@ -18055,8 +18038,7 @@ msgid ""
 "[literal]``x86_64`` architecture.  Replace it with other architectures if "
 "appropriate."
 msgstr ""
-"다음 섹션에서 설명은 [literal]``x86_64`` 아키텍처로 기본 설정되는 경우가 많습니다. 해당하는 경우 다른 아키텍처로 "
-"교체하십시오."
+"다음 섹션에서 설명은 종종 [literal]``x86_64`` 아키텍처로 기본 설정됩니다. 해당될 경우 다른 아키텍처로 교체하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:1
@@ -18320,7 +18302,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:1
-#, fuzzy
 msgid ""
 "Operating systems either trust their own GPG keys directly or at least ship "
 "them installed with the minimal system.  But third party packages signed by "
@@ -18346,7 +18327,6 @@ msgstr ""
 #.  The meaning of the following sentence is not clear
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:3
-#, fuzzy
 msgid ""
 "The GPG key URL which is set of a software channel must exist.  In case it "
 "is a file URL, the GPG key file must be deployed on the client before the "
@@ -18357,7 +18337,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:4
-#, fuzzy
 msgid ""
 "The GPG keys for the Client Tools Channels of {redhat} based clients are "
 "deployed on the client into [path]``/etc/pki/rpm-gpg/`` and can be "
@@ -18371,7 +18350,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:5
-#, fuzzy
 msgid ""
 "Because Debian based systems sign only metadata, there is typically no need "
 "to specify extra keys for single channels.  If a user configures an own GPG "
@@ -18385,7 +18363,7 @@ msgstr ""
 
 #. type: Title ===
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:6
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "User defined GPG keys"
 msgstr "사용자 정의 GPG 키"
 
@@ -18396,7 +18374,6 @@ msgstr "사용자는 클라이언트에 배포할 사용자 지정 GPG 키를 �
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:8
-#, fuzzy
 msgid ""
 "By providing some pillar data and providing the GPG key files in the {salt} "
 "filesystem, they are automatically deployed to the client."
@@ -18404,7 +18381,6 @@ msgstr "일부 열 데이터를 입력하고 {salt} 파일 시스템에 GPG 키 
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:9
-#, fuzzy
 msgid ""
 "These keys are deployed into [path]``/etc/pki/rpm-gpg/`` on RPM based "
 "operating systems and to [path]``/usr/share/keyrings/`` on Debian systems:"
@@ -18415,7 +18391,6 @@ msgstr ""
 #.  I think the cat command is here to show the contents of the file.
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:10
-#, fuzzy
 msgid ""
 "Define the pillar key [literal``custom_gpgkeys`` for the client you want to "
 "deploy the key to and list the names of the key file."
@@ -18471,7 +18446,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:15
-#, fuzzy
 msgid ""
 "The last step is to add the URL to the GPG key URL field of the software "
 "channel.  Navigate to menu:Software[Manage > Channels] and select the "
@@ -18484,7 +18458,7 @@ msgstr ""
 
 #. type: Title ===
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:16
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GPG Keys in Bootstrap Scripts"
 msgstr "부트스트랩 스크립트의 GPG 키"
 
@@ -22324,7 +22298,7 @@ msgstr "{suse} 및 {opensuse} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-sles.adoc:11
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {sle}{nbsp}12\n"
@@ -23700,7 +23674,6 @@ msgstr "지원되는 도구 패키지"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:14
-#, fuzzy
 msgid ""
 "The ``spacewalk-utils`` and ``spacewalk-utils-extras`` packages can provide "
 "additional services and features."
