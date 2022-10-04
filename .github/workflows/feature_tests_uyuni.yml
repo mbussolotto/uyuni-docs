@@ -35,7 +35,7 @@ jobs:
       run: |
         gem install asciidoctor
         gem install asciidoctor-pdf --pre
-        gem install rouge
+        gem install rouge -v 3.30.0
         gem install pygments.rb
         gem install coderay
         sudo apt-get install libgraphicsmagick1-dev
