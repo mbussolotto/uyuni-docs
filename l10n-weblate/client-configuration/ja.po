@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-22 13:42+0000\n"
-"PO-Revision-Date: 2022-10-12 06:13+0000\n"
-"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
+"PO-Revision-Date: 2022-10-12 15:18+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-mu-432/ja/>\n"
 "Language: ja\n"
@@ -2255,7 +2255,7 @@ msgid ""
 "Cobbler.  For more information, see https://cobbler.readthedocs.io."
 msgstr ""
 "{productname}の自動インストール機能は、Cobblerという名前のソフトウェアによって実行されます。  "
-"詳細については、https://cobbler.readthedocs.ioを参照してください。"
+"詳細については、link:https://cobbler.readthedocs.io[]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:1
@@ -3046,8 +3046,7 @@ msgid ""
 "For information about variables, see xref:client-configuration:autoinst-"
 "profiles#variables[Variables]."
 msgstr ""
-"変数については、xref:client-configuration:autoinst-profiles."
-"adoc#autoyast[AutoYast Profi#variables[変数]を参照してください。"
+"変数については、xref:client-configuration:autoinst-profiles#variables[変数]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:68
@@ -3055,9 +3054,8 @@ msgid ""
 "For information about code snippets, see xref:client-configuration:autoinst-"
 "profiles#code-snippets[Code Snippets]."
 msgstr ""
-"コードスニペットについては、xref:client-configuration:autoinst-profiles."
-"adoc#autoyast[AutoYast Profile#code-snippets[コードスニペット]を参照してくだ"
-"さい。"
+"コードスニペットについては、xref:client-configuration:autoinst-profiles#code-"
+"snippets[コードスニペット]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:69
@@ -6801,12 +6799,10 @@ msgid ""
 "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths.html#sec-"
 "upgrade-paths-supported."
 msgstr ""
-"{sle}{nbsp}12以降では、{scc}がサービスパックを提供している場合、{suse}はサー"
-"ビスパックのスキップをサポートしています。  たとえば、{sle}{nbsp}15からSP2に"
-"アップグレードできます。SP1はインストールされません。  サポートされている"
-"{sle}のアップグレードパスは、 https://documentation.suse.com/sles/15-SP3/"
-"html/SLES-all/cha-upgrade-paths.html#sec-upgrade-paths-supportedを参照してく"
-"ださい。"
+"{sle}{nbsp}12以降では、{scc}がサービスパックを提供している場合、{suse}はサービスパックのスキップをサポートしています。  "
+"たとえば、{sle}{nbsp}15からSP2にアップグレードできます。SP1はインストールされません。  "
+"サポートされている{sle}のアップグレードパスは、link:https://documentation.suse.com/sles/15-SP3/"
+"html/SLES-all/cha-upgrade-paths.html#sec-upgrade-paths-supported[]を参照してください。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:9
@@ -11185,12 +11181,11 @@ msgid ""
 "certificate.  The certificate will be downloaded with the [literal]``.cer`` "
 "suffix.  Convert it to [literal]``.crt`` with the command:"
 msgstr ""
-"2番目の証明書(literal] `` CN = Microsoft Azure``)を確認します。  VMで同じであ"
-"る場合は、証明書名をメモします。  証明書をダウンロードするには、https://docs."
-"microsoft.com/en-us/azure/active-directory/fundamentals/certificate-"
-"authoritiesを参照してください。  AIAリンクをクリックして、証明書をダウンロー"
-"ドします。  証明書は、[literal]``.cer``サフィックスが付いてダウンロードされま"
-"す。  次のコマンドを使用して、[literal]``.crt``に変換します。"
+"2番目の証明書([literal] ``CN = Microsoft Azure``)を確認します。  VMで同じである場合は、証明書名をメモします。  "
+"証明書をダウンロードするには、link:https://docs.microsoft.com/en-us/azure/active-directory/"
+"fundamentals/certificate-authorities[]を参照してください。  "
+"AIAリンクをクリックして、証明書をダウンロードします。  証明書は、[literal]``.cer``サフィックスが付いてダウンロードされます。  "
+"次のコマンドを使用して、[literal]``.crt``に変換します。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:29
@@ -15882,8 +15877,8 @@ msgid ""
 "For more information about configuration management, see xref:client-"
 "configuration:configuration-management.adoc[]."
 msgstr ""
-"設定管理の詳細については、xref:client- configuration:configuration-"
-"management.adoc[]を参照してください。"
+"設定管理の詳細については、xref:client-configuration:configuration-management."
+"adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/delete-clients.adoc:1
@@ -17618,8 +17613,8 @@ msgid ""
 "For more information about the Salt minion configuration file, see https://"
 "docs.saltstack.com/en/latest/ref/configuration/minion.html."
 msgstr ""
-"Salt minion設定ファイルの詳細については、link:https://docs.saltstack.com/en/"
-"latest/ref/configuration/minion.htmlを参照してください。"
+"Salt minion設定ファイルの詳細については、link:https://docs.saltstack.com/en/latest/ref/"
+"configuration/minion.html[]を参照してください。"
 
 #
 #
@@ -18899,7 +18894,8 @@ msgstr ""
 msgid ""
 "For more information about end-of-life dates, see https://endoflife.software/"
 "operating-systems."
-msgstr "サポート終了日の詳細については、https://endoflife.software/operating-systemsを参照してください。"
+msgstr ""
+"サポート終了日の詳細については、link:https://endoflife.software/operating-systems[]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:1
