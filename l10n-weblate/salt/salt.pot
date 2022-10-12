@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-06-08 06:42+0000\n"
+"POT-Creation-Date: 2022-10-12 21:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
@@ -155,6 +155,7 @@ msgid "xref:salt-rate-limiting.adoc[Rate Limiting]"
 msgstr ""
 
 #.  Leaving this breadcrumb here for now, but these pages will need to be removed from the Salt Guide entirely at some point. --LKB 2020-07-17
+#.  *** xref:large-scale-tuning.adoc[Tuning Large Scale Installations]
 #. type: Plain text
 #: modules/salt/nav-salt-guide.adoc:28
 msgid "xref:large-scale.adoc[Scaling Salt Minions]"
@@ -315,17 +316,12 @@ msgid "Procedure: Creating a Custom Salt Channel and Initial State"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/custom-states.adoc:7
-#: modules/salt/pages/custom-states.adoc:17
-#: modules/salt/pages/custom-states.adoc:23
-#: modules/salt/pages/custom-states.adoc:29
-#: modules/salt/pages/custom-states.adoc:52
+#: modules/salt/pages/custom-states.adoc:7 modules/salt/pages/custom-states.adoc:17 modules/salt/pages/custom-states.adoc:23 modules/salt/pages/custom-states.adoc:29 modules/salt/pages/custom-states.adoc:52
 msgid "In the {productname} {webui}, navigate to menu:Configuration[Channels]."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/custom-states.adoc:8
-#: modules/salt/pages/custom-states.adoc:53
+#: modules/salt/pages/custom-states.adoc:8 modules/salt/pages/custom-states.adoc:53
 msgid "Click btn:[Create State Channel]."
 msgstr ""
 
@@ -372,8 +368,7 @@ msgid " Example custom state files are given later in this section.\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/custom-states.adoc:15
-#: modules/salt/pages/custom-states.adoc:61
+#: modules/salt/pages/custom-states.adoc:15 modules/salt/pages/custom-states.adoc:61
 #, no-wrap
 msgid "Click btn:[Update Channel] to save your state.\n"
 msgstr ""
@@ -1006,33 +1001,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-bind.adoc:40
-#: modules/salt/pages/formula-dhcpd.adoc:25
-#: modules/salt/pages/formula-imagesync.adoc:12
-#: modules/salt/pages/formula-monitoring.adoc:28
-#: modules/salt/pages/formula-monitoring.adoc:63
-#: modules/salt/pages/formula-monitoring.adoc:85
-#: modules/salt/pages/formula-saltboot.adoc:50
-#: modules/salt/pages/formula-tftpd.adoc:10
-#: modules/salt/pages/formula-vsftpd.adoc:10
-#: modules/salt/pages/formula-yomi.adoc:32
-#: modules/salt/pages/formula-yomi.adoc:56
-#: modules/salt/pages/formula-yomi.adoc:72
-#: modules/salt/pages/formula-yomi.adoc:97
-#: modules/salt/pages/formula-yomi.adoc:106
-#: modules/salt/pages/formula-yomi.adoc:113
+#: modules/salt/pages/formula-bind.adoc:40 modules/salt/pages/formula-dhcpd.adoc:25 modules/salt/pages/formula-imagesync.adoc:12 modules/salt/pages/formula-monitoring.adoc:28 modules/salt/pages/formula-monitoring.adoc:63 modules/salt/pages/formula-monitoring.adoc:85 modules/salt/pages/formula-saltboot.adoc:50 modules/salt/pages/formula-tftpd.adoc:10 modules/salt/pages/formula-vsftpd.adoc:10 modules/salt/pages/formula-yomi.adoc:32 modules/salt/pages/formula-yomi.adoc:56 modules/salt/pages/formula-yomi.adoc:72 modules/salt/pages/formula-yomi.adoc:97 modules/salt/pages/formula-yomi.adoc:106 modules/salt/pages/formula-yomi.adoc:113
 msgid "Click btn:[Save Formula] to save your configuration."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-bind.adoc:41
-#: modules/salt/pages/formula-branchnetwork.adoc:42
-#: modules/salt/pages/formula-dhcpd.adoc:26
-#: modules/salt/pages/formula-imagesync.adoc:13
-#: modules/salt/pages/formula-pxe.adoc:15
-#: modules/salt/pages/formula-tftpd.adoc:11
-#: modules/salt/pages/formula-vsftpd.adoc:11
-#: modules/salt/pages/formulas-suma.adoc:21
+#: modules/salt/pages/formula-bind.adoc:41 modules/salt/pages/formula-branchnetwork.adoc:42 modules/salt/pages/formula-dhcpd.adoc:26 modules/salt/pages/formula-imagesync.adoc:13 modules/salt/pages/formula-pxe.adoc:15 modules/salt/pages/formula-tftpd.adoc:11 modules/salt/pages/formula-vsftpd.adoc:11 modules/salt/pages/formulas-suma.adoc:21
 msgid "Apply the highstate."
 msgstr ""
 
@@ -1131,20 +1105,14 @@ msgid "Procedure: Setting Up a Branch Server with a Dedicated LAN"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-branchnetwork.adoc:9
-#: modules/salt/pages/formula-branchnetwork.adoc:28
-#: modules/salt/pages/formula-branchnetwork.adoc:39
-#: modules/salt/pages/formula-pxe.adoc:4
-#: modules/salt/pages/formula-tftpd.adoc:4
-#: modules/salt/pages/formula-vsftpd.adoc:4
+#: modules/salt/pages/formula-branchnetwork.adoc:9 modules/salt/pages/formula-branchnetwork.adoc:28 modules/salt/pages/formula-branchnetwork.adoc:39 modules/salt/pages/formula-pxe.adoc:4 modules/salt/pages/formula-tftpd.adoc:4 modules/salt/pages/formula-vsftpd.adoc:4
 msgid ""
 "In the {susemgr} {webui}, open the details page for the branch server, and "
 "navigate to the [guimenu]``Formulas`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-branchnetwork.adoc:10
-#: modules/salt/pages/formula-branchnetwork.adoc:29
+#: modules/salt/pages/formula-branchnetwork.adoc:10 modules/salt/pages/formula-branchnetwork.adoc:29
 msgid "In the [guimenu]``Branch Network`` section, set these parameters:"
 msgstr ""
 
@@ -1189,22 +1157,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-branchnetwork.adoc:17
-#: modules/salt/pages/formula-branchnetwork.adoc:33
+#: modules/salt/pages/formula-branchnetwork.adoc:17 modules/salt/pages/formula-branchnetwork.adoc:33
 msgid "Select the [guimenu]``bind`` DNS forwarder mode."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-branchnetwork.adoc:18
-#: modules/salt/pages/formula-branchnetwork.adoc:34
+#: modules/salt/pages/formula-branchnetwork.adoc:18 modules/salt/pages/formula-branchnetwork.adoc:34
 msgid ""
 "Check DNS forwarder fallback if you want to rely on an external DNS if the "
 "branch DNS fails."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-branchnetwork.adoc:19
-#: modules/salt/pages/formula-branchnetwork.adoc:35
+#: modules/salt/pages/formula-branchnetwork.adoc:19 modules/salt/pages/formula-branchnetwork.adoc:35
 msgid "Specify the working directory, and the directory owner and group."
 msgstr ""
 
@@ -1340,8 +1305,7 @@ msgid "Procedure: Configuring DHCP"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-dhcpd.adoc:4
-#: modules/salt/pages/formula-imagesync.adoc:5
+#: modules/salt/pages/formula-dhcpd.adoc:4 modules/salt/pages/formula-imagesync.adoc:5
 msgid ""
 "In the {susemgr} {webui}, open the details page for the branch server, and "
 "navigate to the Formulas tab."
@@ -1576,29 +1540,25 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/salt/pages/formula-monitoring.adoc:3
-#: modules/salt/pages/formula-monitoring.adoc:7
+#: modules/salt/pages/formula-monitoring.adoc:3 modules/salt/pages/formula-monitoring.adoc:7
 #, no-wrap
 msgid "Grafana"
 msgstr ""
 
 #. type: Title ==
-#: modules/salt/pages/formula-monitoring.adoc:4
-#: modules/salt/pages/formula-monitoring.adoc:29
+#: modules/salt/pages/formula-monitoring.adoc:4 modules/salt/pages/formula-monitoring.adoc:29
 #, no-wrap
 msgid "Prometheus"
 msgstr ""
 
 #. type: Title ==
-#: modules/salt/pages/formula-monitoring.adoc:5
-#: modules/salt/pages/formula-monitoring.adoc:65
+#: modules/salt/pages/formula-monitoring.adoc:5 modules/salt/pages/formula-monitoring.adoc:65
 #, no-wrap
 msgid "Prometheus Exporters"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-monitoring.adoc:6
-#: modules/salt/pages/formula-monitoring.adoc:94
+#: modules/salt/pages/formula-monitoring.adoc:6 modules/salt/pages/formula-monitoring.adoc:94
 msgid ""
 "For more information about using monitoring, see "
 "xref:administration:monitoring.adoc[]."
@@ -1785,16 +1745,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-monitoring.adoc:39
-#: modules/salt/pages/formula-monitoring.adoc:83
+#: modules/salt/pages/formula-monitoring.adoc:39 modules/salt/pages/formula-monitoring.adoc:83
 msgid ""
 "In the [guimenu]``Server Certificate`` field, type the path to the TLS "
 "server certificate."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-monitoring.adoc:40
-#: modules/salt/pages/formula-monitoring.adoc:84
+#: modules/salt/pages/formula-monitoring.adoc:40 modules/salt/pages/formula-monitoring.adoc:84
 msgid "In the [guimenu]``Server Key`` field, type the path to the TLS server key."
 msgstr ""
 
@@ -1855,8 +1813,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-monitoring.adoc:50
-#: modules/salt/pages/formula-monitoring.adoc:82
+#: modules/salt/pages/formula-monitoring.adoc:50 modules/salt/pages/formula-monitoring.adoc:82
 msgid ""
 "In the [guimenu]``CA Certificate`` field, type the path to the Certificate "
 "Authority certificate."
@@ -1949,8 +1906,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-monitoring.adoc:64
-#: modules/salt/pages/formula-monitoring.adoc:91
+#: modules/salt/pages/formula-monitoring.adoc:64 modules/salt/pages/formula-monitoring.adoc:91
 msgid ""
 "The formula does not generate and deploy the TLS certificates and keys.  "
 "Ensure the files are present on the Salt client and readable for the user "
@@ -1978,9 +1934,7 @@ msgid "Check the [guimenu]``Enabled`` box to enable the node exporter."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-monitoring.adoc:69
-#: modules/salt/pages/formula-monitoring.adoc:73
-#: modules/salt/pages/formula-monitoring.adoc:78
+#: modules/salt/pages/formula-monitoring.adoc:69 modules/salt/pages/formula-monitoring.adoc:73 modules/salt/pages/formula-monitoring.adoc:78
 msgid ""
 "In the [guimenu]``Arguments`` field, type any customized arguments for this "
 "exporter."
@@ -2093,8 +2047,7 @@ msgid "Activate Forms"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-monitoring.adoc:93
-#: modules/salt/pages/formula-yomi.adoc:114
+#: modules/salt/pages/formula-monitoring.adoc:93 modules/salt/pages/formula-yomi.adoc:114
 msgid "When you have completed and saved all the forms, apply the highstate."
 msgstr ""
 
@@ -2437,9 +2390,7 @@ msgid "In the [guimenu]``Filesystem format`` use [systemitem]``vfat``."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-saltboot.adoc:20
-#: modules/salt/pages/formula-saltboot.adoc:28
-#: modules/salt/pages/formula-saltboot.adoc:36
+#: modules/salt/pages/formula-saltboot.adoc:20 modules/salt/pages/formula-saltboot.adoc:28 modules/salt/pages/formula-saltboot.adoc:36
 msgid "In the [guimenu]``OS Image to deploy`` field, leave it empty."
 msgstr ""
 
@@ -2468,8 +2419,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-saltboot.adoc:25
-#: modules/salt/pages/formula-saltboot.adoc:33
+#: modules/salt/pages/formula-saltboot.adoc:25 modules/salt/pages/formula-saltboot.adoc:33
 msgid ""
 "In the [guimenu]``Partition size`` field, specify a size for the partition "
 "in Mebibytes (MiB)."
@@ -2490,17 +2440,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-saltboot.adoc:29
-#: modules/salt/pages/formula-saltboot.adoc:37
-#: modules/salt/pages/formula-saltboot.adoc:48
+#: modules/salt/pages/formula-saltboot.adoc:29 modules/salt/pages/formula-saltboot.adoc:37 modules/salt/pages/formula-saltboot.adoc:48
 msgid ""
 "In the [guimenu]``Partition encryption password`` field, enter a password if "
 "you want to encrypt the partition."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-saltboot.adoc:30
-#: modules/salt/pages/formula-saltboot.adoc:49
+#: modules/salt/pages/formula-saltboot.adoc:30 modules/salt/pages/formula-saltboot.adoc:49
 msgid "In the [guimenu]``Partition flags`` field, leave it empty."
 msgstr ""
 
@@ -2617,8 +2564,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-saltboot.adoc:56
-#: modules/salt/pages/formula-saltboot.adoc:61
+#: modules/salt/pages/formula-saltboot.adoc:56 modules/salt/pages/formula-saltboot.adoc:61
 msgid "In the formula, enter the following options:"
 msgstr ""
 
@@ -2632,8 +2578,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-saltboot.adoc:58
-#: modules/salt/pages/formula-saltboot.adoc:63
+#: modules/salt/pages/formula-saltboot.adoc:58 modules/salt/pages/formula-saltboot.adoc:63
 msgid "Leave the other fields empty."
 msgstr ""
 
@@ -3088,8 +3033,7 @@ msgid "In the [guimenu]``Device`` field, type the mount point for the device."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-yomi.adoc:40
-#: modules/salt/pages/formula-yomi.adoc:61
+#: modules/salt/pages/formula-yomi.adoc:40 modules/salt/pages/formula-yomi.adoc:61
 msgid "For example, ``/dev/sda``."
 msgstr ""
 
@@ -3335,8 +3279,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formula-yomi.adoc:81
-#: modules/salt/pages/formula-yomi.adoc:96
+#: modules/salt/pages/formula-yomi.adoc:81 modules/salt/pages/formula-yomi.adoc:96
 msgid "For example, ``pattern:enhanced_base glibc-locale``, or ``kernel-default``."
 msgstr ""
 
@@ -3737,8 +3680,7 @@ msgid "`text`"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formulas-custom.adoc:31
-#: modules/salt/pages/salt-ssh.adoc:79
+#: modules/salt/pages/formulas-custom.adoc:31 modules/salt/pages/salt-ssh.adoc:79
 msgid "`password`"
 msgstr ""
 
@@ -4000,8 +3942,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formulas-custom.adoc:73
-#: modules/salt/pages/salt-states.adoc:5 modules/salt/pages/salt-states.adoc:53
+#: modules/salt/pages/formulas-custom.adoc:73 modules/salt/pages/salt-states.adoc:5 modules/salt/pages/salt-states.adoc:53
 msgid "For example:"
 msgstr ""
 
@@ -4162,11 +4103,7 @@ msgid "A check box should be structured like this:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/formulas-custom.adoc:95
-#: modules/salt/pages/formulas-custom.adoc:99
-#: modules/salt/pages/formulas-custom.adoc:117
-#: modules/salt/pages/formulas-custom.adoc:140
-#: modules/salt/pages/formulas-custom.adoc:149
+#: modules/salt/pages/formulas-custom.adoc:95 modules/salt/pages/formulas-custom.adoc:99 modules/salt/pages/formulas-custom.adoc:117 modules/salt/pages/formulas-custom.adoc:140 modules/salt/pages/formulas-custom.adoc:149
 #, no-wrap
 msgid ""
 "some_group:\n"
@@ -4174,11 +4111,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/formulas-custom.adoc:96
-#: modules/salt/pages/formulas-custom.adoc:100
-#: modules/salt/pages/formulas-custom.adoc:118
-#: modules/salt/pages/formulas-custom.adoc:141
-#: modules/salt/pages/formulas-custom.adoc:150
+#: modules/salt/pages/formulas-custom.adoc:96 modules/salt/pages/formulas-custom.adoc:100 modules/salt/pages/formulas-custom.adoc:118 modules/salt/pages/formulas-custom.adoc:141 modules/salt/pages/formulas-custom.adoc:150
 #, no-wrap
 msgid ""
 "  another_group:\n"
@@ -4186,9 +4119,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/formulas-custom.adoc:97
-#: modules/salt/pages/formulas-custom.adoc:119
-#: modules/salt/pages/formulas-custom.adoc:142
+#: modules/salt/pages/formulas-custom.adoc:97 modules/salt/pages/formulas-custom.adoc:119 modules/salt/pages/formulas-custom.adoc:142
 #, no-wrap
 msgid ""
 "      my_checkbox:\n"
@@ -4204,8 +4135,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/formulas-custom.adoc:101
-#: modules/salt/pages/formulas-custom.adoc:151
+#: modules/salt/pages/formulas-custom.adoc:101 modules/salt/pages/formulas-custom.adoc:151
 #, no-wrap
 msgid ""
 "    my_checkbox:\n"
@@ -4221,8 +4151,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/formulas-custom.adoc:103
-#: modules/salt/pages/formulas-custom.adoc:153
+#: modules/salt/pages/formulas-custom.adoc:103 modules/salt/pages/formulas-custom.adoc:153
 #, no-wrap
 msgid ""
 "  yet_another_group:\n"
@@ -4246,8 +4175,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formulas-custom.adoc:106
-#: modules/salt/pages/formulas-custom.adoc:124
+#: modules/salt/pages/formulas-custom.adoc:106 modules/salt/pages/formulas-custom.adoc:124
 msgid ""
 "Values from hidden fields can be merged into the pillar data and sent to the "
 "client.  A formula must check the condition again and use the appropriate "
@@ -4265,8 +4193,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/formulas-custom.adoc:108
-#: modules/salt/pages/formulas-custom.adoc:126
+#: modules/salt/pages/formulas-custom.adoc:108 modules/salt/pages/formulas-custom.adoc:126
 #, no-wrap
 msgid ""
 "{% if pillar.show_option %}\n"
@@ -4334,14 +4261,12 @@ msgid "Example structure:"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formulas-custom.adoc:120
-#: modules/salt/pages/formulas-custom.adoc:143
+#: modules/salt/pages/formulas-custom.adoc:120 modules/salt/pages/formulas-custom.adoc:143
 msgid "An example condition is:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/formulas-custom.adoc:121
-#: modules/salt/pages/formulas-custom.adoc:144
+#: modules/salt/pages/formulas-custom.adoc:121 modules/salt/pages/formulas-custom.adoc:144
 #, no-wrap
 msgid "formValues.some_group.another_group.my_checkbox == true\n"
 msgstr ""
@@ -4421,9 +4346,7 @@ msgid "It supports the regular expression features existing in JavaScript."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/formulas-custom.adoc:135
-#: modules/salt/pages/salt-gitfs.adoc:10 modules/salt/pages/salt-gitfs.adoc:14
-#: modules/salt/pages/salt-gitfs.adoc:18
+#: modules/salt/pages/formulas-custom.adoc:135 modules/salt/pages/salt-gitfs.adoc:10 modules/salt/pages/salt-gitfs.adoc:14 modules/salt/pages/salt-gitfs.adoc:18
 msgid "Example:"
 msgstr ""
 
@@ -4981,8 +4904,7 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: modules/salt/pages/formulas-intro.adoc:1
-#: modules/salt/pages/salt-terminology.adoc:11
+#: modules/salt/pages/formulas-intro.adoc:1 modules/salt/pages/salt-terminology.adoc:11
 #, no-wrap
 msgid "Formulas"
 msgstr ""
@@ -5161,8 +5083,7 @@ msgid "Tuning Large Scale Deployments"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/large-scale-tuning.adoc:2
-#: modules/salt/pages/large-scale.adoc:2
+#: modules/salt/pages/large-scale-tuning.adoc:2 modules/salt/pages/large-scale.adoc:2
 msgid ""
 "{productname} is designed by default to work on small and medium scale "
 "installations.  For installations with more than 1000 clients per "
@@ -5171,8 +5092,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/large-scale-tuning.adoc:3
-#: modules/salt/pages/large-scale.adoc:3
+#: modules/salt/pages/large-scale-tuning.adoc:3 modules/salt/pages/large-scale.adoc:3
 msgid ""
 "For more information on managing large scale deployments, see "
 "xref:large-deployments:large-deployments-overview.adoc[]."
@@ -5998,8 +5918,7 @@ msgid "List available grains on all clients:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/salt-command.adoc:11
-#: modules/salt/pages/salt-useful-commands.adoc:26
+#: modules/salt/pages/salt-command.adoc:11 modules/salt/pages/salt-useful-commands.adoc:26
 #, no-wrap
 msgid "salt '*' grains.ls\n"
 msgstr ""
@@ -6447,10 +6366,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/salt/pages/salt-file-locations.adoc:13
-#: modules/salt/pages/salt-file-locations.adoc:17
-#: modules/salt/pages/salt-file-locations.adoc:20
-#: modules/salt/pages/salt-file-locations.adoc:28
+#: modules/salt/pages/salt-file-locations.adoc:13 modules/salt/pages/salt-file-locations.adoc:17 modules/salt/pages/salt-file-locations.adoc:20 modules/salt/pages/salt-file-locations.adoc:28
 msgid "Do not edit or add custom Salt data to this directory."
 msgstr ""
 
@@ -6813,51 +6729,46 @@ msgstr ""
 msgid "#!yaml\n"
 msgstr ""
 
-#. type: Title -
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:19
-#, no-wrap
-msgid "to "
-msgstr ""
-
 #. type: Plain text
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:20
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:25
-msgid "#!yaml|gpg"
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:19
+msgid "to"
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:21
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:20 modules/salt/pages/salt-gpg-encrypted-pillars.adoc:25
 #, no-wrap
+msgid "#!yaml|gpg\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:21
 msgid ""
 "Encrypting pillar secrets can be done anywhere as long as the GPG and the "
-"public key generated in <<proc-key-pair-generation>> are available. \n"
-msgstr ""
-
-#. type: delimited block -
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:22
-#, no-wrap
-msgid ""
-"In this example, \"SUMA Salt Master\" is the GPG key’s UID created "
-"earlier.\n"
+"public key generated in <<proc-key-pair-generation>> are available."
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:23
-msgid ""
-"echo 't0ps3cr3t' | gpg --armor --batch --encrypt --recipient \"SUMA Salt "
-"Master\""
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:22
+msgid "In this example, \"SUMA Salt Master\" is the GPG key’s UID created earlier."
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:24
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:23
 #, no-wrap
+msgid ""
+"echo 't0ps3cr3t' | gpg --armor --batch --encrypt --recipient \"SUMA Salt "
+"Master\"\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:24
 msgid ""
 "When the GPG encrytped contents are created and available as ASCII-armored "
 "output, this output can be used as a multi-line string in a pillar YAML "
-"file:\n"
+"file:"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block -
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:26
 #, no-wrap
 msgid ""
@@ -6866,7 +6777,7 @@ msgid ""
 "    -----BEGIN PGP MESSAGE-----\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block -
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:27
 #, no-wrap
 msgid ""
@@ -6882,28 +6793,23 @@ msgid ""
 "    -----END PGP MESSAGE-----\n"
 msgstr ""
 
-#. type: delimited block -
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:28
-#, no-wrap
 msgid ""
 "When the pillar is assigned to a system with [path]``top.sls``, the GPG "
-"encrypted pillar data is available in a decrypted format. \n"
+"encrypted pillar data is available in a decrypted format."
 msgstr ""
 
-#. type: delimited block -
+#. type: delimited block =
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:29
-#, no-wrap
 msgid ""
-"[NOTE]\n"
-"====\n"
 "The client's in-memory cache is only updated on startup or when running "
 "execution module functions that trigger a cache refresh such as "
 "[literal]``saltutil.refresh_pillar``, [litaral]``pillar.items``, or "
-"[literal]``state.apply``.\n"
-"====\n"
+"[literal]``state.apply``."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block -
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:30
 #, no-wrap
 msgid ""
@@ -6919,38 +6825,30 @@ msgstr ""
 msgid "Export the GPG key"
 msgstr ""
 
-#. type: delimited block -
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:32
 msgid "To export the GPG key, use the command:"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block -
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:33
+#, no-wrap
 msgid ""
 "gpg --export 'SUMA Salt Master' --homedir /etc/salt/gpgkeys --output "
-"suma-salt-master.gpg"
+"suma-salt-master.gpg\n"
 msgstr ""
 
-#. type: delimited block -
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:34
-#, no-wrap
-msgid "Here 'SUMA Salt Master' is the name used during key generation.\n"
+msgid "Here 'SUMA Salt Master' is the name used during key generation."
 msgstr ""
 
-#. type: delimited block -
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:35
-#, no-wrap
-msgid "The [literal]```suma-salt-master.gpg``` public key can be freely shared.\n"
+msgid "The [literal]```suma-salt-master.gpg``` public key can be freely shared."
 msgstr ""
 
-#. type: delimited block -
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:36
-#, no-wrap
-msgid ""
-"//For more information about GPG, see "
-"https://www.gnupg.org/documentation/.\n"
-msgstr ""
-
+#. For more information about GPG, see https://www.gnupg.org/documentation/.
 #. type: Title =
 #: modules/salt/pages/salt-overview.adoc:1
 #, no-wrap
@@ -7070,16 +6968,11 @@ msgstr ""
 msgid ""
 "The batch size parameter sets the maximum number of clients that can execute "
 "a single action at the same time.  Adjust the "
-"[systemitem]``java.salt_batch_size`` parameter."
+"[systemitem]``java.salt_batch_size`` parameter.  Defaults to 200."
 msgstr ""
 
 #. type: Plain text
 #: modules/salt/pages/salt-rate-limiting.adoc:10
-msgid "Defaults to 200."
-msgstr ""
-
-#. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:11
 msgid ""
 "Increasing the delay increases the chance that multiple clients will have "
 "completed before the next action is issued (more clients are grouped "
@@ -7088,7 +6981,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:12
+#: modules/salt/pages/salt-rate-limiting.adoc:11
 msgid ""
 "The batch delay parameter sets the amount of time, in seconds, to wait after "
 "a command from the previous batch is processed before beginning to process "
@@ -7097,13 +6990,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/salt/pages/salt-rate-limiting.adoc:13
+#: modules/salt/pages/salt-rate-limiting.adoc:12
 #, no-wrap
 msgid "Disabling the Salt Mine"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:14
+#: modules/salt/pages/salt-rate-limiting.adoc:13
 msgid ""
 "In older versions, {productname} used a tool called Salt mine to check "
 "client availability.  The Salt mine would cause clients to contact the "
@@ -7119,7 +7012,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:15
+#: modules/salt/pages/salt-rate-limiting.adoc:14
 msgid ""
 "Newly registered Salt clients will have the Salt mine disabled by default.  "
 "If the Salt mine is running on your system, you can reduce load by disabling "
@@ -7127,18 +7020,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:16
+#: modules/salt/pages/salt-rate-limiting.adoc:15
 msgid "Disable the Salt mine by running this command on the server:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/salt-rate-limiting.adoc:17
+#: modules/salt/pages/salt-rate-limiting.adoc:16
 #, no-wrap
 msgid "salt '*' state.sls util.mgr_mine_config_clean_up\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:18
+#: modules/salt/pages/salt-rate-limiting.adoc:17
 msgid ""
 "This will restart the clients and generate some Salt events to be processed "
 "by the server.  If you have a large number of clients, handling these events "
@@ -7147,13 +7040,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/salt-rate-limiting.adoc:19
+#: modules/salt/pages/salt-rate-limiting.adoc:18
 #, no-wrap
 msgid "salt --batch-size 50 '*' state.sls util.mgr_mine_config_clean_up\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:20
+#: modules/salt/pages/salt-rate-limiting.adoc:19
 msgid ""
 "You will need to wait for this command to finish executing.  Do not end the "
 "process with kbd:[Ctrl+C]."

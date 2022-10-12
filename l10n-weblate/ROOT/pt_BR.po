@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-01-13 07:51+0000\n"
+"POT-Creation-Date: 2022-10-12 21:15+0000\n"
 "PO-Revision-Date: 2022-01-31 23:12+0000\n"
 "Last-Translator: Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/uyuni/"
@@ -137,7 +137,6 @@ msgstr ""
 "documentation.suse.com/suma/4.2/pdf/4.2_pdf_susemanager_api_doc_color_en."
 "pdf[]."
 
-#. Uyuni Index content
 #. type: Title ==
 #: modules/ROOT/pages/index.adoc:11 modules/ROOT/pages/index.adoc:16
 #, no-wrap
@@ -145,7 +144,7 @@ msgid "Available Documentation"
 msgstr "Documentação disponível"
 
 #. type: Plain text
-#: modules/ROOT/pages/index.adoc:12
+#: modules/ROOT/pages/index.adoc:12 modules/ROOT/pages/index.adoc:17
 msgid ""
 "The following documentation is available for {productname} version "
 "{productnumber}."
@@ -208,20 +207,22 @@ msgstr ""
 "\n"
 "\n"
 
-#. type: Table
-#: modules/ROOT/pages/index.adoc:17
+#. type: Plain text
+#: modules/ROOT/pages/index.adoc:18
+#, fuzzy
+#| msgid ""
+#| "Download All PDFs icon:caret-right[] icon:file-archive[link=\"../"
+#| "susemanager-docs_en-pdf.zip\"]"
 msgid ""
-"The following documentation is available for {productname} version "
-"{productnumber}.  Download All PDFs icon:caret-right[] icon:file-"
-"archive[link=\"../uyuni-docs_en-pdf.zip\"]"
+"Download All PDFs icon:caret-right[] icon:file-archive[link=\"../uyuni-"
+"docs_en-pdf.zip\"]"
 msgstr ""
-"A seguinte documentação está disponível para {productname} versão "
-"{productnumber}.  Baixe todos os PDFs icon:caret-right[] icon:file-"
-"archive[link=\"../uyuni-docs_en-pdf.zip\"]"
+"Baixar todos os PDFs icon:caret-right[] icon:file-archive[link=\"../"
+"susemanager-docs_en-pdf.zip\"]"
 
 #. | Architecture               | xref:architecture:architecture-intro.adoc[HTML] link:../pdf/suse_manager_architecture.pdf[PDF]
 #. type: Table
-#: modules/ROOT/pages/index.adoc:18
+#: modules/ROOT/pages/index.adoc:19
 #, no-wrap
 msgid ""
 "| View HTML | View PDF | View HTML | View PDF\n"
@@ -253,6 +254,15 @@ msgstr ""
 "| xref: quickstart-sap: qs-sap-overview.adoc [Início rápido - SAP] | ícone: file-pdf [link = \"../ pdf / suse_manager_quickstart-sap_guide.pdf\", window = \"_ blank\" role = \"green\"]\n"
 "\n"
 "\n"
+
+#~ msgid ""
+#~ "The following documentation is available for {productname} version "
+#~ "{productnumber}.  Download All PDFs icon:caret-right[] icon:file-"
+#~ "archive[link=\"../uyuni-docs_en-pdf.zip\"]"
+#~ msgstr ""
+#~ "A seguinte documentação está disponível para {productname} versão "
+#~ "{productnumber}.  Baixe todos os PDFs icon:caret-right[] icon:file-"
+#~ "archive[link=\"../uyuni-docs_en-pdf.zip\"]"
 
 #~ msgid "Accessibility"
 #~ msgstr "Acessibilidade"

@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-06-22 08:52+0000\n"
+"POT-Creation-Date: 2022-10-12 21:15+0000\n"
 "PO-Revision-Date: 2022-10-12 21:13+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
-"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
-"docs-installation-manager-42-mu-428/ko/>\n"
+"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-"
+"installation-manager-42-mu-428/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,9 +95,6 @@ msgstr "xref:install-uyuni.adoc[openSUSE를 사용한 Uyuni 서버 설치]"
 msgid "xref:install-proxy-uyuni.adoc[Install Uyuni Proxy with openSUSE]"
 msgstr "xref:install-proxy-uyuni.adoc[openSUSE를 사용한 Uyuni 프록시 설치]"
 
-#.  better disabling for now; needs a complete overhaul
-#.  2019-06-04, ke :
-#.  *** xref:install-server.adoc[Install Server from Packages]
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:16
 msgid "xref:install-proxy.adoc[Install Proxy from Packages]"
@@ -219,7 +216,6 @@ msgstr ""
 "{rhel}, {centos} 및 {oracle} 등 {suse} 외 운영 체제의 경우 사용 가능한 최신 "
 "버전만 일반 지원이 제공됩니다."
 
-#.  Table with the list of the supported systems
 #. type: delimited block =
 #: modules/installation/pages/client-requirements.adoc:7
 msgid ""
@@ -239,8 +235,8 @@ msgid ""
 "enough for the operating system and for the workload you want to perform on "
 "the client, with these additions for {productname}:"
 msgstr ""
-"클라이언트 하드웨어를 설정할 때, {productname}를 추가하여 클라이언트에서 수행할 워크로드 및 운영 체제를 위한 충분한 공간이 "
-"있는지 확인해야 합니다."
+"클라이언트 하드웨어를 설정할 때, {productname}를 추가하여 클라이언트에서 수행"
+"할 워크로드 및 운영 체제를 위한 충분한 공간이 있는지 확인해야 합니다."
 
 #. type: Block title
 #: modules/installation/pages/client-requirements.adoc:9
@@ -753,8 +749,8 @@ msgid ""
 "For a complete list of supported clients and features, see xref:client-"
 "configuration:supported-features.adoc[]."
 msgstr ""
-"지원되는 클라이언트 및 기능의 전체 목록은 xref:client-configuration:supported-features.adoc[]를 "
-"참조하십시오."
+"지원되는 클라이언트 및 기능의 전체 목록은 xref:client-configuration:"
+"supported-features.adoc[]를 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation/pages/general-requirements.adoc:9
@@ -852,7 +848,9 @@ msgstr ""
 #: modules/installation/pages/general-requirements.adoc:21
 msgid ""
 "For more information about using SCC, see https://scc.suse.com/docs/help."
-msgstr "SCC 사용에 대한 자세한 내용은 https://scc.suse.com/docs/help[]에서 참조하십시오."
+msgstr ""
+"SCC 사용에 대한 자세한 내용은 https://scc.suse.com/docs/help[]에서 참조하십시"
+"오."
 
 #. type: Title ==
 #: modules/installation/pages/general-requirements.adoc:22
@@ -867,7 +865,6 @@ msgid ""
 msgstr ""
 "{susemgr} 서버 및 프록시는 {sle} 통합 설치 프로그램을 사용하여 설치됩니다."
 
-#. REMARK What about Uyuni?
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:24
 msgid ""
@@ -883,8 +880,8 @@ msgid ""
 "If not already done, download the {sle} Unified Installer from https://"
 "download.suse.com/index.jsp."
 msgstr ""
-"아직 수행하지 않은 경우 link:https://download.suse.com/index.jsp[]에서 {sle} 통합 설치 프로그램을 "
-"다운로드합니다."
+"아직 수행하지 않은 경우 link:https://download.suse.com/index.jsp[]에서 {sle} "
+"통합 설치 프로그램을 다운로드합니다."
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:26
@@ -1047,8 +1044,52 @@ msgstr "{x86_64} 아키텍처에 대한 서버 하드웨어 요구사항"
 
 #. type: Table
 #: modules/installation/pages/hardware-requirements.adoc:9
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "| Hardware\n"
+#| "| Details\n"
+#| "| Recommendation\n"
+#| "\n"
+#| "| CPU\n"
+#| "| -\n"
+#| "| Minimum 4 dedicated 64-bit CPU cores\n"
+#| "\n"
+#| "| RAM\n"
+#| "| Test Server\n"
+#| "| Minimum 8{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| Base Installation\n"
+#| "| Minimum 16{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| Production Server\n"
+#| "| Minimum 32{nbsp}GB\n"
+#| "\n"
+#| "| Disk Space\n"
+#| "| [path]``/`` (root directory)\n"
+#| "| Minimum 40{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| [path]``/var/lib/pgsql``\n"
+#| "| Minimum 50{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| [path]``/var/spacewalk``\n"
+#| "| Minimum 50{nbsp}GB per {suse} product and 360{nbsp}GB per Red Hat product\n"
+#| "\n"
+#| "|\n"
+#| "| [path]``/var/cache``\n"
+#| "| Minimum 10{nbsp}GB.\n"
+#| "Add 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or other product.\n"
+#| "Double the space if the server is an ISS Master.\n"
+#| "\n"
+#| "|\n"
+#| "| Swap space\n"
+#| "| 3{nbsp}GB\n"
+#| "\n"
 msgid ""
+"\n"
 "| Hardware\n"
 "| Details\n"
 "| Recommendation\n"
@@ -1152,8 +1193,52 @@ msgstr "IBM POWER8 또는 POWER9 아키텍처에 대한 서버 하드웨어 요�
 
 #. type: Table
 #: modules/installation/pages/hardware-requirements.adoc:12
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "| Hardware\n"
+#| "| Details\n"
+#| "| Recommendation\n"
+#| "\n"
+#| "| CPU\n"
+#| "|\n"
+#| "| Minimum 4 dedicated cores\n"
+#| "\n"
+#| "| RAM\n"
+#| "| Test Server\n"
+#| "| Minimum 8{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| Base Installation\n"
+#| "| Minimum 16{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| Production Server\n"
+#| "| Minimum 32{nbsp}GB\n"
+#| "\n"
+#| "| Disk Space\n"
+#| "| [path]``/`` (root directory)\n"
+#| "| Minimum 100{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| [path]``/var/lib/pgsql``\n"
+#| "| Minimum 50{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| [path]``/var/spacewalk``\n"
+#| "| Minimum 50{nbsp}GB per SUSE product and 360{nbsp}GB per Red Hat product\n"
+#| "\n"
+#| "|\n"
+#| "| [path]``/var/cache``\n"
+#| "| Minimum 10{nbsp}GB.\n"
+#| "Add 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or other product.\n"
+#| "Double the space if the server is an ISS Master.\n"
+#| "\n"
+#| "|\n"
+#| "| Swap space\n"
+#| "| 3{nbsp}GB\n"
+#| "\n"
 msgid ""
+"\n"
 "| Hardware\n"
 "| Details\n"
 "| Recommendation\n"
@@ -1249,8 +1334,38 @@ msgstr "프록시 하드웨어 요구사항"
 
 #. type: Table
 #: modules/installation/pages/hardware-requirements.adoc:15
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "| Hardware\n"
+#| "| Details\n"
+#| "| Recommendation\n"
+#| "\n"
+#| "| CPU\n"
+#| "|\n"
+#| "| Minimum 2 dedicated 64-bit CPU cores\n"
+#| "\n"
+#| "| RAM\n"
+#| "| Test Server\n"
+#| "| Minimum 2{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| Production Server\n"
+#| "| Minimum 8{nbsp}GB\n"
+#| "\n"
+#| "| Disk Space\n"
+#| "| [path]``/`` (root directory)\n"
+#| "| Minimum 40{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| [path]``/srv``\n"
+#| "| Minimum 100{nbsp}GB\n"
+#| "\n"
+#| "|\n"
+#| "| [path]``/var/cache`` (Squid)\n"
+#| "| Minimum 100{nbsp}GB\n"
+#| "\n"
 msgid ""
+"\n"
 "| Hardware\n"
 "| Details\n"
 "| Recommendation\n"
@@ -1638,8 +1753,8 @@ msgid ""
 "credentials from {scc}, or obtaining installation media, see xref:general-"
 "requirements.adoc[]."
 msgstr ""
-"{scc}를 사용한 등록, {scc}에서 조직 인증서 검색 또는 설치 미디어 가져오기에 대한 자세한 내용은 xref:general-"
-"requirements.adoc[] 를 참조하십시오."
+"{scc}를 사용한 등록, {scc}에서 조직 인증서 검색 또는 설치 미디어 가져오기에 "
+"대한 자세한 내용은 xref:general-requirements.adoc[] 를 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/install-ibmz.adoc:5
@@ -1860,9 +1975,10 @@ msgid ""
 "hardware, see https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-"
 "zseries.html."
 msgstr ""
-"이 섹션은 {sle} 제품군의 제품으로 {productname}을(를) 설치하는 방법을 설명합니다.  {ibmz} 하드웨어에서의 제품 "
-"배포에 대한 일반 정보는 https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-"
-"zseries.html[]을 참조하십시오."
+"이 섹션은 {sle} 제품군의 제품으로 {productname}을(를) 설치하는 방법을 설명합"
+"니다.  {ibmz} 하드웨어에서의 제품 배포에 대한 일반 정보는 https://"
+"documentation.suse.com/sles/15-SP3/html/SLES-all/cha-zseries.html[]을 참조하"
+"십시오."
 
 #. type: Block title
 #: modules/installation/pages/install-ibmz.adoc:36
@@ -2079,7 +2195,6 @@ msgstr ""
 "설치 이미지에서 통합 설치 프로그램을 부팅하려면 BIOS에서 부팅 순서를 조정해"
 "야 할 수 있습니다."
 
-#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -2331,8 +2446,8 @@ msgid ""
 "For more information about the stable version of {productname}, see https://"
 "www.uyuni-project.org/pages/stable-version.html."
 msgstr ""
-"{productname}의 안정화 버전에 대한 자세한 내용은 https://www.uyuni-project.org/pages/stable-"
-"version.html[]을 참조하십시오."
+"{productname}의 안정화 버전에 대한 자세한 내용은 https://www.uyuni-project."
+"org/pages/stable-version.html[]을 참조하십시오."
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-uyuni.adoc:17
@@ -2341,8 +2456,8 @@ msgid ""
 "For more information about the development version of {productname}, see "
 "https://www.uyuni-project.org/pages/devel-version.html."
 msgstr ""
-"{productname}의 개발 버전에 대한 자세한 내용은 https://www.uyuni-project.org/pages/devel-"
-"version.html[]을 참조하십시오."
+"{productname}의 개발 버전에 대한 자세한 내용은 https://www.uyuni-project.org/"
+"pages/devel-version.html[]을 참조하십시오."
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-uyuni.adoc:18
@@ -2649,8 +2764,9 @@ msgid ""
 "(BYOS) model.  That means that they pre-install {productname}, so you do not "
 "need to perform any installation steps."
 msgstr ""
-"공용 클라우드는 BYOS(Bring Your Own Subscription) 모델에서 {productname}를 제공합니다. 즉, "
-"{productname}이(가) 사전 설치되어 있으므로 설치 단계를 수행할 필요가 없습니다."
+"공용 클라우드는 BYOS(Bring Your Own Subscription) 모델에서 {productname}를 제"
+"공합니다. 즉, {productname}이(가) 사전 설치되어 있으므로 설치 단계를 수행할 "
+"필요가 없습니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-pubcloud.adoc:3
@@ -3055,8 +3171,9 @@ msgid ""
 "installation of {sles}, see: https://documentation.suse.com/sles/15-SP3/html/"
 "SLES-all/article-installation.html."
 msgstr ""
-"{sles}의 설치가 시작됩니다.  {sles} 설치 완료에 대한 자세한 내용은 link:https://documentation.suse."
-"com/sles/15-SP3/html/SLES-all/article-installation.html[]을 참조하십시오."
+"{sles}의 설치가 시작됩니다.  {sles} 설치 완료에 대한 자세한 내용은 link:"
+"https://documentation.suse.com/sles/15-SP3/html/SLES-all/article-"
+"installation.html[]을 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/install-server.adoc:19
@@ -3125,8 +3242,8 @@ msgid ""
 "For more information about the latest version and updates of openSUSE Leap, "
 "see https://doc.opensuse.org/release-notes/."
 msgstr ""
-"openSUSE Leap의 최신 버전 및 업데이트에 대한 자세한 내용은 https://doc.opensuse.org/"
-"release-notes/[]를 참조하십시오."
+"openSUSE Leap의 최신 버전 및 업데이트에 대한 자세한 내용은 https://doc."
+"opensuse.org/release-notes/[]를 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/install-uyuni.adoc:5
@@ -3259,8 +3376,8 @@ msgid ""
 "In the following table replace _version_ with the actual product version "
 "string.  Find the JeOS image at https://download.suse.com/."
 msgstr ""
-"다음 테이블에서 _버전_을 실제 제품 버전 문자열로 바꿉니다.  JeOS 이미지는 link:https://download.suse.com/"
-"[]에서 제공됩니다."
+"다음 테이블에서 _버전_을 실제 제품 버전 문자열로 바꿉니다.  JeOS 이미지는 "
+"link:https://download.suse.com/[]에서 제공됩니다."
 
 #. type: Table
 #: modules/installation/pages/install-vm.adoc:7
@@ -3300,8 +3417,8 @@ msgid ""
 "For more information on {sle} Virtualization Guide, see https://"
 "documentation.suse.com/sles/15-SP3/html/SLES-all/book-virtualization.html."
 msgstr ""
-"가상화에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/html/"
-"SLES-all/book-virtualization.html[]에서 참조하십시오."
+"가상화에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/"
+"html/SLES-all/book-virtualization.html[]에서 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/install-vm.adoc:9
@@ -3600,8 +3717,9 @@ msgid ""
 "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-network.html#sec-"
 "network-yast-change-host."
 msgstr ""
-"호스트 이름 및 DNS의 구성에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/"
-"SLES-all/cha-network.html#sec-network-yast-change-host[]를 참조하십시오."
+"호스트 이름 및 DNS의 구성에 대한 자세한 내용은 https://documentation.suse."
+"com/sles/15-SP3/html/SLES-all/cha-network.html#sec-network-yast-change-host[]"
+"를 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/network-requirements.adoc:6
@@ -3626,8 +3744,8 @@ msgid ""
 "For more information about setting up a DNS server, see https://"
 "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-dns.html."
 msgstr ""
-"DNS 서버 설정에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/"
-"SLES-all/cha-dns.html[]을 참조하십시오."
+"DNS 서버 설정에 대한 자세한 내용은 https://documentation.suse.com/sles/15-"
+"SP3/html/SLES-all/cha-dns.html[]을 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/network-requirements.adoc:9
@@ -3651,9 +3769,9 @@ msgid ""
 "{sle} installation, see https://documentation.suse.com/sles/15-SP3/html/SLES-"
 "all/cha-boot-parameters.html#sec-boot-parameters-advanced-proxy."
 msgstr ""
-"{sle} 설치 중에 {scc}에 액세스하기 위해 프록시를 구성하는 것에 대한 자세한 내용은 https://documentation."
-"suse.com/sles/15-SP3/html/SLES-all/cha-boot-parameters.html#sec-boot-"
-"parameters-advanced-proxy[]를 참조하십시오."
+"{sle} 설치 중에 {scc}에 액세스하기 위해 프록시를 구성하는 것에 대한 자세한 내"
+"용은 https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-boot-"
+"parameters.html#sec-boot-parameters-advanced-proxy[]를 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation/pages/network-requirements.adoc:12
@@ -4626,8 +4744,8 @@ msgid ""
 "The country code must be two upper case letters.  For a complete list of "
 "country codes, see https://www.iso.org/obp/ui/#search."
 msgstr ""
-"국가 코드는 대문자 2자여야 합니다.  전체 국가 코드 목록은 https://www.iso.org/obp/ui/#search[]를 "
-"참조하십시오."
+"국가 코드는 대문자 2자여야 합니다.  전체 국가 코드 목록은 https://www.iso."
+"org/obp/ui/#search[]를 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/proxy-setup.adoc:33
@@ -6015,15 +6133,17 @@ msgid ""
 "Newer browser versions can block web access to the {productname} Server FQDN "
 "in case the user enabled HSTS."
 msgstr ""
-"최신 브라우저 버전에서는 사용자가 HSTS를 사용하도록 설정한 경우 {productname} 서버 FQDN에 대한 웹 액세스를 차단할 수 "
-"있습니다."
+"최신 브라우저 버전에서는 사용자가 HSTS를 사용하도록 설정한 경우 "
+"{productname} 서버 FQDN에 대한 웹 액세스를 차단할 수 있습니다."
 
 #. type: delimited block =
 #: modules/installation/pages/server-setup.adoc:34
 msgid ""
 "Installing the CA certificate from the [path]``pub`` directory via HTTP and "
 "importing it to the browser will then allow access to the server:"
-msgstr "HTTP를 통해 [path]``pub`` 디렉토리에서 CA 인증서를 설치하고 브라우저로 가져오면 서버에 액세스할 수 있습니다."
+msgstr ""
+"HTTP를 통해 [path]``pub`` 디렉토리에서 CA 인증서를 설치하고 브라우저로 가져오"
+"면 서버에 액세스할 수 있습니다."
 
 #. type: delimited block =
 #: modules/installation/pages/server-setup.adoc:35
@@ -6032,7 +6152,8 @@ msgid ""
 "On the server, go to http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-"
 "CERT."
 msgstr ""
-"서버에서 http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-CERT[]로 이동하십시오."
+"서버에서 http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-CERT[]로 이동하"
+"십시오."
 
 #. type: delimited block =
 #: modules/installation/pages/server-setup.adoc:36
@@ -6042,8 +6163,8 @@ msgid ""
 "menu:Privacy & Security[Certificates > View Certificates], and import the "
 "file."
 msgstr ""
-"인증서 파일을 가져오십시오. 브라우저 설정(Firefox의 경우)에서 메뉴:개인 정보 및 보안[인증서 > 인증서 보기]를 열고 파일을 "
-"가져오십시오."
+"인증서 파일을 가져오십시오. 브라우저 설정(Firefox의 경우)에서 메뉴:개인 정보 "
+"및 보안[인증서 > 인증서 보기]를 열고 파일을 가져오십시오."
 
 #. type: Block title
 #: modules/installation/pages/server-setup.adoc:37
@@ -6149,8 +6270,9 @@ msgid ""
 "give you access to the SUSE product downloads.  You will find your "
 "organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"소프트웨어 저장소를 SCC와 동기화하기 전에 {susemgr}에 조직 자격 증명을 입력해야 합니다. 이전 버전에서는 미러 자격 증명이 "
-"대신 사용되었습니다. 조직 자격 증명을 통해 SUSE 제품 다운로드에 액세스할 수 있습니다. https://scc.suse.com/"
+"소프트웨어 저장소를 SCC와 동기화하기 전에 {susemgr}에 조직 자격 증명을 입력해"
+"야 합니다. 이전 버전에서는 미러 자격 증명이 대신 사용되었습니다. 조직 자격 증"
+"명을 통해 SUSE 제품 다운로드에 액세스할 수 있습니다. https://scc.suse.com/"
 "organizations[]에서 조직 자격 증명을 찾을 수 있습니다."
 
 #. type: Plain text
@@ -7114,14 +7236,18 @@ msgstr ""
 msgid ""
 "Newer browser versions can block web access to the {productname} Server FQDN "
 "because of HSTS."
-msgstr "최신 브라우저 버전에서는 HSTS로 인해 {productname} 서버 FQDN에 대한 웹 액세스가 차단될 수 있습니다."
+msgstr ""
+"최신 브라우저 버전에서는 HSTS로 인해 {productname} 서버 FQDN에 대한 웹 액세스"
+"가 차단될 수 있습니다."
 
 #. type: delimited block =
 #: modules/installation/pages/uyuni-server-setup.adoc:31
 msgid ""
 "Installing the CA certificate from the [path]``pub`` directory via HTTP and "
 "importing it to the browser will allow access to the server."
-msgstr "HTTP를 통해 [path]``pub`` 디렉토리에서 CA 인증서를 설치하고 브라우저로 가져오면 서버에 액세스할 수 있습니다."
+msgstr ""
+"HTTP를 통해 [path]``pub`` 디렉토리에서 CA 인증서를 설치하고 브라우저로 가져오"
+"면 서버에 액세스할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:35
@@ -7191,9 +7317,9 @@ msgid ""
 "credentials give you access to the {suse} product downloads.  You will find "
 "your organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"소프트웨어 리포지토리를 SCC와 동기화하기 전, {productname}에 조직 인증서를 입력해야 합니다. 조직 인증서를 통해 {suse}"
-" 제품 다운로드에 액세스할 수 있습니다. https://scc.suse.com/organizations[]에서 조직 인증서는 찾을 수 "
-"있습니다."
+"소프트웨어 리포지토리를 SCC와 동기화하기 전, {productname}에 조직 인증서를 입"
+"력해야 합니다. 조직 인증서를 통해 {suse} 제품 다운로드에 액세스할 수 있습니"
+"다. https://scc.suse.com/organizations[]에서 조직 인증서는 찾을 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:47
@@ -7330,8 +7456,10 @@ msgid ""
 "menu:Systems[System Details] section for that client.  From this page, you "
 "can apply any required updates."
 msgstr ""
-"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
-"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 적용할 수 있습니다."
+"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이"
+"언트를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 "
+"menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 "
+"적용할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/webui-setup.adoc:9
@@ -7370,8 +7498,9 @@ msgid ""
 "registered in the past thirty days.  Click the name of a client in the list "
 "to be taken to the menu:Systems[System Details] section for that client."
 msgstr ""
-"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
-"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다."
+"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트"
+"를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 menu:시"
+"스템[시스템 정보] 섹션으로 이동합니다."
 
 #. type: Title ==
 #: modules/installation/pages/webui-setup.adoc:13
@@ -7466,9 +7595,11 @@ msgid ""
 "For more information about the system set manager, see xref:client-"
 "configuration:system-set-manager.adoc[]."
 msgstr ""
-"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 "
-"관리자 > 개요]로 이동합니다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 관리자에 대한 자세한 내용은 "
-"xref:client-configuration:system-set-manager.adoc[]에서 참조하십시오."
+"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 "
+"시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 관리자 > 개요]로 이동합니"
+"다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 "
+"관리자에 대한 자세한 내용은 xref:client-configuration:system-set-manager."
+"adoc[]에서 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/webui-setup.adoc:25
