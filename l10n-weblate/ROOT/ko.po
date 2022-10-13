@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-10-12 21:15+0000\n"
+"POT-Creation-Date: 2022-10-13 18:15+0000\n"
 "PO-Revision-Date: 2022-02-16 04:11+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-root-42/"
@@ -133,6 +133,7 @@ msgstr ""
 "API에 대한 자세한 내용은 https://documentation.suse.com/suma/4.2/"
 "pdf/4.2_pdf_susemanager_api_doc_color_en.pdf를 참조하십시오."
 
+#. Uyuni Index content
 #. type: Title ==
 #: modules/ROOT/pages/index.adoc:11 modules/ROOT/pages/index.adoc:16
 #, no-wrap
@@ -140,7 +141,7 @@ msgid "Available Documentation"
 msgstr "사용 가능한 설명서"
 
 #. type: Plain text
-#: modules/ROOT/pages/index.adoc:12 modules/ROOT/pages/index.adoc:17
+#: modules/ROOT/pages/index.adoc:12
 msgid ""
 "The following documentation is available for {productname} version "
 "{productnumber}."
@@ -202,22 +203,20 @@ msgstr ""
 "\n"
 "\n"
 
-#. type: Plain text
-#: modules/ROOT/pages/index.adoc:18
-#, fuzzy
-#| msgid ""
-#| "Download All PDFs icon:caret-right[] icon:file-archive[link=\"../"
-#| "susemanager-docs_en-pdf.zip\"]"
+#. type: Table
+#: modules/ROOT/pages/index.adoc:17
 msgid ""
-"Download All PDFs icon:caret-right[] icon:file-archive[link=\"../uyuni-"
-"docs_en-pdf.zip\"]"
+"The following documentation is available for {productname} version "
+"{productnumber}.  Download All PDFs icon:caret-right[] icon:file-"
+"archive[link=\"../uyuni-docs_en-pdf.zip\"]"
 msgstr ""
-"전체 PDF 다운로드 icon:caret-right[] icon:file-archive[link=\"../susemanager-"
-"docs_en-pdf.zip\"]"
+"다음 문서는 {productname} 버전 {productnumber}에 사용할 수 있습니다.  모든 "
+"PDF 다운로드 icon:caret-right[] icon:file-archive[link=\"../uyuni-docs_en-"
+"pdf.zip\"]"
 
 #. | Architecture               | xref:architecture:architecture-intro.adoc[HTML] link:../pdf/suse_manager_architecture.pdf[PDF]
 #. type: Table
-#: modules/ROOT/pages/index.adoc:19
+#: modules/ROOT/pages/index.adoc:18
 #, no-wrap
 msgid ""
 "| View HTML | View PDF | View HTML | View PDF\n"
@@ -250,14 +249,16 @@ msgstr ""
 "\n"
 "\n"
 
+#, fuzzy
+#~| msgid ""
+#~| "Download All PDFs icon:caret-right[] icon:file-archive[link=\"../"
+#~| "susemanager-docs_en-pdf.zip\"]"
 #~ msgid ""
-#~ "The following documentation is available for {productname} version "
-#~ "{productnumber}.  Download All PDFs icon:caret-right[] icon:file-"
-#~ "archive[link=\"../uyuni-docs_en-pdf.zip\"]"
-#~ msgstr ""
-#~ "다음 문서는 {productname} 버전 {productnumber}에 사용할 수 있습니다.  모"
-#~ "든 PDF 다운로드 icon:caret-right[] icon:file-archive[link=\"../uyuni-"
+#~ "Download All PDFs icon:caret-right[] icon:file-archive[link=\"../uyuni-"
 #~ "docs_en-pdf.zip\"]"
+#~ msgstr ""
+#~ "전체 PDF 다운로드 icon:caret-right[] icon:file-archive[link=\"../"
+#~ "susemanager-docs_en-pdf.zip\"]"
 
 #~ msgid "Accessibility"
 #~ msgstr "내게 필요한 옵션"

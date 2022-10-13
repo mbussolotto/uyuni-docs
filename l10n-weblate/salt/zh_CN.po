@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-10-12 21:15+0000\n"
+"POT-Creation-Date: 2022-10-13 18:16+0000\n"
 "PO-Revision-Date: 2021-03-10 14:40+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -158,7 +158,6 @@ msgid "xref:salt-rate-limiting.adoc[Rate Limiting]"
 msgstr ""
 
 #.  Leaving this breadcrumb here for now, but these pages will need to be removed from the Salt Guide entirely at some point. --LKB 2020-07-17
-#.  *** xref:large-scale-tuning.adoc[Tuning Large Scale Installations]
 #. type: Plain text
 #: modules/salt/nav-salt-guide.adoc:28
 msgid "xref:large-scale.adoc[Scaling Salt Minions]"
@@ -6812,45 +6811,44 @@ msgstr ""
 msgid "#!yaml\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Title -
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:19
-msgid "to"
+#, no-wrap
+msgid "to "
 msgstr ""
 
-#. type: delimited block -
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:20
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:25
-#, no-wrap
-msgid "#!yaml|gpg\n"
+msgid "#!yaml|gpg"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block -
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:21
-msgid ""
-"Encrypting pillar secrets can be done anywhere as long as the GPG and the "
-"public key generated in <<proc-key-pair-generation>> are available."
-msgstr ""
-
-#. type: Plain text
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:22
-msgid ""
-"In this example, \"SUMA Salt Master\" is the GPG key’s UID created earlier."
-msgstr ""
-
-#. type: delimited block -
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:23
 #, no-wrap
-msgid "echo 't0ps3cr3t' | gpg --armor --batch --encrypt --recipient \"SUMA Salt Master\"\n"
-msgstr ""
-
-#. type: Plain text
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:24
-msgid ""
-"When the GPG encrytped contents are created and available as ASCII-armored "
-"output, this output can be used as a multi-line string in a pillar YAML file:"
+msgid "Encrypting pillar secrets can be done anywhere as long as the GPG and the public key generated in <<proc-key-pair-generation>> are available. \n"
 msgstr ""
 
 #. type: delimited block -
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:22
+#, no-wrap
+msgid "In this example, \"SUMA Salt Master\" is the GPG key’s UID created earlier.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:23
+msgid ""
+"echo 't0ps3cr3t' | gpg --armor --batch --encrypt --recipient \"SUMA Salt "
+"Master\""
+msgstr ""
+
+#. type: delimited block -
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:24
+#, no-wrap
+msgid "When the GPG encrytped contents are created and available as ASCII-armored output, this output can be used as a multi-line string in a pillar YAML file:\n"
+msgstr ""
+
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:26
 #, no-wrap
 msgid ""
@@ -6859,7 +6857,7 @@ msgid ""
 "    -----BEGIN PGP MESSAGE-----\n"
 msgstr ""
 
-#. type: delimited block -
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:27
 #, no-wrap
 msgid ""
@@ -6875,23 +6873,23 @@ msgid ""
 "    -----END PGP MESSAGE-----\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block -
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:28
-msgid ""
-"When the pillar is assigned to a system with [path]``top.sls``, the GPG "
-"encrypted pillar data is available in a decrypted format."
-msgstr ""
-
-#. type: delimited block =
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:29
-msgid ""
-"The client's in-memory cache is only updated on startup or when running "
-"execution module functions that trigger a cache refresh such as "
-"[literal]``saltutil.refresh_pillar``, [litaral]``pillar.items``, or "
-"[literal]``state.apply``."
+#, no-wrap
+msgid "When the pillar is assigned to a system with [path]``top.sls``, the GPG encrypted pillar data is available in a decrypted format. \n"
 msgstr ""
 
 #. type: delimited block -
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:29
+#, no-wrap
+msgid ""
+"[NOTE]\n"
+"====\n"
+"The client's in-memory cache is only updated on startup or when running execution module functions that trigger a cache refresh such as [literal]``saltutil.refresh_pillar``, [litaral]``pillar.items``, or [literal]``state.apply``.\n"
+"====\n"
+msgstr ""
+
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:30
 #, no-wrap
 msgid ""
@@ -6907,29 +6905,36 @@ msgstr ""
 msgid "Export the GPG key"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block -
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:32
 msgid "To export the GPG key, use the command:"
 msgstr ""
 
-#. type: delimited block -
+#. type: Plain text
 #: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:33
-#, no-wrap
-msgid "gpg --export 'SUMA Salt Master' --homedir /etc/salt/gpgkeys --output suma-salt-master.gpg\n"
-msgstr ""
-
-#. type: Plain text
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:34
-msgid "Here 'SUMA Salt Master' is the name used during key generation."
-msgstr ""
-
-#. type: Plain text
-#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:35
 msgid ""
-"The [literal]```suma-salt-master.gpg``` public key can be freely shared."
+"gpg --export 'SUMA Salt Master' --homedir /etc/salt/gpgkeys --output suma-"
+"salt-master.gpg"
 msgstr ""
 
-#. For more information about GPG, see https://www.gnupg.org/documentation/.
+#. type: delimited block -
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:34
+#, no-wrap
+msgid "Here 'SUMA Salt Master' is the name used during key generation.\n"
+msgstr ""
+
+#. type: delimited block -
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:35
+#, no-wrap
+msgid "The [literal]```suma-salt-master.gpg``` public key can be freely shared.\n"
+msgstr ""
+
+#. type: delimited block -
+#: modules/salt/pages/salt-gpg-encrypted-pillars.adoc:36
+#, no-wrap
+msgid "//For more information about GPG, see https://www.gnupg.org/documentation/.\n"
+msgstr ""
+
 #. type: Title =
 #: modules/salt/pages/salt-overview.adoc:1
 #, no-wrap
@@ -7049,11 +7054,16 @@ msgstr ""
 msgid ""
 "The batch size parameter sets the maximum number of clients that can execute "
 "a single action at the same time.  Adjust the [systemitem]``java."
-"salt_batch_size`` parameter.  Defaults to 200."
+"salt_batch_size`` parameter."
 msgstr ""
 
 #. type: Plain text
 #: modules/salt/pages/salt-rate-limiting.adoc:10
+msgid "Defaults to 200."
+msgstr ""
+
+#. type: Plain text
+#: modules/salt/pages/salt-rate-limiting.adoc:11
 msgid ""
 "Increasing the delay increases the chance that multiple clients will have "
 "completed before the next action is issued (more clients are grouped "
@@ -7062,7 +7072,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:11
+#: modules/salt/pages/salt-rate-limiting.adoc:12
 msgid ""
 "The batch delay parameter sets the amount of time, in seconds, to wait after "
 "a command from the previous batch is processed before beginning to process "
@@ -7071,13 +7081,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/salt/pages/salt-rate-limiting.adoc:12
+#: modules/salt/pages/salt-rate-limiting.adoc:13
 #, no-wrap
 msgid "Disabling the Salt Mine"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:13
+#: modules/salt/pages/salt-rate-limiting.adoc:14
 msgid ""
 "In older versions, {productname} used a tool called Salt mine to check "
 "client availability.  The Salt mine would cause clients to contact the "
@@ -7092,7 +7102,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:14
+#: modules/salt/pages/salt-rate-limiting.adoc:15
 msgid ""
 "Newly registered Salt clients will have the Salt mine disabled by default.  "
 "If the Salt mine is running on your system, you can reduce load by disabling "
@@ -7100,18 +7110,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:15
+#: modules/salt/pages/salt-rate-limiting.adoc:16
 msgid "Disable the Salt mine by running this command on the server:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/salt-rate-limiting.adoc:16
+#: modules/salt/pages/salt-rate-limiting.adoc:17
 #, no-wrap
 msgid "salt '*' state.sls util.mgr_mine_config_clean_up\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:17
+#: modules/salt/pages/salt-rate-limiting.adoc:18
 msgid ""
 "This will restart the clients and generate some Salt events to be processed "
 "by the server.  If you have a large number of clients, handling these events "
@@ -7120,13 +7130,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/salt/pages/salt-rate-limiting.adoc:18
+#: modules/salt/pages/salt-rate-limiting.adoc:19
 #, no-wrap
 msgid "salt --batch-size 50 '*' state.sls util.mgr_mine_config_clean_up\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/salt/pages/salt-rate-limiting.adoc:19
+#: modules/salt/pages/salt-rate-limiting.adoc:20
 msgid ""
 "You will need to wait for this command to finish executing.  Do not end the "
 "process with kbd:[Ctrl+C]."

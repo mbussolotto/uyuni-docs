@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-10-12 21:15+0000\n"
+"POT-Creation-Date: 2022-10-13 18:15+0000\n"
 "PO-Revision-Date: 2022-10-13 18:13+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -237,6 +237,7 @@ msgstr "xref:clients-opensuseleap.adoc[openSUSE Leap 客户端]"
 msgid "xref:clients-microos.adoc[openSUSE MicroOS]"
 msgstr "xref:clients-microos.adoc[openSUSE MicroOS]"
 
+#.  Alibaba Cloud Linux Client Registration
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:43
 msgid ""
@@ -2437,8 +2438,8 @@ msgid ""
 "For information about how to declare profiles, see xref:client-configuration:"
 "autoinst-profiles.adoc#declare-profile[Declare the Profile]"
 msgstr ""
-"有关如何声明配置文件的信息，请参见xref:client-configuration:autoinst-profiles.adoc#declare-"
-"profile[声明配置文件]。"
+"有关如何声明配置文件的信息，请参见xref:client-configuration:autoinst-"
+"profiles.adoc#declare-profile[声明配置文件]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:9
@@ -4443,8 +4444,9 @@ msgid ""
 "channels`` option with the [command]``mgr-create-bootstrap-repo`` command.  "
 "In this case, you also need to specify the parent channel to use."
 msgstr ""
-"如果您要使用自定义通道，则可以在 [command]``mgr-create-bootstrap-repo`` 命令中使用 [option"
-"]``--with-custom-channels`` 选项。在此情况下，您还需要指定要使用的父通道。"
+"如果您要使用自定义通道，则可以在 [command]``mgr-create-bootstrap-repo`` 命令"
+"中使用 [option]``--with-custom-channels`` 选项。在此情况下，您还需要指定要使"
+"用的父通道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:40
@@ -7351,7 +7353,6 @@ msgstr "此过程所需的通道包括："
 #| "| alibaba-2-uyuni-client\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Core Channel\n"
 "| Updates Channel\n"
@@ -7812,7 +7813,6 @@ msgstr ""
 #| "| amazonlinux2-uyuni-client\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Core Channel\n"
 "| Client Channel\n"
@@ -8396,7 +8396,6 @@ msgstr ""
 #| "| debian-11-amd64-main-security-uyuni\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -8565,7 +8564,6 @@ msgstr "openSUSE MicroOS 通道 - CLI"
 #| "| opensuse_tumbleweed-update\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -8766,7 +8764,6 @@ msgstr "OpenSUSE 产品 - WebUI"
 #| "| openSUSE Leap 15.4 x86_64\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Product Name\n"
 "\n"
@@ -8849,7 +8846,6 @@ msgstr ""
 #| "| opensuse_leap15_2-non-oss-updates\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -8926,7 +8922,6 @@ msgstr ""
 #| "| opensuse_leap15_4-sle-updates\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -9125,7 +9120,6 @@ msgstr ""
 #| "| oraclelinux8-appstream\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -10059,7 +10053,6 @@ msgstr "Red Hat 通道 - CLI"
 #| "| res8-suse-manager-tools-x86_64\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -11025,7 +11018,6 @@ msgstr "SLE 产品 - WebUI"
 #| "| SUSE Linux Enterprise Server 15 SP3 x86_64 \n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Product Name\n"
 "\n"
@@ -11084,7 +11076,6 @@ msgstr "SLE 产品 - CLI"
 #| "| sle-product-sles15-sp3-pool-x86_64\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "\n"
@@ -11175,7 +11166,6 @@ msgstr "SUSE Linux Enterprise 通道 - CLI"
 #| "| {sles} 15 SP3\n"
 #| "| sles15-sp3-uyuni-client\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Client Channel\n"
 "\n"
@@ -11353,7 +11343,6 @@ msgstr "SLE Micro 产品 - WebUI"
 #| "| SUSE Linux Enterprise Micro 5.1 x86_64\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Product Name\n"
 "\n"
@@ -11397,7 +11386,6 @@ msgstr "SLE Micro 产品 - CLI"
 #| "| suse-microos-5.1-updates-aarch64\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Updates Channel\n"
@@ -11553,7 +11541,6 @@ msgstr "ES 产品 - WebUI"
 #| "| RHEL or SLES ES or CentOS 8 Base and SUSE Linux Enterprise Server with Expanded Support 8 x86_64\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Product Name\n"
 "\n"
@@ -11663,7 +11650,6 @@ msgstr "ES 通道 - CLI"
 #| "| res8-suse-manager-tools-x86_64\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -12036,7 +12022,6 @@ msgstr ""
 #| "| ubuntu-1804-amd64-main-updates\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Main Channel\n"
 "| Security Channel\n"
@@ -12118,7 +12103,6 @@ msgstr ""
 #| "| ubuntu-1804-amd64-uyuni-client\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Main Channel\n"
@@ -12411,7 +12395,6 @@ msgstr ""
 #| "| ubuntu-2004-amd64-uyuni-client\n"
 #| "\n"
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Main Channel\n"
@@ -18127,7 +18110,6 @@ msgstr "{alibabaclo} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {alibabaclo}{nbsp}2\n"
 "\n"
@@ -18637,7 +18619,6 @@ msgstr "{almalinux} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {almalinux}{nbsp}8\n"
 "\n"
@@ -19049,7 +19030,6 @@ msgstr "{amazon} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {amazon}{nbsp}2\n"
 "\n"
@@ -19511,7 +19491,6 @@ msgstr "{centos} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {centos}{nbsp}7\n"
 "| {centos}{nbsp}8\n"
@@ -20093,7 +20072,6 @@ msgstr "{debian} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {debian}{nbsp}9\n"
 "| {debian}{nbsp}10\n"
@@ -20715,7 +20693,6 @@ msgstr "{sleses} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {slsa}{nbsp}ES{nbsp}7\n"
 "| {slsa}{nbsp}ES{nbsp}8\n"
@@ -21295,7 +21272,6 @@ msgstr "{oracle} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {oracle}{nbsp}6\n"
 "| {oracle}{nbsp}7\n"
@@ -21960,7 +21936,6 @@ msgstr "{rhel} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {rhela}{nbsp}6\n"
 "| {rhela}{nbsp}7\n"
@@ -22542,7 +22517,6 @@ msgstr "{rocky} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {rocky}{nbsp}8\n"
 "\n"
@@ -22963,7 +22937,6 @@ msgstr "{micro} 和 {opensuse} {microos} 操作系统上支持的功能"
 #| "| {question}\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {micro} and {opensuse}{nbsp}{microos}\n"
 "\n"
@@ -23513,7 +23486,6 @@ msgstr "{suse} 和 {opensuse} 操作系统上支持的功能"
 #| "| {check}\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {sle}{nbsp}11\n"
 "| {sle}{nbsp}12\n"
@@ -24281,7 +24253,6 @@ msgstr "{ubuntu} 操作系统上支持的功能"
 #| "| N/A\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
 "| {ubuntu}{nbsp}18.04\n"
@@ -24899,7 +24870,6 @@ msgstr ""
 #| "| {cross}\n"
 #| "\n"
 msgid ""
-"\n"
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
 "| {ubuntu}{nbsp}18.04\n"
@@ -25356,6 +25326,7 @@ msgid ""
 "that supplies the operating system."
 msgstr "客户端上运行的操作系统由提供操作系统的组织支持。"
 
+#.  Table with the list of the supported systems
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:12
 msgid ""
@@ -25389,29 +25360,21 @@ msgstr "支持的工具软件包"
 #| "tools:"
 msgid ""
 "The ``spacewalk-utils`` and ``spacewalk-utils-extras`` packages can provide "
-"additional services and features."
+"additional services and features.  The ``spacewalk-utils`` package in "
+"{productname} is fully supported by {suse}, and contains these tools:"
 msgstr ""
 "``spacewalk-utils`` 和 ``spacewalk-utils-extras`` 软件包可提供额外的服务和功"
 "能。{suse} 完全支持 {productname} 中的 ``spacewalk-utils`` 软件包，该软件包中"
 "包含以下工具："
 
-#. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:16
-msgid ""
-"The ``spacewalk-utils`` package in {productname} is fully supported by "
-"{suse}, and contains these tools:"
-msgstr ""
-"{suse} 完全支持 {productname}``spacewalk-utils`` 软件包，该软件包中包含以下工"
-"具："
-
 #. type: Block title
-#: modules/client-configuration/pages/supported-features.adoc:17
+#: modules/client-configuration/pages/supported-features.adoc:16
 #, no-wrap
 msgid "Spacewalk Utilities"
 msgstr "Spacewalk 实用程序"
 
 #. type: Table
-#: modules/client-configuration/pages/supported-features.adoc:18
+#: modules/client-configuration/pages/supported-features.adoc:17
 #, fuzzy, no-wrap
 #| msgid ""
 #| "| Tool Name\n"
@@ -25439,7 +25402,6 @@ msgstr "Spacewalk 实用程序"
 #| "| {check}\n"
 #| "\n"
 msgid ""
-"\n"
 "| Tool Name\n"
 "| Description\n"
 "| Supported?\n"
@@ -25491,7 +25453,7 @@ msgstr ""
 "\n"
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:19
+#: modules/client-configuration/pages/supported-features.adoc:18
 msgid ""
 "The ``spacewalk-utils-extras`` package in {productname} has limited support "
 "by {suse}."
@@ -28308,18 +28270,10 @@ msgstr "将 ``skuba`` 配置目录从您的群集复制到管理节点。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
-#, fuzzy
-#| msgid ""
-#| "This is the directory that the ``skuba`` service creates after the "
-#| "cluster has been bootstrapped. Take a note of the new file location for "
-#| "adding the cluster in the {productname} {webui}.\n"
-msgid ""
-"This is the directory that the ``skuba`` service creates after the cluster "
-"has been bootstrapped. Take a note of the new file location for adding the "
-"cluster in the {productname} {webui}."
-msgstr ""
-"这是 ``skuba`` 服务在群集引导后创建的目录。请记下该新文件位置，以便在 "
-"{productname} {webui} 中添加该群集。\n"
+#, fuzzy, no-wrap
+#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
+msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
+msgstr "这是 ``skuba`` 服务在群集引导后创建的目录。请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:44
@@ -30178,19 +30132,19 @@ msgstr "过程：配置管理节点"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
+#, no-wrap
 msgid ""
-"This is the directory that the ``skuba`` service creates after the cluster "
-"has been bootstrapped.  Take a note of the new file location for adding the "
-"cluster in the {productname} {webui}."
+"This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
+"Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
 msgstr ""
-"这是 ``skuba`` 服务在群集引导后创建的目录。  请记下该新文件位置，以便在 "
-"{productname} {webui} 中添加该群集。"
+"这是 ``skuba`` 服务在群集引导后创建的目录。\n"
+"请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-#, fuzzy
+#, fuzzy, no-wrap
 #| msgid "Provide a way to authenticate.\n"
-msgid "Provide a way to authenticate."
+msgid "Provide a way to authenticate.\n"
 msgstr "提供进行身份验证的方式。\n"
 
 #. type: Plain text
@@ -31398,6 +31352,193 @@ msgstr "确保每个磁盘都位于由所有群集节点共享的储存池上。
 msgid "Virtual Guests managed by a cluster can be live migrated."
 msgstr "可实时迁移由群集管理的虚拟 Guest。"
 
+#. // Start Ref Guide content. --LKB 2020-10-23
+#. [float]
+#. [[sdc-guests]]
+#. == Guests
+#. [guimenu]``Guests`` is the default virtualization tab.
+#. It presents a table of the host system's virtual guests.
+#. For each guest system, the following information is provided:
+#. [guimenu]``Status``::
+#. This field indicates whether the virtual system is running, paused, stopped, or has crashed.
+#. [guimenu]``Updates``::
+#. This field indicates whether patches (errata) applicable to the guest have yet to be applied.
+#. [guimenu]``Base Software Channel``::
+#. This field indicates the Base Channel to which the guest is subscribed.
+#. [NOTE]
+#. ====
+#. If a guest system has not registered with {productname}, this information appears as plain text in the table.
+#. ====
+#. [guimenu]``Actions``::
+#. This field contains the possible actions for the guest.
+#. These are depending on the virtual guest status, they may not refresh instantaneously when running a Start, Stop, Suspend, Resume action.
+#. The btn:[Edit] button allows changing virtual guest properties, including the amount of allocated memory and virtual CPUs.
+#. The btn:[Graphical Console] button opens the Spice or VNC display in a new tab.
+#. If you have System Group Administrator responsibilities assigned for your guest systems, a user might see the message [guimenu]``You do not have permission to access this system`` in the table.
+#. This is because it is possible to assign virtual guests on a single host to multiple System Group Administrators.
+#. Only users that have System Group Administrator privileges on the host system may create new virtual guests.
+#. For Salt systems, the btn:[Create Guest] button shows a dialog to configure and create a new virtual machine.
+#. [float]
+#. [[sd-editing-a-vm]]
+#. === Editing a Virtual Machine
+#. [NOTE]
+#. ====
+#. Traditional systems can only edit CPU and memory allocation.
+#. ====
+#. The fields in this dialog are grouped into several panels.
+#. The [guimenu]``General`` panel contains the [guimenu]``CPU`` and [guimenu]``memory`` fields.
+#. The [guimenu]``Disks`` and [guimenu]``Network Interfaces`` panels list the fields corresponding to the matching devices of the virtal machine.
+#. The [guimenu]``Graphics`` panel allows configuring the display of the virtual machine.
+#. The [guimenu]``Schedule`` panel helps configuring when the edit should take place by choosing either an earliest time or an action chain to append to.
+#. [NOTE]
+#. ====
+#. If a guest contains one or more disks or network interfaces not recognized by {susemgr}, you cannot edit the configuration.
+#. This prevents any possibility of {susemgr} destroying the setup because of an unhandled type.
+#. ====
+#. The order of the disks is important: the disk naming is computed from it. This means that the first virtio disk is named 'vda', the second is named 'vdb' and so on.
+#. When clicking the btn:[+] in the [guimenu]``Disks`` (or [guimenu]``Network Interfaces``) panel header, a new disk (or network interface) is appended to the list.
+#. Likewise, clicking the btn:[-] button next to a disk or interface removes it.
+#. The default size for a new disk is 8[nbsp]GB.
+#. The [guimenu]``Source image template URL`` field contains the URL to a disk image to be copied and used for the virtual machine.
+#. Click the btn:[Update] button to apply the changes.
+#. // TODO Add a screenshot of the edit page, maybe more
+#. // TODO Add a screenshot of the create page showing the additional fields
+#. [float]
+#. [[sdc-virt-host-guest-graphical-console]]
+#. ===== Display a virtual machine graphical console [Salt]
+#. The virtual machine graphical console might prompt you for a password.
+#. This password is the Spice or VNC one.
+#. // TODO Add a screenshot of the graphical console
+#. For the Spice display to be adjusted to the window, the Spice VD agent needs to be installed within the virtual machine.
+#. [[sd-virtualization-deployment-management]]
+#. == Deployment [Management]
+#. In the menu:System Details[Virtualization] tab of a traditionally registered bare-metal machine, there is a  menu:System Details[Virtualization > Deployment] subtab. This form expects a URL to a ``qcow2`` type of image and some other parameters allowing the user to schedule the deployment of that image.
+#. image::system_details_traditional_virtualization_deployment.png[scaledwidth=80%]
+#. When the deploment scheduled it is listed as an action on the menu:Main Menu[Schedule > Pending Actions].
+#. == Storage for Salt Clients
+#. The [guimenu]``Storage`` tab shows a tree list of the virtual storage pools and volumes that are defined on the virtual host.
+#. The first level of the tree is the list of storage pools and all items contained in them are volumes.
+#. Expand the pools to show the volumes.
+#. Each pool shows:
+#. [guimenu]``Status``::
+#. The pool is either running or stopped.
+#. [guimenu]``Autostart``::
+#. The pool starts automatically when the virtual host boots.
+#. [guimenu]``Persistent``::
+#. The pool is kept after being stopped.
+#. [guimenu]``Location``::
+#. The target path of the storage pool.
+#. Note that some pool types don't have an associated path.
+#. [guimenu]``Usage``::
+#. The disk usage of the pool.
+#. Shows ``Unknown`` if the pool is not running.
+#. Each volume shows:
+#. * The name of the virtual machines using the volume.
+#. Some pool types do not provide this list.
+#. * The disk usage of the volume.
+#. === Refreshing a pool
+#. The [systemitem]``libvirt`` service does not automatically update the pool usage and contents statistics.
+#. Refresh the pool to see updated usage statistics, or to see a volume that has been created outside of {productname}.
+#. Click the [guimenu]``Refresh`` button to schedule a refresh of the pool.
+#. .Procedure: Creating a Pool
+#. . Click btn:[Create Pool]
+#. . This opens a new page with a form to define the pool.
+#. . In the [guimenu]``name`` field, type a name for the new pool.
+#. . In the [guimenu]``type`` field, select the type of the pool.
+#. The list of available types depends on the virtual host setup.
+#. // TODO Add a note on the supported types pointing to SUSE Documentation
+#. . Check the [guimenu]``Start during virtual host boot`` field, to start the pool automatically when the virtual host boots.
+#. . OPTIONAL: In the [guimenu]``Earliest`` field, you can set the earliest time the pool creation action should be scheduled.
+#. . OPTIONAL: In the [guimenu]``Add to`` field, you can select a new or existing action chain to add the pool creation action to.
+#. . The [guimenu]``Source`` section contains data about the device holding the pool.
+#. . The [guimenu]``Target`` section contains data about where to find the pool on the virtual host.
+#. ==== Source Fields
+#. [guimenu]``Device path``::
+#. Path to a device containing the pool data
+#. [guimenu]``Partition separator``::
+#. Use ``'p'`` as a partition separator in the path name.
+#. [guimenu]``Format``::
+#. Select the format of the pool source.
+#. The available values depend on the pool type.
+#. [guimenu]``Host name``::
+#. IP or FQDN of the remote machine providing access to the pool.
+#. [guimenu]``Port``::
+#. Port of the remote machine providing access to the pool.
+#. [guimenu]``iSCSI Qualified Name``::
+#. Qualified name of the iSCSI target.
+#. [guimenu]``IQN Initiator``::
+#. iSCSI qualified name of the initiator to connect to.
+#. [guimenu]``Username``::
+#. Username to use to connect to remote storage.
+#. [guimenu]``Passphrase``::
+#. Password to use to connect to remote storage.
+#. For RBD pools, this is the base64 encoded key.
+#. [guimenu]``Source name``::
+#. Name of the storage pool source.
+#. [guimenu]``Directory``::
+#. Path to the directory of the pool.
+#. [guimenu]``Subdirectory``::
+#. Absolute path relative to the Gluster volume to use.
+#. [guimenu]``Adapter type``::
+#. The controller type, either``fc_host`` or ``scsi_host``.
+#. [guimenu]``Adapter name``::
+#. SCSI adapter name for ``scsi_host`` controller.
+#. [guimenu]``Adapter parent PCI address``::
+#. PCI address of the SCSI host in ``0000:00:00.0`` format.
+#. List options with [command]``lsscsi -v``.
+#. [guimenu]``Adapter parent address unique ID``::
+#. Unique ID of the SCSI host as found in ``/sys/class/scsi_host/host*/unique_id`` file.
+#. [guimenu]``Adapter parent name``::
+#. Name of the vport capable parent SCSI host of the virtual Host Bus Adapter (vHBA).
+#. [guimenu]``Adapter parent wwnn``::
+#. World Wide Node Name used by the ``fc_host`` to identify the vHBA parent device.
+#. [guimenu]``Adapter parent wwpn``::
+#. World Wide Port Name used by the ``fc_host`` to identify the vHBA parent device.
+#. [guimenu]``Adapter parent fabric wwn``::
+#. Fabric WWN of the vHBA parent device.
+#. [guimenu]``Adapter wwnn``::
+#. World Wide Node Name used by the ``fc_host`` to identify the vHBA device.
+#. [guimenu]``Adapter wwpn``::
+#. World Wide Port Name used by the ``fc_host`` to identify the vHBA device.
+#. [guimenu]``Manage vHBA deletion``::
+#. If checked the vHBA is destroyed with the pool is destroyed.
+#. This property is automatically activated if there is no existing vHBA.
+#. ==== Target fields
+#. [guimenu]``Path``::
+#. Path to the storage pool mount or device on the virtual host.
+#. [guimenu]``Owner ID``::
+#. ID of the user owning the path folder or file.
+#. [guimenu]``Group ID``::
+#. ID of the group owning the path folder or file.
+#. [guimenu]``Permission mode``::
+#. Octal representation of the permissions to set on the path folder or file.
+#. [guimenu]``SELinux label``::
+#. SELinux label to set on the path folder or file.
+#. === Editing a pool
+#. To edit the properties of a storage pool, locate the pool in the list and click [guimenu]``Edit pool``.
+#. === Deleting a Pool
+#. To delete a storage pool, locate the pool in the list and click [guimenu]``Delete``.
+#. By default, deleting a pool only removes the storage pool definition.
+#. The pool data is kept on disk.
+#. To delete the pool data as well as the storage pool definition, check the [guimenu]``Delete the pool, including the contained volumes`` box before you click [guimenu]``Delete``.
+#. Some pool types do not allow you to delete the volumes or the pool.
+#. === Deleting a Volume
+#. To delete a storage volume, locate the volume in the tree and click [guimenu]``Delete`` on its row.
+#. Some pool types do not allow you to delete volumes.
+#. == Networks for Salt Clients
+#. The [guimenu]``Networks`` tab shows the list of the virtual networks defined on the virtual host.
+#. Each network shows:
+#. [guimenu]``Status``::
+#. The network is either running or stopped.
+#. [guimenu]``Autostart``::
+#. The network starts automatically when the virtual host boots.
+#. [guimenu]``Persistent``::
+#. The network is kept after being stopped.
+#. [guimenu]``Bridge``::
+#. The bridge interface used by the network.
+#. Each network can be started, stopped, or deleted using the corresponding button in the list.
+#. Theses actions can also by applied to multiple networks by selecting the networks in the list and using the corresponding button above the list.
+#. // End Ref Guide content.
 #. type: Title ==
 #: modules/client-configuration/pages/virtualization.adoc:37
 #, no-wrap
@@ -31473,11 +31614,19 @@ msgstr ""
 "或联系 {suse}。"
 
 #~ msgid ""
-#~ "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
-#~ "Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
+#~ "The ``spacewalk-utils`` package in {productname} is fully supported by "
+#~ "{suse}, and contains these tools:"
 #~ msgstr ""
-#~ "这是 ``skuba`` 服务在群集引导后创建的目录。\n"
-#~ "请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。\n"
+#~ "{suse} 完全支持 {productname}``spacewalk-utils`` 软件包，该软件包中包含以"
+#~ "下工具："
+
+#~ msgid ""
+#~ "This is the directory that the ``skuba`` service creates after the "
+#~ "cluster has been bootstrapped.  Take a note of the new file location for "
+#~ "adding the cluster in the {productname} {webui}."
+#~ msgstr ""
+#~ "这是 ``skuba`` 服务在群集引导后创建的目录。  请记下该新文件位置，以便在 "
+#~ "{productname} {webui} 中添加该群集。"
 
 #~ msgid ""
 #~ "Copy your entitlement certificate and key from the client system, to a "

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-10-12 21:15+0000\n"
+"POT-Creation-Date: 2022-10-13 18:16+0000\n"
 "PO-Revision-Date: 2022-10-13 18:13+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -96,6 +96,9 @@ msgstr "xref:install-uyuni.adoc[安装使用 openSUSE 的 Uyuni Server]"
 msgid "xref:install-proxy-uyuni.adoc[Install Uyuni Proxy with openSUSE]"
 msgstr "xref:install-proxy-uyuni.adoc[安装使用 openSUSE 的 Uyuni Proxy]"
 
+#.  better disabling for now; needs a complete overhaul
+#.  2019-06-04, ke :
+#.  *** xref:install-server.adoc[Install Server from Packages]
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:16
 msgid "xref:install-proxy.adoc[Install Proxy from Packages]"
@@ -215,6 +218,7 @@ msgstr ""
 "对于非 {suse} 操作系统，包括 {rhel}、{centos} 和 {oracle}，只有最新可用版本才"
 "享受标准支持。"
 
+#.  Table with the list of the supported systems
 #. type: delimited block =
 #: modules/installation/pages/client-requirements.adoc:7
 msgid ""
@@ -832,6 +836,7 @@ msgid ""
 "{susemgr} Server and Proxy are installed with the {sle} Unified Installer."
 msgstr "通过 {sle} 统一安装程序来安装 {susemgr} Server 和 Proxy。"
 
+#. REMARK What about Uyuni?
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:24
 msgid ""
@@ -1050,7 +1055,6 @@ msgstr "{x86_64} 体系结构的服务器硬件要求"
 #| "| 3{nbsp}GB\n"
 #| "\n"
 msgid ""
-"\n"
 "| Hardware\n"
 "| Details\n"
 "| Recommendation\n"
@@ -1198,7 +1202,6 @@ msgstr "IBM POWER8 或 POWER9 体系结构的服务器硬件要求"
 #| "| 3{nbsp}GB\n"
 #| "\n"
 msgid ""
-"\n"
 "| Hardware\n"
 "| Details\n"
 "| Recommendation\n"
@@ -1325,7 +1328,6 @@ msgstr "代理硬件要求"
 #| "| Minimum 100{nbsp}GB\n"
 #| "\n"
 msgid ""
-"\n"
 "| Hardware\n"
 "| Details\n"
 "| Recommendation\n"
@@ -2116,6 +2118,7 @@ msgid ""
 "adjust the boot order in the BIOS."
 msgstr "要从安装媒体引导统一安装程序，可能需要在 BIOS 中调整引导顺序。"
 
+#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -5914,7 +5917,8 @@ msgstr ""
 msgid ""
 "On the server, go to http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-"
 "CERT."
-msgstr "在服务器上，转到 http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-CERT[]。"
+msgstr ""
+"在服务器上，转到 http://<server>.example.com/pub/RHN-ORG-TRUSTED-SSL-CERT[]。"
 
 #. type: delimited block =
 #: modules/installation/pages/server-setup.adoc:36
