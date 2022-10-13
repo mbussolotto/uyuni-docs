@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-04-07 12:00+0000\n"
-"PO-Revision-Date: 2022-10-12 21:13+0000\n"
+"PO-Revision-Date: 2022-10-13 18:13+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-beta3/ko/>\n"
@@ -3825,9 +3825,7 @@ msgstr "프로시저: 베어메탈 기능 활성화"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Admin[Manager Configuration > "
 "Bare-metal systems]."
-msgstr ""
-"{productname} {webui}에서menu:관리[관리자 구성 > 베어메탈 시스템]으로 이동합"
-"니다."
+msgstr "{productname} {webui}에서 menu:관리[관리자 구성 > 베어메탈 시스템]으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-unattended.adoc:8
@@ -7304,8 +7302,8 @@ msgid ""
 "tshoot-registerclones.adoc[]."
 msgstr ""
 "AWS에서 생성할 때 {almalinux} 인스턴스에서는 항상 `/etc/machine-id` 에서 `machine-id` 가 "
-"동일합니다.  인스턴스가 생성된 후에 `machine-id`를 다시 생성해야 합니다.   자세한 설명은 xref:administration"
-":tshoot-registerclones.adoc[]을 참조하십시오."
+"동일합니다.  인스턴스가 생성된 후에 ``machine-id``를 다시 생성해야 합니다.   자세한 설명은 "
+"xref:administration:tshoot-registerclones.adoc[]을 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-almalinux.adoc:7
@@ -7543,7 +7541,7 @@ msgid ""
 "registerclones.adoc[]."
 msgstr ""
 "AWS에서 생성될 때 {amazon} 인스턴스에서는 항상 `/etc/machine-id` 에서 `machine-id` 가 동일합니다.  "
-"인스턴스가 생성된 후에 `machine-id` 를 다시 생성해야 합니다.   자세한 설명은 xref:administration"
+"인스턴스가 생성된 후에 ``machine-id``를 다시 생성해야 합니다.   자세한 설명은 xref:administration"
 ":tshoot-registerclones.adoc[]을 참조하십시오."
 
 #. type: Plain text
@@ -15742,9 +15740,7 @@ msgstr "프로시저: 부트스트랩 스크립트 생성"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Admin[Manager Configuration > "
 "Bootstrap Script]."
-msgstr ""
-"{productname} {webui}에서menu:관리[관리자 구성 > 부트스트랩 스크립트]로 이동"
-"합니다."
+msgstr "{productname} {webui}에서 menu:관리[관리자 구성 > 부트스트랩 스크립트]로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:14
