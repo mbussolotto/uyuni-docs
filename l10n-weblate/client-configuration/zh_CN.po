@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-09-28 09:12+0000\n"
-"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
+"PO-Revision-Date: 2022-10-13 11:13+0000\n"
+"Last-Translator: Padraig Dillon <padraig.dillon@suse.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-41/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -13293,9 +13293,7 @@ msgstr "过程：检查同步进度"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Admin[Setup Wizard] and "
 "select the [guimenu]``Products`` tab."
-msgstr ""
-"在 {productname} {webui} 中，导航到menu:管理[安装向导]，然后选择[guimenu]``产"
-"品``选项卡。"
+msgstr "在 {productname} {webui} 中，导航到menu:管理[安装向导]，然后选择[guimenu]``产品``选项卡。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/check_sync_webui_suma.adoc:3
@@ -18662,9 +18660,7 @@ msgstr "裸机系统"
 msgid ""
 "If a bare metal system on the network is not automatically added to the "
 "[guilabel]``Systems`` list, check these things first:"
-msgstr ""
-"如果网络中的裸机系统不会自动添加到[guilabel]``系统``列表中，请先进行以下检"
-"查："
+msgstr "如果网络中的裸机系统不会自动添加到[guilabel]``系统``列表中，请先进行以下检查："
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:15
@@ -18679,9 +18675,8 @@ msgid ""
 "[path]``pxe-default-image``, are in the locations specified in the "
 "[path]``rhn.conf`` configuration file."
 msgstr ""
-"文件路径和参数必须配置正确。检查 [path]``pxe-default-image`` 提供的 "
-"[path]``vmlinuz0`` 和 [path]``initrd0.img`` 文件是否位于 [path]``rhn.conf`` "
-"配置文件中指定的位置。"
+"文件路径和参数必须配置正确。检查 [path]``pxe-default-image`` 提供的 [path]``vmlinuz0`` 和 "
+"[path]``initrd0.img`` 文件是否位于 [path]``rhn.conf`` 配置文件中指定的位置。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:17
@@ -18690,16 +18685,14 @@ msgid ""
 "{productname} server is working correctly, and that you can reach the "
 "{productname} server IP address from the server."
 msgstr ""
-"确保将裸机系统连接到 {productname} 服务器的网络设备可正常运行，并且您可以从该"
-"服务器访问 {productname} 服务器 IP 地址。"
+"确保将裸机系统连接到 {productname} 服务器的网络设备可正常运行，并且您可以从该服务器访问 {productname} 服务器 IP 地址。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:18
 msgid ""
 "The bare metal system to be provisioned must have PXE booting enabled in the "
 "boot sequence, and must not be attempting to boot an operating system."
-msgstr ""
-"要置备的裸机系统必须在引导序列中启用 PXE 引导，并且必须未在尝试引导操作系统。"
+msgstr "要置备的裸机系统必须在引导序列中启用 PXE 引导，并且必须未在尝试引导操作系统。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:19
@@ -18718,9 +18711,7 @@ msgstr "DHCP 服务器指派的是预期的 IP 地址"
 msgid ""
 "the DHCP server is assigning the the {productname} server IP address as "
 "[option]``next-server`` for booting."
-msgstr ""
-"DHCP 服务器为要引导的 [option]``next-server`` 指派的是 {productname} 服务器 "
-"IP 地址。"
+msgstr "DHCP 服务器为要引导的 [option]``next-server`` 指派的是 {productname} 服务器 IP 地址。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:22
@@ -18743,26 +18734,21 @@ msgstr ""
 msgid ""
 "Select [option]``pxe-default-profile`` in the Cobbler menu with the arrow "
 "keys, and press the Tab key before the timer expires."
-msgstr ""
-"使用方向键在 Cobbler 菜单中选择 [option]``pxe-default-profile``，然后在计时器"
-"到期前按 Tab 键。"
+msgstr "使用方向键在 Cobbler 菜单中选择 [option]``pxe-default-profile``，然后在计时器到期前按 Tab 键。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:25
 msgid ""
 "Add the kernel boot parameter [option]``spacewalk-finally=running`` using "
 "the integrated editor, and press Enter to continue booting."
-msgstr ""
-"使用集成编辑器添加内核引导参数 [option]``spacewalk-finally=running``，然后按 "
-"Enter 继续引导。"
+msgstr "使用集成编辑器添加内核引导参数 [option]``spacewalk-finally=running``，然后按 Enter 继续引导。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:26
 msgid ""
 "Enter a shell with the username [option]``root`` and password "
 "[option]``linux`` to continue debugging."
-msgstr ""
-"使用用户名 [option]``root`` 和口令 [option]``linux`` 进入外壳继续调试。"
+msgstr "使用用户名 [option]``root`` 和口令 [option]``linux`` 进入外壳继续调试。"
 
 #. type: Block title
 #: modules/client-configuration/pages/tshoot-clients.adoc:27
