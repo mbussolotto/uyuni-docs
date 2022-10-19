@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-13 18:16+0000\n"
-"PO-Revision-Date: 2022-10-13 18:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-10-19 12:13+0000\n"
+"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-428/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -851,9 +851,7 @@ msgstr ""
 msgid ""
 "If not already done, download the {sle} Unified Installer from https://"
 "download.suse.com/index.jsp."
-msgstr ""
-"从 link:https://download.suse.com/index.jsp[] 上下载 {sle} 统一安装程序（如果"
-"尚未下载）。"
+msgstr "从 link:https://download.suse.com/index.jsp 上下载 {sle} 统一安装程序（如果尚未下载）。"
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:26
@@ -6198,7 +6196,9 @@ msgstr ""
 #: modules/installation/pages/uyuni-server-setup.adoc:66
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
+msgstr ""
+"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
+"elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:71
