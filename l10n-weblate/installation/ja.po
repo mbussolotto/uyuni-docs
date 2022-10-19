@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-06 10:21+0000\n"
-"PO-Revision-Date: 2022-10-19 07:13+0000\n"
+"PO-Revision-Date: 2022-10-19 16:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-4210/ja/>\n"
@@ -780,8 +780,7 @@ msgstr "{payg}インスタンスの接続"
 #. type: Plain text
 #: modules/installation/pages/connect-payg.adoc:2
 msgid "In the three major public cloud providers (AWS, GCP and Azure), SUSE:"
-msgstr ""
-"3つの主要なパブリッククラウドプロバイダー(AWS、GCP、Azure)では、SUSEは、"
+msgstr "3つの主要なパブリッククラウドプロバイダー(AWS、GCP、Azure)では、SUSEは、"
 
 #. type: Plain text
 #: modules/installation/pages/connect-payg.adoc:3
@@ -1032,9 +1031,7 @@ msgstr ""
 msgid ""
 "If the authentication data for the instance are correct, the column "
 "[guimenu]``Status`` shows \"Credentials successfully updated.\""
-msgstr ""
-"インスタンスの認証データが正しい場合、［[guimenu]``ステータス``］列に「資格情"
-"報が正常に更新されました」と表示されます。"
+msgstr "インスタンスの認証データが正しい場合、［[guimenu]``ステータス``］列に「資格情報が正常に更新されました」と表示されます。"
 
 #. type: delimited block =
 #: modules/installation/pages/connect-payg.adoc:39
