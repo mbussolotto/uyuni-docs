@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-30 08:17+0000\n"
-"PO-Revision-Date: 2022-10-13 18:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-10-19 12:13+0000\n"
+"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-429/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -1111,9 +1111,7 @@ msgstr "[guimenu]``管理 > 安装向导 > Pay-as-you-go`` 屏幕中也会显示
 msgid ""
 "If the authentication data for the instance are correct, the column "
 "[guimenu]``Status`` shows \"Credentials successfully updated.\""
-msgstr ""
-"如果实例的身份验证数据正确无误，[guimenu]``状态``列会显示“已成功更新身份凭"
-"证”。"
+msgstr "如果实例的身份验证数据正确无误，[guimenu]``状态``列会显示“已成功更新身份凭证”。"
 
 #. type: delimited block =
 #: modules/installation/pages/connect-payg.adoc:39
@@ -1470,9 +1468,7 @@ msgstr ""
 msgid ""
 "If not already done, download the {sle} Unified Installer from https://"
 "download.suse.com/index.jsp."
-msgstr ""
-"从 link:https://download.suse.com/index.jsp[] 上下载 {sle} 统一安装程序（如果"
-"尚未下载）。"
+msgstr "从 link:https://download.suse.com/index.jsp 上下载 {sle} 统一安装程序（如果尚未下载）。"
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:26
@@ -6820,7 +6816,9 @@ msgstr ""
 #: modules/installation/pages/uyuni-server-setup.adoc:66
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
+msgstr ""
+"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
+"elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:71
