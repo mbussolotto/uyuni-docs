@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-10-19 16:13+0000\n"
+"PO-Revision-Date: 2022-10-19 19:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-41/ja/>\n"
@@ -13227,7 +13227,7 @@ msgstr ""
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:1
 #, no-wrap
 msgid "Procedure: Checking Synchronization Progress from the Command Prompt"
-msgstr "手順: コマンドプロンプトから同期の進捗状況を確認する"
+msgstr "プロシージャ: コマンドプロンプトから同期の進捗状況を確認する"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:2
@@ -17968,11 +17968,11 @@ msgid "General error: [AuthorizationFailed] The client 'client_name' with object
 msgstr ""
 "General error:（一般エラー:）[AuthorizationFailed] The client 'client_name' with "
 "object id 'object_ID' does not have authorization to perform action "
-"'Microsoft.Compute/virtualMachines/read' over scope  '/subscriptions/not-"
-"very-secret-subscription-id' or the scope is invalid.（[AuthorizationFailed]オブ"
-"ジェクトID「object_ID」のクライアント「client_name」には、アクション「Microsoft.Compute/"
-"virtualMachines/read」をスコープ「/subscriptions/not-very-secret-subscription-"
-"id」を超えて実行する権限がありません。またはスコープが無効です。）If  access was recently granted, please "
+"'Microsoft.Compute/virtualMachines/read' over scope '/subscriptions/not-very-"
+"secret-subscription-id' or the scope is invalid.（[AuthorizationFailed]オブジェクトI"
+"D「object_ID」のクライアント「client_name」には、アクション「Microsoft.Compute/virtualMachines/"
+"read」をスコープ「/subscriptions/not-very-secret-subscription-"
+"id」を超えて実行する権限がありません。またはスコープが無効です。）If access was recently granted, please "
 "refresh your credentials.（アクセスが最近付与された場合は、資格情報を更新してください。）\n"
 
 #. type: Plain text
@@ -18415,7 +18415,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:47
 msgid "By using ``ssh-agent`` locally:"
-msgstr "``ssh-agent``をローカルで使用する方法"
+msgstr "``ssh-agent``をローカルで使用する方法:"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:48
@@ -18857,7 +18857,7 @@ msgstr "［[guimenu]``Url``］フィールドに、エクスポートするJSON�
 #: modules/client-configuration/pages/vhm-file.adoc:16
 #, no-wrap
 msgid "Example: Exported JSON configuration file:"
-msgstr "例: エクスポートするJSON設定ファイル"
+msgstr "例: エクスポートするJSON設定ファイル:"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-file.adoc:17
@@ -19099,7 +19099,7 @@ msgstr ""
 "ERROR:（エラー:）{'domain': 'global', 'reason': 'forbidden', 'message': \"Required"
 " 'compute.zones.list' permission for 'projects/project-id'\"}\n"
 "ERROR:（エラー:）Could not connect to the Google Compute Engine Public Cloud "
-"using  specified credentials.（指定した資格情報を使用してGoogle Compute "
+"using specified credentials.（指定した資格情報を使用してGoogle Compute "
 "Engineのパブリッククラウドに接続できませんでした。）\n"
 
 #. type: delimited block -
@@ -19707,8 +19707,8 @@ msgid ""
 "For more information about Nutanix integrations, see https://www.nutanix.com/"
 "partners/technology-alliances/suse"
 msgstr ""
-"Nutanixの統合の詳細については、link:https://www.nutanix.com/partners/"
-"technology-alliances/suse[]を参照してください。"
+"Nutanixの統合の詳細については、https://www.nutanix.com/partners/technology-alliances/"
+"suseを参照してください。"
 
 #. type: Target for macro image
 #: modules/client-configuration/pages/vhm-nutanix.adoc:4
@@ -19922,8 +19922,8 @@ msgid ""
 "For more on users, roles, and permissions, see the VMWare vSphere "
 "documentation: https://docs.vmware.com/en/VMware-vSphere/index.html"
 msgstr ""
-"ユーザ、ロール、およびパーミッションの詳細については、VMWare vSphereのドキュメント(link:https://docs.vmware."
-"com/en/VMware-vSphere/index.html[])を参照してください。"
+"ユーザ、ロール、およびパーミッションの詳細については、VMWare vSphereのドキュメント(https://docs.vmware.com/en/"
+"VMware-vSphere/index.html)を参照してください。"
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-vmware.adoc:10
@@ -20229,9 +20229,9 @@ msgid ""
 "#_disabling_swap"
 msgstr ""
 "ノードをクラスタに追加する前に、手動設定が必要な場合があります。  "
-"システムが{caasp}ノード専用でありスワップがオフになっていることを確認してください。  "
-"詳細については、link:https://documentation.suse.com/suse-caasp/4.2/single-html/"
-"caasp-deployment/#_disabling_swap[]を参照してください。"
+"システムが{caasp}ノード専用でありスワップがオフになっていることを確認してください。  詳細については、https://documentation."
+"suse.com/suse-caasp/4.2/single-html/caasp-deployment/"
+"#_disabling_swapを参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:59
