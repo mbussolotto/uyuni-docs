@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-30 08:17+0000\n"
-"PO-Revision-Date: 2022-10-13 18:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-10-20 10:13+0000\n"
+"Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-429/ko/>\n"
 "Language: ko\n"
@@ -6028,9 +6028,7 @@ msgstr "mkdir -p /srv/images/sle15sp2\n"
 msgid ""
 "Download an ISO image with the installation sources, and mount the ISO image "
 "on your server:"
-msgstr ""
-"설치 원본이 포함된 ISO 이미지를 다운로드하고 이 ISO 이미지를 서버에 마운트합"
-"니다."
+msgstr "설치 원본이 포함된 ISO 이미지를 다운로드하고 이 ISO 이미지를 서버에 마운트합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-upgrades-major.adoc:14
@@ -6085,9 +6083,7 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Create Autoinstallable Distribution`` section, use these "
 "parameters:"
-msgstr ""
-"[guimenu]``자동 설치 가능한 배포판 생성`` 섹션에서 다음 파라미터를 사용합니"
-"다."
+msgstr "[guimenu]``자동 설치 가능한 배포판 생성`` 섹션에서 다음 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:23
@@ -14873,8 +14869,8 @@ msgid ""
 "the [package]``salt-minion`` package and its dependencies will stay "
 "installed."
 msgstr ""
-"기존 클라이언트를 Salt Bundle 방식으로 전환할 수 있습니다. 전환하면 "
-"[package]``salt-minion`` 패키지와 종속 항목이 설치된 상태로 유지됩니다."
+"기존 클라이언트를 Salt Bundle 방식으로 전환할 수 있습니다. 전환하면 [package]``salt-minion`` 패키지와 종속 "
+"항목이 설치된 상태로 유지됩니다."
 
 #. type: Title ===
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:12
@@ -15069,9 +15065,9 @@ msgid ""
 "SSH support and to disable so-called Salt thin, specify in [path]``/etc/rhn/"
 "rhn.conf``:"
 msgstr ""
-"{productname} 4.2는 기본적으로 Salt SSH({webui} 부트스트랩 포함)에 Salt "
-"Bundle을 사용하지 않습니다.  Salt SSH 지원으로 Salt Bundle을 활성화하려면 "
-"[path]``/etc/rhn/rhn.conf``에서 지정하십시오"
+"{productname} 4.2는 기본적으로 Salt SSH({webui} 부트스트랩 포함)에 Salt Bundle을 사용하지 "
+"않습니다.  Salt SSH 지원으로 Salt Bundle을 활성화하려면, 즉 Salt thin을 비활성화하려면 [path]``/etc/"
+"rhn/rhn.conf``에서 지정하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:31
@@ -15092,9 +15088,8 @@ msgid ""
 "salt/master.d/ssh-preflight.conf`` with [literal]``ssh_run_pre_flight`` set "
 "to [literal]``true``:"
 msgstr ""
-"Salt Master [path]``/etc/salt/master.d/ssh-preflight.conf``에 대한 추가 드롭"
-"인 구성 파일을 생성하고 [literal]``ssh_run_pre_flight``를 [literal]``true``"
-"로 설정합니다."
+"[literal]``ssh_run_pre_flight`` set to [literal]``true``로 Salt Master "
+"[path]``/etc/salt/master.d/ssh-preflight.conf``에 대한 추가 드롭인 구성 파일을 생성합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:34
@@ -15105,9 +15100,7 @@ msgstr "ssh_run_pre_flight: true\n"
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:35
 msgid "And restart the services using [command]``spacewalk-service restart``."
-msgstr ""
-"그리고 [command]``spacewalk-service restart``를 사용하여 서비스를 다시 시작합"
-"니다."
+msgstr "[command]``spacewalk-service restart``를 사용하여 서비스를 다시 시작합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:36
@@ -15150,10 +15143,9 @@ msgid ""
 "ssh_use_salt_thin`` to `true` in the [path]``/etc/rhn/rhn.conf`` "
 "configuration file."
 msgstr ""
-"``salt-thin``을 사용하는 것은 대체 방법으로 활성화할 수 있지만, 클라이언트에 "
-"Python 3을 설치해야 합니다. 이 방법은 권장되거나 지원되지 않으며 개발 목적으"
-"로만 제공됩니다. [path]``/etc/rhn/rhn.conf`` 설정 파일에서 [option]``web."
-"ssh_use_salt_thin``을 ``true``로 설정하십시오."
+"`salt-thin`을 사용하는 것은 대체 방법으로 활성화할 수 있지만 클라이언트에 Python 3을 설치해야 합니다. 이 방법은 "
+"권장되거나 지원되지 않으며 개발 목적으로만 존재합니다. [path]``/etc/rhn/rhn.conf`` 구성 파일에서 "
+"[option]``web.ssh_use_salt_thin``을 `true`로 설정합니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:39
@@ -18064,8 +18056,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` command to add the appropriate "
 "channels:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-"
-"channels`` 명령을 사용하여 적절한 채널을 추가합니다."
+"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-channels`` 명령을 "
+"사용하여 적절한 채널을 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/add_channels_cli.adoc:3
