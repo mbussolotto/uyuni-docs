@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-09 11:33+0000\n"
-"PO-Revision-Date: 2022-10-12 21:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-10-20 10:13+0000\n"
+"Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-and-upgrade-manager-43-mu-431/ko/>\n"
 "Language: ko\n"
@@ -329,9 +329,8 @@ msgid ""
 "support (normal or LTSS) to be supported with {productname}.  For details on "
 "supported product versions, see:"
 msgstr ""
-"{suse} 운영 체제의 경우, 버전 및 SP 레벨이 일반 지원(일반 또는 LTSS)에 속해"
-"야 {productname}에서 지원될 수 있습니다.  지원되는 제품 버전에 대한 상세 정보"
-"는 다음에서 참조하십시오."
+"{suse} 운영 체제의 경우, 버전 및 SP 레벨이 일반 지원(일반 또는 LTSS)에 속해야 {productname}에서 지원될 수 "
+"있습니다.  지원되는 제품 버전에 대한 상세 정보는 다음에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/client-requirements.adoc:5
@@ -397,8 +396,7 @@ msgstr "SLES, SLES for SAP 등을 위한 맞춤형 {payg} 제품 이미지를 �
 msgid ""
 "operates per-region RMT Servers mirroring repositories for products "
 "available as {payg}"
-msgstr ""
-"{payg}로 제공되는 제품을 위한 지역별 RMT 서버 미러링 리포지토리를 운영합니다."
+msgstr "{payg}로 제공되는 제품을 위한 지역별 RMT 서버 미러링 리포지토리를 운영합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:5
@@ -431,8 +429,8 @@ msgid ""
 "valid {scc} credentials are entered in menu:Admin[Setup Wizard > "
 "Organization Credentials], even they provide only limited access to products"
 msgstr ""
-"유효한 {scc} 자격 증명이 menu:Admin[설정 마법사 > 조직 자격 증명]에 입력되었"
-"지만, 제품에 대한 제한된 액세스만 제공합니다."
+"유효한 {scc} 자격 증명이 menu:Admin[설정 마법사 > 조직 자격 증명]에 입력되었지만, 제품에 대한 제한된 액세스만 "
+"제공합니다."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:9
@@ -620,9 +618,7 @@ msgstr ""
 msgid ""
 "If the authentication data for the instance are correct, the column "
 "[guimenu]``Status`` shows \"Credentials successfully updated.\""
-msgstr ""
-"인스턴스에 대한 인증 데이터가 올바르면, [guimenu]``상태`` 열에 \"자격 증명이 "
-"업데이트됨\" 메시지가 표시됩니다."
+msgstr "인스턴스에 대한 인증 데이터가 올바르면, [guimenu]``상태`` 열에 \"자격 증명이 업데이트됨\" 메시지가 표시됩니다."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:39
@@ -856,9 +852,7 @@ msgstr ""
 msgid ""
 "This table shows the PostgreSQL version required for each version of "
 "{productname} and {SLES}:"
-msgstr ""
-"이 테이블은 {productname} 및 {SLES}의 각 버전에 필요한 PostgreSQL 버전을 보여"
-"줍니다."
+msgstr "이 테이블은 {productname} 및 {SLES}의 각 버전에 필요한 PostgreSQL 버전을 보여줍니다."
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/db-intro.adoc:5
@@ -968,10 +962,9 @@ msgid ""
 "must migrate PostgreSQL to version 10 before you begin the {productname} "
 "migration. To upgrade from PostgreSQL 9 to version 10, see:"
 msgstr ""
-"버전 9.4 또는 9.6과 같은 이전 데이터베이스 버전을 사용하는 경우 "
-"{productname} 마이그레이션을 시작하기 전에 PostgreSQL을 버전 10으로 마이그레"
-"이션해야 합니다. PostgreSQL 9에서 버전 10으로 업그레이드하려면 다음에서 참조"
-"하십시오."
+"버전 9.4 또는 9.6과 같은 이전 데이터베이스 버전을 사용하는 경우 {productname} 마이그레이션을 시작하기 전에 "
+"PostgreSQL을 버전 10으로 마이그레이션해야 합니다. PostgreSQL 9에서 버전 10으로 업그레이드하려면 다음에서 "
+"참조하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/db-intro.adoc:11
@@ -1102,9 +1095,7 @@ msgstr "항상 데이터베이스를 백업한 후 마이그레이션을 수행�
 msgid ""
 "PostgreSQL upgrades can be performed in two ways: a regular upgrade, or a "
 "fast upgrade:"
-msgstr ""
-"PostgreSQL 업그레이드는 일반 업그레이드와 빠른 업그레이드의 두 가지 방법으로 "
-"수행할 수 있습니다."
+msgstr "PostgreSQL 업그레이드는 일반 업그레이드와 빠른 업그레이드의 두 가지 방법으로 수행할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:19
@@ -1969,9 +1960,7 @@ msgstr ""
 msgid ""
 "On your {productname} Server, use this command to find all available storage "
 "devices:"
-msgstr ""
-"{productname} 서버에서 이 명령을 사용하여 사용할 수 있는 모든 저장소 장치를 "
-"찾습니다."
+msgstr "{productname} 서버에서 이 명령을 사용하여 사용할 수 있는 모든 저장소 장치를 찾습니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:29
@@ -1993,8 +1982,8 @@ msgid ""
 "Use the [command]``suma-storage`` command with the device names to set up "
 "the external disks as the locations for the database and repositories:"
 msgstr ""
-"장치 이름과 함께 [command]``suma-storage`` 명령을 사용하여 외부 디스크를 데이"
-"터베이스 및 리포지토리의 위치로 설정합니다."
+"장치 이름과 함께 [command]``suma-storage`` 명령을 사용하여 외부 디스크를 데이터베이스 및 리포지토리의 위치로 "
+"설정합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:32
@@ -2287,10 +2276,9 @@ msgid ""
 "for use with [systemitem]``HYPERPAV``.  The database storage disk should "
 "have:"
 msgstr ""
-"데이터베이스 저장소를 위한 추가 디스크가 필요합니다.  "
-"[systemitem]``HYPERPAV``에서 사용이 선호되므로 [systemitem]``zFCP`` 또는 "
-"[systemitem]``DASD`` 장치여야 합니다.  데이터베이스 저장소 디스크의 용량은 다"
-"음과 같아야 합니다."
+"데이터베이스 저장소를 위한 추가 디스크가 필요합니다.  [systemitem]``HYPERPAV``에서 사용이 선호되므로 "
+"[systemitem]``zFCP`` 또는 [systemitem]``DASD`` 장치여야 합니다.  데이터베이스 저장소 디스크의 용량은 "
+"다음과 같아야 합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-ibmz.adoc:20
@@ -2534,9 +2522,7 @@ msgstr ""
 msgid ""
 "{productname} Proxy is an open source (GPLv2) solution that provides the "
 "following features:"
-msgstr ""
-"{productname} 프록시는 다음과 같은 기능을 제공하는 오픈 소스(GPLv2) 솔루션입"
-"니다."
+msgstr "{productname} 프록시는 다음과 같은 기능을 제공하는 오픈 소스(GPLv2) 솔루션입니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:7
@@ -2726,9 +2712,7 @@ msgstr "SUSE Manager Proxy 모듈"
 msgid ""
 "Continue with registering the installed {productname} Proxy as a client: "
 "xref:proxy-registration.adoc[]."
-msgstr ""
-"설치된 {productname} 프록시를 클라이언트로 등록을 계속합니다. xref:proxy-"
-"registration.adoc[]"
+msgstr "설치된 {productname} 프록시를 클라이언트로 등록을 계속합니다. xref:proxy-registration.adoc[]"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:1
@@ -2886,8 +2870,8 @@ msgid ""
 "Use these settings to create a new virtual machine with [command]``virt-"
 "manager`` (replace [literal]``<version>`` with the actual version string):"
 msgstr ""
-"이러한 설정을 사용하여 [command]``virt-manager``([literal]``<version>``을 실"
-"제 버전 문자열로 바꿈) 명령을 통해 새 가상 머신을 생성합니다."
+"이러한 설정을 사용하여 [command]``virt-manager``([literal]``<version>``을 실제 버전 문자열로 바꿈)"
+" 명령을 통해 새 가상 머신을 생성합니다."
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:5
@@ -2988,8 +2972,8 @@ msgid ""
 "installation.  During the SLES installation this disk should be partitioned "
 "into the following partitions:"
 msgstr ""
-"설치를 위한 최소 230GB의 저장소가 있는 저장 장치를 생성합니다. SLES를 설치하"
-"는 동안 이 디스크의 파티션을 다음과 같이 구성해야 합니다."
+"설치를 위한 최소 230GB의 저장소가 있는 저장 장치를 생성합니다. SLES를 설치하는 동안 이 디스크의 파티션을 다음과 같이 구성해야 "
+"합니다."
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:15
@@ -3107,9 +3091,7 @@ msgstr ""
 msgid ""
 "Check that you have allowed installing recommended packages.  Check the "
 "settings in `/etc/zypp/zypp.conf`:"
-msgstr ""
-"권장 패키지 설치를 허용했는지 확인합니다. [path]``/etc/zypp/zypp.conf``에서 "
-"설정을 확인하십시오."
+msgstr "권장 패키지 설치를 허용했는지 확인합니다. `/etc/zypp/zypp.conf`에서 설정을 확인하십시오."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:30
@@ -3351,9 +3333,8 @@ msgid ""
 "all the required modules by using the [command]``SUSEConnect --status-text`` "
 "command at a command prompt.  For {susemgr} Server, the expected modules are:"
 msgstr ""
-"설치 프로시저가 완료되면 명령 프롬프트에서 [command]``SUSEConnect --status-"
-"text`` 명령을 사용하여 모든 필수 모듈이 설치되었는지 확인할 수 있습니다.  "
-"{susemgr} 서버에서 예상되는 모듈은 다음과 같습니다."
+"설치 프로시저가 완료되면 명령 프롬프트에서 [command]``SUSEConnect --status-text`` 명령을 사용하여 모든 "
+"필수 모듈이 설치되었는지 확인할 수 있습니다.  {susemgr} 서버에서 예상되는 모듈은 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:30
@@ -3410,8 +3391,8 @@ msgid ""
 "[command]``virt-manager`` (replace [replaceable]``version`` with the actual "
 "version string):"
 msgstr ""
-"[command]``virt-manager`` 명령을 사용하여 새 가상 머신을 생성할 때 다음 명령"
-"을 입력하십시오([replaceable]``버전``을 실제 버전 문자열로 바꿈)."
+"[command]``virt-manager`` 명령을 사용하여 새 가상 머신을 생성할 때 다음 명령을 "
+"입력하십시오([replaceable]``버전``을 실제 버전 문자열로 바꿈)."
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/install-server.adoc:5
@@ -3492,9 +3473,7 @@ msgstr "설치를 위해 저장소 공간이 234GB 이상인 저장소 장치를
 msgid ""
 "During the partitioning setup of the SLES installation this disk should be "
 "partitioned into the following disks:"
-msgstr ""
-"SLES의 파티션을 설정하는 동안 이 디스크는 다음 디스크에 파티션이 구성되어야 "
-"합니다."
+msgstr "SLES의 파티션을 설정하는 동안 이 디스크는 다음 디스크에 파티션이 구성되어야 합니다."
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/install-server.adoc:15
@@ -3634,9 +3613,7 @@ msgstr ""
 msgid ""
 "Add the repository for installing the {productname} Server software as "
 "[systemitem]``root``:"
-msgstr ""
-"[systemitem]``루트``로 {productname} 서버 소프트웨어를 설치하기 위한 리포지토"
-"리를 추가합니다."
+msgstr "[systemitem]``루트``로 {productname} 서버 소프트웨어를 설치하기 위한 리포지토리를 추가합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:12
@@ -4592,9 +4569,8 @@ msgid ""
 "clients and perform updates.  In most cases, allowing access to these URLs "
 "is sufficient:"
 msgstr ""
-"{productname}에서 클라이언트를 등록하고 업데이트를 수행하기 위해 액세스할 수 "
-"있어야 하는 URL이 몇 개 있습니다.  대부분의 경우에는 해당 URL에 대한 액세스"
-"를 허용하는 것으로 충분합니다."
+"{productname}에서 클라이언트를 등록하고 업데이트를 수행하기 위해 액세스할 수 있어야 하는 URL이 몇 개 있습니다.  대부분의 "
+"경우에는 해당 URL에 대한 액세스를 허용하는 것으로 충분합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/ports.adoc:41
@@ -4683,8 +4659,8 @@ msgid ""
 "On the {productname} Server, create a local directory for the openSUSE "
 "Leap{nbsp}{opensuse-version} installation media:"
 msgstr ""
-"{productname} 서버에서 openSUSE Leap{nbsp}{opensuse-version} 설치 미디어용 로"
-"컬 디렉토리를 생성합니다."
+"{productname} 서버에서 openSUSE Leap{nbsp}{opensuse-version} 설치 미디어용 로컬 디렉토리를 "
+"생성합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:9
@@ -4697,9 +4673,7 @@ msgstr "mkdir -p /srv/images/opensuse154\n"
 msgid ""
 "Download an ISO image with the installation sources, and mount the ISO image "
 "on your server:"
-msgstr ""
-"설치 원본이 포함된 ISO 이미지를 다운로드하고 이 ISO 이미지를 서버에 마운트합"
-"니다."
+msgstr "설치 원본이 포함된 ISO 이미지를 다운로드하고 이 ISO 이미지를 서버에 마운트합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:11
@@ -4743,8 +4717,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` command to add the appropriate "
 "channels:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-"
-"channels`` 명령을 사용하여 적절한 채널을 추가합니다."
+"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-channels`` 명령을 "
+"사용하여 적절한 채널을 추가합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:18
@@ -4795,9 +4769,7 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Create Autoinstallable Distribution`` section, use these "
 "parameters:"
-msgstr ""
-"[guimenu]``자동 설치 가능한 배포판 생성`` 섹션에서 다음 파라미터를 사용합니"
-"다."
+msgstr "[guimenu]``자동 설치 가능한 배포판 생성`` 섹션에서 다음 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:23
@@ -4902,12 +4874,11 @@ msgid ""
 "profiles/tree/master/AutoYaST.  For valid AutoYaST upgrade settings, see "
 "https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade."
 msgstr ""
-"자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터"
-"가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 포함할 수 있습니다.  시"
-"작 지점으로 사용할 수 있는 예제 스크립트는  https://github.com/SUSE/manager-"
-"build-profiles/tree/master/AutoYaST를 참조하십시오.  유효한 AutoYaST 업그레이"
-"드 설정에 대해서는 link:https://doc.opensuse.org/projects/autoyast/"
-"#CreateProfile-upgrade[]를 참조하십시오."
+"자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 "
+"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는  https://github.com/SUSE/"
+"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오.  유효한 AutoYaST 업그레이드 "
+"설정에 대해서는 https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]"
+"를 참조하십시오."
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:36
@@ -6058,9 +6029,7 @@ msgstr "proxy-key.png"
 msgid ""
 "From the [guimenu]``Child Channels`` listing select the recommended channels "
 "by clicking the ``include recommended`` icon:"
-msgstr ""
-"[guimenu]``하위 채널`` 목록에서 ``권장에 포함`` 아이콘을 클릭하여 권장 채널"
-"을 선택합니다."
+msgstr "[guimenu]``하위 채널`` 목록에서 ``권장에 포함`` 아이콘을 클릭하여 권장 채널을 선택합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:14
@@ -6259,8 +6228,8 @@ msgid ""
 "As root, enter the following commands on the proxy using your {productname} "
 "Server or parent Proxy (named [replaceable]``PARENT``):"
 msgstr ""
-"root로 {productname} 서버 또는 상위 프록시(이름: [replaceable]``PARENT``)를 "
-"사용하여 프록시에서 다음 명령을 입력합니다."
+"root로 {productname} 서버 또는 상위 프록시(이름: [replaceable]``PARENT``)를 사용하여 프록시에서 다음 "
+"명령을 입력합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:8
@@ -6318,9 +6287,8 @@ msgid ""
 "values provided between brackets ``[]``.  Here is some information about the "
 "requested settings:"
 msgstr ""
-"대화형 [command]``configure-proxy.sh`` 스크립트를 실행합니다.  추가적으로 입"
-"력하지 않고 kbd:[Enter]를 눌러 스크립트가 괄호 ``[]`` 사이에 입력된 기본값을 "
-"사용하도록 합니다.  요청되는 설정에 대한 정보는 다음과 같습니다."
+"대화형 [command]``configure-proxy.sh`` 스크립트를 실행합니다.  추가적으로 입력하지 않고 kbd:[Enter]를 "
+"눌러 스크립트가 괄호 ``[]`` 사이에 입력된 기본값을 사용하도록 합니다.  요청되는 설정에 대한 정보는 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:13
@@ -6622,9 +6590,7 @@ msgstr ""
 msgid ""
 "On the {productname} Proxy, install the [package]``susemanager-tftpsync-"
 "recv`` package:"
-msgstr ""
-"{productname} 프록시에 [package]``susemanager-tftpsync-recv`` 패키지를 설치합"
-"니다."
+msgstr "{productname} 프록시에 [package]``susemanager-tftpsync-recv`` 패키지를 설치합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:50
@@ -6640,8 +6606,8 @@ msgid ""
 "On the {productname} Proxy, run the [command]``configure-tftpsync.sh`` setup "
 "script and enter the requested information:"
 msgstr ""
-"{productname} 프록시에서 [command]``configure-tftpsync.sh`` 설정 스크립트를 "
-"실행한 후 요청되는 정보를 입력합니다."
+"{productname} 프록시에서 [command]``configure-tftpsync.sh`` 설정 스크립트를 실행한 후 요청되는 "
+"정보를 입력합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:52
@@ -6737,10 +6703,9 @@ msgid ""
 "{productname} Proxy using DHCP.  Use this DHCP configuration for the zone "
 "that contains the clients to be provisioned:"
 msgstr ""
-"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다.  기본"
-"적으로 PXE(tftp)가 설치되고 활성화됩니다.  클라이언트가 DHCP를 사용하여 "
-"{productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다.  프로비저닝할 클라"
-"이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
+"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다.  기본적으로 PXE(tftp)가 설치되고 "
+"활성화됩니다.  클라이언트가 DHCP를 사용하여 {productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다.  프로비저닝할 "
+"클라이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:64
@@ -7464,8 +7429,7 @@ msgid ""
 "When you launch your instance, you can log in to the {productname} Server "
 "and use this command to find all available storage devices:"
 msgstr ""
-"인스턴스를 시작할 때 {productname} 서버에 로그인하고 이 명령을 사용하여 사용 "
-"가능한 모든 저장소 장치를 찾을 수 있습니다."
+"인스턴스를 시작할 때 {productname} 서버에 로그인하고 이 명령을 사용하여 사용 가능한 모든 저장소 장치를 찾을 수 있습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-requirements.adoc:23
@@ -7486,8 +7450,7 @@ msgid ""
 "uses it as the location for the database and repositories:"
 msgstr ""
 "[command]``suma-storage `` 명령어로 외부 디스크를 설정할 수 있습니다. 이렇게 "
-"하면``/manager_storage``에 마운트된 XFS 파티션이 생성되고 이를 데이터베이스 "
-"및 리포지토리의 위치로 사용합니다."
+"하면``/manager_storage``에 마운트된 XFS 파티션이 생성되고 이를 데이터베이스 및 리포지토리의 위치로 사용합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/pubcloud-requirements.adoc:25
@@ -7536,9 +7499,7 @@ msgstr ""
 msgid ""
 "Follow the cloud providers instructions to SSH into the instance, and run "
 "this command to start set up:"
-msgstr ""
-"클라우드 제공자의 지침에 따라 SSH를 통해 인스턴스에 연결한 후 다음 명령을 실"
-"행하여 설정을 시작하십시오."
+msgstr "클라우드 제공자의 지침에 따라 SSH를 통해 인스턴스에 연결한 후 다음 명령을 실행하여 설정을 시작하십시오."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:5
@@ -7623,8 +7584,7 @@ msgstr "SUSEConnect -p sle-module-public-cloud/15.3/x86_64\n"
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:18
 msgid "For {productname} Server on a public cloud, the expected modules are:"
-msgstr ""
-"공용 클라우드의 {productname} 서버에서 예상되는 모듈은 다음과 같습니다."
+msgstr "공용 클라우드의 {productname} 서버에서 예상되는 모듈은 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:24
@@ -7642,8 +7602,7 @@ msgstr "{webui}에서 설정을 완료합니다."
 msgid ""
 "Open the {productname} {webui} with a web browser, using an address like "
 "this:"
-msgstr ""
-"다음과 같은 주소를 사용하여 웹 브라우저에서 {productname} {webui}를 엽니다."
+msgstr "다음과 같은 주소를 사용하여 웹 브라우저에서 {productname} {webui}를 엽니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:27
@@ -7685,9 +7644,7 @@ msgstr ""
 msgid ""
 "You can retrieve the instance name or ID from the public cloud instance web "
 "console, or from the command prompt:"
-msgstr ""
-"인스턴스 이름 또는 ID는 공용 클라우드 인스턴스 웹 콘솔 또는 명령 프롬프트에"
-"서 검색할 수 있습니다."
+msgstr "인스턴스 이름 또는 ID는 공용 클라우드 인스턴스 웹 콘솔 또는 명령 프롬프트에서 검색할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:32
@@ -7842,9 +7799,8 @@ msgid ""
 "notes for information about which upgrade strategy to use to upgrade to the "
 "next version:"
 msgstr ""
-"{productname}은(는) 롤링 릴리스 버전 관리 스키마를 사용합니다.  다음 버전으"
-"로 업그레이드하기 위해 사용할 수 있는 업그레이드 전략에 대한 정보는 릴리스 노"
-"트를 확인하십시오."
+"{productname}은(는) 롤링 릴리스 버전 관리 스키마를 사용합니다.  다음 버전으로 업그레이드하기 위해 사용할 수 있는 "
+"업그레이드 전략에 대한 정보는 릴리스 노트를 확인하십시오."
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/server-intro-uyuni.adoc:3
@@ -7949,9 +7905,8 @@ msgid ""
 "available in the release notes.  For important extra information about your "
 "upgrade, see the release notes at:"
 msgstr ""
-"추가적인 수동 단계가 몇 가지 필요할 수 있으며 이 정보는 릴리스 노트에서만 제"
-"공됩니다.  업그레이드와 관련된 중요한 추가 정보는 릴리스 노트에서 참조하십시"
-"오."
+"추가적인 수동 단계가 몇 가지 필요할 수 있으며 이 정보는 릴리스 노트에서만 제공됩니다.  업그레이드와 관련된 중요한 추가 정보는 릴리스 "
+"노트에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:4
@@ -7994,9 +7949,8 @@ msgid ""
 "Before running the [command]``server-migrator.sh`` script, check whether the "
 "most recent version of the [package]``susemanager`` package is installed:"
 msgstr ""
-"[command]``server-migrator.sh`` 스크립트를 실행하기 전, "
-"[package]``susemanager`` 패키지의 가장 최신 버전이 설치되어 있는지 확인하십시"
-"오."
+"[command]``server-migrator.sh`` 스크립트를 실행하기 전, [package]``susemanager`` 패키지의 "
+"가장 최신 버전이 설치되어 있는지 확인하십시오."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:9
@@ -8039,8 +7993,7 @@ msgstr ""
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:14
 msgid ""
 "After the migration is complete, manually reboot the {productname} Server:"
-msgstr ""
-"마이그레이션이 완료된 후에는, {productname} 서버를 수동으로 재부팅합니다."
+msgstr "마이그레이션이 완료된 후에는, {productname} 서버를 수동으로 재부팅합니다."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:1
@@ -8109,8 +8062,7 @@ msgstr "서버를 백업한 후 업그레이드하는 것이 좋습니다."
 msgid ""
 "On the {productname} Server, at the command prompt, as root, stop the "
 "spacewalk services:"
-msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root로 Spacewalk 서비스를 중지합니다."
+msgstr "{productname} 서버의 명령 프롬프트에서 root로 Spacewalk 서비스를 중지합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:9
@@ -8239,9 +8191,7 @@ msgstr "SUSE Manager 서버 설정"
 #: modules/installation-and-upgrade/pages/server-setup.adoc:2
 #: modules/installation-and-upgrade/pages/uyuni-server-setup.adoc:2
 msgid "This section covers {productname} Server setup, using these procedures:"
-msgstr ""
-"이 섹션에서는 다음 프로시저를 사용한 {productname} 서버 설정에 대해 설명합니"
-"다."
+msgstr "이 섹션에서는 다음 프로시저를 사용한 {productname} 서버 설정에 대해 설명합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-setup.adoc:3
@@ -8493,9 +8443,7 @@ msgstr ""
 msgid ""
 "Installing the CA certificate from the [path]``pub`` directory via HTTP and "
 "importing it to the browser will then allow access to the server:"
-msgstr ""
-"HTTP를 통해 [path]``pub`` 디렉토리에서 CA 인증서를 설치하고 브라우저로 가져오"
-"면 서버에 액세스할 수 있습니다."
+msgstr "HTTP를 통해 [path]``pub`` 디렉토리에서 CA 인증서를 설치하고 브라우저로 가져오면 서버에 액세스할 수 있습니다."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/server-setup.adoc:35
@@ -8795,17 +8743,18 @@ msgid ""
 "etc/default/grub`` and added to the line "
 "[option]``GRUB_CMDLINE_LINUX_DEFAULT``, for example:"
 msgstr ""
-"_Transparant Huge Pages_ 를 비활성화하려면 [option]``transparent_hugepage`` "
-"커널 파라미터를 [option]``안 함``으로 설정합니다. 변경은 [path]``/etc/"
-"default/grub``에서 수행되고 [option]``GRUB_CMDLINE_LINUX_DEFAULT`` 라인에 추"
-"가되어야 하며, 그러한 예는 다음과 같습니다."
+"_Transparant Huge Pages_ 를 비활성화하려면 [option]``transparent_hugepage`` 커널 파라미터를 "
+"[option]``안 함``으로 설정합니다. 변경은 [path]``/etc/default/grub``에서 수행되고 "
+"[option]``GRUB_CMDLINE_LINUX_DEFAULT`` 라인에 추가되어야 하며, 그러한 예는 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-setup.adoc:71
 #: modules/installation-and-upgrade/pages/uyuni-server-setup.adoc:66
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
+msgstr ""
+"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
+"elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-setup.adoc:72
@@ -8824,8 +8773,8 @@ msgid ""
 "Monitor the channel synchronization process in real-time by viewing channel "
 "log files located in the directory [path]``/var/log/rhn/reposync``:"
 msgstr ""
-"[path]``/var/log/rhn/reposync`` 디렉토리의 채널 로그 파일을 검토하여 채널 동"
-"기화 진행 상황을 실시간으로 모니터링합니다."
+"[path]``/var/log/rhn/reposync`` 디렉토리의 채널 로그 파일을 검토하여 채널 동기화 진행 상황을 실시간으로 "
+"모니터링합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-setup.adoc:74
@@ -9010,9 +8959,8 @@ msgid ""
 "required packages, open the [path]``/etc/zypp/zypp.conf`` configuration file "
 "and set these variables:"
 msgstr ""
-"업그레이드 중 {yast}가 모든 권장 패키지를 설치합니다.  이 작업으로 인해 시스"
-"템의 설치 크기가 크게 증가할 수 있습니다.  필수 패키지만 설치하려면 [path]``/"
-"etc/zypp/zypp.conf`` 구성 파일을 열고 변수를 다음과 같이 설정하십시오."
+"업그레이드 중 {yast}가 모든 권장 패키지를 설치합니다.  이 작업으로 인해 시스템의 설치 크기가 크게 증가할 수 있습니다.  필수 "
+"패키지만 설치하려면 [path]``/etc/zypp/zypp.conf`` 구성 파일을 열고 변수를 다음과 같이 설정하십시오."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-y-yast.adoc:20
@@ -9379,10 +9327,8 @@ msgid ""
 "shown for the user you have granted access to.  Use these buttons on the "
 "card to edit or revoke access:"
 msgstr ""
-"btn:[새 인증서 추가]를 클릭하고 액세스 권한을 부여할 사용자의 사용자 이름 및 "
-"암호를 입력한 후 btn:[저장]을 클릭합니다.  액세스 권한을 부여한 사용자를 위"
-"한 새 인증서 카드가 표시됩니다. 카드에서 이 버튼을 사용하여 액세스를 수정하거"
-"나 철회합니다."
+"btn:[새 인증서 추가]를 클릭하고 액세스 권한을 부여할 사용자의 사용자 이름 및 암호를 입력한 후 btn:[저장]을 클릭합니다.  "
+"액세스 권한을 부여한 사용자를 위한 새 인증서 카드가 표시됩니다. 카드에서 이 버튼을 사용하여 액세스를 수정하거나 철회합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/setup-wizard.adoc:12
@@ -9621,9 +9567,7 @@ msgstr "[path]``/etc/hosts`` 파일을 확인하여 필요한 경우 수정합�
 msgid ""
 "Check [path]``/etc/setup_env.sh`` on the target system, and ensure the "
 "database name is set:"
-msgstr ""
-"대상 시스템에서 [path]``/etc/setup_env.sh``를 확인하여 데이터베이스 이름이 설"
-"정되어 있는지 확인합니다."
+msgstr "대상 시스템에서 [path]``/etc/setup_env.sh``를 확인하여 데이터베이스 이름이 설정되어 있는지 확인합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:14
@@ -10159,8 +10103,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` is part of the [package]``spacewalk-"
 "utils`` package:"
 msgstr ""
-"[command]``spacewalk-common-channels``는 [package]``spacewalk-utils`` 패키지"
-"의 일부입니다."
+"[command]``spacewalk-common-channels``는 [package]``spacewalk-utils`` 패키지의 "
+"일부입니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/uyuni-proxy-registration.adoc:8
@@ -10351,10 +10295,9 @@ msgid ""
 "{productname} Proxy using DHCP.  Use this DHCP configuration for the zone "
 "which contains the clients to be provisioned:"
 msgstr ""
-"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다. 기본적"
-"으로 PXE(tftp)가 설치되고 활성화됩니다.  클라이언트는 DHCP를 사용하여 "
-"{productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다. 프로비저닝할 클라"
-"이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
+"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다. 기본적으로 PXE(tftp)가 설치되고 "
+"활성화됩니다.  클라이언트는 DHCP를 사용하여 {productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다. 프로비저닝할 "
+"클라이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/uyuni-proxy-setup.adoc:70
@@ -11009,10 +10952,8 @@ msgid ""
 "indexed and appear in search results.  If you need to force a rebuild of the "
 "search index, use this command at the command prompt:"
 msgstr ""
-"배포를 추가하거나 채널을 새로 동기화하거나 {productname} 서버에 시스템을 등록"
-"하는 경우 색인이 생성되고 검색 결과에 표시되는 데 몇 분 정도 걸릴 수 있습니"
-"다. 검색 색인을 강제로 다시 작성해야 하는 경우 명령 프롬프트에서 다음 명령을 "
-"사용하십시오."
+"배포를 추가하거나 채널을 새로 동기화하거나 {productname} 서버에 시스템을 등록하는 경우 색인이 생성되고 검색 결과에 표시되는 "
+"데 몇 분 정도 걸릴 수 있습니다. 검색 색인을 강제로 다시 작성해야 하는 경우 명령 프롬프트에서 다음 명령을 사용하십시오."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/webui-setup.adoc:34
