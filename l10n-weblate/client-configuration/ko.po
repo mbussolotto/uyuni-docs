@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-09 11:33+0000\n"
-"PO-Revision-Date: 2022-10-20 10:13+0000\n"
+"PO-Revision-Date: 2022-10-21 08:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-mu-431/ko/>\n"
@@ -4201,7 +4201,7 @@ msgid ""
 "terraform.io/docs/provisioners/remote-exec.html"
 msgstr ""
 "remote-exec 제공자에 대한 자세한 내용은 https://www.terraform.io/docs/provisioners/"
-"remote-exec.html[]에서 참조하십시오."
+"remote-exec.html에서 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/bootstrap-repository.adoc:1
@@ -5982,9 +5982,7 @@ msgstr "마이그레이션 준비"
 msgid ""
 "Before you can migrate your client from SLE{nbsp}12 to SLE{nbsp}15{nbsp}, "
 "you need to:"
-msgstr ""
-"클라이언트를 SLE{nbsp}12에서 SLE{nbsp}15{nbsp}로 마이그레이션하려면 먼저 다"
-"음 작업을 수행해야 합니다."
+msgstr "클라이언트를 SLE{nbsp}12에서 SLE{nbsp}15{nbsp}로 마이그레이션하려면 먼저 다음 작업을 수행해야 합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:6
@@ -27539,7 +27537,7 @@ msgid ""
 "For more on users, roles, and permissions, see the VMWare vSphere "
 "documentation: https://docs.vmware.com/en/VMware-vSphere/index.html"
 msgstr ""
-"사용자, 역할 및 권한에 대한 자세한 내용은 VMWare vSphere 문서(link:https://docs.vmware.com/en/"
+"사용자, 역할 및 권한에 대한 자세한 내용은 VMWare vSphere 문서(https://docs.vmware.com/en/"
 "VMware-vSphere/index.html[])에서 참조하십시오."
 
 #. type: Block title
