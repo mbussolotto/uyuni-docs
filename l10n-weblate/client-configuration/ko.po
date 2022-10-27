@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-06 10:21+0000\n"
-"PO-Revision-Date: 2022-10-21 05:59+0000\n"
-"Last-Translator: Seeun Lee <selee@e4net.net>\n"
+"PO-Revision-Date: 2022-10-27 10:49+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-4210/ko/>\n"
 "Language: ko\n"
@@ -3411,8 +3411,8 @@ msgid ""
 "Prepare the DHCP server, see xref:client-configuration:autoinst-pxeboot."
 "adoc#prepare-the-dhcp-server[Prepare the DHCP Server]."
 msgstr ""
-"DHCP 서버를 준비합니다. 관련 내용은 xref:client-configuration:autoinst-"
-"pxeboot.adoc #prepare-the-dhcp-server[DHCP 서버 준비]를 참조하십시오."
+"DHCP 서버를 준비합니다. 관련 내용은 xref:client-configuration:autoinst-pxeboot.adoc"
+"#prepare-the-dhcp-server[DHCP 서버 준비]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:19
@@ -4226,8 +4226,8 @@ msgid ""
 "For more information about remote-exec provisioner, see: https://www."
 "terraform.io/docs/provisioners/remote-exec.html"
 msgstr ""
-"remote-exec 제공자에 대한 자세한 내용은 https://www.terraform.io/docs/provisioners/"
-"remote-exec.html에서 참조하십시오."
+"remote-exec 제공자에 대한 자세한 내용은 link:https://www.terraform.io/docs/provisioners/"
+"remote-exec.html[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/bootstrap-repository.adoc:1
@@ -14782,9 +14782,9 @@ msgid ""
 "ssh_use_salt_thin`` to `true` in the [path]``/etc/rhn/rhn.conf`` "
 "configuration file."
 msgstr ""
-"`salt-thin`을 사용하는 것은 대체 방법으로 활성화할 수 있지만 클라이언트에 Python 3을 설치해야 합니다. 이 방법은 "
+"``salt-thin``을 사용하는 것은 대체 방법으로 활성화할 수 있지만 클라이언트에 Python 3을 설치해야 합니다. 이 방법은 "
 "권장되거나 지원되지 않으며 개발 목적으로만 존재합니다. [path]``/etc/rhn/rhn.conf`` 구성 파일에서 "
-"[option]``web.ssh_use_salt_thin``을 `true`로 설정합니다."
+"[option]``web.ssh_use_salt_thin``을 ``true``로 설정합니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:39
