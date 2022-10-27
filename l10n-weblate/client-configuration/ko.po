@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-06 10:21+0000\n"
-"PO-Revision-Date: 2022-10-27 10:49+0000\n"
+"PO-Revision-Date: 2022-10-27 11:44+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-4210/ko/>\n"
@@ -1785,11 +1785,9 @@ msgid ""
 "autoinst-distributions.adoc#declare-distribution[Declare an Autoinstallable "
 "Distribution]."
 msgstr ""
-"파일이 준비되고 기본 채널이 동기화되면 배포를 선언해야 합니다.  이 작업은 기"
-"본 채널에 설치 파일을 연결합니다.  배포는 1개 이상의 설치 프로파일에 의해 참"
-"조될 수 있습니다.  관련 정보는 xref:client-configuration :autoinst-"
-"distributions.adoc#declare-distribution[자동 설치 가능 배포판 선언]을 참조하"
-"십시오."
+"파일이 준비되고 기본 채널이 동기화되면 배포를 선언해야 합니다.  이 작업은 기본 채널에 설치 파일을 연결합니다.  배포는 1개 이상의 "
+"설치 프로파일에 의해 참조될 수 있습니다.  관련 정보는 xref:client-configuration:autoinst-"
+"distributions.adoc#declare-distribution[자동 설치 가능 배포판 선언]을 참조하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-distributions.adoc:7
@@ -2174,8 +2172,8 @@ msgid ""
 "For information about the network boot method, see xref:client-configuration:"
 "autoinst-pxeboot.adoc[Install via the Network]."
 msgstr ""
-"네트워크 부팅 방법은 xref:client-configuration :autoinst-pxeboot.adoc[네트워"
-"크를 통한 설치]를 참조하십시오."
+"네트워크 부팅 방법은 xref:client-configuration:autoinst-pxeboot.adoc[네트워크를 통한 설치]를 "
+"참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:16
@@ -2203,8 +2201,7 @@ msgid ""
 "For information about the {productname} {smr} approach, see xref:retail:"
 "retail-overview.adoc[Retail Guide]."
 msgstr ""
-"{productname} {smr} 방법은 xref:retail :retail-overview.adoc[리테일 가이드]"
-"를 참조하십시오."
+"{productname} {smr} 방법은 xref:retail:retail-overview.adoc[리테일 가이드]를 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-intro.adoc:19
