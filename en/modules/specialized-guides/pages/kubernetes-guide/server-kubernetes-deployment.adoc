@@ -826,3 +826,19 @@ endif::[]
 
 If the server is running but Salt minions cannot reach it, the TCP ports 4505 and 4506 are not exposed correctly.
 Verify the Traefik configuration was applied on the RKE2 server nodes and that no firewall is blocking those ports between the minions and the cluster.
+
+
+=== Collecting supportconfig
+
+For a {kube} deployment, use the [command]``kubectl-mlm_supportconfig`` plugin to gather [command]``supportconfig`` in one command — from every container in the pod that has the binary, plus [command]``kubectl logs`` (current + previous), node-level diagnostics via the Rancher logs-collector, namespace events and objects, cluster baseline and helm release state.
+
+[source,shell]
+----
+curl -sSLO https://raw.githubusercontent.com/uyuni-project/uyuni/refs/heads/master/containers/mlm-supportconfig/kubectl-mlm_supportconfig
+sudo install -m 0755 kubectl-mlm_supportconfig /usr/local/bin/
+
+kubectl mlm-supportconfig <namespace>            # all pods in the namespace
+kubectl mlm-supportconfig <pod> <namespace>      # one specific pod
+----
+
+For prerequisites (RBAC, image pull), air-gapped use, and the full list of what the bundle contains, see the plugin's https://github.com/uyuni-project/uyuni/tree/master/containers/mlm-supportconfig[README].
